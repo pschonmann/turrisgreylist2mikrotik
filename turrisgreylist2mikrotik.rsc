@@ -1,4 +1,4 @@
-#List downloaded at 2022-01-27
+#List downloaded at 2022-01-28
 /log info "Loading turris_greylist address list"
 /ip firewall address-list remove [/ip firewall address-list find list=turris_greylist]
 /ip firewall address-list
