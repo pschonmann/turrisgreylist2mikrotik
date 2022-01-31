@@ -1,5621 +1,5328 @@
-#List downloaded at 2022-01-28
+#List downloaded at 2022-01-31
 /log info "Loading turris_greylist address list"
 /ip firewall address-list remove [/ip firewall address-list find list=turris_greylist]
 /ip firewall address-list
-:do { add address=1.12.217.36 list=turris_greylist } on-error={} 
-:do { add address=1.15.179.229 list=turris_greylist } on-error={} 
-:do { add address=1.20.159.3 list=turris_greylist } on-error={} 
-:do { add address=1.20.159.4 list=turris_greylist } on-error={} 
-:do { add address=1.22.197.36 list=turris_greylist } on-error={} 
-:do { add address=1.31.83.162 list=turris_greylist } on-error={} 
-:do { add address=1.34.196.211 list=turris_greylist } on-error={} 
-:do { add address=1.55.245.2 list=turris_greylist } on-error={} 
-:do { add address=1.55.245.75 list=turris_greylist } on-error={} 
-:do { add address=1.71.137.96 list=turris_greylist } on-error={} 
-:do { add address=1.85.216.116 list=turris_greylist } on-error={} 
-:do { add address=1.85.216.135 list=turris_greylist } on-error={} 
-:do { add address=1.85.218.139 list=turris_greylist } on-error={} 
-:do { add address=1.85.218.193 list=turris_greylist } on-error={} 
-:do { add address=1.117.158.207 list=turris_greylist } on-error={} 
-:do { add address=1.170.117.33 list=turris_greylist } on-error={} 
-:do { add address=1.179.128.124 list=turris_greylist } on-error={} 
-:do { add address=1.179.153.18 list=turris_greylist } on-error={} 
-:do { add address=1.180.89.186 list=turris_greylist } on-error={} 
-:do { add address=1.189.88.67 list=turris_greylist } on-error={} 
-:do { add address=1.189.88.68 list=turris_greylist } on-error={} 
-:do { add address=1.189.88.70 list=turris_greylist } on-error={} 
-:do { add address=1.194.233.227 list=turris_greylist } on-error={} 
-:do { add address=1.202.17.93 list=turris_greylist } on-error={} 
-:do { add address=1.214.129.130 list=turris_greylist } on-error={} 
-:do { add address=1.215.116.138 list=turris_greylist } on-error={} 
-:do { add address=1.234.62.236 list=turris_greylist } on-error={} 
-:do { add address=1.234.62.237 list=turris_greylist } on-error={} 
-:do { add address=1.246.32.75 list=turris_greylist } on-error={} 
-:do { add address=1.251.166.181 list=turris_greylist } on-error={} 
-:do { add address=1.253.4.237 list=turris_greylist } on-error={} 
-:do { add address=1.255.14.195 list=turris_greylist } on-error={} 
-:do { add address=1.255.14.199 list=turris_greylist } on-error={} 
-:do { add address=1.255.14.200 list=turris_greylist } on-error={} 
-:do { add address=2.47.54.201 list=turris_greylist } on-error={} 
-:do { add address=2.47.136.67 list=turris_greylist } on-error={} 
-:do { add address=2.50.9.190 list=turris_greylist } on-error={} 
-:do { add address=2.56.57.91 list=turris_greylist } on-error={} 
-:do { add address=2.56.57.95 list=turris_greylist } on-error={} 
-:do { add address=2.56.57.118 list=turris_greylist } on-error={} 
-:do { add address=2.56.57.235 list=turris_greylist } on-error={} 
-:do { add address=2.56.59.19 list=turris_greylist } on-error={} 
-:do { add address=2.56.59.126 list=turris_greylist } on-error={} 
-:do { add address=2.56.59.134 list=turris_greylist } on-error={} 
-:do { add address=2.56.59.153 list=turris_greylist } on-error={} 
-:do { add address=2.56.59.157 list=turris_greylist } on-error={} 
-:do { add address=2.56.59.170 list=turris_greylist } on-error={} 
-:do { add address=2.56.59.210 list=turris_greylist } on-error={} 
-:do { add address=2.56.59.235 list=turris_greylist } on-error={} 
-:do { add address=2.57.121.9 list=turris_greylist } on-error={} 
-:do { add address=2.57.121.29 list=turris_greylist } on-error={} 
-:do { add address=2.57.121.32 list=turris_greylist } on-error={} 
-:do { add address=2.57.121.34 list=turris_greylist } on-error={} 
-:do { add address=2.57.121.40 list=turris_greylist } on-error={} 
-:do { add address=2.57.121.44 list=turris_greylist } on-error={} 
-:do { add address=2.57.121.45 list=turris_greylist } on-error={} 
-:do { add address=2.57.121.49 list=turris_greylist } on-error={} 
-:do { add address=2.57.121.55 list=turris_greylist } on-error={} 
-:do { add address=2.57.121.59 list=turris_greylist } on-error={} 
-:do { add address=2.58.149.42 list=turris_greylist } on-error={} 
-:do { add address=2.58.149.188 list=turris_greylist } on-error={} 
-:do { add address=2.58.149.234 list=turris_greylist } on-error={} 
-:do { add address=2.58.149.248 list=turris_greylist } on-error={} 
-:do { add address=2.94.108.103 list=turris_greylist } on-error={} 
-:do { add address=2.132.130.34 list=turris_greylist } on-error={} 
-:do { add address=2.132.249.34 list=turris_greylist } on-error={} 
-:do { add address=2.179.64.63 list=turris_greylist } on-error={} 
-:do { add address=2.179.72.86 list=turris_greylist } on-error={} 
-:do { add address=2.181.179.59 list=turris_greylist } on-error={} 
-:do { add address=2.186.115.161 list=turris_greylist } on-error={} 
-:do { add address=2.228.39.100 list=turris_greylist } on-error={} 
-:do { add address=2.238.18.129 list=turris_greylist } on-error={} 
-:do { add address=3.16.123.140 list=turris_greylist } on-error={} 
-:do { add address=3.109.196.153 list=turris_greylist } on-error={} 
-:do { add address=5.27.28.6 list=turris_greylist } on-error={} 
-:do { add address=5.34.204.108 list=turris_greylist } on-error={} 
-:do { add address=5.34.207.81 list=turris_greylist } on-error={} 
-:do { add address=5.39.220.40 list=turris_greylist } on-error={} 
-:do { add address=5.44.40.86 list=turris_greylist } on-error={} 
-:do { add address=5.44.40.197 list=turris_greylist } on-error={} 
-:do { add address=5.44.40.207 list=turris_greylist } on-error={} 
-:do { add address=5.44.40.215 list=turris_greylist } on-error={} 
-:do { add address=5.59.141.221 list=turris_greylist } on-error={} 
-:do { add address=5.61.11.123 list=turris_greylist } on-error={} 
-:do { add address=5.82.21.64 list=turris_greylist } on-error={} 
-:do { add address=5.88.130.165 list=turris_greylist } on-error={} 
-:do { add address=5.88.154.186 list=turris_greylist } on-error={} 
-:do { add address=5.109.11.24 list=turris_greylist } on-error={} 
-:do { add address=5.110.59.100 list=turris_greylist } on-error={} 
-:do { add address=5.133.168.15 list=turris_greylist } on-error={} 
-:do { add address=5.152.207.195 list=turris_greylist } on-error={} 
-:do { add address=5.160.136.178 list=turris_greylist } on-error={} 
-:do { add address=5.160.170.206 list=turris_greylist } on-error={} 
-:do { add address=5.188.62.34 list=turris_greylist } on-error={} 
-:do { add address=5.188.210.158 list=turris_greylist } on-error={} 
-:do { add address=5.188.210.205 list=turris_greylist } on-error={} 
-:do { add address=5.188.210.232 list=turris_greylist } on-error={} 
-:do { add address=5.254.56.242 list=turris_greylist } on-error={} 
-:do { add address=5.255.99.110 list=turris_greylist } on-error={} 
-:do { add address=8.43.53.15 list=turris_greylist } on-error={} 
-:do { add address=8.130.51.75 list=turris_greylist } on-error={} 
-:do { add address=8.136.4.42 list=turris_greylist } on-error={} 
-:do { add address=8.209.68.189 list=turris_greylist } on-error={} 
-:do { add address=8.210.18.215 list=turris_greylist } on-error={} 
-:do { add address=8.214.111.155 list=turris_greylist } on-error={} 
-:do { add address=8.218.180.32 list=turris_greylist } on-error={} 
-:do { add address=8.218.197.170 list=turris_greylist } on-error={} 
-:do { add address=11.12.13.14 list=turris_greylist } on-error={} 
-:do { add address=12.168.253.66 list=turris_greylist } on-error={} 
-:do { add address=13.68.241.141 list=turris_greylist } on-error={} 
-:do { add address=13.76.132.123 list=turris_greylist } on-error={} 
-:do { add address=13.90.103.131 list=turris_greylist } on-error={} 
-:do { add address=13.91.110.135 list=turris_greylist } on-error={} 
-:do { add address=14.1.112.177 list=turris_greylist } on-error={} 
-:do { add address=14.4.62.35 list=turris_greylist } on-error={} 
-:do { add address=14.18.101.26 list=turris_greylist } on-error={} 
-:do { add address=14.23.154.114 list=turris_greylist } on-error={} 
-:do { add address=14.98.156.181 list=turris_greylist } on-error={} 
-:do { add address=14.98.168.90 list=turris_greylist } on-error={} 
-:do { add address=14.99.37.242 list=turris_greylist } on-error={} 
-:do { add address=14.99.41.42 list=turris_greylist } on-error={} 
-:do { add address=14.116.207.212 list=turris_greylist } on-error={} 
-:do { add address=14.127.243.139 list=turris_greylist } on-error={} 
-:do { add address=14.127.249.223 list=turris_greylist } on-error={} 
-:do { add address=14.127.251.40 list=turris_greylist } on-error={} 
-:do { add address=14.136.94.83 list=turris_greylist } on-error={} 
-:do { add address=14.141.3.138 list=turris_greylist } on-error={} 
-:do { add address=14.141.67.86 list=turris_greylist } on-error={} 
-:do { add address=14.141.174.230 list=turris_greylist } on-error={} 
-:do { add address=14.143.49.206 list=turris_greylist } on-error={} 
-:do { add address=14.155.17.175 list=turris_greylist } on-error={} 
-:do { add address=14.161.44.23 list=turris_greylist } on-error={} 
-:do { add address=14.162.145.90 list=turris_greylist } on-error={} 
-:do { add address=14.182.236.210 list=turris_greylist } on-error={} 
-:do { add address=14.204.211.122 list=turris_greylist } on-error={} 
-:do { add address=14.225.198.123 list=turris_greylist } on-error={} 
-:do { add address=14.241.104.9 list=turris_greylist } on-error={} 
-:do { add address=15.185.61.79 list=turris_greylist } on-error={} 
-:do { add address=16.162.112.51 list=turris_greylist } on-error={} 
-:do { add address=18.133.182.48 list=turris_greylist } on-error={} 
-:do { add address=20.42.39.167 list=turris_greylist } on-error={} 
-:do { add address=20.96.29.10 list=turris_greylist } on-error={} 
-:do { add address=20.105.181.6 list=turris_greylist } on-error={} 
-:do { add address=20.105.252.50 list=turris_greylist } on-error={} 
-:do { add address=20.106.245.199 list=turris_greylist } on-error={} 
-:do { add address=20.110.154.148 list=turris_greylist } on-error={} 
-:do { add address=20.111.18.30 list=turris_greylist } on-error={} 
-:do { add address=20.114.118.138 list=turris_greylist } on-error={} 
-:do { add address=20.115.8.62 list=turris_greylist } on-error={} 
-:do { add address=20.119.71.213 list=turris_greylist } on-error={} 
-:do { add address=20.124.228.225 list=turris_greylist } on-error={} 
-:do { add address=20.151.219.154 list=turris_greylist } on-error={} 
-:do { add address=20.188.111.10 list=turris_greylist } on-error={} 
-:do { add address=20.199.188.136 list=turris_greylist } on-error={} 
-:do { add address=20.203.130.166 list=turris_greylist } on-error={} 
-:do { add address=20.212.184.81 list=turris_greylist } on-error={} 
-:do { add address=23.0.161.9 list=turris_greylist } on-error={} 
-:do { add address=23.0.161.38 list=turris_greylist } on-error={} 
-:do { add address=23.0.161.39 list=turris_greylist } on-error={} 
-:do { add address=23.28.242.154 list=turris_greylist } on-error={} 
-:do { add address=23.90.160.114 list=turris_greylist } on-error={} 
-:do { add address=23.90.160.115 list=turris_greylist } on-error={} 
-:do { add address=23.90.160.116 list=turris_greylist } on-error={} 
-:do { add address=23.90.160.117 list=turris_greylist } on-error={} 
-:do { add address=23.90.160.118 list=turris_greylist } on-error={} 
-:do { add address=23.91.97.30 list=turris_greylist } on-error={} 
-:do { add address=23.94.99.79 list=turris_greylist } on-error={} 
-:do { add address=23.94.174.42 list=turris_greylist } on-error={} 
-:do { add address=23.94.182.210 list=turris_greylist } on-error={} 
-:do { add address=23.95.4.194 list=turris_greylist } on-error={} 
-:do { add address=23.95.84.146 list=turris_greylist } on-error={} 
-:do { add address=23.95.113.23 list=turris_greylist } on-error={} 
-:do { add address=23.95.113.24 list=turris_greylist } on-error={} 
-:do { add address=23.95.186.186 list=turris_greylist } on-error={} 
-:do { add address=23.96.3.99 list=turris_greylist } on-error={} 
-:do { add address=23.99.11.213 list=turris_greylist } on-error={} 
-:do { add address=23.146.240.237 list=turris_greylist } on-error={} 
-:do { add address=23.146.241.237 list=turris_greylist } on-error={} 
-:do { add address=23.146.242.46 list=turris_greylist } on-error={} 
-:do { add address=23.224.37.18 list=turris_greylist } on-error={} 
-:do { add address=23.224.49.71 list=turris_greylist } on-error={} 
-:do { add address=23.224.121.238 list=turris_greylist } on-error={} 
-:do { add address=23.224.122.108 list=turris_greylist } on-error={} 
-:do { add address=23.224.144.5 list=turris_greylist } on-error={} 
-:do { add address=23.224.144.82 list=turris_greylist } on-error={} 
-:do { add address=23.224.144.107 list=turris_greylist } on-error={} 
-:do { add address=23.224.144.119 list=turris_greylist } on-error={} 
-:do { add address=23.224.144.120 list=turris_greylist } on-error={} 
-:do { add address=23.224.186.208 list=turris_greylist } on-error={} 
-:do { add address=23.224.186.229 list=turris_greylist } on-error={} 
-:do { add address=23.224.197.134 list=turris_greylist } on-error={} 
-:do { add address=23.224.230.173 list=turris_greylist } on-error={} 
-:do { add address=23.225.180.203 list=turris_greylist } on-error={} 
-:do { add address=23.229.8.113 list=turris_greylist } on-error={} 
-:do { add address=23.231.209.2 list=turris_greylist } on-error={} 
-:do { add address=23.236.147.154 list=turris_greylist } on-error={} 
-:do { add address=23.236.154.210 list=turris_greylist } on-error={} 
-:do { add address=23.240.91.146 list=turris_greylist } on-error={} 
-:do { add address=23.250.19.242 list=turris_greylist } on-error={} 
-:do { add address=23.251.102.74 list=turris_greylist } on-error={} 
-:do { add address=23.251.102.75 list=turris_greylist } on-error={} 
-:do { add address=23.251.102.76 list=turris_greylist } on-error={} 
-:do { add address=23.251.102.77 list=turris_greylist } on-error={} 
-:do { add address=23.251.102.78 list=turris_greylist } on-error={} 
-:do { add address=23.251.102.82 list=turris_greylist } on-error={} 
-:do { add address=23.251.102.83 list=turris_greylist } on-error={} 
-:do { add address=23.251.102.84 list=turris_greylist } on-error={} 
-:do { add address=23.251.102.85 list=turris_greylist } on-error={} 
-:do { add address=23.251.102.86 list=turris_greylist } on-error={} 
-:do { add address=24.188.0.149 list=turris_greylist } on-error={} 
-:do { add address=27.22.105.234 list=turris_greylist } on-error={} 
-:do { add address=27.35.78.202 list=turris_greylist } on-error={} 
-:do { add address=27.72.107.198 list=turris_greylist } on-error={} 
-:do { add address=27.100.228.223 list=turris_greylist } on-error={} 
-:do { add address=27.105.152.107 list=turris_greylist } on-error={} 
-:do { add address=27.124.5.12 list=turris_greylist } on-error={} 
-:do { add address=27.124.5.23 list=turris_greylist } on-error={} 
-:do { add address=27.124.5.24 list=turris_greylist } on-error={} 
-:do { add address=27.124.5.28 list=turris_greylist } on-error={} 
-:do { add address=27.124.5.30 list=turris_greylist } on-error={} 
-:do { add address=27.124.5.104 list=turris_greylist } on-error={} 
-:do { add address=27.124.5.105 list=turris_greylist } on-error={} 
-:do { add address=27.124.5.106 list=turris_greylist } on-error={} 
-:do { add address=27.124.5.109 list=turris_greylist } on-error={} 
-:do { add address=27.124.5.116 list=turris_greylist } on-error={} 
-:do { add address=27.124.5.117 list=turris_greylist } on-error={} 
-:do { add address=27.124.85.149 list=turris_greylist } on-error={} 
-:do { add address=27.128.201.88 list=turris_greylist } on-error={} 
-:do { add address=27.185.17.40 list=turris_greylist } on-error={} 
-:do { add address=27.211.5.125 list=turris_greylist } on-error={} 
-:do { add address=27.254.67.161 list=turris_greylist } on-error={} 
-:do { add address=27.255.58.242 list=turris_greylist } on-error={} 
-:do { add address=31.30.126.67 list=turris_greylist } on-error={} 
-:do { add address=31.41.63.30 list=turris_greylist } on-error={} 
-:do { add address=31.41.91.80 list=turris_greylist } on-error={} 
-:do { add address=31.41.95.181 list=turris_greylist } on-error={} 
-:do { add address=31.42.177.39 list=turris_greylist } on-error={} 
-:do { add address=31.43.15.45 list=turris_greylist } on-error={} 
-:do { add address=31.47.32.202 list=turris_greylist } on-error={} 
-:do { add address=31.47.188.218 list=turris_greylist } on-error={} 
-:do { add address=31.50.12.22 list=turris_greylist } on-error={} 
-:do { add address=31.154.165.133 list=turris_greylist } on-error={} 
-:do { add address=31.166.41.132 list=turris_greylist } on-error={} 
-:do { add address=31.167.111.33 list=turris_greylist } on-error={} 
-:do { add address=31.169.70.115 list=turris_greylist } on-error={} 
-:do { add address=31.173.75.21 list=turris_greylist } on-error={} 
-:do { add address=31.184.196.20 list=turris_greylist } on-error={} 
-:do { add address=31.184.198.71 list=turris_greylist } on-error={} 
-:do { add address=31.184.219.20 list=turris_greylist } on-error={} 
-:do { add address=31.186.53.122 list=turris_greylist } on-error={} 
-:do { add address=31.186.84.99 list=turris_greylist } on-error={} 
-:do { add address=31.192.111.224 list=turris_greylist } on-error={} 
-:do { add address=31.198.9.66 list=turris_greylist } on-error={} 
-:do { add address=31.207.38.251 list=turris_greylist } on-error={} 
-:do { add address=31.210.25.142 list=turris_greylist } on-error={} 
-:do { add address=31.215.98.26 list=turris_greylist } on-error={} 
-:do { add address=31.216.170.170 list=turris_greylist } on-error={} 
-:do { add address=31.220.3.140 list=turris_greylist } on-error={} 
-:do { add address=34.68.75.157 list=turris_greylist } on-error={} 
-:do { add address=34.68.224.218 list=turris_greylist } on-error={} 
-:do { add address=34.70.214.184 list=turris_greylist } on-error={} 
-:do { add address=34.72.12.209 list=turris_greylist } on-error={} 
-:do { add address=34.72.126.103 list=turris_greylist } on-error={} 
-:do { add address=34.72.183.94 list=turris_greylist } on-error={} 
-:do { add address=34.73.2.6 list=turris_greylist } on-error={} 
-:do { add address=34.74.13.92 list=turris_greylist } on-error={} 
-:do { add address=34.74.16.166 list=turris_greylist } on-error={} 
-:do { add address=34.74.28.56 list=turris_greylist } on-error={} 
-:do { add address=34.74.59.11 list=turris_greylist } on-error={} 
-:do { add address=34.74.193.2 list=turris_greylist } on-error={} 
-:do { add address=34.75.41.87 list=turris_greylist } on-error={} 
-:do { add address=34.76.82.82 list=turris_greylist } on-error={} 
-:do { add address=34.76.195.204 list=turris_greylist } on-error={} 
-:do { add address=34.77.92.220 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.0 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.1 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.2 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.3 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.4 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.5 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.6 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.7 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.8 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.9 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.10 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.11 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.12 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.13 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.14 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.15 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.16 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.17 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.18 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.19 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.20 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.21 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.22 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.23 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.24 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.25 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.26 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.27 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.28 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.29 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.30 list=turris_greylist } on-error={} 
-:do { add address=34.77.162.31 list=turris_greylist } on-error={} 
-:do { add address=34.78.190.152 list=turris_greylist } on-error={} 
-:do { add address=34.79.185.38 list=turris_greylist } on-error={} 
-:do { add address=34.79.191.118 list=turris_greylist } on-error={} 
-:do { add address=34.79.226.39 list=turris_greylist } on-error={} 
-:do { add address=34.80.21.219 list=turris_greylist } on-error={} 
-:do { add address=34.80.40.157 list=turris_greylist } on-error={} 
-:do { add address=34.80.123.99 list=turris_greylist } on-error={} 
-:do { add address=34.80.158.191 list=turris_greylist } on-error={} 
-:do { add address=34.80.204.251 list=turris_greylist } on-error={} 
-:do { add address=34.81.48.189 list=turris_greylist } on-error={} 
-:do { add address=34.81.72.139 list=turris_greylist } on-error={} 
-:do { add address=34.81.200.141 list=turris_greylist } on-error={} 
-:do { add address=34.82.191.202 list=turris_greylist } on-error={} 
-:do { add address=34.82.198.119 list=turris_greylist } on-error={} 
-:do { add address=34.83.79.196 list=turris_greylist } on-error={} 
-:do { add address=34.83.159.204 list=turris_greylist } on-error={} 
-:do { add address=34.84.40.190 list=turris_greylist } on-error={} 
-:do { add address=34.84.71.228 list=turris_greylist } on-error={} 
-:do { add address=34.84.143.9 list=turris_greylist } on-error={} 
-:do { add address=34.84.157.248 list=turris_greylist } on-error={} 
-:do { add address=34.84.197.27 list=turris_greylist } on-error={} 
-:do { add address=34.85.28.53 list=turris_greylist } on-error={} 
-:do { add address=34.85.41.42 list=turris_greylist } on-error={} 
-:do { add address=34.85.244.35 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.0 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.1 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.2 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.3 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.4 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.5 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.6 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.7 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.8 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.9 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.10 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.11 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.12 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.13 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.14 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.15 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.16 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.17 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.18 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.19 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.20 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.21 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.22 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.23 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.24 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.25 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.26 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.27 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.28 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.29 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.30 list=turris_greylist } on-error={} 
-:do { add address=34.86.35.31 list=turris_greylist } on-error={} 
-:do { add address=34.86.46.85 list=turris_greylist } on-error={} 
-:do { add address=34.86.140.249 list=turris_greylist } on-error={} 
-:do { add address=34.86.154.158 list=turris_greylist } on-error={} 
-:do { add address=34.87.29.2 list=turris_greylist } on-error={} 
-:do { add address=34.87.133.57 list=turris_greylist } on-error={} 
-:do { add address=34.87.138.173 list=turris_greylist } on-error={} 
-:do { add address=34.87.166.108 list=turris_greylist } on-error={} 
-:do { add address=34.87.213.240 list=turris_greylist } on-error={} 
-:do { add address=34.87.240.221 list=turris_greylist } on-error={} 
-:do { add address=34.87.246.1 list=turris_greylist } on-error={} 
-:do { add address=34.88.129.212 list=turris_greylist } on-error={} 
-:do { add address=34.89.74.199 list=turris_greylist } on-error={} 
-:do { add address=34.89.90.130 list=turris_greylist } on-error={} 
-:do { add address=34.89.126.128 list=turris_greylist } on-error={} 
-:do { add address=34.89.146.169 list=turris_greylist } on-error={} 
-:do { add address=34.89.171.137 list=turris_greylist } on-error={} 
-:do { add address=34.89.174.249 list=turris_greylist } on-error={} 
-:do { add address=34.89.176.67 list=turris_greylist } on-error={} 
-:do { add address=34.89.184.123 list=turris_greylist } on-error={} 
-:do { add address=34.89.196.159 list=turris_greylist } on-error={} 
-:do { add address=34.89.210.222 list=turris_greylist } on-error={} 
-:do { add address=34.89.236.36 list=turris_greylist } on-error={} 
-:do { add address=34.89.237.106 list=turris_greylist } on-error={} 
-:do { add address=34.89.241.142 list=turris_greylist } on-error={} 
-:do { add address=34.89.250.44 list=turris_greylist } on-error={} 
-:do { add address=34.90.88.32 list=turris_greylist } on-error={} 
-:do { add address=34.90.96.135 list=turris_greylist } on-error={} 
-:do { add address=34.90.143.228 list=turris_greylist } on-error={} 
-:do { add address=34.90.176.65 list=turris_greylist } on-error={} 
-:do { add address=34.90.255.45 list=turris_greylist } on-error={} 
-:do { add address=34.91.47.219 list=turris_greylist } on-error={} 
-:do { add address=34.91.92.45 list=turris_greylist } on-error={} 
-:do { add address=34.91.98.182 list=turris_greylist } on-error={} 
-:do { add address=34.91.99.172 list=turris_greylist } on-error={} 
-:do { add address=34.91.192.87 list=turris_greylist } on-error={} 
-:do { add address=34.91.217.142 list=turris_greylist } on-error={} 
-:do { add address=34.93.26.195 list=turris_greylist } on-error={} 
-:do { add address=34.93.33.10 list=turris_greylist } on-error={} 
-:do { add address=34.93.33.52 list=turris_greylist } on-error={} 
-:do { add address=34.93.39.1 list=turris_greylist } on-error={} 
-:do { add address=34.93.51.123 list=turris_greylist } on-error={} 
-:do { add address=34.93.68.48 list=turris_greylist } on-error={} 
-:do { add address=34.93.113.40 list=turris_greylist } on-error={} 
-:do { add address=34.93.120.15 list=turris_greylist } on-error={} 
-:do { add address=34.93.139.67 list=turris_greylist } on-error={} 
-:do { add address=34.93.213.143 list=turris_greylist } on-error={} 
-:do { add address=34.93.237.172 list=turris_greylist } on-error={} 
-:do { add address=34.93.244.136 list=turris_greylist } on-error={} 
-:do { add address=34.95.26.130 list=turris_greylist } on-error={} 
-:do { add address=34.95.39.64 list=turris_greylist } on-error={} 
-:do { add address=34.95.57.149 list=turris_greylist } on-error={} 
-:do { add address=34.95.147.182 list=turris_greylist } on-error={} 
-:do { add address=34.95.161.135 list=turris_greylist } on-error={} 
-:do { add address=34.95.165.69 list=turris_greylist } on-error={} 
-:do { add address=34.95.209.156 list=turris_greylist } on-error={} 
-:do { add address=34.95.210.241 list=turris_greylist } on-error={} 
-:do { add address=34.95.219.12 list=turris_greylist } on-error={} 
-:do { add address=34.95.223.9 list=turris_greylist } on-error={} 
-:do { add address=34.95.254.235 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.0 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.1 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.2 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.3 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.4 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.5 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.6 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.7 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.8 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.9 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.10 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.11 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.12 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.13 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.14 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.15 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.16 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.17 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.18 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.19 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.20 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.21 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.22 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.23 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.24 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.25 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.26 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.27 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.28 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.29 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.30 list=turris_greylist } on-error={} 
-:do { add address=34.96.130.31 list=turris_greylist } on-error={} 
-:do { add address=34.105.4.176 list=turris_greylist } on-error={} 
-:do { add address=34.105.44.38 list=turris_greylist } on-error={} 
-:do { add address=34.105.90.178 list=turris_greylist } on-error={} 
-:do { add address=34.105.145.62 list=turris_greylist } on-error={} 
-:do { add address=34.105.184.222 list=turris_greylist } on-error={} 
-:do { add address=34.105.190.62 list=turris_greylist } on-error={} 
-:do { add address=34.105.201.159 list=turris_greylist } on-error={} 
-:do { add address=34.105.222.121 list=turris_greylist } on-error={} 
-:do { add address=34.105.224.140 list=turris_greylist } on-error={} 
-:do { add address=34.107.7.170 list=turris_greylist } on-error={} 
-:do { add address=34.107.10.187 list=turris_greylist } on-error={} 
-:do { add address=34.107.32.178 list=turris_greylist } on-error={} 
-:do { add address=34.107.33.243 list=turris_greylist } on-error={} 
-:do { add address=34.107.54.70 list=turris_greylist } on-error={} 
-:do { add address=34.107.57.97 list=turris_greylist } on-error={} 
-:do { add address=34.107.60.30 list=turris_greylist } on-error={} 
-:do { add address=34.107.62.220 list=turris_greylist } on-error={} 
-:do { add address=34.107.65.212 list=turris_greylist } on-error={} 
-:do { add address=34.107.71.232 list=turris_greylist } on-error={} 
-:do { add address=34.107.72.183 list=turris_greylist } on-error={} 
-:do { add address=34.107.100.218 list=turris_greylist } on-error={} 
-:do { add address=34.107.103.41 list=turris_greylist } on-error={} 
-:do { add address=34.107.117.176 list=turris_greylist } on-error={} 
-:do { add address=34.116.69.91 list=turris_greylist } on-error={} 
-:do { add address=34.116.71.222 list=turris_greylist } on-error={} 
-:do { add address=34.116.81.87 list=turris_greylist } on-error={} 
-:do { add address=34.116.109.235 list=turris_greylist } on-error={} 
-:do { add address=34.116.111.48 list=turris_greylist } on-error={} 
-:do { add address=34.116.115.71 list=turris_greylist } on-error={} 
-:do { add address=34.116.125.217 list=turris_greylist } on-error={} 
-:do { add address=34.122.122.45 list=turris_greylist } on-error={} 
-:do { add address=34.124.154.238 list=turris_greylist } on-error={} 
-:do { add address=34.124.156.49 list=turris_greylist } on-error={} 
-:do { add address=34.124.173.190 list=turris_greylist } on-error={} 
-:do { add address=34.124.187.3 list=turris_greylist } on-error={} 
-:do { add address=34.124.198.11 list=turris_greylist } on-error={} 
-:do { add address=34.124.198.164 list=turris_greylist } on-error={} 
-:do { add address=34.126.97.123 list=turris_greylist } on-error={} 
-:do { add address=34.126.118.91 list=turris_greylist } on-error={} 
-:do { add address=34.126.133.248 list=turris_greylist } on-error={} 
-:do { add address=34.126.159.237 list=turris_greylist } on-error={} 
-:do { add address=34.126.169.119 list=turris_greylist } on-error={} 
-:do { add address=34.127.7.2 list=turris_greylist } on-error={} 
-:do { add address=34.127.29.94 list=turris_greylist } on-error={} 
-:do { add address=34.127.87.5 list=turris_greylist } on-error={} 
-:do { add address=34.127.95.144 list=turris_greylist } on-error={} 
-:do { add address=34.127.100.176 list=turris_greylist } on-error={} 
-:do { add address=34.127.122.97 list=turris_greylist } on-error={} 
-:do { add address=34.131.113.217 list=turris_greylist } on-error={} 
-:do { add address=34.132.19.84 list=turris_greylist } on-error={} 
-:do { add address=34.132.32.223 list=turris_greylist } on-error={} 
-:do { add address=34.132.97.111 list=turris_greylist } on-error={} 
-:do { add address=34.132.151.30 list=turris_greylist } on-error={} 
-:do { add address=34.134.39.79 list=turris_greylist } on-error={} 
-:do { add address=34.136.6.43 list=turris_greylist } on-error={} 
-:do { add address=34.136.119.41 list=turris_greylist } on-error={} 
-:do { add address=34.138.0.10 list=turris_greylist } on-error={} 
-:do { add address=34.138.36.59 list=turris_greylist } on-error={} 
-:do { add address=34.138.167.28 list=turris_greylist } on-error={} 
-:do { add address=34.139.150.199 list=turris_greylist } on-error={} 
-:do { add address=34.139.164.128 list=turris_greylist } on-error={} 
-:do { add address=34.139.214.195 list=turris_greylist } on-error={} 
-:do { add address=34.139.223.173 list=turris_greylist } on-error={} 
-:do { add address=34.140.10.2 list=turris_greylist } on-error={} 
-:do { add address=34.140.51.136 list=turris_greylist } on-error={} 
-:do { add address=34.140.213.255 list=turris_greylist } on-error={} 
-:do { add address=34.141.4.16 list=turris_greylist } on-error={} 
-:do { add address=34.141.4.17 list=turris_greylist } on-error={} 
-:do { add address=34.141.16.197 list=turris_greylist } on-error={} 
-:do { add address=34.141.25.177 list=turris_greylist } on-error={} 
-:do { add address=34.141.27.97 list=turris_greylist } on-error={} 
-:do { add address=34.141.28.172 list=turris_greylist } on-error={} 
-:do { add address=34.141.47.237 list=turris_greylist } on-error={} 
-:do { add address=34.141.57.80 list=turris_greylist } on-error={} 
-:do { add address=34.141.60.92 list=turris_greylist } on-error={} 
-:do { add address=34.141.75.20 list=turris_greylist } on-error={} 
-:do { add address=34.141.78.98 list=turris_greylist } on-error={} 
-:do { add address=34.141.93.239 list=turris_greylist } on-error={} 
-:do { add address=34.141.109.45 list=turris_greylist } on-error={} 
-:do { add address=34.141.123.177 list=turris_greylist } on-error={} 
-:do { add address=34.141.187.12 list=turris_greylist } on-error={} 
-:do { add address=34.142.36.189 list=turris_greylist } on-error={} 
-:do { add address=34.142.89.188 list=turris_greylist } on-error={} 
-:do { add address=34.142.94.49 list=turris_greylist } on-error={} 
-:do { add address=34.142.105.6 list=turris_greylist } on-error={} 
-:do { add address=34.142.119.90 list=turris_greylist } on-error={} 
-:do { add address=34.145.135.221 list=turris_greylist } on-error={} 
-:do { add address=34.145.144.202 list=turris_greylist } on-error={} 
-:do { add address=34.145.144.233 list=turris_greylist } on-error={} 
-:do { add address=34.145.167.116 list=turris_greylist } on-error={} 
-:do { add address=34.145.182.58 list=turris_greylist } on-error={} 
-:do { add address=34.145.198.178 list=turris_greylist } on-error={} 
-:do { add address=34.146.30.32 list=turris_greylist } on-error={} 
-:do { add address=34.146.42.51 list=turris_greylist } on-error={} 
-:do { add address=34.146.54.245 list=turris_greylist } on-error={} 
-:do { add address=34.146.94.233 list=turris_greylist } on-error={} 
-:do { add address=34.146.133.80 list=turris_greylist } on-error={} 
-:do { add address=34.146.191.249 list=turris_greylist } on-error={} 
-:do { add address=34.146.209.200 list=turris_greylist } on-error={} 
-:do { add address=34.146.235.130 list=turris_greylist } on-error={} 
-:do { add address=34.146.236.109 list=turris_greylist } on-error={} 
-:do { add address=34.147.73.126 list=turris_greylist } on-error={} 
-:do { add address=34.147.74.25 list=turris_greylist } on-error={} 
-:do { add address=34.150.128.16 list=turris_greylist } on-error={} 
-:do { add address=34.150.134.240 list=turris_greylist } on-error={} 
-:do { add address=34.150.139.49 list=turris_greylist } on-error={} 
-:do { add address=34.150.139.187 list=turris_greylist } on-error={} 
-:do { add address=34.150.141.31 list=turris_greylist } on-error={} 
-:do { add address=34.150.143.18 list=turris_greylist } on-error={} 
-:do { add address=34.150.144.20 list=turris_greylist } on-error={} 
-:do { add address=34.150.181.121 list=turris_greylist } on-error={} 
-:do { add address=34.150.187.160 list=turris_greylist } on-error={} 
-:do { add address=34.150.219.179 list=turris_greylist } on-error={} 
-:do { add address=34.151.72.217 list=turris_greylist } on-error={} 
-:do { add address=34.151.80.104 list=turris_greylist } on-error={} 
-:do { add address=34.151.95.52 list=turris_greylist } on-error={} 
-:do { add address=34.151.111.126 list=turris_greylist } on-error={} 
-:do { add address=34.151.117.173 list=turris_greylist } on-error={} 
-:do { add address=34.151.203.123 list=turris_greylist } on-error={} 
-:do { add address=34.151.204.194 list=turris_greylist } on-error={} 
-:do { add address=34.151.208.209 list=turris_greylist } on-error={} 
-:do { add address=34.151.211.115 list=turris_greylist } on-error={} 
-:do { add address=34.151.241.86 list=turris_greylist } on-error={} 
-:do { add address=34.152.1.31 list=turris_greylist } on-error={} 
-:do { add address=34.152.36.217 list=turris_greylist } on-error={} 
-:do { add address=34.152.48.243 list=turris_greylist } on-error={} 
-:do { add address=34.159.20.197 list=turris_greylist } on-error={} 
-:do { add address=34.159.70.84 list=turris_greylist } on-error={} 
-:do { add address=34.159.75.111 list=turris_greylist } on-error={} 
-:do { add address=34.159.106.150 list=turris_greylist } on-error={} 
-:do { add address=34.159.123.80 list=turris_greylist } on-error={} 
-:do { add address=34.159.127.140 list=turris_greylist } on-error={} 
-:do { add address=34.159.159.204 list=turris_greylist } on-error={} 
-:do { add address=34.159.164.90 list=turris_greylist } on-error={} 
-:do { add address=34.159.201.212 list=turris_greylist } on-error={} 
-:do { add address=34.220.236.49 list=turris_greylist } on-error={} 
-:do { add address=35.80.8.170 list=turris_greylist } on-error={} 
-:do { add address=35.86.220.8 list=turris_greylist } on-error={} 
-:do { add address=35.88.4.111 list=turris_greylist } on-error={} 
-:do { add address=35.185.182.181 list=turris_greylist } on-error={} 
-:do { add address=35.185.197.149 list=turris_greylist } on-error={} 
-:do { add address=35.185.231.232 list=turris_greylist } on-error={} 
-:do { add address=35.186.168.193 list=turris_greylist } on-error={} 
-:do { add address=35.186.179.80 list=turris_greylist } on-error={} 
-:do { add address=35.187.156.2 list=turris_greylist } on-error={} 
-:do { add address=35.187.160.234 list=turris_greylist } on-error={} 
-:do { add address=35.187.194.54 list=turris_greylist } on-error={} 
-:do { add address=35.187.225.0 list=turris_greylist } on-error={} 
-:do { add address=35.188.29.126 list=turris_greylist } on-error={} 
-:do { add address=35.188.226.93 list=turris_greylist } on-error={} 
-:do { add address=35.189.6.191 list=turris_greylist } on-error={} 
-:do { add address=35.189.38.144 list=turris_greylist } on-error={} 
-:do { add address=35.190.200.41 list=turris_greylist } on-error={} 
-:do { add address=35.190.227.110 list=turris_greylist } on-error={} 
-:do { add address=35.194.176.122 list=turris_greylist } on-error={} 
-:do { add address=35.194.182.144 list=turris_greylist } on-error={} 
-:do { add address=35.195.67.191 list=turris_greylist } on-error={} 
-:do { add address=35.195.97.106 list=turris_greylist } on-error={} 
-:do { add address=35.196.5.133 list=turris_greylist } on-error={} 
-:do { add address=35.197.61.138 list=turris_greylist } on-error={} 
-:do { add address=35.197.187.16 list=turris_greylist } on-error={} 
-:do { add address=35.197.206.23 list=turris_greylist } on-error={} 
-:do { add address=35.197.210.246 list=turris_greylist } on-error={} 
-:do { add address=35.197.222.3 list=turris_greylist } on-error={} 
-:do { add address=35.197.224.50 list=turris_greylist } on-error={} 
-:do { add address=35.198.8.234 list=turris_greylist } on-error={} 
-:do { add address=35.198.9.242 list=turris_greylist } on-error={} 
-:do { add address=35.198.12.156 list=turris_greylist } on-error={} 
-:do { add address=35.198.24.72 list=turris_greylist } on-error={} 
-:do { add address=35.198.51.77 list=turris_greylist } on-error={} 
-:do { add address=35.198.119.183 list=turris_greylist } on-error={} 
-:do { add address=35.198.120.234 list=turris_greylist } on-error={} 
-:do { add address=35.198.132.184 list=turris_greylist } on-error={} 
-:do { add address=35.198.157.148 list=turris_greylist } on-error={} 
-:do { add address=35.198.160.249 list=turris_greylist } on-error={} 
-:do { add address=35.198.177.203 list=turris_greylist } on-error={} 
-:do { add address=35.198.190.53 list=turris_greylist } on-error={} 
-:do { add address=35.198.253.15 list=turris_greylist } on-error={} 
-:do { add address=35.199.37.164 list=turris_greylist } on-error={} 
-:do { add address=35.199.78.72 list=turris_greylist } on-error={} 
-:do { add address=35.199.87.212 list=turris_greylist } on-error={} 
-:do { add address=35.199.102.90 list=turris_greylist } on-error={} 
-:do { add address=35.199.122.148 list=turris_greylist } on-error={} 
-:do { add address=35.200.5.84 list=turris_greylist } on-error={} 
-:do { add address=35.200.136.158 list=turris_greylist } on-error={} 
-:do { add address=35.200.160.214 list=turris_greylist } on-error={} 
-:do { add address=35.200.239.94 list=turris_greylist } on-error={} 
-:do { add address=35.201.164.59 list=turris_greylist } on-error={} 
-:do { add address=35.201.220.176 list=turris_greylist } on-error={} 
-:do { add address=35.203.5.209 list=turris_greylist } on-error={} 
-:do { add address=35.203.20.218 list=turris_greylist } on-error={} 
-:do { add address=35.203.46.44 list=turris_greylist } on-error={} 
-:do { add address=35.203.71.113 list=turris_greylist } on-error={} 
-:do { add address=35.203.77.238 list=turris_greylist } on-error={} 
-:do { add address=35.203.81.36 list=turris_greylist } on-error={} 
-:do { add address=35.203.89.68 list=turris_greylist } on-error={} 
-:do { add address=35.203.115.65 list=turris_greylist } on-error={} 
-:do { add address=35.203.117.114 list=turris_greylist } on-error={} 
-:do { add address=35.204.31.22 list=turris_greylist } on-error={} 
-:do { add address=35.204.131.62 list=turris_greylist } on-error={} 
-:do { add address=35.205.86.234 list=turris_greylist } on-error={} 
-:do { add address=35.221.114.88 list=turris_greylist } on-error={} 
-:do { add address=35.221.130.166 list=turris_greylist } on-error={} 
-:do { add address=35.221.157.87 list=turris_greylist } on-error={} 
-:do { add address=35.221.239.72 list=turris_greylist } on-error={} 
-:do { add address=35.222.108.10 list=turris_greylist } on-error={} 
-:do { add address=35.222.188.190 list=turris_greylist } on-error={} 
-:do { add address=35.222.194.35 list=turris_greylist } on-error={} 
-:do { add address=35.223.92.33 list=turris_greylist } on-error={} 
-:do { add address=35.224.22.62 list=turris_greylist } on-error={} 
-:do { add address=35.224.249.217 list=turris_greylist } on-error={} 
-:do { add address=35.225.79.239 list=turris_greylist } on-error={} 
-:do { add address=35.227.59.125 list=turris_greylist } on-error={} 
-:do { add address=35.228.9.145 list=turris_greylist } on-error={} 
-:do { add address=35.228.49.229 list=turris_greylist } on-error={} 
-:do { add address=35.228.142.91 list=turris_greylist } on-error={} 
-:do { add address=35.228.156.0 list=turris_greylist } on-error={} 
-:do { add address=35.228.234.247 list=turris_greylist } on-error={} 
-:do { add address=35.229.141.4 list=turris_greylist } on-error={} 
-:do { add address=35.229.169.195 list=turris_greylist } on-error={} 
-:do { add address=35.230.6.105 list=turris_greylist } on-error={} 
-:do { add address=35.230.37.99 list=turris_greylist } on-error={} 
-:do { add address=35.230.70.51 list=turris_greylist } on-error={} 
-:do { add address=35.230.97.138 list=turris_greylist } on-error={} 
-:do { add address=35.230.130.45 list=turris_greylist } on-error={} 
-:do { add address=35.231.192.74 list=turris_greylist } on-error={} 
-:do { add address=35.232.60.162 list=turris_greylist } on-error={} 
-:do { add address=35.234.41.152 list=turris_greylist } on-error={} 
-:do { add address=35.234.44.243 list=turris_greylist } on-error={} 
-:do { add address=35.234.62.26 list=turris_greylist } on-error={} 
-:do { add address=35.234.67.26 list=turris_greylist } on-error={} 
-:do { add address=35.234.77.112 list=turris_greylist } on-error={} 
-:do { add address=35.234.77.127 list=turris_greylist } on-error={} 
-:do { add address=35.234.79.108 list=turris_greylist } on-error={} 
-:do { add address=35.234.105.217 list=turris_greylist } on-error={} 
-:do { add address=35.234.107.51 list=turris_greylist } on-error={} 
-:do { add address=35.234.122.196 list=turris_greylist } on-error={} 
-:do { add address=35.234.139.30 list=turris_greylist } on-error={} 
-:do { add address=35.236.140.129 list=turris_greylist } on-error={} 
-:do { add address=35.238.57.199 list=turris_greylist } on-error={} 
-:do { add address=35.238.69.139 list=turris_greylist } on-error={} 
-:do { add address=35.239.63.208 list=turris_greylist } on-error={} 
-:do { add address=35.239.104.22 list=turris_greylist } on-error={} 
-:do { add address=35.240.156.206 list=turris_greylist } on-error={} 
-:do { add address=35.240.209.195 list=turris_greylist } on-error={} 
-:do { add address=35.240.220.99 list=turris_greylist } on-error={} 
-:do { add address=35.242.185.29 list=turris_greylist } on-error={} 
-:do { add address=35.242.207.143 list=turris_greylist } on-error={} 
-:do { add address=35.242.217.94 list=turris_greylist } on-error={} 
-:do { add address=35.242.223.14 list=turris_greylist } on-error={} 
-:do { add address=35.242.230.212 list=turris_greylist } on-error={} 
-:do { add address=35.242.231.160 list=turris_greylist } on-error={} 
-:do { add address=35.242.234.11 list=turris_greylist } on-error={} 
-:do { add address=35.243.103.149 list=turris_greylist } on-error={} 
-:do { add address=35.244.9.236 list=turris_greylist } on-error={} 
-:do { add address=35.244.11.220 list=turris_greylist } on-error={} 
-:do { add address=35.244.67.35 list=turris_greylist } on-error={} 
-:do { add address=35.244.69.53 list=turris_greylist } on-error={} 
-:do { add address=35.244.85.240 list=turris_greylist } on-error={} 
-:do { add address=35.244.88.151 list=turris_greylist } on-error={} 
-:do { add address=35.245.73.104 list=turris_greylist } on-error={} 
-:do { add address=35.245.80.139 list=turris_greylist } on-error={} 
-:do { add address=35.245.83.127 list=turris_greylist } on-error={} 
-:do { add address=35.245.192.91 list=turris_greylist } on-error={} 
-:do { add address=35.245.245.146 list=turris_greylist } on-error={} 
-:do { add address=35.246.13.205 list=turris_greylist } on-error={} 
-:do { add address=35.246.29.116 list=turris_greylist } on-error={} 
-:do { add address=35.246.34.208 list=turris_greylist } on-error={} 
-:do { add address=35.246.84.177 list=turris_greylist } on-error={} 
-:do { add address=35.246.151.138 list=turris_greylist } on-error={} 
-:do { add address=35.246.182.224 list=turris_greylist } on-error={} 
-:do { add address=35.246.236.90 list=turris_greylist } on-error={} 
-:do { add address=35.246.245.96 list=turris_greylist } on-error={} 
-:do { add address=35.247.19.118 list=turris_greylist } on-error={} 
-:do { add address=35.247.41.5 list=turris_greylist } on-error={} 
-:do { add address=35.247.69.7 list=turris_greylist } on-error={} 
-:do { add address=35.247.81.108 list=turris_greylist } on-error={} 
-:do { add address=35.247.88.244 list=turris_greylist } on-error={} 
-:do { add address=35.247.102.184 list=turris_greylist } on-error={} 
-:do { add address=35.247.156.172 list=turris_greylist } on-error={} 
-:do { add address=35.247.188.226 list=turris_greylist } on-error={} 
-:do { add address=35.247.250.167 list=turris_greylist } on-error={} 
-:do { add address=36.37.136.49 list=turris_greylist } on-error={} 
-:do { add address=36.38.218.46 list=turris_greylist } on-error={} 
-:do { add address=36.66.115.131 list=turris_greylist } on-error={} 
-:do { add address=36.66.204.154 list=turris_greylist } on-error={} 
-:do { add address=36.67.23.158 list=turris_greylist } on-error={} 
-:do { add address=36.67.206.55 list=turris_greylist } on-error={} 
-:do { add address=36.67.214.18 list=turris_greylist } on-error={} 
-:do { add address=36.94.90.99 list=turris_greylist } on-error={} 
-:do { add address=36.103.241.148 list=turris_greylist } on-error={} 
-:do { add address=36.110.3.52 list=turris_greylist } on-error={} 
-:do { add address=36.110.29.74 list=turris_greylist } on-error={} 
-:do { add address=36.110.41.66 list=turris_greylist } on-error={} 
-:do { add address=36.110.228.34 list=turris_greylist } on-error={} 
-:do { add address=36.110.228.254 list=turris_greylist } on-error={} 
-:do { add address=36.111.85.2 list=turris_greylist } on-error={} 
-:do { add address=36.111.195.5 list=turris_greylist } on-error={} 
-:do { add address=36.137.95.6 list=turris_greylist } on-error={} 
-:do { add address=36.142.143.103 list=turris_greylist } on-error={} 
-:do { add address=36.152.99.162 list=turris_greylist } on-error={} 
-:do { add address=36.153.84.1 list=turris_greylist } on-error={} 
-:do { add address=36.235.196.105 list=turris_greylist } on-error={} 
-:do { add address=37.0.10.176 list=turris_greylist } on-error={} 
-:do { add address=37.0.10.206 list=turris_greylist } on-error={} 
-:do { add address=37.0.11.155 list=turris_greylist } on-error={} 
-:do { add address=37.0.11.251 list=turris_greylist } on-error={} 
-:do { add address=37.1.218.229 list=turris_greylist } on-error={} 
-:do { add address=37.10.95.200 list=turris_greylist } on-error={} 
-:do { add address=37.16.81.140 list=turris_greylist } on-error={} 
-:do { add address=37.44.238.139 list=turris_greylist } on-error={} 
-:do { add address=37.44.238.158 list=turris_greylist } on-error={} 
-:do { add address=37.44.238.204 list=turris_greylist } on-error={} 
-:do { add address=37.49.225.104 list=turris_greylist } on-error={} 
-:do { add address=37.49.225.145 list=turris_greylist } on-error={} 
-:do { add address=37.49.225.161 list=turris_greylist } on-error={} 
-:do { add address=37.57.137.208 list=turris_greylist } on-error={} 
-:do { add address=37.59.204.217 list=turris_greylist } on-error={} 
-:do { add address=37.71.234.114 list=turris_greylist } on-error={} 
-:do { add address=37.111.49.218 list=turris_greylist } on-error={} 
-:do { add address=37.111.50.238 list=turris_greylist } on-error={} 
-:do { add address=37.120.148.78 list=turris_greylist } on-error={} 
-:do { add address=37.143.15.191 list=turris_greylist } on-error={} 
-:do { add address=37.151.165.105 list=turris_greylist } on-error={} 
-:do { add address=37.152.179.76 list=turris_greylist } on-error={} 
-:do { add address=37.152.187.48 list=turris_greylist } on-error={} 
-:do { add address=37.156.146.132 list=turris_greylist } on-error={} 
-:do { add address=37.157.40.4 list=turris_greylist } on-error={} 
-:do { add address=37.157.219.127 list=turris_greylist } on-error={} 
-:do { add address=37.157.219.254 list=turris_greylist } on-error={} 
-:do { add address=37.221.210.161 list=turris_greylist } on-error={} 
-:do { add address=37.224.25.187 list=turris_greylist } on-error={} 
-:do { add address=37.233.12.58 list=turris_greylist } on-error={} 
-:do { add address=37.233.55.0 list=turris_greylist } on-error={} 
-:do { add address=37.235.176.35 list=turris_greylist } on-error={} 
-:do { add address=37.252.70.254 list=turris_greylist } on-error={} 
-:do { add address=37.254.183.52 list=turris_greylist } on-error={} 
-:do { add address=38.7.83.107 list=turris_greylist } on-error={} 
-:do { add address=38.7.84.63 list=turris_greylist } on-error={} 
-:do { add address=38.15.212.47 list=turris_greylist } on-error={} 
-:do { add address=38.84.14.4 list=turris_greylist } on-error={} 
-:do { add address=38.123.94.138 list=turris_greylist } on-error={} 
-:do { add address=38.132.109.101 list=turris_greylist } on-error={} 
-:do { add address=38.132.109.104 list=turris_greylist } on-error={} 
-:do { add address=38.132.109.107 list=turris_greylist } on-error={} 
-:do { add address=38.132.109.118 list=turris_greylist } on-error={} 
-:do { add address=38.132.109.165 list=turris_greylist } on-error={} 
-:do { add address=38.132.109.186 list=turris_greylist } on-error={} 
-:do { add address=38.143.137.60 list=turris_greylist } on-error={} 
-:do { add address=39.46.21.81 list=turris_greylist } on-error={} 
-:do { add address=39.49.59.251 list=turris_greylist } on-error={} 
-:do { add address=39.65.1.183 list=turris_greylist } on-error={} 
-:do { add address=39.100.83.167 list=turris_greylist } on-error={} 
-:do { add address=39.100.241.65 list=turris_greylist } on-error={} 
-:do { add address=39.103.148.180 list=turris_greylist } on-error={} 
-:do { add address=39.103.199.141 list=turris_greylist } on-error={} 
-:do { add address=39.104.18.20 list=turris_greylist } on-error={} 
-:do { add address=39.105.51.166 list=turris_greylist } on-error={} 
-:do { add address=39.105.58.85 list=turris_greylist } on-error={} 
-:do { add address=39.106.85.178 list=turris_greylist } on-error={} 
-:do { add address=39.107.47.68 list=turris_greylist } on-error={} 
-:do { add address=39.107.66.34 list=turris_greylist } on-error={} 
-:do { add address=39.107.89.114 list=turris_greylist } on-error={} 
-:do { add address=39.107.97.138 list=turris_greylist } on-error={} 
-:do { add address=39.108.185.176 list=turris_greylist } on-error={} 
-:do { add address=39.121.109.230 list=turris_greylist } on-error={} 
-:do { add address=39.124.65.7 list=turris_greylist } on-error={} 
-:do { add address=39.152.233.11 list=turris_greylist } on-error={} 
-:do { add address=39.153.143.55 list=turris_greylist } on-error={} 
-:do { add address=39.155.213.154 list=turris_greylist } on-error={} 
-:do { add address=39.164.205.16 list=turris_greylist } on-error={} 
-:do { add address=39.184.139.39 list=turris_greylist } on-error={} 
-:do { add address=40.76.16.232 list=turris_greylist } on-error={} 
-:do { add address=40.83.242.27 list=turris_greylist } on-error={} 
-:do { add address=40.83.243.115 list=turris_greylist } on-error={} 
-:do { add address=40.114.126.32 list=turris_greylist } on-error={} 
-:do { add address=40.131.29.173 list=turris_greylist } on-error={} 
-:do { add address=41.0.5.184 list=turris_greylist } on-error={} 
-:do { add address=41.21.233.230 list=turris_greylist } on-error={} 
-:do { add address=41.32.140.250 list=turris_greylist } on-error={} 
-:do { add address=41.33.40.227 list=turris_greylist } on-error={} 
-:do { add address=41.33.146.1 list=turris_greylist } on-error={} 
-:do { add address=41.33.172.30 list=turris_greylist } on-error={} 
-:do { add address=41.33.179.91 list=turris_greylist } on-error={} 
-:do { add address=41.33.240.117 list=turris_greylist } on-error={} 
-:do { add address=41.38.50.50 list=turris_greylist } on-error={} 
-:do { add address=41.38.171.250 list=turris_greylist } on-error={} 
-:do { add address=41.41.213.134 list=turris_greylist } on-error={} 
-:do { add address=41.42.57.70 list=turris_greylist } on-error={} 
-:do { add address=41.44.54.211 list=turris_greylist } on-error={} 
-:do { add address=41.59.86.32 list=turris_greylist } on-error={} 
-:do { add address=41.63.10.12 list=turris_greylist } on-error={} 
-:do { add address=41.63.167.40 list=turris_greylist } on-error={} 
-:do { add address=41.63.181.242 list=turris_greylist } on-error={} 
-:do { add address=41.63.182.43 list=turris_greylist } on-error={} 
-:do { add address=41.66.218.86 list=turris_greylist } on-error={} 
-:do { add address=41.72.61.67 list=turris_greylist } on-error={} 
-:do { add address=41.73.6.99 list=turris_greylist } on-error={} 
-:do { add address=41.76.169.8 list=turris_greylist } on-error={} 
-:do { add address=41.78.118.2 list=turris_greylist } on-error={} 
-:do { add address=41.82.47.170 list=turris_greylist } on-error={} 
-:do { add address=41.82.213.42 list=turris_greylist } on-error={} 
-:do { add address=41.83.25.78 list=turris_greylist } on-error={} 
-:do { add address=41.93.40.90 list=turris_greylist } on-error={} 
-:do { add address=41.110.141.3 list=turris_greylist } on-error={} 
-:do { add address=41.160.25.212 list=turris_greylist } on-error={} 
-:do { add address=41.160.52.154 list=turris_greylist } on-error={} 
-:do { add address=41.189.211.244 list=turris_greylist } on-error={} 
-:do { add address=41.189.214.9 list=turris_greylist } on-error={} 
-:do { add address=41.204.93.22 list=turris_greylist } on-error={} 
-:do { add address=41.205.77.46 list=turris_greylist } on-error={} 
-:do { add address=41.205.83.6 list=turris_greylist } on-error={} 
-:do { add address=41.208.70.39 list=turris_greylist } on-error={} 
-:do { add address=41.208.71.226 list=turris_greylist } on-error={} 
-:do { add address=41.210.186.144 list=turris_greylist } on-error={} 
-:do { add address=41.216.76.98 list=turris_greylist } on-error={} 
-:do { add address=41.220.162.71 list=turris_greylist } on-error={} 
-:do { add address=41.222.172.56 list=turris_greylist } on-error={} 
-:do { add address=41.223.232.126 list=turris_greylist } on-error={} 
-:do { add address=41.224.247.104 list=turris_greylist } on-error={} 
-:do { add address=41.230.60.199 list=turris_greylist } on-error={} 
-:do { add address=41.242.56.55 list=turris_greylist } on-error={} 
-:do { add address=42.5.248.73 list=turris_greylist } on-error={} 
-:do { add address=42.48.194.164 list=turris_greylist } on-error={} 
-:do { add address=42.61.81.139 list=turris_greylist } on-error={} 
-:do { add address=42.62.23.174 list=turris_greylist } on-error={} 
-:do { add address=42.81.206.64 list=turris_greylist } on-error={} 
-:do { add address=42.82.154.239 list=turris_greylist } on-error={} 
-:do { add address=42.112.36.75 list=turris_greylist } on-error={} 
-:do { add address=42.119.61.19 list=turris_greylist } on-error={} 
-:do { add address=42.123.110.8 list=turris_greylist } on-error={} 
-:do { add address=42.124.199.104 list=turris_greylist } on-error={} 
-:do { add address=42.190.137.42 list=turris_greylist } on-error={} 
-:do { add address=42.190.162.221 list=turris_greylist } on-error={} 
-:do { add address=42.192.134.186 list=turris_greylist } on-error={} 
-:do { add address=42.192.161.101 list=turris_greylist } on-error={} 
-:do { add address=42.192.206.81 list=turris_greylist } on-error={} 
-:do { add address=42.193.122.216 list=turris_greylist } on-error={} 
-:do { add address=42.200.150.157 list=turris_greylist } on-error={} 
-:do { add address=42.202.146.185 list=turris_greylist } on-error={} 
-:do { add address=43.131.22.118 list=turris_greylist } on-error={} 
-:do { add address=43.131.22.185 list=turris_greylist } on-error={} 
-:do { add address=43.131.23.42 list=turris_greylist } on-error={} 
-:do { add address=43.131.23.132 list=turris_greylist } on-error={} 
-:do { add address=43.131.23.212 list=turris_greylist } on-error={} 
-:do { add address=43.131.23.230 list=turris_greylist } on-error={} 
-:do { add address=43.131.24.202 list=turris_greylist } on-error={} 
-:do { add address=43.131.25.196 list=turris_greylist } on-error={} 
-:do { add address=43.133.61.55 list=turris_greylist } on-error={} 
-:do { add address=43.135.157.199 list=turris_greylist } on-error={} 
-:do { add address=43.154.17.145 list=turris_greylist } on-error={} 
-:do { add address=43.154.169.68 list=turris_greylist } on-error={} 
-:do { add address=43.224.29.19 list=turris_greylist } on-error={} 
-:do { add address=43.228.37.34 list=turris_greylist } on-error={} 
-:do { add address=43.228.126.198 list=turris_greylist } on-error={} 
-:do { add address=43.231.63.131 list=turris_greylist } on-error={} 
-:do { add address=43.231.78.99 list=turris_greylist } on-error={} 
-:do { add address=43.239.156.121 list=turris_greylist } on-error={} 
-:do { add address=43.242.73.47 list=turris_greylist } on-error={} 
-:do { add address=43.247.180.118 list=turris_greylist } on-error={} 
-:do { add address=43.248.138.156 list=turris_greylist } on-error={} 
-:do { add address=43.248.187.91 list=turris_greylist } on-error={} 
-:do { add address=43.249.29.245 list=turris_greylist } on-error={} 
-:do { add address=43.250.41.98 list=turris_greylist } on-error={} 
-:do { add address=43.251.81.77 list=turris_greylist } on-error={} 
-:do { add address=43.254.45.124 list=turris_greylist } on-error={} 
-:do { add address=43.254.240.34 list=turris_greylist } on-error={} 
-:do { add address=44.234.43.1 list=turris_greylist } on-error={} 
-:do { add address=45.9.45.243 list=turris_greylist } on-error={} 
-:do { add address=45.9.191.218 list=turris_greylist } on-error={} 
-:do { add address=45.10.175.60 list=turris_greylist } on-error={} 
-:do { add address=45.10.175.71 list=turris_greylist } on-error={} 
-:do { add address=45.10.175.72 list=turris_greylist } on-error={} 
-:do { add address=45.10.175.80 list=turris_greylist } on-error={} 
-:do { add address=45.10.175.154 list=turris_greylist } on-error={} 
-:do { add address=45.10.175.231 list=turris_greylist } on-error={} 
-:do { add address=45.12.2.199 list=turris_greylist } on-error={} 
-:do { add address=45.31.113.230 list=turris_greylist } on-error={} 
-:do { add address=45.33.7.49 list=turris_greylist } on-error={} 
-:do { add address=45.33.56.48 list=turris_greylist } on-error={} 
-:do { add address=45.33.56.51 list=turris_greylist } on-error={} 
-:do { add address=45.33.56.55 list=turris_greylist } on-error={} 
-:do { add address=45.33.80.76 list=turris_greylist } on-error={} 
-:do { add address=45.35.35.166 list=turris_greylist } on-error={} 
-:do { add address=45.43.54.43 list=turris_greylist } on-error={} 
-:do { add address=45.43.63.6 list=turris_greylist } on-error={} 
-:do { add address=45.48.59.244 list=turris_greylist } on-error={} 
-:do { add address=45.48.244.134 list=turris_greylist } on-error={} 
-:do { add address=45.49.235.60 list=turris_greylist } on-error={} 
-:do { add address=45.56.91.118 list=turris_greylist } on-error={} 
-:do { add address=45.56.102.36 list=turris_greylist } on-error={} 
-:do { add address=45.56.102.212 list=turris_greylist } on-error={} 
-:do { add address=45.61.137.230 list=turris_greylist } on-error={} 
-:do { add address=45.61.172.7 list=turris_greylist } on-error={} 
-:do { add address=45.61.184.156 list=turris_greylist } on-error={} 
-:do { add address=45.61.184.191 list=turris_greylist } on-error={} 
-:do { add address=45.61.185.173 list=turris_greylist } on-error={} 
-:do { add address=45.61.186.130 list=turris_greylist } on-error={} 
-:do { add address=45.61.186.172 list=turris_greylist } on-error={} 
-:do { add address=45.61.187.144 list=turris_greylist } on-error={} 
-:do { add address=45.61.187.215 list=turris_greylist } on-error={} 
-:do { add address=45.65.233.93 list=turris_greylist } on-error={} 
-:do { add address=45.72.44.66 list=turris_greylist } on-error={} 
-:do { add address=45.77.24.225 list=turris_greylist } on-error={} 
-:do { add address=45.79.82.183 list=turris_greylist } on-error={} 
-:do { add address=45.79.106.170 list=turris_greylist } on-error={} 
-:do { add address=45.79.110.218 list=turris_greylist } on-error={} 
-:do { add address=45.79.112.116 list=turris_greylist } on-error={} 
-:do { add address=45.79.114.128 list=turris_greylist } on-error={} 
-:do { add address=45.79.168.18 list=turris_greylist } on-error={} 
-:do { add address=45.83.29.82 list=turris_greylist } on-error={} 
-:do { add address=45.83.118.202 list=turris_greylist } on-error={} 
-:do { add address=45.84.39.248 list=turris_greylist } on-error={} 
-:do { add address=45.88.137.100 list=turris_greylist } on-error={} 
-:do { add address=45.88.137.253 list=turris_greylist } on-error={} 
-:do { add address=45.89.91.75 list=turris_greylist } on-error={} 
-:do { add address=45.89.107.214 list=turris_greylist } on-error={} 
-:do { add address=45.92.9.58 list=turris_greylist } on-error={} 
-:do { add address=45.95.169.126 list=turris_greylist } on-error={} 
-:do { add address=45.114.245.162 list=turris_greylist } on-error={} 
-:do { add address=45.118.32.37 list=turris_greylist } on-error={} 
-:do { add address=45.118.144.106 list=turris_greylist } on-error={} 
-:do { add address=45.119.83.186 list=turris_greylist } on-error={} 
-:do { add address=45.121.37.174 list=turris_greylist } on-error={} 
-:do { add address=45.124.84.88 list=turris_greylist } on-error={} 
-:do { add address=45.124.84.228 list=turris_greylist } on-error={} 
-:do { add address=45.126.20.70 list=turris_greylist } on-error={} 
-:do { add address=45.127.98.179 list=turris_greylist } on-error={} 
-:do { add address=45.127.98.193 list=turris_greylist } on-error={} 
-:do { add address=45.127.98.237 list=turris_greylist } on-error={} 
-:do { add address=45.127.99.157 list=turris_greylist } on-error={} 
-:do { add address=45.127.186.21 list=turris_greylist } on-error={} 
-:do { add address=45.129.56.151 list=turris_greylist } on-error={} 
-:do { add address=45.129.136.45 list=turris_greylist } on-error={} 
-:do { add address=45.134.23.227 list=turris_greylist } on-error={} 
-:do { add address=45.134.23.233 list=turris_greylist } on-error={} 
-:do { add address=45.134.23.253 list=turris_greylist } on-error={} 
-:do { add address=45.134.144.12 list=turris_greylist } on-error={} 
-:do { add address=45.134.144.26 list=turris_greylist } on-error={} 
-:do { add address=45.134.144.47 list=turris_greylist } on-error={} 
-:do { add address=45.134.144.51 list=turris_greylist } on-error={} 
-:do { add address=45.134.144.118 list=turris_greylist } on-error={} 
-:do { add address=45.134.144.119 list=turris_greylist } on-error={} 
-:do { add address=45.134.144.121 list=turris_greylist } on-error={} 
-:do { add address=45.134.144.124 list=turris_greylist } on-error={} 
-:do { add address=45.137.21.134 list=turris_greylist } on-error={} 
-:do { add address=45.137.22.174 list=turris_greylist } on-error={} 
-:do { add address=45.137.23.135 list=turris_greylist } on-error={} 
-:do { add address=45.137.23.252 list=turris_greylist } on-error={} 
-:do { add address=45.143.144.150 list=turris_greylist } on-error={} 
-:do { add address=45.143.203.2 list=turris_greylist } on-error={} 
-:do { add address=45.144.246.73 list=turris_greylist } on-error={} 
-:do { add address=45.144.246.78 list=turris_greylist } on-error={} 
-:do { add address=45.146.165.165 list=turris_greylist } on-error={} 
-:do { add address=45.146.165.168 list=turris_greylist } on-error={} 
-:do { add address=45.148.10.68 list=turris_greylist } on-error={} 
-:do { add address=45.148.10.163 list=turris_greylist } on-error={} 
-:do { add address=45.148.10.194 list=turris_greylist } on-error={} 
-:do { add address=45.150.173.134 list=turris_greylist } on-error={} 
-:do { add address=45.155.204.188 list=turris_greylist } on-error={} 
-:do { add address=45.160.176.80 list=turris_greylist } on-error={} 
-:do { add address=45.162.37.83 list=turris_greylist } on-error={} 
-:do { add address=45.164.141.106 list=turris_greylist } on-error={} 
-:do { add address=45.166.107.16 list=turris_greylist } on-error={} 
-:do { add address=45.166.222.194 list=turris_greylist } on-error={} 
-:do { add address=45.168.15.249 list=turris_greylist } on-error={} 
-:do { add address=45.201.195.49 list=turris_greylist } on-error={} 
-:do { add address=45.234.33.170 list=turris_greylist } on-error={} 
-:do { add address=45.238.39.28 list=turris_greylist } on-error={} 
-:do { add address=45.241.58.49 list=turris_greylist } on-error={} 
-:do { add address=45.252.63.66 list=turris_greylist } on-error={} 
-:do { add address=46.4.133.131 list=turris_greylist } on-error={} 
-:do { add address=46.8.182.192 list=turris_greylist } on-error={} 
-:do { add address=46.8.183.135 list=turris_greylist } on-error={} 
-:do { add address=46.13.24.109 list=turris_greylist } on-error={} 
-:do { add address=46.17.96.40 list=turris_greylist } on-error={} 
-:do { add address=46.19.139.18 list=turris_greylist } on-error={} 
-:do { add address=46.19.225.245 list=turris_greylist } on-error={} 
-:do { add address=46.21.97.90 list=turris_greylist } on-error={} 
-:do { add address=46.22.254.218 list=turris_greylist } on-error={} 
-:do { add address=46.23.155.114 list=turris_greylist } on-error={} 
-:do { add address=46.26.235.102 list=turris_greylist } on-error={} 
-:do { add address=46.33.32.212 list=turris_greylist } on-error={} 
-:do { add address=46.36.220.119 list=turris_greylist } on-error={} 
-:do { add address=46.38.48.224 list=turris_greylist } on-error={} 
-:do { add address=46.42.0.186 list=turris_greylist } on-error={} 
-:do { add address=46.43.87.131 list=turris_greylist } on-error={} 
-:do { add address=46.45.51.244 list=turris_greylist } on-error={} 
-:do { add address=46.61.128.138 list=turris_greylist } on-error={} 
-:do { add address=46.63.22.16 list=turris_greylist } on-error={} 
-:do { add address=46.87.13.177 list=turris_greylist } on-error={} 
-:do { add address=46.99.158.235 list=turris_greylist } on-error={} 
-:do { add address=46.99.251.244 list=turris_greylist } on-error={} 
-:do { add address=46.101.2.225 list=turris_greylist } on-error={} 
-:do { add address=46.101.24.244 list=turris_greylist } on-error={} 
-:do { add address=46.101.129.22 list=turris_greylist } on-error={} 
-:do { add address=46.101.142.185 list=turris_greylist } on-error={} 
-:do { add address=46.101.216.153 list=turris_greylist } on-error={} 
-:do { add address=46.101.234.195 list=turris_greylist } on-error={} 
-:do { add address=46.105.132.32 list=turris_greylist } on-error={} 
-:do { add address=46.105.132.33 list=turris_greylist } on-error={} 
-:do { add address=46.105.132.34 list=turris_greylist } on-error={} 
-:do { add address=46.105.132.35 list=turris_greylist } on-error={} 
-:do { add address=46.151.209.41 list=turris_greylist } on-error={} 
-:do { add address=46.152.147.164 list=turris_greylist } on-error={} 
-:do { add address=46.161.54.57 list=turris_greylist } on-error={} 
-:do { add address=46.165.54.2 list=turris_greylist } on-error={} 
-:do { add address=46.172.65.13 list=turris_greylist } on-error={} 
-:do { add address=46.174.191.28 list=turris_greylist } on-error={} 
-:do { add address=46.174.191.29 list=turris_greylist } on-error={} 
-:do { add address=46.174.191.30 list=turris_greylist } on-error={} 
-:do { add address=46.174.191.31 list=turris_greylist } on-error={} 
-:do { add address=46.174.191.32 list=turris_greylist } on-error={} 
-:do { add address=46.229.211.6 list=turris_greylist } on-error={} 
-:do { add address=46.231.72.113 list=turris_greylist } on-error={} 
-:do { add address=46.249.32.80 list=turris_greylist } on-error={} 
-:do { add address=46.249.32.109 list=turris_greylist } on-error={} 
-:do { add address=46.249.32.129 list=turris_greylist } on-error={} 
-:do { add address=46.249.32.206 list=turris_greylist } on-error={} 
-:do { add address=46.249.33.123 list=turris_greylist } on-error={} 
-:do { add address=46.253.8.38 list=turris_greylist } on-error={} 
-:do { add address=47.6.124.13 list=turris_greylist } on-error={} 
-:do { add address=47.19.54.70 list=turris_greylist } on-error={} 
-:do { add address=47.53.58.157 list=turris_greylist } on-error={} 
-:do { add address=47.89.47.37 list=turris_greylist } on-error={} 
-:do { add address=47.92.50.147 list=turris_greylist } on-error={} 
-:do { add address=47.94.98.234 list=turris_greylist } on-error={} 
-:do { add address=47.94.134.139 list=turris_greylist } on-error={} 
-:do { add address=47.94.212.155 list=turris_greylist } on-error={} 
-:do { add address=47.94.227.170 list=turris_greylist } on-error={} 
-:do { add address=47.95.13.70 list=turris_greylist } on-error={} 
-:do { add address=47.95.35.97 list=turris_greylist } on-error={} 
-:do { add address=47.98.232.125 list=turris_greylist } on-error={} 
-:do { add address=47.99.46.169 list=turris_greylist } on-error={} 
-:do { add address=47.99.118.2 list=turris_greylist } on-error={} 
-:do { add address=47.99.142.71 list=turris_greylist } on-error={} 
-:do { add address=47.99.168.169 list=turris_greylist } on-error={} 
-:do { add address=47.99.198.29 list=turris_greylist } on-error={} 
-:do { add address=47.100.71.68 list=turris_greylist } on-error={} 
-:do { add address=47.102.194.112 list=turris_greylist } on-error={} 
-:do { add address=47.105.97.137 list=turris_greylist } on-error={} 
-:do { add address=47.106.226.130 list=turris_greylist } on-error={} 
-:do { add address=47.108.165.173 list=turris_greylist } on-error={} 
-:do { add address=47.110.59.86 list=turris_greylist } on-error={} 
-:do { add address=47.111.23.140 list=turris_greylist } on-error={} 
-:do { add address=47.114.146.100 list=turris_greylist } on-error={} 
-:do { add address=47.115.91.207 list=turris_greylist } on-error={} 
-:do { add address=47.206.172.96 list=turris_greylist } on-error={} 
-:do { add address=47.241.160.183 list=turris_greylist } on-error={} 
-:do { add address=47.241.186.30 list=turris_greylist } on-error={} 
-:do { add address=47.242.18.184 list=turris_greylist } on-error={} 
-:do { add address=47.243.167.228 list=turris_greylist } on-error={} 
-:do { add address=47.243.174.175 list=turris_greylist } on-error={} 
-:do { add address=47.245.60.236 list=turris_greylist } on-error={} 
-:do { add address=47.251.35.33 list=turris_greylist } on-error={} 
-:do { add address=49.7.58.253 list=turris_greylist } on-error={} 
-:do { add address=49.48.8.68 list=turris_greylist } on-error={} 
-:do { add address=49.72.145.134 list=turris_greylist } on-error={} 
-:do { add address=49.88.112.109 list=turris_greylist } on-error={} 
-:do { add address=49.119.97.44 list=turris_greylist } on-error={} 
-:do { add address=49.142.50.121 list=turris_greylist } on-error={} 
-:do { add address=49.142.162.116 list=turris_greylist } on-error={} 
-:do { add address=49.143.32.6 list=turris_greylist } on-error={} 
-:do { add address=49.158.143.6 list=turris_greylist } on-error={} 
-:do { add address=49.206.17.157 list=turris_greylist } on-error={} 
-:do { add address=49.207.184.238 list=turris_greylist } on-error={} 
-:do { add address=49.213.189.162 list=turris_greylist } on-error={} 
-:do { add address=49.213.205.40 list=turris_greylist } on-error={} 
-:do { add address=49.213.226.204 list=turris_greylist } on-error={} 
-:do { add address=49.229.58.134 list=turris_greylist } on-error={} 
-:do { add address=49.231.146.68 list=turris_greylist } on-error={} 
-:do { add address=49.231.210.55 list=turris_greylist } on-error={} 
-:do { add address=49.232.3.114 list=turris_greylist } on-error={} 
-:do { add address=49.233.127.128 list=turris_greylist } on-error={} 
-:do { add address=49.235.34.25 list=turris_greylist } on-error={} 
-:do { add address=49.235.64.46 list=turris_greylist } on-error={} 
-:do { add address=49.235.70.74 list=turris_greylist } on-error={} 
-:do { add address=49.235.217.253 list=turris_greylist } on-error={} 
-:do { add address=49.236.192.136 list=turris_greylist } on-error={} 
-:do { add address=49.246.4.58 list=turris_greylist } on-error={} 
-:do { add address=49.246.11.153 list=turris_greylist } on-error={} 
-:do { add address=49.246.50.226 list=turris_greylist } on-error={} 
-:do { add address=50.116.3.158 list=turris_greylist } on-error={} 
-:do { add address=50.116.7.184 list=turris_greylist } on-error={} 
-:do { add address=50.116.16.97 list=turris_greylist } on-error={} 
-:do { add address=50.205.206.94 list=turris_greylist } on-error={} 
-:do { add address=50.206.63.3 list=turris_greylist } on-error={} 
-:do { add address=50.215.30.198 list=turris_greylist } on-error={} 
-:do { add address=50.232.240.162 list=turris_greylist } on-error={} 
-:do { add address=50.255.121.9 list=turris_greylist } on-error={} 
-:do { add address=51.15.2.174 list=turris_greylist } on-error={} 
-:do { add address=51.15.15.144 list=turris_greylist } on-error={} 
-:do { add address=51.38.12.12 list=turris_greylist } on-error={} 
-:do { add address=51.38.12.13 list=turris_greylist } on-error={} 
-:do { add address=51.38.12.14 list=turris_greylist } on-error={} 
-:do { add address=51.38.12.15 list=turris_greylist } on-error={} 
-:do { add address=51.38.12.20 list=turris_greylist } on-error={} 
-:do { add address=51.38.12.21 list=turris_greylist } on-error={} 
-:do { add address=51.38.12.22 list=turris_greylist } on-error={} 
-:do { add address=51.38.12.23 list=turris_greylist } on-error={} 
-:do { add address=51.79.69.49 list=turris_greylist } on-error={} 
-:do { add address=51.79.147.220 list=turris_greylist } on-error={} 
-:do { add address=51.79.168.159 list=turris_greylist } on-error={} 
-:do { add address=51.89.124.57 list=turris_greylist } on-error={} 
-:do { add address=51.89.198.7 list=turris_greylist } on-error={} 
-:do { add address=51.158.21.3 list=turris_greylist } on-error={} 
-:do { add address=51.158.31.196 list=turris_greylist } on-error={} 
-:do { add address=51.158.47.138 list=turris_greylist } on-error={} 
-:do { add address=51.158.98.218 list=turris_greylist } on-error={} 
-:do { add address=51.158.151.32 list=turris_greylist } on-error={} 
-:do { add address=51.158.161.66 list=turris_greylist } on-error={} 
-:do { add address=51.161.50.173 list=turris_greylist } on-error={} 
-:do { add address=51.161.50.176 list=turris_greylist } on-error={} 
-:do { add address=51.161.50.178 list=turris_greylist } on-error={} 
-:do { add address=51.161.50.183 list=turris_greylist } on-error={} 
-:do { add address=51.161.50.185 list=turris_greylist } on-error={} 
-:do { add address=51.161.50.186 list=turris_greylist } on-error={} 
-:do { add address=51.161.50.187 list=turris_greylist } on-error={} 
-:do { add address=51.161.50.188 list=turris_greylist } on-error={} 
-:do { add address=51.161.50.189 list=turris_greylist } on-error={} 
-:do { add address=51.161.50.191 list=turris_greylist } on-error={} 
-:do { add address=51.195.213.229 list=turris_greylist } on-error={} 
-:do { add address=51.195.213.230 list=turris_greylist } on-error={} 
-:do { add address=51.210.139.3 list=turris_greylist } on-error={} 
-:do { add address=51.211.176.63 list=turris_greylist } on-error={} 
-:do { add address=51.222.228.129 list=turris_greylist } on-error={} 
-:do { add address=51.222.232.74 list=turris_greylist } on-error={} 
-:do { add address=51.255.109.160 list=turris_greylist } on-error={} 
-:do { add address=51.255.109.162 list=turris_greylist } on-error={} 
-:do { add address=51.255.109.164 list=turris_greylist } on-error={} 
-:do { add address=51.255.109.167 list=turris_greylist } on-error={} 
-:do { add address=51.255.109.169 list=turris_greylist } on-error={} 
-:do { add address=51.255.109.170 list=turris_greylist } on-error={} 
-:do { add address=51.255.109.171 list=turris_greylist } on-error={} 
-:do { add address=51.255.109.172 list=turris_greylist } on-error={} 
-:do { add address=51.255.109.175 list=turris_greylist } on-error={} 
-:do { add address=52.36.184.20 list=turris_greylist } on-error={} 
-:do { add address=52.73.169.169 list=turris_greylist } on-error={} 
-:do { add address=52.140.16.169 list=turris_greylist } on-error={} 
-:do { add address=52.140.32.190 list=turris_greylist } on-error={} 
-:do { add address=52.149.168.110 list=turris_greylist } on-error={} 
-:do { add address=52.152.160.73 list=turris_greylist } on-error={} 
-:do { add address=52.174.144.106 list=turris_greylist } on-error={} 
-:do { add address=52.183.131.104 list=turris_greylist } on-error={} 
-:do { add address=52.187.121.163 list=turris_greylist } on-error={} 
-:do { add address=52.229.28.86 list=turris_greylist } on-error={} 
-:do { add address=52.249.253.40 list=turris_greylist } on-error={} 
-:do { add address=54.201.102.214 list=turris_greylist } on-error={} 
-:do { add address=54.243.154.97 list=turris_greylist } on-error={} 
-:do { add address=54.253.89.98 list=turris_greylist } on-error={} 
-:do { add address=58.18.102.140 list=turris_greylist } on-error={} 
-:do { add address=58.29.26.103 list=turris_greylist } on-error={} 
-:do { add address=58.33.98.130 list=turris_greylist } on-error={} 
-:do { add address=58.34.159.197 list=turris_greylist } on-error={} 
-:do { add address=58.34.246.26 list=turris_greylist } on-error={} 
-:do { add address=58.37.145.160 list=turris_greylist } on-error={} 
-:do { add address=58.59.176.4 list=turris_greylist } on-error={} 
-:do { add address=58.61.28.210 list=turris_greylist } on-error={} 
-:do { add address=58.63.245.203 list=turris_greylist } on-error={} 
-:do { add address=58.64.158.33 list=turris_greylist } on-error={} 
-:do { add address=58.65.71.131 list=turris_greylist } on-error={} 
-:do { add address=58.65.170.36 list=turris_greylist } on-error={} 
-:do { add address=58.65.171.162 list=turris_greylist } on-error={} 
-:do { add address=58.98.100.39 list=turris_greylist } on-error={} 
-:do { add address=58.118.39.228 list=turris_greylist } on-error={} 
-:do { add address=58.120.224.131 list=turris_greylist } on-error={} 
-:do { add address=58.122.119.36 list=turris_greylist } on-error={} 
-:do { add address=58.122.226.179 list=turris_greylist } on-error={} 
-:do { add address=58.137.0.71 list=turris_greylist } on-error={} 
-:do { add address=58.147.170.85 list=turris_greylist } on-error={} 
-:do { add address=58.209.234.81 list=turris_greylist } on-error={} 
-:do { add address=58.210.89.180 list=turris_greylist } on-error={} 
-:do { add address=58.210.238.114 list=turris_greylist } on-error={} 
-:do { add address=58.211.117.163 list=turris_greylist } on-error={} 
-:do { add address=58.211.154.131 list=turris_greylist } on-error={} 
-:do { add address=58.212.68.61 list=turris_greylist } on-error={} 
-:do { add address=58.212.209.29 list=turris_greylist } on-error={} 
-:do { add address=58.215.201.86 list=turris_greylist } on-error={} 
-:do { add address=58.216.164.70 list=turris_greylist } on-error={} 
-:do { add address=58.216.205.170 list=turris_greylist } on-error={} 
-:do { add address=58.216.216.74 list=turris_greylist } on-error={} 
-:do { add address=58.217.227.31 list=turris_greylist } on-error={} 
-:do { add address=58.218.204.183 list=turris_greylist } on-error={} 
-:do { add address=58.221.11.50 list=turris_greylist } on-error={} 
-:do { add address=58.221.60.47 list=turris_greylist } on-error={} 
-:do { add address=58.221.62.214 list=turris_greylist } on-error={} 
-:do { add address=58.225.56.18 list=turris_greylist } on-error={} 
-:do { add address=58.225.56.21 list=turris_greylist } on-error={} 
-:do { add address=58.225.56.23 list=turris_greylist } on-error={} 
-:do { add address=58.226.193.241 list=turris_greylist } on-error={} 
-:do { add address=58.229.184.179 list=turris_greylist } on-error={} 
-:do { add address=58.229.204.215 list=turris_greylist } on-error={} 
-:do { add address=58.230.56.217 list=turris_greylist } on-error={} 
-:do { add address=58.230.162.144 list=turris_greylist } on-error={} 
-:do { add address=58.232.29.240 list=turris_greylist } on-error={} 
-:do { add address=58.232.76.47 list=turris_greylist } on-error={} 
-:do { add address=58.234.138.175 list=turris_greylist } on-error={} 
-:do { add address=58.235.100.248 list=turris_greylist } on-error={} 
-:do { add address=58.239.58.103 list=turris_greylist } on-error={} 
-:do { add address=58.241.123.31 list=turris_greylist } on-error={} 
-:do { add address=58.251.76.166 list=turris_greylist } on-error={} 
-:do { add address=59.30.162.20 list=turris_greylist } on-error={} 
-:do { add address=59.35.20.173 list=turris_greylist } on-error={} 
-:do { add address=59.35.20.254 list=turris_greylist } on-error={} 
-:do { add address=59.41.68.8 list=turris_greylist } on-error={} 
-:do { add address=59.41.239.253 list=turris_greylist } on-error={} 
-:do { add address=59.44.37.156 list=turris_greylist } on-error={} 
-:do { add address=59.46.13.18 list=turris_greylist } on-error={} 
-:do { add address=59.46.13.130 list=turris_greylist } on-error={} 
-:do { add address=59.46.13.136 list=turris_greylist } on-error={} 
-:do { add address=59.46.46.34 list=turris_greylist } on-error={} 
-:do { add address=59.46.96.7 list=turris_greylist } on-error={} 
-:do { add address=59.46.96.20 list=turris_greylist } on-error={} 
-:do { add address=59.46.96.38 list=turris_greylist } on-error={} 
-:do { add address=59.52.78.185 list=turris_greylist } on-error={} 
-:do { add address=59.56.226.180 list=turris_greylist } on-error={} 
-:do { add address=59.61.164.48 list=turris_greylist } on-error={} 
-:do { add address=59.94.38.216 list=turris_greylist } on-error={} 
-:do { add address=59.110.163.169 list=turris_greylist } on-error={} 
-:do { add address=59.110.212.80 list=turris_greylist } on-error={} 
-:do { add address=59.111.100.242 list=turris_greylist } on-error={} 
-:do { add address=59.120.55.33 list=turris_greylist } on-error={} 
-:do { add address=59.125.218.249 list=turris_greylist } on-error={} 
-:do { add address=59.127.18.237 list=turris_greylist } on-error={} 
-:do { add address=59.127.35.8 list=turris_greylist } on-error={} 
-:do { add address=59.127.75.3 list=turris_greylist } on-error={} 
-:do { add address=59.127.131.165 list=turris_greylist } on-error={} 
-:do { add address=59.148.18.181 list=turris_greylist } on-error={} 
-:do { add address=59.148.19.1 list=turris_greylist } on-error={} 
-:do { add address=59.148.20.65 list=turris_greylist } on-error={} 
-:do { add address=59.152.251.30 list=turris_greylist } on-error={} 
-:do { add address=59.188.183.57 list=turris_greylist } on-error={} 
-:do { add address=59.188.183.59 list=turris_greylist } on-error={} 
-:do { add address=59.188.183.61 list=turris_greylist } on-error={} 
-:do { add address=60.2.159.198 list=turris_greylist } on-error={} 
-:do { add address=60.2.245.166 list=turris_greylist } on-error={} 
-:do { add address=60.8.87.190 list=turris_greylist } on-error={} 
-:do { add address=60.18.128.4 list=turris_greylist } on-error={} 
-:do { add address=60.23.54.94 list=turris_greylist } on-error={} 
-:do { add address=60.24.77.47 list=turris_greylist } on-error={} 
-:do { add address=60.28.24.170 list=turris_greylist } on-error={} 
-:do { add address=60.28.24.243 list=turris_greylist } on-error={} 
-:do { add address=60.29.18.10 list=turris_greylist } on-error={} 
-:do { add address=60.167.71.8 list=turris_greylist } on-error={} 
-:do { add address=60.170.247.162 list=turris_greylist } on-error={} 
-:do { add address=60.173.244.211 list=turris_greylist } on-error={} 
-:do { add address=60.190.249.119 list=turris_greylist } on-error={} 
-:do { add address=60.191.72.135 list=turris_greylist } on-error={} 
-:do { add address=60.191.125.35 list=turris_greylist } on-error={} 
-:do { add address=60.205.106.108 list=turris_greylist } on-error={} 
-:do { add address=60.208.61.3 list=turris_greylist } on-error={} 
-:do { add address=60.217.75.69 list=turris_greylist } on-error={} 
-:do { add address=60.218.191.236 list=turris_greylist } on-error={} 
-:do { add address=60.219.253.226 list=turris_greylist } on-error={} 
-:do { add address=60.222.227.234 list=turris_greylist } on-error={} 
-:do { add address=60.223.201.248 list=turris_greylist } on-error={} 
-:do { add address=60.227.181.231 list=turris_greylist } on-error={} 
-:do { add address=60.244.121.125 list=turris_greylist } on-error={} 
-:do { add address=60.246.236.113 list=turris_greylist } on-error={} 
-:do { add address=60.247.21.198 list=turris_greylist } on-error={} 
-:do { add address=60.249.140.162 list=turris_greylist } on-error={} 
-:do { add address=60.249.246.57 list=turris_greylist } on-error={} 
-:do { add address=60.250.139.180 list=turris_greylist } on-error={} 
-:do { add address=60.251.203.79 list=turris_greylist } on-error={} 
-:do { add address=61.19.254.40 list=turris_greylist } on-error={} 
-:do { add address=61.33.245.252 list=turris_greylist } on-error={} 
-:do { add address=61.38.176.74 list=turris_greylist } on-error={} 
-:do { add address=61.39.111.25 list=turris_greylist } on-error={} 
-:do { add address=61.40.159.220 list=turris_greylist } on-error={} 
-:do { add address=61.41.4.6 list=turris_greylist } on-error={} 
-:do { add address=61.49.49.22 list=turris_greylist } on-error={} 
-:do { add address=61.50.115.110 list=turris_greylist } on-error={} 
-:do { add address=61.50.118.34 list=turris_greylist } on-error={} 
-:do { add address=61.51.122.26 list=turris_greylist } on-error={} 
-:do { add address=61.54.231.129 list=turris_greylist } on-error={} 
-:do { add address=61.61.72.78 list=turris_greylist } on-error={} 
-:do { add address=61.65.173.93 list=turris_greylist } on-error={} 
-:do { add address=61.72.255.26 list=turris_greylist } on-error={} 
-:do { add address=61.101.108.147 list=turris_greylist } on-error={} 
-:do { add address=61.111.14.8 list=turris_greylist } on-error={} 
-:do { add address=61.111.18.35 list=turris_greylist } on-error={} 
-:do { add address=61.133.238.214 list=turris_greylist } on-error={} 
-:do { add address=61.136.101.132 list=turris_greylist } on-error={} 
-:do { add address=61.139.104.194 list=turris_greylist } on-error={} 
-:do { add address=61.142.29.2 list=turris_greylist } on-error={} 
-:do { add address=61.142.75.66 list=turris_greylist } on-error={} 
-:do { add address=61.146.211.86 list=turris_greylist } on-error={} 
-:do { add address=61.147.115.155 list=turris_greylist } on-error={} 
-:do { add address=61.148.28.118 list=turris_greylist } on-error={} 
-:do { add address=61.150.76.201 list=turris_greylist } on-error={} 
-:do { add address=61.155.63.94 list=turris_greylist } on-error={} 
-:do { add address=61.157.12.131 list=turris_greylist } on-error={} 
-:do { add address=61.164.57.108 list=turris_greylist } on-error={} 
-:do { add address=61.165.38.152 list=turris_greylist } on-error={} 
-:do { add address=61.165.143.111 list=turris_greylist } on-error={} 
-:do { add address=61.168.14.46 list=turris_greylist } on-error={} 
-:do { add address=61.170.191.39 list=turris_greylist } on-error={} 
-:do { add address=61.177.172.107 list=turris_greylist } on-error={} 
-:do { add address=61.178.84.199 list=turris_greylist } on-error={} 
-:do { add address=61.181.241.59 list=turris_greylist } on-error={} 
-:do { add address=61.183.9.39 list=turris_greylist } on-error={} 
-:do { add address=61.184.80.4 list=turris_greylist } on-error={} 
-:do { add address=61.185.208.186 list=turris_greylist } on-error={} 
-:do { add address=61.186.159.26 list=turris_greylist } on-error={} 
-:do { add address=61.191.50.228 list=turris_greylist } on-error={} 
-:do { add address=61.216.44.125 list=turris_greylist } on-error={} 
-:do { add address=61.216.79.209 list=turris_greylist } on-error={} 
-:do { add address=61.219.11.151 list=turris_greylist } on-error={} 
-:do { add address=61.220.65.126 list=turris_greylist } on-error={} 
-:do { add address=61.220.197.166 list=turris_greylist } on-error={} 
-:do { add address=61.221.225.172 list=turris_greylist } on-error={} 
-:do { add address=61.241.218.152 list=turris_greylist } on-error={} 
-:do { add address=61.255.150.203 list=turris_greylist } on-error={} 
-:do { add address=62.1.34.199 list=turris_greylist } on-error={} 
-:do { add address=62.23.142.219 list=turris_greylist } on-error={} 
-:do { add address=62.23.142.220 list=turris_greylist } on-error={} 
-:do { add address=62.38.176.211 list=turris_greylist } on-error={} 
-:do { add address=62.67.203.240 list=turris_greylist } on-error={} 
-:do { add address=62.114.120.197 list=turris_greylist } on-error={} 
-:do { add address=62.115.138.105 list=turris_greylist } on-error={} 
-:do { add address=62.115.139.180 list=turris_greylist } on-error={} 
-:do { add address=62.115.139.186 list=turris_greylist } on-error={} 
-:do { add address=62.115.143.29 list=turris_greylist } on-error={} 
-:do { add address=62.122.103.110 list=turris_greylist } on-error={} 
-:do { add address=62.140.250.122 list=turris_greylist } on-error={} 
-:do { add address=62.162.146.102 list=turris_greylist } on-error={} 
-:do { add address=62.169.203.69 list=turris_greylist } on-error={} 
-:do { add address=62.171.147.55 list=turris_greylist } on-error={} 
-:do { add address=62.171.162.128 list=turris_greylist } on-error={} 
-:do { add address=62.173.147.56 list=turris_greylist } on-error={} 
-:do { add address=62.182.85.210 list=turris_greylist } on-error={} 
-:do { add address=62.193.68.137 list=turris_greylist } on-error={} 
-:do { add address=62.197.136.26 list=turris_greylist } on-error={} 
-:do { add address=62.197.136.120 list=turris_greylist } on-error={} 
-:do { add address=62.197.136.159 list=turris_greylist } on-error={} 
-:do { add address=62.197.136.161 list=turris_greylist } on-error={} 
-:do { add address=62.197.136.185 list=turris_greylist } on-error={} 
-:do { add address=62.204.145.204 list=turris_greylist } on-error={} 
-:do { add address=62.210.13.20 list=turris_greylist } on-error={} 
-:do { add address=62.210.47.58 list=turris_greylist } on-error={} 
-:do { add address=62.210.124.66 list=turris_greylist } on-error={} 
-:do { add address=62.210.141.229 list=turris_greylist } on-error={} 
-:do { add address=62.212.230.38 list=turris_greylist } on-error={} 
-:do { add address=62.213.82.18 list=turris_greylist } on-error={} 
-:do { add address=62.228.87.27 list=turris_greylist } on-error={} 
-:do { add address=62.233.50.53 list=turris_greylist } on-error={} 
-:do { add address=62.233.50.121 list=turris_greylist } on-error={} 
-:do { add address=63.143.99.121 list=turris_greylist } on-error={} 
-:do { add address=63.251.210.32 list=turris_greylist } on-error={} 
-:do { add address=63.252.132.12 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.3 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.5 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.6 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.7 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.9 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.10 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.12 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.13 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.14 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.15 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.16 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.17 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.18 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.19 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.20 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.22 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.24 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.26 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.27 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.28 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.29 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.30 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.31 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.32 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.33 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.34 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.35 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.36 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.37 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.38 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.39 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.40 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.41 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.42 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.44 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.45 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.47 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.48 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.49 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.50 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.51 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.52 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.53 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.54 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.55 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.56 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.57 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.58 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.60 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.61 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.62 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.63 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.64 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.65 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.66 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.67 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.68 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.69 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.70 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.71 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.72 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.73 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.74 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.75 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.76 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.77 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.78 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.79 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.80 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.81 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.82 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.83 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.84 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.85 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.86 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.87 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.88 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.90 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.92 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.93 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.94 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.95 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.96 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.97 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.99 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.100 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.101 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.102 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.103 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.104 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.105 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.106 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.107 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.108 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.109 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.110 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.111 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.112 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.113 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.114 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.115 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.116 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.117 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.118 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.119 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.120 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.121 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.122 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.123 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.124 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.125 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.126 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.127 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.128 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.129 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.130 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.131 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.132 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.133 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.134 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.135 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.136 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.137 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.138 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.139 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.140 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.141 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.142 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.143 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.144 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.145 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.146 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.147 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.148 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.149 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.150 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.151 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.152 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.153 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.155 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.156 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.157 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.158 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.160 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.161 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.162 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.163 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.164 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.165 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.166 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.167 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.168 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.172 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.173 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.174 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.175 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.176 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.177 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.178 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.179 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.180 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.181 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.182 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.183 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.184 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.185 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.186 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.187 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.188 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.189 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.191 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.192 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.193 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.195 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.196 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.197 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.199 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.202 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.203 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.204 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.205 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.207 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.209 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.210 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.212 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.213 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.214 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.215 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.216 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.217 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.218 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.219 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.220 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.221 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.222 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.223 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.224 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.225 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.226 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.227 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.228 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.229 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.230 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.231 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.232 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.233 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.234 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.235 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.236 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.237 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.238 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.239 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.240 list=turris_greylist } on-error={} 
-:do { add address=64.62.197.241 list=turris_greylist } on-error={} 
-:do { add address=64.88.187.91 list=turris_greylist } on-error={} 
-:do { add address=64.112.62.172 list=turris_greylist } on-error={} 
-:do { add address=64.203.147.207 list=turris_greylist } on-error={} 
-:do { add address=64.222.163.248 list=turris_greylist } on-error={} 
-:do { add address=64.225.11.107 list=turris_greylist } on-error={} 
-:do { add address=64.225.25.247 list=turris_greylist } on-error={} 
-:do { add address=64.225.58.36 list=turris_greylist } on-error={} 
-:do { add address=64.225.75.232 list=turris_greylist } on-error={} 
-:do { add address=64.225.110.205 list=turris_greylist } on-error={} 
-:do { add address=64.225.110.241 list=turris_greylist } on-error={} 
-:do { add address=64.227.7.33 list=turris_greylist } on-error={} 
-:do { add address=64.227.97.195 list=turris_greylist } on-error={} 
-:do { add address=64.227.99.233 list=turris_greylist } on-error={} 
-:do { add address=64.227.105.82 list=turris_greylist } on-error={} 
-:do { add address=64.227.119.254 list=turris_greylist } on-error={} 
-:do { add address=64.227.122.161 list=turris_greylist } on-error={} 
-:do { add address=64.227.127.35 list=turris_greylist } on-error={} 
-:do { add address=64.227.179.57 list=turris_greylist } on-error={} 
-:do { add address=64.227.184.62 list=turris_greylist } on-error={} 
-:do { add address=64.246.161.26 list=turris_greylist } on-error={} 
-:do { add address=65.18.117.228 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.66 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.67 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.68 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.69 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.70 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.71 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.72 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.73 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.74 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.75 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.76 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.77 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.78 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.79 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.80 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.82 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.83 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.84 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.85 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.86 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.87 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.88 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.89 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.90 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.91 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.92 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.93 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.94 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.95 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.96 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.97 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.98 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.99 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.100 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.101 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.102 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.103 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.104 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.105 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.106 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.107 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.108 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.109 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.110 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.111 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.112 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.113 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.114 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.115 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.116 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.117 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.118 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.119 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.120 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.121 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.122 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.123 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.124 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.125 list=turris_greylist } on-error={} 
-:do { add address=65.49.20.126 list=turris_greylist } on-error={} 
-:do { add address=65.153.139.218 list=turris_greylist } on-error={} 
-:do { add address=65.182.92.235 list=turris_greylist } on-error={} 
-:do { add address=65.255.219.242 list=turris_greylist } on-error={} 
-:do { add address=66.16.143.77 list=turris_greylist } on-error={} 
-:do { add address=66.29.211.121 list=turris_greylist } on-error={} 
-:do { add address=66.36.234.42 list=turris_greylist } on-error={} 
-:do { add address=66.36.234.118 list=turris_greylist } on-error={} 
-:do { add address=66.85.15.1 list=turris_greylist } on-error={} 
-:do { add address=66.94.102.232 list=turris_greylist } on-error={} 
-:do { add address=66.150.130.188 list=turris_greylist } on-error={} 
-:do { add address=66.150.130.189 list=turris_greylist } on-error={} 
-:do { add address=66.151.51.61 list=turris_greylist } on-error={} 
-:do { add address=66.175.220.5 list=turris_greylist } on-error={} 
-:do { add address=66.181.165.166 list=turris_greylist } on-error={} 
-:do { add address=66.187.6.21 list=turris_greylist } on-error={} 
-:do { add address=66.187.6.210 list=turris_greylist } on-error={} 
-:do { add address=66.240.192.82 list=turris_greylist } on-error={} 
-:do { add address=66.240.236.116 list=turris_greylist } on-error={} 
-:do { add address=67.80.59.84 list=turris_greylist } on-error={} 
-:do { add address=67.205.140.79 list=turris_greylist } on-error={} 
-:do { add address=67.207.95.230 list=turris_greylist } on-error={} 
-:do { add address=67.212.92.212 list=turris_greylist } on-error={} 
-:do { add address=67.222.158.173 list=turris_greylist } on-error={} 
-:do { add address=67.222.158.177 list=turris_greylist } on-error={} 
-:do { add address=67.222.158.186 list=turris_greylist } on-error={} 
-:do { add address=67.222.158.187 list=turris_greylist } on-error={} 
-:do { add address=67.222.158.189 list=turris_greylist } on-error={} 
-:do { add address=67.231.21.21 list=turris_greylist } on-error={} 
-:do { add address=67.254.238.233 list=turris_greylist } on-error={} 
-:do { add address=68.94.186.136 list=turris_greylist } on-error={} 
-:do { add address=68.107.171.130 list=turris_greylist } on-error={} 
-:do { add address=68.132.41.4 list=turris_greylist } on-error={} 
-:do { add address=68.132.69.104 list=turris_greylist } on-error={} 
-:do { add address=68.183.37.186 list=turris_greylist } on-error={} 
-:do { add address=68.183.48.36 list=turris_greylist } on-error={} 
-:do { add address=68.183.50.1 list=turris_greylist } on-error={} 
-:do { add address=68.183.76.205 list=turris_greylist } on-error={} 
-:do { add address=68.183.89.222 list=turris_greylist } on-error={} 
-:do { add address=68.183.123.243 list=turris_greylist } on-error={} 
-:do { add address=68.183.150.101 list=turris_greylist } on-error={} 
-:do { add address=68.183.188.159 list=turris_greylist } on-error={} 
-:do { add address=68.183.213.218 list=turris_greylist } on-error={} 
-:do { add address=68.183.216.255 list=turris_greylist } on-error={} 
-:do { add address=68.183.229.82 list=turris_greylist } on-error={} 
-:do { add address=68.183.236.30 list=turris_greylist } on-error={} 
-:do { add address=68.206.217.140 list=turris_greylist } on-error={} 
-:do { add address=69.27.14.144 list=turris_greylist } on-error={} 
-:do { add address=69.42.66.94 list=turris_greylist } on-error={} 
-:do { add address=69.42.81.14 list=turris_greylist } on-error={} 
-:do { add address=69.51.23.63 list=turris_greylist } on-error={} 
-:do { add address=69.57.239.254 list=turris_greylist } on-error={} 
-:do { add address=69.85.239.19 list=turris_greylist } on-error={} 
-:do { add address=69.165.37.216 list=turris_greylist } on-error={} 
-:do { add address=69.172.87.101 list=turris_greylist } on-error={} 
-:do { add address=69.172.87.121 list=turris_greylist } on-error={} 
-:do { add address=69.176.95.216 list=turris_greylist } on-error={} 
-:do { add address=70.18.15.119 list=turris_greylist } on-error={} 
-:do { add address=70.124.125.24 list=turris_greylist } on-error={} 
-:do { add address=70.183.194.148 list=turris_greylist } on-error={} 
-:do { add address=71.6.231.8 list=turris_greylist } on-error={} 
-:do { add address=71.6.231.80 list=turris_greylist } on-error={} 
-:do { add address=71.6.231.81 list=turris_greylist } on-error={} 
-:do { add address=71.6.231.83 list=turris_greylist } on-error={} 
-:do { add address=71.6.231.86 list=turris_greylist } on-error={} 
-:do { add address=71.6.231.87 list=turris_greylist } on-error={} 
-:do { add address=71.6.231.186 list=turris_greylist } on-error={} 
-:do { add address=71.6.232.4 list=turris_greylist } on-error={} 
-:do { add address=71.6.232.5 list=turris_greylist } on-error={} 
-:do { add address=71.6.232.6 list=turris_greylist } on-error={} 
-:do { add address=71.249.100.245 list=turris_greylist } on-error={} 
-:do { add address=72.90.84.59 list=turris_greylist } on-error={} 
-:do { add address=72.95.129.172 list=turris_greylist } on-error={} 
-:do { add address=72.255.1.235 list=turris_greylist } on-error={} 
-:do { add address=73.24.8.237 list=turris_greylist } on-error={} 
-:do { add address=73.70.252.124 list=turris_greylist } on-error={} 
-:do { add address=73.137.136.35 list=turris_greylist } on-error={} 
-:do { add address=73.186.0.64 list=turris_greylist } on-error={} 
-:do { add address=73.189.32.240 list=turris_greylist } on-error={} 
-:do { add address=73.226.81.82 list=turris_greylist } on-error={} 
-:do { add address=74.62.127.47 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.2 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.3 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.4 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.5 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.6 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.8 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.9 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.10 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.11 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.12 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.13 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.14 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.16 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.17 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.18 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.21 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.22 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.23 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.24 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.25 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.26 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.27 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.28 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.29 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.30 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.31 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.32 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.33 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.34 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.35 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.37 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.38 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.41 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.42 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.43 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.44 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.45 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.46 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.47 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.48 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.49 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.50 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.51 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.52 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.53 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.54 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.57 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.58 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.59 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.60 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.61 list=turris_greylist } on-error={} 
-:do { add address=74.82.47.62 list=turris_greylist } on-error={} 
-:do { add address=74.84.150.158 list=turris_greylist } on-error={} 
-:do { add address=74.87.227.122 list=turris_greylist } on-error={} 
-:do { add address=74.101.122.9 list=turris_greylist } on-error={} 
-:do { add address=74.114.202.88 list=turris_greylist } on-error={} 
-:do { add address=74.174.204.134 list=turris_greylist } on-error={} 
-:do { add address=74.198.228.206 list=turris_greylist } on-error={} 
-:do { add address=74.201.25.43 list=turris_greylist } on-error={} 
-:do { add address=74.255.67.50 list=turris_greylist } on-error={} 
-:do { add address=75.114.100.166 list=turris_greylist } on-error={} 
-:do { add address=75.127.11.52 list=turris_greylist } on-error={} 
-:do { add address=75.142.220.129 list=turris_greylist } on-error={} 
-:do { add address=76.80.0.178 list=turris_greylist } on-error={} 
-:do { add address=76.82.64.145 list=turris_greylist } on-error={} 
-:do { add address=77.43.18.74 list=turris_greylist } on-error={} 
-:do { add address=77.79.18.168 list=turris_greylist } on-error={} 
-:do { add address=77.81.21.249 list=turris_greylist } on-error={} 
-:do { add address=77.83.36.46 list=turris_greylist } on-error={} 
-:do { add address=77.91.194.210 list=turris_greylist } on-error={} 
-:do { add address=77.104.65.13 list=turris_greylist } on-error={} 
-:do { add address=77.121.92.243 list=turris_greylist } on-error={} 
-:do { add address=77.222.109.174 list=turris_greylist } on-error={} 
-:do { add address=77.239.65.206 list=turris_greylist } on-error={} 
-:do { add address=77.240.92.195 list=turris_greylist } on-error={} 
-:do { add address=77.240.153.122 list=turris_greylist } on-error={} 
-:do { add address=77.242.20.190 list=turris_greylist } on-error={} 
-:do { add address=77.243.181.54 list=turris_greylist } on-error={} 
-:do { add address=77.247.110.110 list=turris_greylist } on-error={} 
-:do { add address=77.247.110.112 list=turris_greylist } on-error={} 
-:do { add address=77.247.110.115 list=turris_greylist } on-error={} 
-:do { add address=77.247.110.122 list=turris_greylist } on-error={} 
-:do { add address=77.247.110.146 list=turris_greylist } on-error={} 
-:do { add address=77.247.110.147 list=turris_greylist } on-error={} 
-:do { add address=77.247.237.160 list=turris_greylist } on-error={} 
-:do { add address=78.36.196.213 list=turris_greylist } on-error={} 
-:do { add address=78.39.200.219 list=turris_greylist } on-error={} 
-:do { add address=78.39.200.221 list=turris_greylist } on-error={} 
-:do { add address=78.47.112.156 list=turris_greylist } on-error={} 
-:do { add address=78.101.163.5 list=turris_greylist } on-error={} 
-:do { add address=78.108.177.50 list=turris_greylist } on-error={} 
-:do { add address=78.108.177.51 list=turris_greylist } on-error={} 
-:do { add address=78.108.177.53 list=turris_greylist } on-error={} 
-:do { add address=78.108.177.54 list=turris_greylist } on-error={} 
-:do { add address=78.109.53.247 list=turris_greylist } on-error={} 
-:do { add address=78.152.168.152 list=turris_greylist } on-error={} 
-:do { add address=78.157.42.59 list=turris_greylist } on-error={} 
-:do { add address=78.186.144.125 list=turris_greylist } on-error={} 
-:do { add address=78.186.171.25 list=turris_greylist } on-error={} 
-:do { add address=78.186.194.146 list=turris_greylist } on-error={} 
-:do { add address=78.187.175.152 list=turris_greylist } on-error={} 
-:do { add address=78.188.180.139 list=turris_greylist } on-error={} 
-:do { add address=78.189.201.109 list=turris_greylist } on-error={} 
-:do { add address=78.198.56.121 list=turris_greylist } on-error={} 
-:do { add address=79.1.40.148 list=turris_greylist } on-error={} 
-:do { add address=79.8.163.104 list=turris_greylist } on-error={} 
-:do { add address=79.11.192.131 list=turris_greylist } on-error={} 
-:do { add address=79.61.46.17 list=turris_greylist } on-error={} 
-:do { add address=79.110.53.204 list=turris_greylist } on-error={} 
-:do { add address=79.111.12.111 list=turris_greylist } on-error={} 
-:do { add address=79.124.62.62 list=turris_greylist } on-error={} 
-:do { add address=79.124.62.246 list=turris_greylist } on-error={} 
-:do { add address=79.129.28.23 list=turris_greylist } on-error={} 
-:do { add address=79.135.66.156 list=turris_greylist } on-error={} 
-:do { add address=79.142.89.138 list=turris_greylist } on-error={} 
-:do { add address=79.172.40.94 list=turris_greylist } on-error={} 
-:do { add address=80.21.126.234 list=turris_greylist } on-error={} 
-:do { add address=80.28.236.150 list=turris_greylist } on-error={} 
-:do { add address=80.48.99.227 list=turris_greylist } on-error={} 
-:do { add address=80.73.91.130 list=turris_greylist } on-error={} 
-:do { add address=80.82.77.5 list=turris_greylist } on-error={} 
-:do { add address=80.82.77.234 list=turris_greylist } on-error={} 
-:do { add address=80.82.78.100 list=turris_greylist } on-error={} 
-:do { add address=80.85.86.31 list=turris_greylist } on-error={} 
-:do { add address=80.87.76.38 list=turris_greylist } on-error={} 
-:do { add address=80.89.151.114 list=turris_greylist } on-error={} 
-:do { add address=80.90.92.81 list=turris_greylist } on-error={} 
-:do { add address=80.92.29.14 list=turris_greylist } on-error={} 
-:do { add address=80.93.210.82 list=turris_greylist } on-error={} 
-:do { add address=80.106.74.30 list=turris_greylist } on-error={} 
-:do { add address=80.210.58.250 list=turris_greylist } on-error={} 
-:do { add address=80.237.49.19 list=turris_greylist } on-error={} 
-:do { add address=80.240.200.155 list=turris_greylist } on-error={} 
-:do { add address=80.251.144.16 list=turris_greylist } on-error={} 
-:do { add address=81.4.109.182 list=turris_greylist } on-error={} 
-:do { add address=81.10.19.229 list=turris_greylist } on-error={} 
-:do { add address=81.10.59.117 list=turris_greylist } on-error={} 
-:do { add address=81.10.77.235 list=turris_greylist } on-error={} 
-:do { add address=81.17.25.50 list=turris_greylist } on-error={} 
-:do { add address=81.17.92.203 list=turris_greylist } on-error={} 
-:do { add address=81.22.98.8 list=turris_greylist } on-error={} 
-:do { add address=81.22.103.129 list=turris_greylist } on-error={} 
-:do { add address=81.23.151.223 list=turris_greylist } on-error={} 
-:do { add address=81.28.167.118 list=turris_greylist } on-error={} 
-:do { add address=81.39.100.157 list=turris_greylist } on-error={} 
-:do { add address=81.63.150.90 list=turris_greylist } on-error={} 
-:do { add address=81.68.114.82 list=turris_greylist } on-error={} 
-:do { add address=81.68.171.253 list=turris_greylist } on-error={} 
-:do { add address=81.70.104.159 list=turris_greylist } on-error={} 
-:do { add address=81.70.159.14 list=turris_greylist } on-error={} 
-:do { add address=81.70.161.101 list=turris_greylist } on-error={} 
-:do { add address=81.71.164.221 list=turris_greylist } on-error={} 
-:do { add address=81.91.158.146 list=turris_greylist } on-error={} 
-:do { add address=81.192.192.208 list=turris_greylist } on-error={} 
-:do { add address=81.213.141.194 list=turris_greylist } on-error={} 
-:do { add address=81.214.248.240 list=turris_greylist } on-error={} 
-:do { add address=81.218.45.230 list=turris_greylist } on-error={} 
-:do { add address=82.66.84.2 list=turris_greylist } on-error={} 
-:do { add address=82.80.41.234 list=turris_greylist } on-error={} 
-:do { add address=82.80.253.7 list=turris_greylist } on-error={} 
-:do { add address=82.98.145.140 list=turris_greylist } on-error={} 
-:do { add address=82.98.148.241 list=turris_greylist } on-error={} 
-:do { add address=82.98.164.45 list=turris_greylist } on-error={} 
-:do { add address=82.129.226.42 list=turris_greylist } on-error={} 
-:do { add address=82.137.245.118 list=turris_greylist } on-error={} 
-:do { add address=82.138.49.233 list=turris_greylist } on-error={} 
-:do { add address=82.156.174.76 list=turris_greylist } on-error={} 
-:do { add address=82.156.205.15 list=turris_greylist } on-error={} 
-:do { add address=82.157.66.63 list=turris_greylist } on-error={} 
-:do { add address=82.157.68.216 list=turris_greylist } on-error={} 
-:do { add address=82.157.154.202 list=turris_greylist } on-error={} 
-:do { add address=82.159.200.114 list=turris_greylist } on-error={} 
-:do { add address=82.186.233.89 list=turris_greylist } on-error={} 
-:do { add address=82.193.158.50 list=turris_greylist } on-error={} 
-:do { add address=82.194.57.221 list=turris_greylist } on-error={} 
-:do { add address=82.196.6.153 list=turris_greylist } on-error={} 
-:do { add address=82.197.222.123 list=turris_greylist } on-error={} 
-:do { add address=82.199.96.193 list=turris_greylist } on-error={} 
-:do { add address=82.199.96.214 list=turris_greylist } on-error={} 
-:do { add address=82.222.155.162 list=turris_greylist } on-error={} 
-:do { add address=83.69.194.11 list=turris_greylist } on-error={} 
-:do { add address=83.136.114.154 list=turris_greylist } on-error={} 
-:do { add address=83.143.246.30 list=turris_greylist } on-error={} 
-:do { add address=83.144.189.163 list=turris_greylist } on-error={} 
-:do { add address=83.228.82.218 list=turris_greylist } on-error={} 
-:do { add address=83.228.105.83 list=turris_greylist } on-error={} 
-:do { add address=84.21.170.218 list=turris_greylist } on-error={} 
-:do { add address=84.38.189.2 list=turris_greylist } on-error={} 
-:do { add address=84.38.189.172 list=turris_greylist } on-error={} 
-:do { add address=84.42.96.48 list=turris_greylist } on-error={} 
-:do { add address=84.242.124.74 list=turris_greylist } on-error={} 
-:do { add address=84.246.209.246 list=turris_greylist } on-error={} 
-:do { add address=85.17.17.71 list=turris_greylist } on-error={} 
-:do { add address=85.29.136.63 list=turris_greylist } on-error={} 
-:do { add address=85.52.20.90 list=turris_greylist } on-error={} 
-:do { add address=85.62.209.29 list=turris_greylist } on-error={} 
-:do { add address=85.92.191.132 list=turris_greylist } on-error={} 
-:do { add address=85.105.73.16 list=turris_greylist } on-error={} 
-:do { add address=85.105.104.119 list=turris_greylist } on-error={} 
-:do { add address=85.112.78.162 list=turris_greylist } on-error={} 
-:do { add address=85.132.79.100 list=turris_greylist } on-error={} 
-:do { add address=85.132.79.170 list=turris_greylist } on-error={} 
-:do { add address=85.133.146.10 list=turris_greylist } on-error={} 
-:do { add address=85.154.89.130 list=turris_greylist } on-error={} 
-:do { add address=85.194.102.234 list=turris_greylist } on-error={} 
-:do { add address=85.195.97.201 list=turris_greylist } on-error={} 
-:do { add address=85.202.169.17 list=turris_greylist } on-error={} 
-:do { add address=85.202.169.88 list=turris_greylist } on-error={} 
-:do { add address=85.202.184.39 list=turris_greylist } on-error={} 
-:do { add address=85.204.116.151 list=turris_greylist } on-error={} 
-:do { add address=85.206.38.111 list=turris_greylist } on-error={} 
-:do { add address=85.209.0.186 list=turris_greylist } on-error={} 
-:do { add address=85.221.160.242 list=turris_greylist } on-error={} 
-:do { add address=86.42.160.14 list=turris_greylist } on-error={} 
-:do { add address=86.57.161.199 list=turris_greylist } on-error={} 
-:do { add address=86.104.220.87 list=turris_greylist } on-error={} 
-:do { add address=86.108.14.204 list=turris_greylist } on-error={} 
-:do { add address=86.132.18.83 list=turris_greylist } on-error={} 
-:do { add address=86.166.149.116 list=turris_greylist } on-error={} 
-:do { add address=86.191.170.218 list=turris_greylist } on-error={} 
-:do { add address=87.9.62.52 list=turris_greylist } on-error={} 
-:do { add address=87.10.36.127 list=turris_greylist } on-error={} 
-:do { add address=87.14.255.69 list=turris_greylist } on-error={} 
-:do { add address=87.20.96.193 list=turris_greylist } on-error={} 
-:do { add address=87.26.135.71 list=turris_greylist } on-error={} 
-:do { add address=87.101.119.253 list=turris_greylist } on-error={} 
-:do { add address=87.101.178.215 list=turris_greylist } on-error={} 
-:do { add address=87.103.174.25 list=turris_greylist } on-error={} 
-:do { add address=87.103.192.129 list=turris_greylist } on-error={} 
-:do { add address=87.103.208.30 list=turris_greylist } on-error={} 
-:do { add address=87.126.166.109 list=turris_greylist } on-error={} 
-:do { add address=87.189.183.11 list=turris_greylist } on-error={} 
-:do { add address=87.236.232.226 list=turris_greylist } on-error={} 
-:do { add address=87.236.233.178 list=turris_greylist } on-error={} 
-:do { add address=87.236.233.189 list=turris_greylist } on-error={} 
-:do { add address=87.245.138.242 list=turris_greylist } on-error={} 
-:do { add address=87.246.7.44 list=turris_greylist } on-error={} 
-:do { add address=88.3.124.0 list=turris_greylist } on-error={} 
-:do { add address=88.80.186.137 list=turris_greylist } on-error={} 
-:do { add address=88.80.188.108 list=turris_greylist } on-error={} 
-:do { add address=88.160.31.117 list=turris_greylist } on-error={} 
-:do { add address=88.198.163.116 list=turris_greylist } on-error={} 
-:do { add address=88.204.188.254 list=turris_greylist } on-error={} 
-:do { add address=88.225.231.180 list=turris_greylist } on-error={} 
-:do { add address=88.225.241.143 list=turris_greylist } on-error={} 
-:do { add address=88.247.126.124 list=turris_greylist } on-error={} 
-:do { add address=88.247.176.111 list=turris_greylist } on-error={} 
-:do { add address=88.248.249.215 list=turris_greylist } on-error={} 
-:do { add address=88.249.93.112 list=turris_greylist } on-error={} 
-:do { add address=88.250.162.190 list=turris_greylist } on-error={} 
-:do { add address=88.252.94.174 list=turris_greylist } on-error={} 
-:do { add address=88.255.237.249 list=turris_greylist } on-error={} 
-:do { add address=89.39.117.111 list=turris_greylist } on-error={} 
-:do { add address=89.109.234.157 list=turris_greylist } on-error={} 
-:do { add address=89.115.252.170 list=turris_greylist } on-error={} 
-:do { add address=89.129.31.250 list=turris_greylist } on-error={} 
-:do { add address=89.165.48.250 list=turris_greylist } on-error={} 
-:do { add address=89.190.180.212 list=turris_greylist } on-error={} 
-:do { add address=89.197.45.84 list=turris_greylist } on-error={} 
-:do { add address=89.218.32.2 list=turris_greylist } on-error={} 
-:do { add address=89.218.118.22 list=turris_greylist } on-error={} 
-:do { add address=89.218.218.202 list=turris_greylist } on-error={} 
-:do { add address=89.236.218.25 list=turris_greylist } on-error={} 
-:do { add address=89.248.163.173 list=turris_greylist } on-error={} 
-:do { add address=89.248.163.174 list=turris_greylist } on-error={} 
-:do { add address=89.248.165.43 list=turris_greylist } on-error={} 
-:do { add address=89.248.165.118 list=turris_greylist } on-error={} 
-:do { add address=89.248.165.210 list=turris_greylist } on-error={} 
-:do { add address=89.248.165.245 list=turris_greylist } on-error={} 
-:do { add address=89.248.168.112 list=turris_greylist } on-error={} 
-:do { add address=89.248.168.129 list=turris_greylist } on-error={} 
-:do { add address=89.248.168.217 list=turris_greylist } on-error={} 
-:do { add address=89.248.173.131 list=turris_greylist } on-error={} 
-:do { add address=89.248.174.3 list=turris_greylist } on-error={} 
-:do { add address=89.248.198.82 list=turris_greylist } on-error={} 
-:do { add address=89.248.198.84 list=turris_greylist } on-error={} 
-:do { add address=89.248.198.85 list=turris_greylist } on-error={} 
-:do { add address=89.248.198.86 list=turris_greylist } on-error={} 
-:do { add address=89.249.74.40 list=turris_greylist } on-error={} 
-:do { add address=89.252.168.214 list=turris_greylist } on-error={} 
-:do { add address=90.63.212.112 list=turris_greylist } on-error={} 
-:do { add address=90.77.37.32 list=turris_greylist } on-error={} 
-:do { add address=90.84.227.99 list=turris_greylist } on-error={} 
-:do { add address=90.150.21.34 list=turris_greylist } on-error={} 
-:do { add address=90.188.48.144 list=turris_greylist } on-error={} 
-:do { add address=91.75.177.113 list=turris_greylist } on-error={} 
-:do { add address=91.92.130.228 list=turris_greylist } on-error={} 
-:do { add address=91.92.214.64 list=turris_greylist } on-error={} 
-:do { add address=91.93.41.95 list=turris_greylist } on-error={} 
-:do { add address=91.102.225.18 list=turris_greylist } on-error={} 
-:do { add address=91.103.192.94 list=turris_greylist } on-error={} 
-:do { add address=91.132.3.202 list=turris_greylist } on-error={} 
-:do { add address=91.134.166.8 list=turris_greylist } on-error={} 
-:do { add address=91.134.166.9 list=turris_greylist } on-error={} 
-:do { add address=91.134.166.11 list=turris_greylist } on-error={} 
-:do { add address=91.134.185.80 list=turris_greylist } on-error={} 
-:do { add address=91.134.185.82 list=turris_greylist } on-error={} 
-:do { add address=91.134.185.83 list=turris_greylist } on-error={} 
-:do { add address=91.134.185.84 list=turris_greylist } on-error={} 
-:do { add address=91.134.185.87 list=turris_greylist } on-error={} 
-:do { add address=91.134.185.89 list=turris_greylist } on-error={} 
-:do { add address=91.134.185.90 list=turris_greylist } on-error={} 
-:do { add address=91.134.185.91 list=turris_greylist } on-error={} 
-:do { add address=91.134.185.92 list=turris_greylist } on-error={} 
-:do { add address=91.134.185.93 list=turris_greylist } on-error={} 
-:do { add address=91.134.185.95 list=turris_greylist } on-error={} 
-:do { add address=91.135.193.146 list=turris_greylist } on-error={} 
-:do { add address=91.140.192.1 list=turris_greylist } on-error={} 
-:do { add address=91.143.45.210 list=turris_greylist } on-error={} 
-:do { add address=91.143.49.85 list=turris_greylist } on-error={} 
-:do { add address=91.143.61.18 list=turris_greylist } on-error={} 
-:do { add address=91.147.205.201 list=turris_greylist } on-error={} 
-:do { add address=91.149.197.15 list=turris_greylist } on-error={} 
-:do { add address=91.161.36.94 list=turris_greylist } on-error={} 
-:do { add address=91.185.206.66 list=turris_greylist } on-error={} 
-:do { add address=91.185.216.4 list=turris_greylist } on-error={} 
-:do { add address=91.193.102.246 list=turris_greylist } on-error={} 
-:do { add address=91.194.246.154 list=turris_greylist } on-error={} 
-:do { add address=91.196.100.35 list=turris_greylist } on-error={} 
-:do { add address=91.196.222.194 list=turris_greylist } on-error={} 
-:do { add address=91.207.175.154 list=turris_greylist } on-error={} 
-:do { add address=91.207.244.212 list=turris_greylist } on-error={} 
-:do { add address=91.208.197.81 list=turris_greylist } on-error={} 
-:do { add address=91.210.107.80 list=turris_greylist } on-error={} 
-:do { add address=91.215.168.125 list=turris_greylist } on-error={} 
-:do { add address=91.221.53.85 list=turris_greylist } on-error={} 
-:do { add address=91.226.123.173 list=turris_greylist } on-error={} 
-:do { add address=91.236.116.89 list=turris_greylist } on-error={} 
-:do { add address=91.237.94.167 list=turris_greylist } on-error={} 
-:do { add address=91.239.97.29 list=turris_greylist } on-error={} 
-:do { add address=91.239.97.246 list=turris_greylist } on-error={} 
-:do { add address=91.240.60.233 list=turris_greylist } on-error={} 
-:do { add address=91.240.60.237 list=turris_greylist } on-error={} 
-:do { add address=92.43.187.34 list=turris_greylist } on-error={} 
-:do { add address=92.44.191.195 list=turris_greylist } on-error={} 
-:do { add address=92.45.61.74 list=turris_greylist } on-error={} 
-:do { add address=92.46.121.26 list=turris_greylist } on-error={} 
-:do { add address=92.63.197.25 list=turris_greylist } on-error={} 
-:do { add address=92.63.197.86 list=turris_greylist } on-error={} 
-:do { add address=92.65.104.209 list=turris_greylist } on-error={} 
-:do { add address=92.97.175.58 list=turris_greylist } on-error={} 
-:do { add address=92.114.16.108 list=turris_greylist } on-error={} 
-:do { add address=92.114.18.12 list=turris_greylist } on-error={} 
-:do { add address=92.118.188.133 list=turris_greylist } on-error={} 
-:do { add address=92.204.172.102 list=turris_greylist } on-error={} 
-:do { add address=92.204.174.59 list=turris_greylist } on-error={} 
-:do { add address=92.204.184.94 list=turris_greylist } on-error={} 
-:do { add address=92.222.50.21 list=turris_greylist } on-error={} 
-:do { add address=92.242.207.18 list=turris_greylist } on-error={} 
-:do { add address=92.253.22.230 list=turris_greylist } on-error={} 
-:do { add address=93.34.4.194 list=turris_greylist } on-error={} 
-:do { add address=93.37.177.42 list=turris_greylist } on-error={} 
-:do { add address=93.38.57.221 list=turris_greylist } on-error={} 
-:do { add address=93.48.193.28 list=turris_greylist } on-error={} 
-:do { add address=93.51.74.32 list=turris_greylist } on-error={} 
-:do { add address=93.63.115.107 list=turris_greylist } on-error={} 
-:do { add address=93.82.87.32 list=turris_greylist } on-error={} 
-:do { add address=93.92.131.194 list=turris_greylist } on-error={} 
-:do { add address=93.92.233.60 list=turris_greylist } on-error={} 
-:do { add address=93.115.26.21 list=turris_greylist } on-error={} 
-:do { add address=93.115.26.49 list=turris_greylist } on-error={} 
-:do { add address=93.115.26.89 list=turris_greylist } on-error={} 
-:do { add address=93.119.33.97 list=turris_greylist } on-error={} 
-:do { add address=93.119.59.35 list=turris_greylist } on-error={} 
-:do { add address=93.125.121.73 list=turris_greylist } on-error={} 
-:do { add address=93.152.157.174 list=turris_greylist } on-error={} 
-:do { add address=93.182.73.104 list=turris_greylist } on-error={} 
-:do { add address=94.13.86.16 list=turris_greylist } on-error={} 
-:do { add address=94.20.77.77 list=turris_greylist } on-error={} 
-:do { add address=94.20.200.122 list=turris_greylist } on-error={} 
-:do { add address=94.26.246.198 list=turris_greylist } on-error={} 
-:do { add address=94.29.126.56 list=turris_greylist } on-error={} 
-:do { add address=94.45.41.66 list=turris_greylist } on-error={} 
-:do { add address=94.74.126.255 list=turris_greylist } on-error={} 
-:do { add address=94.97.49.75 list=turris_greylist } on-error={} 
-:do { add address=94.102.225.222 list=turris_greylist } on-error={} 
-:do { add address=94.103.9.221 list=turris_greylist } on-error={} 
-:do { add address=94.103.188.152 list=turris_greylist } on-error={} 
-:do { add address=94.127.145.183 list=turris_greylist } on-error={} 
-:do { add address=94.142.59.46 list=turris_greylist } on-error={} 
-:do { add address=94.159.64.10 list=turris_greylist } on-error={} 
-:do { add address=94.178.249.164 list=turris_greylist } on-error={} 
-:do { add address=94.181.191.99 list=turris_greylist } on-error={} 
-:do { add address=94.198.51.194 list=turris_greylist } on-error={} 
-:do { add address=94.198.51.199 list=turris_greylist } on-error={} 
-:do { add address=94.232.46.171 list=turris_greylist } on-error={} 
-:do { add address=94.232.172.241 list=turris_greylist } on-error={} 
-:do { add address=95.9.57.42 list=turris_greylist } on-error={} 
-:do { add address=95.9.191.195 list=turris_greylist } on-error={} 
-:do { add address=95.46.157.238 list=turris_greylist } on-error={} 
-:do { add address=95.57.218.103 list=turris_greylist } on-error={} 
-:do { add address=95.65.98.184 list=turris_greylist } on-error={} 
-:do { add address=95.85.17.8 list=turris_greylist } on-error={} 
-:do { add address=95.107.169.192 list=turris_greylist } on-error={} 
-:do { add address=95.135.201.152 list=turris_greylist } on-error={} 
-:do { add address=95.141.142.46 list=turris_greylist } on-error={} 
-:do { add address=95.143.185.66 list=turris_greylist } on-error={} 
-:do { add address=95.143.185.67 list=turris_greylist } on-error={} 
-:do { add address=95.143.185.68 list=turris_greylist } on-error={} 
-:do { add address=95.143.185.69 list=turris_greylist } on-error={} 
-:do { add address=95.154.228.11 list=turris_greylist } on-error={} 
-:do { add address=95.155.36.152 list=turris_greylist } on-error={} 
-:do { add address=95.165.5.18 list=turris_greylist } on-error={} 
-:do { add address=95.167.212.219 list=turris_greylist } on-error={} 
-:do { add address=95.171.21.227 list=turris_greylist } on-error={} 
-:do { add address=95.174.64.70 list=turris_greylist } on-error={} 
-:do { add address=95.181.161.17 list=turris_greylist } on-error={} 
-:do { add address=95.181.161.33 list=turris_greylist } on-error={} 
-:do { add address=95.181.161.44 list=turris_greylist } on-error={} 
-:do { add address=95.181.161.84 list=turris_greylist } on-error={} 
-:do { add address=95.181.161.101 list=turris_greylist } on-error={} 
-:do { add address=95.181.161.118 list=turris_greylist } on-error={} 
-:do { add address=95.181.161.143 list=turris_greylist } on-error={} 
-:do { add address=95.181.161.156 list=turris_greylist } on-error={} 
-:do { add address=95.181.161.162 list=turris_greylist } on-error={} 
-:do { add address=95.181.161.190 list=turris_greylist } on-error={} 
-:do { add address=95.181.161.204 list=turris_greylist } on-error={} 
-:do { add address=95.181.161.211 list=turris_greylist } on-error={} 
-:do { add address=95.181.161.238 list=turris_greylist } on-error={} 
-:do { add address=95.215.65.176 list=turris_greylist } on-error={} 
-:do { add address=95.215.153.210 list=turris_greylist } on-error={} 
-:do { add address=95.216.169.169 list=turris_greylist } on-error={} 
-:do { add address=95.217.61.238 list=turris_greylist } on-error={} 
-:do { add address=95.217.87.36 list=turris_greylist } on-error={} 
-:do { add address=95.217.118.53 list=turris_greylist } on-error={} 
-:do { add address=96.4.238.13 list=turris_greylist } on-error={} 
-:do { add address=96.9.67.48 list=turris_greylist } on-error={} 
-:do { add address=96.9.154.147 list=turris_greylist } on-error={} 
-:do { add address=96.9.245.119 list=turris_greylist } on-error={} 
-:do { add address=96.9.245.120 list=turris_greylist } on-error={} 
-:do { add address=96.68.213.131 list=turris_greylist } on-error={} 
-:do { add address=96.78.71.106 list=turris_greylist } on-error={} 
-:do { add address=96.89.25.106 list=turris_greylist } on-error={} 
-:do { add address=96.126.100.87 list=turris_greylist } on-error={} 
-:do { add address=96.224.32.210 list=turris_greylist } on-error={} 
-:do { add address=96.241.201.20 list=turris_greylist } on-error={} 
-:do { add address=96.246.204.116 list=turris_greylist } on-error={} 
-:do { add address=96.255.110.243 list=turris_greylist } on-error={} 
-:do { add address=97.74.229.113 list=turris_greylist } on-error={} 
-:do { add address=98.0.168.234 list=turris_greylist } on-error={} 
-:do { add address=98.128.180.154 list=turris_greylist } on-error={} 
-:do { add address=98.159.98.59 list=turris_greylist } on-error={} 
-:do { add address=98.187.17.40 list=turris_greylist } on-error={} 
-:do { add address=99.199.164.9 list=turris_greylist } on-error={} 
-:do { add address=99.230.168.65 list=turris_greylist } on-error={} 
-:do { add address=100.2.171.203 list=turris_greylist } on-error={} 
-:do { add address=100.33.94.2 list=turris_greylist } on-error={} 
-:do { add address=100.33.180.161 list=turris_greylist } on-error={} 
-:do { add address=100.37.235.68 list=turris_greylist } on-error={} 
-:do { add address=100.38.108.61 list=turris_greylist } on-error={} 
-:do { add address=101.34.149.65 list=turris_greylist } on-error={} 
-:do { add address=101.34.214.105 list=turris_greylist } on-error={} 
-:do { add address=101.35.186.149 list=turris_greylist } on-error={} 
-:do { add address=101.36.97.81 list=turris_greylist } on-error={} 
-:do { add address=101.36.118.12 list=turris_greylist } on-error={} 
-:do { add address=101.36.119.141 list=turris_greylist } on-error={} 
-:do { add address=101.36.153.63 list=turris_greylist } on-error={} 
-:do { add address=101.37.33.19 list=turris_greylist } on-error={} 
-:do { add address=101.37.174.213 list=turris_greylist } on-error={} 
-:do { add address=101.43.82.76 list=turris_greylist } on-error={} 
-:do { add address=101.50.75.19 list=turris_greylist } on-error={} 
-:do { add address=101.53.101.16 list=turris_greylist } on-error={} 
-:do { add address=101.53.136.10 list=turris_greylist } on-error={} 
-:do { add address=101.53.240.88 list=turris_greylist } on-error={} 
-:do { add address=101.78.3.247 list=turris_greylist } on-error={} 
-:do { add address=101.87.88.188 list=turris_greylist } on-error={} 
-:do { add address=101.87.251.51 list=turris_greylist } on-error={} 
-:do { add address=101.109.41.74 list=turris_greylist } on-error={} 
-:do { add address=101.132.101.109 list=turris_greylist } on-error={} 
-:do { add address=101.181.108.50 list=turris_greylist } on-error={} 
-:do { add address=101.200.135.83 list=turris_greylist } on-error={} 
-:do { add address=101.200.166.251 list=turris_greylist } on-error={} 
-:do { add address=101.200.194.30 list=turris_greylist } on-error={} 
-:do { add address=101.200.209.238 list=turris_greylist } on-error={} 
-:do { add address=101.201.67.95 list=turris_greylist } on-error={} 
-:do { add address=101.201.223.25 list=turris_greylist } on-error={} 
-:do { add address=101.203.172.89 list=turris_greylist } on-error={} 
-:do { add address=101.234.76.51 list=turris_greylist } on-error={} 
-:do { add address=101.234.76.77 list=turris_greylist } on-error={} 
-:do { add address=102.23.80.211 list=turris_greylist } on-error={} 
-:do { add address=102.36.168.2 list=turris_greylist } on-error={} 
-:do { add address=102.36.227.30 list=turris_greylist } on-error={} 
-:do { add address=102.67.9.146 list=turris_greylist } on-error={} 
-:do { add address=102.223.209.3 list=turris_greylist } on-error={} 
-:do { add address=103.1.237.180 list=turris_greylist } on-error={} 
-:do { add address=103.10.87.52 list=turris_greylist } on-error={} 
-:do { add address=103.12.68.79 list=turris_greylist } on-error={} 
-:do { add address=103.22.172.82 list=turris_greylist } on-error={} 
-:do { add address=103.22.173.230 list=turris_greylist } on-error={} 
-:do { add address=103.24.99.18 list=turris_greylist } on-error={} 
-:do { add address=103.27.76.17 list=turris_greylist } on-error={} 
-:do { add address=103.29.91.26 list=turris_greylist } on-error={} 
-:do { add address=103.29.91.118 list=turris_greylist } on-error={} 
-:do { add address=103.31.83.2 list=turris_greylist } on-error={} 
-:do { add address=103.35.65.125 list=turris_greylist } on-error={} 
-:do { add address=103.36.132.70 list=turris_greylist } on-error={} 
-:do { add address=103.40.255.78 list=turris_greylist } on-error={} 
-:do { add address=103.44.144.4 list=turris_greylist } on-error={} 
-:do { add address=103.45.110.88 list=turris_greylist } on-error={} 
-:do { add address=103.45.186.188 list=turris_greylist } on-error={} 
-:do { add address=103.45.186.191 list=turris_greylist } on-error={} 
-:do { add address=103.45.186.225 list=turris_greylist } on-error={} 
-:do { add address=103.45.230.181 list=turris_greylist } on-error={} 
-:do { add address=103.46.12.16 list=turris_greylist } on-error={} 
-:do { add address=103.46.12.130 list=turris_greylist } on-error={} 
-:do { add address=103.46.12.211 list=turris_greylist } on-error={} 
-:do { add address=103.51.195.155 list=turris_greylist } on-error={} 
-:do { add address=103.55.24.140 list=turris_greylist } on-error={} 
-:do { add address=103.55.25.80 list=turris_greylist } on-error={} 
-:do { add address=103.55.25.82 list=turris_greylist } on-error={} 
-:do { add address=103.56.61.8 list=turris_greylist } on-error={} 
-:do { add address=103.56.153.13 list=turris_greylist } on-error={} 
-:do { add address=103.62.232.218 list=turris_greylist } on-error={} 
-:do { add address=103.62.238.222 list=turris_greylist } on-error={} 
-:do { add address=103.63.212.17 list=turris_greylist } on-error={} 
-:do { add address=103.65.237.78 list=turris_greylist } on-error={} 
-:do { add address=103.66.217.250 list=turris_greylist } on-error={} 
-:do { add address=103.71.171.132 list=turris_greylist } on-error={} 
-:do { add address=103.72.144.202 list=turris_greylist } on-error={} 
-:do { add address=103.75.182.8 list=turris_greylist } on-error={} 
-:do { add address=103.76.84.56 list=turris_greylist } on-error={} 
-:do { add address=103.76.84.245 list=turris_greylist } on-error={} 
-:do { add address=103.77.9.27 list=turris_greylist } on-error={} 
-:do { add address=103.77.10.196 list=turris_greylist } on-error={} 
-:do { add address=103.79.142.80 list=turris_greylist } on-error={} 
-:do { add address=103.81.156.51 list=turris_greylist } on-error={} 
-:do { add address=103.82.81.156 list=turris_greylist } on-error={} 
-:do { add address=103.82.140.18 list=turris_greylist } on-error={} 
-:do { add address=103.82.242.98 list=turris_greylist } on-error={} 
-:do { add address=103.86.41.86 list=turris_greylist } on-error={} 
-:do { add address=103.87.172.210 list=turris_greylist } on-error={} 
-:do { add address=103.89.91.158 list=turris_greylist } on-error={} 
-:do { add address=103.90.70.139 list=turris_greylist } on-error={} 
-:do { add address=103.90.172.210 list=turris_greylist } on-error={} 
-:do { add address=103.91.90.103 list=turris_greylist } on-error={} 
-:do { add address=103.91.91.243 list=turris_greylist } on-error={} 
-:do { add address=103.91.120.98 list=turris_greylist } on-error={} 
-:do { add address=103.91.176.162 list=turris_greylist } on-error={} 
-:do { add address=103.93.9.168 list=turris_greylist } on-error={} 
-:do { add address=103.93.76.109 list=turris_greylist } on-error={} 
-:do { add address=103.93.76.112 list=turris_greylist } on-error={} 
-:do { add address=103.93.76.120 list=turris_greylist } on-error={} 
-:do { add address=103.93.76.155 list=turris_greylist } on-error={} 
-:do { add address=103.93.76.166 list=turris_greylist } on-error={} 
-:do { add address=103.93.76.205 list=turris_greylist } on-error={} 
-:do { add address=103.93.76.212 list=turris_greylist } on-error={} 
-:do { add address=103.93.112.194 list=turris_greylist } on-error={} 
-:do { add address=103.96.73.228 list=turris_greylist } on-error={} 
-:do { add address=103.96.129.16 list=turris_greylist } on-error={} 
-:do { add address=103.96.129.35 list=turris_greylist } on-error={} 
-:do { add address=103.96.131.66 list=turris_greylist } on-error={} 
-:do { add address=103.96.246.131 list=turris_greylist } on-error={} 
-:do { add address=103.97.125.72 list=turris_greylist } on-error={} 
-:do { add address=103.97.228.97 list=turris_greylist } on-error={} 
-:do { add address=103.98.130.114 list=turris_greylist } on-error={} 
-:do { add address=103.102.193.34 list=turris_greylist } on-error={} 
-:do { add address=103.104.231.72 list=turris_greylist } on-error={} 
-:do { add address=103.105.172.178 list=turris_greylist } on-error={} 
-:do { add address=103.107.60.2 list=turris_greylist } on-error={} 
-:do { add address=103.107.188.94 list=turris_greylist } on-error={} 
-:do { add address=103.107.245.1 list=turris_greylist } on-error={} 
-:do { add address=103.107.245.45 list=turris_greylist } on-error={} 
-:do { add address=103.108.6.33 list=turris_greylist } on-error={} 
-:do { add address=103.112.214.41 list=turris_greylist } on-error={} 
-:do { add address=103.115.120.249 list=turris_greylist } on-error={} 
-:do { add address=103.115.176.129 list=turris_greylist } on-error={} 
-:do { add address=103.118.81.73 list=turris_greylist } on-error={} 
-:do { add address=103.119.3.54 list=turris_greylist } on-error={} 
-:do { add address=103.119.161.2 list=turris_greylist } on-error={} 
-:do { add address=103.121.116.195 list=turris_greylist } on-error={} 
-:do { add address=103.123.72.57 list=turris_greylist } on-error={} 
-:do { add address=103.124.95.49 list=turris_greylist } on-error={} 
-:do { add address=103.125.189.139 list=turris_greylist } on-error={} 
-:do { add address=103.130.196.197 list=turris_greylist } on-error={} 
-:do { add address=103.133.175.242 list=turris_greylist } on-error={} 
-:do { add address=103.135.160.146 list=turris_greylist } on-error={} 
-:do { add address=103.139.2.215 list=turris_greylist } on-error={} 
-:do { add address=103.139.43.227 list=turris_greylist } on-error={} 
-:do { add address=103.139.45.232 list=turris_greylist } on-error={} 
-:do { add address=103.139.213.233 list=turris_greylist } on-error={} 
-:do { add address=103.140.126.189 list=turris_greylist } on-error={} 
-:do { add address=103.140.127.136 list=turris_greylist } on-error={} 
-:do { add address=103.140.127.160 list=turris_greylist } on-error={} 
-:do { add address=103.140.127.167 list=turris_greylist } on-error={} 
-:do { add address=103.140.127.227 list=turris_greylist } on-error={} 
-:do { add address=103.140.127.252 list=turris_greylist } on-error={} 
-:do { add address=103.140.251.57 list=turris_greylist } on-error={} 
-:do { add address=103.141.137.214 list=turris_greylist } on-error={} 
-:do { add address=103.141.138.121 list=turris_greylist } on-error={} 
-:do { add address=103.146.174.156 list=turris_greylist } on-error={} 
-:do { add address=103.150.109.158 list=turris_greylist } on-error={} 
-:do { add address=103.151.122.22 list=turris_greylist } on-error={} 
-:do { add address=103.151.122.48 list=turris_greylist } on-error={} 
-:do { add address=103.155.82.241 list=turris_greylist } on-error={} 
-:do { add address=103.156.68.195 list=turris_greylist } on-error={} 
-:do { add address=103.156.91.51 list=turris_greylist } on-error={} 
-:do { add address=103.156.93.19 list=turris_greylist } on-error={} 
-:do { add address=103.157.210.74 list=turris_greylist } on-error={} 
-:do { add address=103.159.128.26 list=turris_greylist } on-error={} 
-:do { add address=103.160.5.93 list=turris_greylist } on-error={} 
-:do { add address=103.161.16.252 list=turris_greylist } on-error={} 
-:do { add address=103.162.30.140 list=turris_greylist } on-error={} 
-:do { add address=103.162.149.2 list=turris_greylist } on-error={} 
-:do { add address=103.164.85.6 list=turris_greylist } on-error={} 
-:do { add address=103.164.98.138 list=turris_greylist } on-error={} 
-:do { add address=103.164.241.82 list=turris_greylist } on-error={} 
-:do { add address=103.168.29.14 list=turris_greylist } on-error={} 
-:do { add address=103.171.1.145 list=turris_greylist } on-error={} 
-:do { add address=103.193.189.172 list=turris_greylist } on-error={} 
-:do { add address=103.196.127.210 list=turris_greylist } on-error={} 
-:do { add address=103.198.100.162 list=turris_greylist } on-error={} 
-:do { add address=103.200.31.197 list=turris_greylist } on-error={} 
-:do { add address=103.203.57.4 list=turris_greylist } on-error={} 
-:do { add address=103.203.57.6 list=turris_greylist } on-error={} 
-:do { add address=103.203.57.8 list=turris_greylist } on-error={} 
-:do { add address=103.203.57.13 list=turris_greylist } on-error={} 
-:do { add address=103.203.57.14 list=turris_greylist } on-error={} 
-:do { add address=103.203.57.21 list=turris_greylist } on-error={} 
-:do { add address=103.203.57.22 list=turris_greylist } on-error={} 
-:do { add address=103.203.57.27 list=turris_greylist } on-error={} 
-:do { add address=103.203.57.28 list=turris_greylist } on-error={} 
-:do { add address=103.203.58.0 list=turris_greylist } on-error={} 
-:do { add address=103.204.223.233 list=turris_greylist } on-error={} 
-:do { add address=103.206.128.165 list=turris_greylist } on-error={} 
-:do { add address=103.212.35.159 list=turris_greylist } on-error={} 
-:do { add address=103.214.168.220 list=turris_greylist } on-error={} 
-:do { add address=103.214.170.29 list=turris_greylist } on-error={} 
-:do { add address=103.214.229.236 list=turris_greylist } on-error={} 
-:do { add address=103.218.241.151 list=turris_greylist } on-error={} 
-:do { add address=103.225.26.5 list=turris_greylist } on-error={} 
-:do { add address=103.226.124.26 list=turris_greylist } on-error={} 
-:do { add address=103.226.124.132 list=turris_greylist } on-error={} 
-:do { add address=103.228.53.59 list=turris_greylist } on-error={} 
-:do { add address=103.228.111.65 list=turris_greylist } on-error={} 
-:do { add address=103.229.127.143 list=turris_greylist } on-error={} 
-:do { add address=103.229.127.226 list=turris_greylist } on-error={} 
-:do { add address=103.232.53.69 list=turris_greylist } on-error={} 
-:do { add address=103.236.252.80 list=turris_greylist } on-error={} 
-:do { add address=103.236.252.195 list=turris_greylist } on-error={} 
-:do { add address=103.236.252.228 list=turris_greylist } on-error={} 
-:do { add address=103.236.253.34 list=turris_greylist } on-error={} 
-:do { add address=103.236.253.93 list=turris_greylist } on-error={} 
-:do { add address=103.236.253.97 list=turris_greylist } on-error={} 
-:do { add address=103.239.252.66 list=turris_greylist } on-error={} 
-:do { add address=103.242.239.123 list=turris_greylist } on-error={} 
-:do { add address=103.250.146.55 list=turris_greylist } on-error={} 
-:do { add address=103.250.165.223 list=turris_greylist } on-error={} 
-:do { add address=103.252.7.190 list=turris_greylist } on-error={} 
-:do { add address=103.253.112.105 list=turris_greylist } on-error={} 
-:do { add address=104.11.164.185 list=turris_greylist } on-error={} 
-:do { add address=104.128.232.56 list=turris_greylist } on-error={} 
-:do { add address=104.129.8.135 list=turris_greylist } on-error={} 
-:do { add address=104.149.139.170 list=turris_greylist } on-error={} 
-:do { add address=104.149.139.174 list=turris_greylist } on-error={} 
-:do { add address=104.149.147.26 list=turris_greylist } on-error={} 
-:do { add address=104.155.74.216 list=turris_greylist } on-error={} 
-:do { add address=104.155.101.59 list=turris_greylist } on-error={} 
-:do { add address=104.155.210.43 list=turris_greylist } on-error={} 
-:do { add address=104.162.147.16 list=turris_greylist } on-error={} 
-:do { add address=104.168.32.32 list=turris_greylist } on-error={} 
-:do { add address=104.171.245.133 list=turris_greylist } on-error={} 
-:do { add address=104.198.9.201 list=turris_greylist } on-error={} 
-:do { add address=104.199.68.21 list=turris_greylist } on-error={} 
-:do { add address=104.199.154.73 list=turris_greylist } on-error={} 
-:do { add address=104.199.168.167 list=turris_greylist } on-error={} 
-:do { add address=104.199.228.254 list=turris_greylist } on-error={} 
-:do { add address=104.200.136.175 list=turris_greylist } on-error={} 
-:do { add address=104.209.246.177 list=turris_greylist } on-error={} 
-:do { add address=104.211.141.110 list=turris_greylist } on-error={} 
-:do { add address=104.211.155.41 list=turris_greylist } on-error={} 
-:do { add address=104.217.250.94 list=turris_greylist } on-error={} 
-:do { add address=104.218.165.26 list=turris_greylist } on-error={} 
-:do { add address=104.218.165.75 list=turris_greylist } on-error={} 
-:do { add address=104.223.190.226 list=turris_greylist } on-error={} 
-:do { add address=104.227.245.138 list=turris_greylist } on-error={} 
-:do { add address=104.232.32.184 list=turris_greylist } on-error={} 
-:do { add address=104.233.173.142 list=turris_greylist } on-error={} 
-:do { add address=104.233.244.43 list=turris_greylist } on-error={} 
-:do { add address=104.233.244.62 list=turris_greylist } on-error={} 
-:do { add address=104.233.244.190 list=turris_greylist } on-error={} 
-:do { add address=104.236.81.125 list=turris_greylist } on-error={} 
-:do { add address=104.236.178.96 list=turris_greylist } on-error={} 
-:do { add address=104.244.74.253 list=turris_greylist } on-error={} 
-:do { add address=104.244.76.33 list=turris_greylist } on-error={} 
-:do { add address=104.244.78.148 list=turris_greylist } on-error={} 
-:do { add address=104.244.79.120 list=turris_greylist } on-error={} 
-:do { add address=104.248.1.98 list=turris_greylist } on-error={} 
-:do { add address=104.248.7.249 list=turris_greylist } on-error={} 
-:do { add address=104.248.7.251 list=turris_greylist } on-error={} 
-:do { add address=104.248.37.37 list=turris_greylist } on-error={} 
-:do { add address=104.248.43.70 list=turris_greylist } on-error={} 
-:do { add address=104.248.168.195 list=turris_greylist } on-error={} 
-:do { add address=105.27.245.225 list=turris_greylist } on-error={} 
-:do { add address=105.174.43.102 list=turris_greylist } on-error={} 
-:do { add address=106.0.6.240 list=turris_greylist } on-error={} 
-:do { add address=106.2.45.15 list=turris_greylist } on-error={} 
-:do { add address=106.3.41.217 list=turris_greylist } on-error={} 
-:do { add address=106.12.30.41 list=turris_greylist } on-error={} 
-:do { add address=106.13.34.70 list=turris_greylist } on-error={} 
-:do { add address=106.14.107.188 list=turris_greylist } on-error={} 
-:do { add address=106.14.243.19 list=turris_greylist } on-error={} 
-:do { add address=106.15.92.179 list=turris_greylist } on-error={} 
-:do { add address=106.37.240.18 list=turris_greylist } on-error={} 
-:do { add address=106.38.78.165 list=turris_greylist } on-error={} 
-:do { add address=106.42.21.77 list=turris_greylist } on-error={} 
-:do { add address=106.51.2.11 list=turris_greylist } on-error={} 
-:do { add address=106.53.116.63 list=turris_greylist } on-error={} 
-:do { add address=106.55.30.229 list=turris_greylist } on-error={} 
-:do { add address=106.58.216.225 list=turris_greylist } on-error={} 
-:do { add address=106.75.8.49 list=turris_greylist } on-error={} 
-:do { add address=106.75.34.12 list=turris_greylist } on-error={} 
-:do { add address=106.75.74.119 list=turris_greylist } on-error={} 
-:do { add address=106.75.74.225 list=turris_greylist } on-error={} 
-:do { add address=106.75.77.181 list=turris_greylist } on-error={} 
-:do { add address=106.75.78.116 list=turris_greylist } on-error={} 
-:do { add address=106.75.80.196 list=turris_greylist } on-error={} 
-:do { add address=106.75.143.233 list=turris_greylist } on-error={} 
-:do { add address=106.75.167.250 list=turris_greylist } on-error={} 
-:do { add address=106.75.229.203 list=turris_greylist } on-error={} 
-:do { add address=106.75.251.63 list=turris_greylist } on-error={} 
-:do { add address=106.201.238.227 list=turris_greylist } on-error={} 
-:do { add address=106.225.229.28 list=turris_greylist } on-error={} 
-:do { add address=106.253.189.98 list=turris_greylist } on-error={} 
-:do { add address=107.150.97.140 list=turris_greylist } on-error={} 
-:do { add address=107.150.99.10 list=turris_greylist } on-error={} 
-:do { add address=107.150.99.254 list=turris_greylist } on-error={} 
-:do { add address=107.150.104.173 list=turris_greylist } on-error={} 
-:do { add address=107.150.105.215 list=turris_greylist } on-error={} 
-:do { add address=107.150.106.42 list=turris_greylist } on-error={} 
-:do { add address=107.150.106.122 list=turris_greylist } on-error={} 
-:do { add address=107.150.107.155 list=turris_greylist } on-error={} 
-:do { add address=107.150.107.167 list=turris_greylist } on-error={} 
-:do { add address=107.150.108.30 list=turris_greylist } on-error={} 
-:do { add address=107.150.108.62 list=turris_greylist } on-error={} 
-:do { add address=107.155.19.195 list=turris_greylist } on-error={} 
-:do { add address=107.155.48.112 list=turris_greylist } on-error={} 
-:do { add address=107.155.56.61 list=turris_greylist } on-error={} 
-:do { add address=107.172.79.14 list=turris_greylist } on-error={} 
-:do { add address=107.172.97.169 list=turris_greylist } on-error={} 
-:do { add address=107.172.100.206 list=turris_greylist } on-error={} 
-:do { add address=107.172.100.251 list=turris_greylist } on-error={} 
-:do { add address=107.172.178.103 list=turris_greylist } on-error={} 
-:do { add address=107.173.35.31 list=turris_greylist } on-error={} 
-:do { add address=107.173.51.108 list=turris_greylist } on-error={} 
-:do { add address=107.173.191.76 list=turris_greylist } on-error={} 
-:do { add address=107.173.191.77 list=turris_greylist } on-error={} 
-:do { add address=107.173.219.152 list=turris_greylist } on-error={} 
-:do { add address=107.174.138.182 list=turris_greylist } on-error={} 
-:do { add address=107.175.128.141 list=turris_greylist } on-error={} 
-:do { add address=107.185.86.177 list=turris_greylist } on-error={} 
-:do { add address=107.185.235.195 list=turris_greylist } on-error={} 
-:do { add address=107.189.1.92 list=turris_greylist } on-error={} 
-:do { add address=107.189.6.161 list=turris_greylist } on-error={} 
-:do { add address=107.189.11.96 list=turris_greylist } on-error={} 
-:do { add address=107.189.12.34 list=turris_greylist } on-error={} 
-:do { add address=107.189.12.178 list=turris_greylist } on-error={} 
-:do { add address=107.189.13.6 list=turris_greylist } on-error={} 
-:do { add address=107.189.14.34 list=turris_greylist } on-error={} 
-:do { add address=107.189.14.180 list=turris_greylist } on-error={} 
-:do { add address=107.189.28.51 list=turris_greylist } on-error={} 
-:do { add address=107.189.29.142 list=turris_greylist } on-error={} 
-:do { add address=107.189.29.181 list=turris_greylist } on-error={} 
-:do { add address=107.189.31.191 list=turris_greylist } on-error={} 
-:do { add address=107.190.136.138 list=turris_greylist } on-error={} 
-:do { add address=107.218.43.9 list=turris_greylist } on-error={} 
-:do { add address=108.14.59.114 list=turris_greylist } on-error={} 
-:do { add address=108.29.55.15 list=turris_greylist } on-error={} 
-:do { add address=108.166.183.199 list=turris_greylist } on-error={} 
-:do { add address=108.184.231.83 list=turris_greylist } on-error={} 
-:do { add address=109.161.174.143 list=turris_greylist } on-error={} 
-:do { add address=109.174.13.105 list=turris_greylist } on-error={} 
-:do { add address=109.206.245.48 list=turris_greylist } on-error={} 
-:do { add address=109.206.245.225 list=turris_greylist } on-error={} 
-:do { add address=109.228.159.191 list=turris_greylist } on-error={} 
-:do { add address=109.236.63.202 list=turris_greylist } on-error={} 
-:do { add address=109.237.103.9 list=turris_greylist } on-error={} 
-:do { add address=109.237.103.38 list=turris_greylist } on-error={} 
-:do { add address=109.237.103.118 list=turris_greylist } on-error={} 
-:do { add address=109.237.103.123 list=turris_greylist } on-error={} 
-:do { add address=109.248.6.44 list=turris_greylist } on-error={} 
-:do { add address=109.248.6.67 list=turris_greylist } on-error={} 
-:do { add address=109.248.6.74 list=turris_greylist } on-error={} 
-:do { add address=109.248.6.79 list=turris_greylist } on-error={} 
-:do { add address=110.6.1.47 list=turris_greylist } on-error={} 
-:do { add address=110.7.42.180 list=turris_greylist } on-error={} 
-:do { add address=110.35.186.24 list=turris_greylist } on-error={} 
-:do { add address=110.36.210.164 list=turris_greylist } on-error={} 
-:do { add address=110.36.229.186 list=turris_greylist } on-error={} 
-:do { add address=110.38.87.220 list=turris_greylist } on-error={} 
-:do { add address=110.39.173.110 list=turris_greylist } on-error={} 
-:do { add address=110.40.151.12 list=turris_greylist } on-error={} 
-:do { add address=110.42.220.230 list=turris_greylist } on-error={} 
-:do { add address=110.44.119.234 list=turris_greylist } on-error={} 
-:do { add address=110.45.156.48 list=turris_greylist } on-error={} 
-:do { add address=110.49.74.82 list=turris_greylist } on-error={} 
-:do { add address=110.74.146.135 list=turris_greylist } on-error={} 
-:do { add address=110.93.207.170 list=turris_greylist } on-error={} 
-:do { add address=110.157.232.4 list=turris_greylist } on-error={} 
-:do { add address=110.157.232.46 list=turris_greylist } on-error={} 
-:do { add address=110.164.73.18 list=turris_greylist } on-error={} 
-:do { add address=111.2.18.101 list=turris_greylist } on-error={} 
-:do { add address=111.11.117.90 list=turris_greylist } on-error={} 
-:do { add address=111.11.199.82 list=turris_greylist } on-error={} 
-:do { add address=111.30.98.26 list=turris_greylist } on-error={} 
-:do { add address=111.33.112.162 list=turris_greylist } on-error={} 
-:do { add address=111.38.136.50 list=turris_greylist } on-error={} 
-:do { add address=111.47.189.115 list=turris_greylist } on-error={} 
-:do { add address=111.47.190.218 list=turris_greylist } on-error={} 
-:do { add address=111.53.207.162 list=turris_greylist } on-error={} 
-:do { add address=111.61.77.89 list=turris_greylist } on-error={} 
-:do { add address=111.61.106.194 list=turris_greylist } on-error={} 
-:do { add address=111.61.198.156 list=turris_greylist } on-error={} 
-:do { add address=111.63.21.98 list=turris_greylist } on-error={} 
-:do { add address=111.63.22.72 list=turris_greylist } on-error={} 
-:do { add address=111.68.99.61 list=turris_greylist } on-error={} 
-:do { add address=111.75.97.250 list=turris_greylist } on-error={} 
-:do { add address=111.75.167.119 list=turris_greylist } on-error={} 
-:do { add address=111.93.145.20 list=turris_greylist } on-error={} 
-:do { add address=111.93.244.230 list=turris_greylist } on-error={} 
-:do { add address=111.125.220.202 list=turris_greylist } on-error={} 
-:do { add address=111.164.177.123 list=turris_greylist } on-error={} 
-:do { add address=111.173.89.16 list=turris_greylist } on-error={} 
-:do { add address=111.173.89.113 list=turris_greylist } on-error={} 
-:do { add address=111.173.89.156 list=turris_greylist } on-error={} 
-:do { add address=111.173.114.154 list=turris_greylist } on-error={} 
-:do { add address=111.192.1.32 list=turris_greylist } on-error={} 
-:do { add address=111.198.29.154 list=turris_greylist } on-error={} 
-:do { add address=111.201.135.188 list=turris_greylist } on-error={} 
-:do { add address=111.202.151.2 list=turris_greylist } on-error={} 
-:do { add address=111.203.200.212 list=turris_greylist } on-error={} 
-:do { add address=111.206.188.34 list=turris_greylist } on-error={} 
-:do { add address=111.223.69.245 list=turris_greylist } on-error={} 
-:do { add address=111.225.216.67 list=turris_greylist } on-error={} 
-:do { add address=111.229.13.95 list=turris_greylist } on-error={} 
-:do { add address=111.240.99.241 list=turris_greylist } on-error={} 
-:do { add address=112.4.97.91 list=turris_greylist } on-error={} 
-:do { add address=112.14.26.176 list=turris_greylist } on-error={} 
-:do { add address=112.15.117.167 list=turris_greylist } on-error={} 
-:do { add address=112.17.170.97 list=turris_greylist } on-error={} 
-:do { add address=112.28.24.137 list=turris_greylist } on-error={} 
-:do { add address=112.30.38.42 list=turris_greylist } on-error={} 
-:do { add address=112.53.105.158 list=turris_greylist } on-error={} 
-:do { add address=112.53.236.114 list=turris_greylist } on-error={} 
-:do { add address=112.54.87.186 list=turris_greylist } on-error={} 
-:do { add address=112.64.126.218 list=turris_greylist } on-error={} 
-:do { add address=112.64.136.62 list=turris_greylist } on-error={} 
-:do { add address=112.73.82.50 list=turris_greylist } on-error={} 
-:do { add address=112.74.23.7 list=turris_greylist } on-error={} 
-:do { add address=112.74.202.146 list=turris_greylist } on-error={} 
-:do { add address=112.78.145.226 list=turris_greylist } on-error={} 
-:do { add address=112.95.163.100 list=turris_greylist } on-error={} 
-:do { add address=112.102.225.157 list=turris_greylist } on-error={} 
-:do { add address=112.112.8.195 list=turris_greylist } on-error={} 
-:do { add address=112.113.92.222 list=turris_greylist } on-error={} 
-:do { add address=112.121.31.55 list=turris_greylist } on-error={} 
-:do { add address=112.121.122.67 list=turris_greylist } on-error={} 
-:do { add address=112.124.14.116 list=turris_greylist } on-error={} 
-:do { add address=112.124.16.187 list=turris_greylist } on-error={} 
-:do { add address=112.124.58.120 list=turris_greylist } on-error={} 
-:do { add address=112.124.115.61 list=turris_greylist } on-error={} 
-:do { add address=112.140.204.2 list=turris_greylist } on-error={} 
-:do { add address=112.165.207.226 list=turris_greylist } on-error={} 
-:do { add address=112.166.166.117 list=turris_greylist } on-error={} 
-:do { add address=112.213.105.147 list=turris_greylist } on-error={} 
-:do { add address=112.213.105.226 list=turris_greylist } on-error={} 
-:do { add address=112.216.163.130 list=turris_greylist } on-error={} 
-:do { add address=112.218.125.140 list=turris_greylist } on-error={} 
-:do { add address=112.221.51.51 list=turris_greylist } on-error={} 
-:do { add address=112.241.147.83 list=turris_greylist } on-error={} 
-:do { add address=112.252.162.249 list=turris_greylist } on-error={} 
-:do { add address=113.10.183.252 list=turris_greylist } on-error={} 
-:do { add address=113.12.81.116 list=turris_greylist } on-error={} 
-:do { add address=113.16.167.19 list=turris_greylist } on-error={} 
-:do { add address=113.17.36.250 list=turris_greylist } on-error={} 
-:do { add address=113.31.103.163 list=turris_greylist } on-error={} 
-:do { add address=113.53.29.185 list=turris_greylist } on-error={} 
-:do { add address=113.59.224.77 list=turris_greylist } on-error={} 
-:do { add address=113.89.201.164 list=turris_greylist } on-error={} 
-:do { add address=113.98.98.66 list=turris_greylist } on-error={} 
-:do { add address=113.102.161.53 list=turris_greylist } on-error={} 
-:do { add address=113.118.174.169 list=turris_greylist } on-error={} 
-:do { add address=113.128.14.202 list=turris_greylist } on-error={} 
-:do { add address=113.140.10.107 list=turris_greylist } on-error={} 
-:do { add address=113.141.67.127 list=turris_greylist } on-error={} 
-:do { add address=113.141.67.184 list=turris_greylist } on-error={} 
-:do { add address=113.141.70.125 list=turris_greylist } on-error={} 
-:do { add address=113.141.70.131 list=turris_greylist } on-error={} 
-:do { add address=113.142.72.2 list=turris_greylist } on-error={} 
-:do { add address=113.142.73.214 list=turris_greylist } on-error={} 
-:do { add address=113.160.161.169 list=turris_greylist } on-error={} 
-:do { add address=113.161.44.87 list=turris_greylist } on-error={} 
-:do { add address=113.176.3.114 list=turris_greylist } on-error={} 
-:do { add address=113.190.254.11 list=turris_greylist } on-error={} 
-:do { add address=113.193.77.2 list=turris_greylist } on-error={} 
-:do { add address=113.196.182.110 list=turris_greylist } on-error={} 
-:do { add address=113.204.193.117 list=turris_greylist } on-error={} 
-:do { add address=113.209.197.236 list=turris_greylist } on-error={} 
-:do { add address=113.240.227.123 list=turris_greylist } on-error={} 
-:do { add address=113.252.18.136 list=turris_greylist } on-error={} 
-:do { add address=113.253.249.82 list=turris_greylist } on-error={} 
-:do { add address=114.7.213.254 list=turris_greylist } on-error={} 
-:do { add address=114.32.253.36 list=turris_greylist } on-error={} 
-:do { add address=114.35.19.141 list=turris_greylist } on-error={} 
-:do { add address=114.35.52.89 list=turris_greylist } on-error={} 
-:do { add address=114.35.78.235 list=turris_greylist } on-error={} 
-:do { add address=114.35.119.16 list=turris_greylist } on-error={} 
-:do { add address=114.35.200.184 list=turris_greylist } on-error={} 
-:do { add address=114.35.200.190 list=turris_greylist } on-error={} 
-:do { add address=114.41.136.157 list=turris_greylist } on-error={} 
-:do { add address=114.41.144.244 list=turris_greylist } on-error={} 
-:do { add address=114.64.253.153 list=turris_greylist } on-error={} 
-:do { add address=114.67.104.66 list=turris_greylist } on-error={} 
-:do { add address=114.67.249.200 list=turris_greylist } on-error={} 
-:do { add address=114.80.222.226 list=turris_greylist } on-error={} 
-:do { add address=114.86.146.177 list=turris_greylist } on-error={} 
-:do { add address=114.88.154.3 list=turris_greylist } on-error={} 
-:do { add address=114.92.226.19 list=turris_greylist } on-error={} 
-:do { add address=114.95.172.209 list=turris_greylist } on-error={} 
-:do { add address=114.96.82.143 list=turris_greylist } on-error={} 
-:do { add address=114.96.83.210 list=turris_greylist } on-error={} 
-:do { add address=114.104.188.248 list=turris_greylist } on-error={} 
-:do { add address=114.105.103.104 list=turris_greylist } on-error={} 
-:do { add address=114.108.3.63 list=turris_greylist } on-error={} 
-:do { add address=114.108.137.92 list=turris_greylist } on-error={} 
-:do { add address=114.111.241.210 list=turris_greylist } on-error={} 
-:do { add address=114.112.103.100 list=turris_greylist } on-error={} 
-:do { add address=114.118.5.243 list=turris_greylist } on-error={} 
-:do { add address=114.119.36.98 list=turris_greylist } on-error={} 
-:do { add address=114.134.187.236 list=turris_greylist } on-error={} 
-:do { add address=114.143.74.34 list=turris_greylist } on-error={} 
-:do { add address=114.163.9.1 list=turris_greylist } on-error={} 
-:do { add address=114.200.48.57 list=turris_greylist } on-error={} 
-:do { add address=114.203.68.96 list=turris_greylist } on-error={} 
-:do { add address=114.204.171.194 list=turris_greylist } on-error={} 
-:do { add address=114.215.176.72 list=turris_greylist } on-error={} 
-:do { add address=114.215.177.141 list=turris_greylist } on-error={} 
-:do { add address=114.215.180.220 list=turris_greylist } on-error={} 
-:do { add address=114.215.191.10 list=turris_greylist } on-error={} 
-:do { add address=114.215.201.107 list=turris_greylist } on-error={} 
-:do { add address=114.215.208.22 list=turris_greylist } on-error={} 
-:do { add address=114.217.90.65 list=turris_greylist } on-error={} 
-:do { add address=114.228.185.195 list=turris_greylist } on-error={} 
-:do { add address=114.240.108.33 list=turris_greylist } on-error={} 
-:do { add address=114.255.216.103 list=turris_greylist } on-error={} 
-:do { add address=115.28.4.77 list=turris_greylist } on-error={} 
-:do { add address=115.68.104.48 list=turris_greylist } on-error={} 
-:do { add address=115.78.65.225 list=turris_greylist } on-error={} 
-:do { add address=115.79.31.56 list=turris_greylist } on-error={} 
-:do { add address=115.90.182.66 list=turris_greylist } on-error={} 
-:do { add address=115.111.184.231 list=turris_greylist } on-error={} 
-:do { add address=115.124.118.233 list=turris_greylist } on-error={} 
-:do { add address=115.178.119.110 list=turris_greylist } on-error={} 
-:do { add address=115.193.184.188 list=turris_greylist } on-error={} 
-:do { add address=115.201.94.145 list=turris_greylist } on-error={} 
-:do { add address=115.205.236.213 list=turris_greylist } on-error={} 
-:do { add address=115.214.232.123 list=turris_greylist } on-error={} 
-:do { add address=115.230.174.227 list=turris_greylist } on-error={} 
-:do { add address=115.236.61.163 list=turris_greylist } on-error={} 
-:do { add address=115.236.65.194 list=turris_greylist } on-error={} 
-:do { add address=115.238.62.154 list=turris_greylist } on-error={} 
-:do { add address=115.239.238.242 list=turris_greylist } on-error={} 
-:do { add address=116.4.96.57 list=turris_greylist } on-error={} 
-:do { add address=116.10.189.103 list=turris_greylist } on-error={} 
-:do { add address=116.22.253.62 list=turris_greylist } on-error={} 
-:do { add address=116.22.253.179 list=turris_greylist } on-error={} 
-:do { add address=116.30.223.91 list=turris_greylist } on-error={} 
-:do { add address=116.41.162.176 list=turris_greylist } on-error={} 
-:do { add address=116.50.235.212 list=turris_greylist } on-error={} 
-:do { add address=116.50.242.237 list=turris_greylist } on-error={} 
-:do { add address=116.55.227.209 list=turris_greylist } on-error={} 
-:do { add address=116.55.243.36 list=turris_greylist } on-error={} 
-:do { add address=116.62.231.151 list=turris_greylist } on-error={} 
-:do { add address=116.71.133.133 list=turris_greylist } on-error={} 
-:do { add address=116.90.122.234 list=turris_greylist } on-error={} 
-:do { add address=116.97.240.95 list=turris_greylist } on-error={} 
-:do { add address=116.121.130.18 list=turris_greylist } on-error={} 
-:do { add address=116.126.118.56 list=turris_greylist } on-error={} 
-:do { add address=116.206.94.108 list=turris_greylist } on-error={} 
-:do { add address=116.206.197.95 list=turris_greylist } on-error={} 
-:do { add address=116.228.71.198 list=turris_greylist } on-error={} 
-:do { add address=116.228.84.22 list=turris_greylist } on-error={} 
-:do { add address=116.230.112.53 list=turris_greylist } on-error={} 
-:do { add address=116.236.17.59 list=turris_greylist } on-error={} 
-:do { add address=116.236.222.106 list=turris_greylist } on-error={} 
-:do { add address=116.240.201.30 list=turris_greylist } on-error={} 
-:do { add address=116.252.80.130 list=turris_greylist } on-error={} 
-:do { add address=116.254.101.173 list=turris_greylist } on-error={} 
-:do { add address=117.2.97.232 list=turris_greylist } on-error={} 
-:do { add address=117.4.236.138 list=turris_greylist } on-error={} 
-:do { add address=117.20.28.188 list=turris_greylist } on-error={} 
-:do { add address=117.34.25.101 list=turris_greylist } on-error={} 
-:do { add address=117.34.25.192 list=turris_greylist } on-error={} 
-:do { add address=117.34.72.226 list=turris_greylist } on-error={} 
-:do { add address=117.34.95.146 list=turris_greylist } on-error={} 
-:do { add address=117.34.104.11 list=turris_greylist } on-error={} 
-:do { add address=117.34.114.23 list=turris_greylist } on-error={} 
-:do { add address=117.36.50.70 list=turris_greylist } on-error={} 
-:do { add address=117.40.83.115 list=turris_greylist } on-error={} 
-:do { add address=117.50.84.240 list=turris_greylist } on-error={} 
-:do { add address=117.50.97.33 list=turris_greylist } on-error={} 
-:do { add address=117.50.104.206 list=turris_greylist } on-error={} 
-:do { add address=117.54.148.2 list=turris_greylist } on-error={} 
-:do { add address=117.80.87.37 list=turris_greylist } on-error={} 
-:do { add address=117.107.159.130 list=turris_greylist } on-error={} 
-:do { add address=117.107.163.244 list=turris_greylist } on-error={} 
-:do { add address=117.119.79.107 list=turris_greylist } on-error={} 
-:do { add address=117.121.100.11 list=turris_greylist } on-error={} 
-:do { add address=117.131.182.226 list=turris_greylist } on-error={} 
-:do { add address=117.132.11.84 list=turris_greylist } on-error={} 
-:do { add address=117.139.162.180 list=turris_greylist } on-error={} 
-:do { add address=117.141.105.108 list=turris_greylist } on-error={} 
-:do { add address=117.158.66.137 list=turris_greylist } on-error={} 
-:do { add address=117.175.160.70 list=turris_greylist } on-error={} 
-:do { add address=117.189.182.111 list=turris_greylist } on-error={} 
-:do { add address=117.191.56.219 list=turris_greylist } on-error={} 
-:do { add address=117.218.174.250 list=turris_greylist } on-error={} 
-:do { add address=117.236.173.163 list=turris_greylist } on-error={} 
-:do { add address=117.239.66.74 list=turris_greylist } on-error={} 
-:do { add address=117.239.128.2 list=turris_greylist } on-error={} 
-:do { add address=117.240.62.139 list=turris_greylist } on-error={} 
-:do { add address=117.247.114.53 list=turris_greylist } on-error={} 
-:do { add address=117.247.234.42 list=turris_greylist } on-error={} 
-:do { add address=118.24.156.173 list=turris_greylist } on-error={} 
-:do { add address=118.26.104.39 list=turris_greylist } on-error={} 
-:do { add address=118.26.110.65 list=turris_greylist } on-error={} 
-:do { add address=118.26.110.68 list=turris_greylist } on-error={} 
-:do { add address=118.26.110.74 list=turris_greylist } on-error={} 
-:do { add address=118.42.164.74 list=turris_greylist } on-error={} 
-:do { add address=118.70.3.100 list=turris_greylist } on-error={} 
-:do { add address=118.70.33.68 list=turris_greylist } on-error={} 
-:do { add address=118.91.234.47 list=turris_greylist } on-error={} 
-:do { add address=118.97.221.252 list=turris_greylist } on-error={} 
-:do { add address=118.113.212.58 list=turris_greylist } on-error={} 
-:do { add address=118.114.243.78 list=turris_greylist } on-error={} 
-:do { add address=118.119.254.75 list=turris_greylist } on-error={} 
-:do { add address=118.119.254.80 list=turris_greylist } on-error={} 
-:do { add address=118.122.4.173 list=turris_greylist } on-error={} 
-:do { add address=118.123.16.170 list=turris_greylist } on-error={} 
-:do { add address=118.123.240.164 list=turris_greylist } on-error={} 
-:do { add address=118.131.47.75 list=turris_greylist } on-error={} 
-:do { add address=118.145.11.97 list=turris_greylist } on-error={} 
-:do { add address=118.163.45.178 list=turris_greylist } on-error={} 
-:do { add address=118.163.191.194 list=turris_greylist } on-error={} 
-:do { add address=118.163.191.195 list=turris_greylist } on-error={} 
-:do { add address=118.163.247.235 list=turris_greylist } on-error={} 
-:do { add address=118.171.158.115 list=turris_greylist } on-error={} 
-:do { add address=118.174.79.50 list=turris_greylist } on-error={} 
-:do { add address=118.178.186.214 list=turris_greylist } on-error={} 
-:do { add address=118.179.157.178 list=turris_greylist } on-error={} 
-:do { add address=118.186.36.78 list=turris_greylist } on-error={} 
-:do { add address=118.193.21.186 list=turris_greylist } on-error={} 
-:do { add address=118.193.31.179 list=turris_greylist } on-error={} 
-:do { add address=118.193.31.180 list=turris_greylist } on-error={} 
-:do { add address=118.193.31.186 list=turris_greylist } on-error={} 
-:do { add address=118.193.34.227 list=turris_greylist } on-error={} 
-:do { add address=118.193.64.22 list=turris_greylist } on-error={} 
-:do { add address=118.193.64.106 list=turris_greylist } on-error={} 
-:do { add address=118.193.96.202 list=turris_greylist } on-error={} 
-:do { add address=118.194.234.87 list=turris_greylist } on-error={} 
-:do { add address=118.194.234.230 list=turris_greylist } on-error={} 
-:do { add address=118.216.57.184 list=turris_greylist } on-error={} 
-:do { add address=118.217.181.202 list=turris_greylist } on-error={} 
-:do { add address=118.218.219.156 list=turris_greylist } on-error={} 
-:do { add address=119.23.33.157 list=turris_greylist } on-error={} 
-:do { add address=119.23.204.88 list=turris_greylist } on-error={} 
-:do { add address=119.28.57.28 list=turris_greylist } on-error={} 
-:do { add address=119.37.199.20 list=turris_greylist } on-error={} 
-:do { add address=119.37.199.177 list=turris_greylist } on-error={} 
-:do { add address=119.40.93.201 list=turris_greylist } on-error={} 
-:do { add address=119.45.163.193 list=turris_greylist } on-error={} 
-:do { add address=119.56.228.52 list=turris_greylist } on-error={} 
-:do { add address=119.70.253.34 list=turris_greylist } on-error={} 
-:do { add address=119.84.66.170 list=turris_greylist } on-error={} 
-:do { add address=119.84.126.15 list=turris_greylist } on-error={} 
-:do { add address=119.91.29.8 list=turris_greylist } on-error={} 
-:do { add address=119.91.199.47 list=turris_greylist } on-error={} 
-:do { add address=119.96.225.243 list=turris_greylist } on-error={} 
-:do { add address=119.114.27.161 list=turris_greylist } on-error={} 
-:do { add address=119.122.91.74 list=turris_greylist } on-error={} 
-:do { add address=119.145.29.160 list=turris_greylist } on-error={} 
-:do { add address=119.145.101.189 list=turris_greylist } on-error={} 
-:do { add address=119.147.20.142 list=turris_greylist } on-error={} 
-:do { add address=119.147.212.2 list=turris_greylist } on-error={} 
-:do { add address=119.159.229.41 list=turris_greylist } on-error={} 
-:do { add address=119.159.229.245 list=turris_greylist } on-error={} 
-:do { add address=119.161.98.132 list=turris_greylist } on-error={} 
-:do { add address=119.161.98.139 list=turris_greylist } on-error={} 
-:do { add address=119.161.98.140 list=turris_greylist } on-error={} 
-:do { add address=119.161.98.141 list=turris_greylist } on-error={} 
-:do { add address=119.167.111.58 list=turris_greylist } on-error={} 
-:do { add address=119.167.151.98 list=turris_greylist } on-error={} 
-:do { add address=119.167.167.81 list=turris_greylist } on-error={} 
-:do { add address=119.167.182.219 list=turris_greylist } on-error={} 
-:do { add address=119.187.120.38 list=turris_greylist } on-error={} 
-:do { add address=119.187.144.206 list=turris_greylist } on-error={} 
-:do { add address=119.187.149.238 list=turris_greylist } on-error={} 
-:do { add address=119.188.250.168 list=turris_greylist } on-error={} 
-:do { add address=119.197.37.37 list=turris_greylist } on-error={} 
-:do { add address=119.207.224.49 list=turris_greylist } on-error={} 
-:do { add address=119.224.91.233 list=turris_greylist } on-error={} 
-:do { add address=119.235.53.46 list=turris_greylist } on-error={} 
-:do { add address=119.254.65.12 list=turris_greylist } on-error={} 
-:do { add address=120.24.53.87 list=turris_greylist } on-error={} 
-:do { add address=120.24.159.38 list=turris_greylist } on-error={} 
-:do { add address=120.24.234.120 list=turris_greylist } on-error={} 
-:do { add address=120.24.241.212 list=turris_greylist } on-error={} 
-:do { add address=120.25.147.48 list=turris_greylist } on-error={} 
-:do { add address=120.25.154.169 list=turris_greylist } on-error={} 
-:do { add address=120.25.216.192 list=turris_greylist } on-error={} 
-:do { add address=120.26.232.148 list=turris_greylist } on-error={} 
-:do { add address=120.27.229.251 list=turris_greylist } on-error={} 
-:do { add address=120.34.91.187 list=turris_greylist } on-error={} 
-:do { add address=120.37.122.218 list=turris_greylist } on-error={} 
-:do { add address=120.41.145.78 list=turris_greylist } on-error={} 
-:do { add address=120.55.59.135 list=turris_greylist } on-error={} 
-:do { add address=120.76.209.33 list=turris_greylist } on-error={} 
-:do { add address=120.76.229.217 list=turris_greylist } on-error={} 
-:do { add address=120.76.245.193 list=turris_greylist } on-error={} 
-:do { add address=120.77.253.79 list=turris_greylist } on-error={} 
-:do { add address=120.79.140.75 list=turris_greylist } on-error={} 
-:do { add address=120.79.243.53 list=turris_greylist } on-error={} 
-:do { add address=120.132.84.193 list=turris_greylist } on-error={} 
-:do { add address=120.192.201.110 list=turris_greylist } on-error={} 
-:do { add address=120.193.155.140 list=turris_greylist } on-error={} 
-:do { add address=120.193.184.98 list=turris_greylist } on-error={} 
-:do { add address=120.195.161.2 list=turris_greylist } on-error={} 
-:do { add address=120.198.64.4 list=turris_greylist } on-error={} 
-:do { add address=120.198.146.228 list=turris_greylist } on-error={} 
-:do { add address=120.199.34.60 list=turris_greylist } on-error={} 
-:do { add address=120.202.58.110 list=turris_greylist } on-error={} 
-:do { add address=120.221.103.72 list=turris_greylist } on-error={} 
-:do { add address=120.224.50.233 list=turris_greylist } on-error={} 
-:do { add address=120.224.69.240 list=turris_greylist } on-error={} 
-:do { add address=120.224.99.147 list=turris_greylist } on-error={} 
-:do { add address=120.224.142.82 list=turris_greylist } on-error={} 
-:do { add address=120.224.245.84 list=turris_greylist } on-error={} 
-:do { add address=120.233.10.49 list=turris_greylist } on-error={} 
-:do { add address=120.234.6.186 list=turris_greylist } on-error={} 
-:do { add address=121.5.11.245 list=turris_greylist } on-error={} 
-:do { add address=121.10.143.236 list=turris_greylist } on-error={} 
-:do { add address=121.12.155.170 list=turris_greylist } on-error={} 
-:do { add address=121.14.2.50 list=turris_greylist } on-error={} 
-:do { add address=121.14.17.206 list=turris_greylist } on-error={} 
-:do { add address=121.22.32.254 list=turris_greylist } on-error={} 
-:do { add address=121.28.56.179 list=turris_greylist } on-error={} 
-:do { add address=121.28.199.78 list=turris_greylist } on-error={} 
-:do { add address=121.33.201.142 list=turris_greylist } on-error={} 
-:do { add address=121.37.244.66 list=turris_greylist } on-error={} 
-:do { add address=121.40.119.88 list=turris_greylist } on-error={} 
-:do { add address=121.40.148.149 list=turris_greylist } on-error={} 
-:do { add address=121.40.149.193 list=turris_greylist } on-error={} 
-:do { add address=121.41.24.232 list=turris_greylist } on-error={} 
-:do { add address=121.41.28.98 list=turris_greylist } on-error={} 
-:do { add address=121.41.136.106 list=turris_greylist } on-error={} 
-:do { add address=121.41.180.1 list=turris_greylist } on-error={} 
-:do { add address=121.42.147.221 list=turris_greylist } on-error={} 
-:do { add address=121.42.224.42 list=turris_greylist } on-error={} 
-:do { add address=121.43.230.47 list=turris_greylist } on-error={} 
-:do { add address=121.46.142.31 list=turris_greylist } on-error={} 
-:do { add address=121.52.148.2 list=turris_greylist } on-error={} 
-:do { add address=121.52.149.125 list=turris_greylist } on-error={} 
-:do { add address=121.52.157.112 list=turris_greylist } on-error={} 
-:do { add address=121.52.220.193 list=turris_greylist } on-error={} 
-:do { add address=121.52.241.207 list=turris_greylist } on-error={} 
-:do { add address=121.58.242.66 list=turris_greylist } on-error={} 
-:do { add address=121.62.16.55 list=turris_greylist } on-error={} 
-:do { add address=121.62.17.32 list=turris_greylist } on-error={} 
-:do { add address=121.62.60.163 list=turris_greylist } on-error={} 
-:do { add address=121.62.61.209 list=turris_greylist } on-error={} 
-:do { add address=121.67.177.97 list=turris_greylist } on-error={} 
-:do { add address=121.69.135.6 list=turris_greylist } on-error={} 
-:do { add address=121.78.147.32 list=turris_greylist } on-error={} 
-:do { add address=121.78.147.110 list=turris_greylist } on-error={} 
-:do { add address=121.78.147.242 list=turris_greylist } on-error={} 
-:do { add address=121.89.203.225 list=turris_greylist } on-error={} 
-:do { add address=121.89.208.53 list=turris_greylist } on-error={} 
-:do { add address=121.122.6.105 list=turris_greylist } on-error={} 
-:do { add address=121.125.67.242 list=turris_greylist } on-error={} 
-:do { add address=121.127.13.140 list=turris_greylist } on-error={} 
-:do { add address=121.128.153.149 list=turris_greylist } on-error={} 
-:do { add address=121.134.227.166 list=turris_greylist } on-error={} 
-:do { add address=121.136.234.16 list=turris_greylist } on-error={} 
-:do { add address=121.136.234.50 list=turris_greylist } on-error={} 
-:do { add address=121.136.234.139 list=turris_greylist } on-error={} 
-:do { add address=121.141.19.94 list=turris_greylist } on-error={} 
-:do { add address=121.149.137.219 list=turris_greylist } on-error={} 
-:do { add address=121.156.66.114 list=turris_greylist } on-error={} 
-:do { add address=121.158.24.35 list=turris_greylist } on-error={} 
-:do { add address=121.161.181.115 list=turris_greylist } on-error={} 
-:do { add address=121.189.15.236 list=turris_greylist } on-error={} 
-:do { add address=121.189.62.182 list=turris_greylist } on-error={} 
-:do { add address=121.199.1.7 list=turris_greylist } on-error={} 
-:do { add address=121.199.14.41 list=turris_greylist } on-error={} 
-:do { add address=121.199.16.251 list=turris_greylist } on-error={} 
-:do { add address=121.199.18.14 list=turris_greylist } on-error={} 
-:do { add address=121.199.23.62 list=turris_greylist } on-error={} 
-:do { add address=121.199.32.21 list=turris_greylist } on-error={} 
-:do { add address=121.201.78.200 list=turris_greylist } on-error={} 
-:do { add address=121.201.94.145 list=turris_greylist } on-error={} 
-:do { add address=121.201.119.66 list=turris_greylist } on-error={} 
-:do { add address=121.205.96.188 list=turris_greylist } on-error={} 
-:do { add address=121.254.237.38 list=turris_greylist } on-error={} 
-:do { add address=122.38.153.3 list=turris_greylist } on-error={} 
-:do { add address=122.39.99.13 list=turris_greylist } on-error={} 
-:do { add address=122.51.174.45 list=turris_greylist } on-error={} 
-:do { add address=122.54.143.156 list=turris_greylist } on-error={} 
-:do { add address=122.55.108.14 list=turris_greylist } on-error={} 
-:do { add address=122.114.0.151 list=turris_greylist } on-error={} 
-:do { add address=122.114.37.135 list=turris_greylist } on-error={} 
-:do { add address=122.114.94.24 list=turris_greylist } on-error={} 
-:do { add address=122.116.234.217 list=turris_greylist } on-error={} 
-:do { add address=122.117.249.122 list=turris_greylist } on-error={} 
-:do { add address=122.129.74.58 list=turris_greylist } on-error={} 
-:do { add address=122.141.182.166 list=turris_greylist } on-error={} 
-:do { add address=122.143.114.155 list=turris_greylist } on-error={} 
-:do { add address=122.144.131.75 list=turris_greylist } on-error={} 
-:do { add address=122.154.149.42 list=turris_greylist } on-error={} 
-:do { add address=122.154.178.202 list=turris_greylist } on-error={} 
-:do { add address=122.160.112.80 list=turris_greylist } on-error={} 
-:do { add address=122.163.121.122 list=turris_greylist } on-error={} 
-:do { add address=122.163.178.105 list=turris_greylist } on-error={} 
-:do { add address=122.165.124.54 list=turris_greylist } on-error={} 
-:do { add address=122.170.6.71 list=turris_greylist } on-error={} 
-:do { add address=122.170.110.46 list=turris_greylist } on-error={} 
-:do { add address=122.176.73.74 list=turris_greylist } on-error={} 
-:do { add address=122.176.122.127 list=turris_greylist } on-error={} 
-:do { add address=122.179.128.67 list=turris_greylist } on-error={} 
-:do { add address=122.179.138.52 list=turris_greylist } on-error={} 
-:do { add address=122.187.35.58 list=turris_greylist } on-error={} 
-:do { add address=122.201.19.99 list=turris_greylist } on-error={} 
-:do { add address=122.225.91.14 list=turris_greylist } on-error={} 
-:do { add address=122.226.69.59 list=turris_greylist } on-error={} 
-:do { add address=122.227.174.246 list=turris_greylist } on-error={} 
-:do { add address=122.227.183.126 list=turris_greylist } on-error={} 
-:do { add address=122.227.198.250 list=turris_greylist } on-error={} 
-:do { add address=122.227.214.155 list=turris_greylist } on-error={} 
-:do { add address=122.230.117.63 list=turris_greylist } on-error={} 
-:do { add address=122.252.227.211 list=turris_greylist } on-error={} 
-:do { add address=122.254.92.35 list=turris_greylist } on-error={} 
-:do { add address=123.18.206.15 list=turris_greylist } on-error={} 
-:do { add address=123.18.224.18 list=turris_greylist } on-error={} 
-:do { add address=123.22.212.81 list=turris_greylist } on-error={} 
-:do { add address=123.25.30.146 list=turris_greylist } on-error={} 
-:do { add address=123.30.188.213 list=turris_greylist } on-error={} 
-:do { add address=123.30.246.169 list=turris_greylist } on-error={} 
-:do { add address=123.31.33.138 list=turris_greylist } on-error={} 
-:do { add address=123.49.47.241 list=turris_greylist } on-error={} 
-:do { add address=123.52.43.213 list=turris_greylist } on-error={} 
-:do { add address=123.56.66.0 list=turris_greylist } on-error={} 
-:do { add address=123.56.67.154 list=turris_greylist } on-error={} 
-:do { add address=123.56.75.176 list=turris_greylist } on-error={} 
-:do { add address=123.57.47.214 list=turris_greylist } on-error={} 
-:do { add address=123.57.61.177 list=turris_greylist } on-error={} 
-:do { add address=123.57.68.179 list=turris_greylist } on-error={} 
-:do { add address=123.57.103.86 list=turris_greylist } on-error={} 
-:do { add address=123.57.251.34 list=turris_greylist } on-error={} 
-:do { add address=123.59.195.109 list=turris_greylist } on-error={} 
-:do { add address=123.59.195.175 list=turris_greylist } on-error={} 
-:do { add address=123.60.41.161 list=turris_greylist } on-error={} 
-:do { add address=123.97.97.82 list=turris_greylist } on-error={} 
-:do { add address=123.116.117.97 list=turris_greylist } on-error={} 
-:do { add address=123.117.235.231 list=turris_greylist } on-error={} 
-:do { add address=123.120.110.242 list=turris_greylist } on-error={} 
-:do { add address=123.126.105.36 list=turris_greylist } on-error={} 
-:do { add address=123.136.30.98 list=turris_greylist } on-error={} 
-:do { add address=123.138.87.62 list=turris_greylist } on-error={} 
-:do { add address=123.162.182.243 list=turris_greylist } on-error={} 
-:do { add address=123.180.177.82 list=turris_greylist } on-error={} 
-:do { add address=123.185.32.144 list=turris_greylist } on-error={} 
-:do { add address=123.185.222.137 list=turris_greylist } on-error={} 
-:do { add address=123.193.231.116 list=turris_greylist } on-error={} 
-:do { add address=123.194.52.35 list=turris_greylist } on-error={} 
-:do { add address=123.205.150.224 list=turris_greylist } on-error={} 
-:do { add address=123.206.206.76 list=turris_greylist } on-error={} 
-:do { add address=123.207.188.122 list=turris_greylist } on-error={} 
-:do { add address=123.212.113.101 list=turris_greylist } on-error={} 
-:do { add address=123.231.160.74 list=turris_greylist } on-error={} 
-:do { add address=123.231.185.163 list=turris_greylist } on-error={} 
-:do { add address=123.240.156.182 list=turris_greylist } on-error={} 
-:do { add address=123.252.242.166 list=turris_greylist } on-error={} 
-:do { add address=124.6.152.218 list=turris_greylist } on-error={} 
-:do { add address=124.29.228.17 list=turris_greylist } on-error={} 
-:do { add address=124.29.228.100 list=turris_greylist } on-error={} 
-:do { add address=124.40.244.11 list=turris_greylist } on-error={} 
-:do { add address=124.57.42.113 list=turris_greylist } on-error={} 
-:do { add address=124.67.66.74 list=turris_greylist } on-error={} 
-:do { add address=124.71.143.193 list=turris_greylist } on-error={} 
-:do { add address=124.78.246.126 list=turris_greylist } on-error={} 
-:do { add address=124.79.245.13 list=turris_greylist } on-error={} 
-:do { add address=124.80.251.136 list=turris_greylist } on-error={} 
-:do { add address=124.80.251.152 list=turris_greylist } on-error={} 
-:do { add address=124.92.66.160 list=turris_greylist } on-error={} 
-:do { add address=124.92.90.2 list=turris_greylist } on-error={} 
-:do { add address=124.107.111.149 list=turris_greylist } on-error={} 
-:do { add address=124.109.38.243 list=turris_greylist } on-error={} 
-:do { add address=124.111.229.104 list=turris_greylist } on-error={} 
-:do { add address=124.113.224.207 list=turris_greylist } on-error={} 
-:do { add address=124.114.98.182 list=turris_greylist } on-error={} 
-:do { add address=124.115.214.179 list=turris_greylist } on-error={} 
-:do { add address=124.115.214.182 list=turris_greylist } on-error={} 
-:do { add address=124.115.214.183 list=turris_greylist } on-error={} 
-:do { add address=124.115.214.184 list=turris_greylist } on-error={} 
-:do { add address=124.115.214.185 list=turris_greylist } on-error={} 
-:do { add address=124.119.27.226 list=turris_greylist } on-error={} 
-:do { add address=124.121.20.135 list=turris_greylist } on-error={} 
-:do { add address=124.123.122.108 list=turris_greylist } on-error={} 
-:do { add address=124.126.204.80 list=turris_greylist } on-error={} 
-:do { add address=124.133.28.21 list=turris_greylist } on-error={} 
-:do { add address=124.152.185.167 list=turris_greylist } on-error={} 
-:do { add address=124.184.233.58 list=turris_greylist } on-error={} 
-:do { add address=124.193.236.144 list=turris_greylist } on-error={} 
-:do { add address=124.199.254.37 list=turris_greylist } on-error={} 
-:do { add address=124.199.254.187 list=turris_greylist } on-error={} 
-:do { add address=124.204.45.66 list=turris_greylist } on-error={} 
-:do { add address=124.205.183.42 list=turris_greylist } on-error={} 
-:do { add address=124.205.183.45 list=turris_greylist } on-error={} 
-:do { add address=124.205.226.1 list=turris_greylist } on-error={} 
-:do { add address=124.217.248.153 list=turris_greylist } on-error={} 
-:do { add address=124.224.87.156 list=turris_greylist } on-error={} 
-:do { add address=124.224.87.182 list=turris_greylist } on-error={} 
-:do { add address=124.227.119.143 list=turris_greylist } on-error={} 
-:do { add address=124.232.154.44 list=turris_greylist } on-error={} 
-:do { add address=124.232.163.75 list=turris_greylist } on-error={} 
-:do { add address=124.238.248.7 list=turris_greylist } on-error={} 
-:do { add address=124.248.64.140 list=turris_greylist } on-error={} 
-:do { add address=125.16.207.19 list=turris_greylist } on-error={} 
-:do { add address=125.21.82.187 list=turris_greylist } on-error={} 
-:do { add address=125.22.115.254 list=turris_greylist } on-error={} 
-:do { add address=125.36.92.10 list=turris_greylist } on-error={} 
-:do { add address=125.46.32.123 list=turris_greylist } on-error={} 
-:do { add address=125.46.97.138 list=turris_greylist } on-error={} 
-:do { add address=125.63.68.2 list=turris_greylist } on-error={} 
-:do { add address=125.64.94.140 list=turris_greylist } on-error={} 
-:do { add address=125.68.57.100 list=turris_greylist } on-error={} 
-:do { add address=125.71.239.135 list=turris_greylist } on-error={} 
-:do { add address=125.72.100.110 list=turris_greylist } on-error={} 
-:do { add address=125.72.209.78 list=turris_greylist } on-error={} 
-:do { add address=125.76.246.24 list=turris_greylist } on-error={} 
-:do { add address=125.77.23.34 list=turris_greylist } on-error={} 
-:do { add address=125.88.34.10 list=turris_greylist } on-error={} 
-:do { add address=125.89.5.168 list=turris_greylist } on-error={} 
-:do { add address=125.123.26.57 list=turris_greylist } on-error={} 
-:do { add address=125.123.240.9 list=turris_greylist } on-error={} 
-:do { add address=125.129.23.115 list=turris_greylist } on-error={} 
-:do { add address=125.131.121.15 list=turris_greylist } on-error={} 
-:do { add address=125.131.216.183 list=turris_greylist } on-error={} 
-:do { add address=125.139.69.98 list=turris_greylist } on-error={} 
-:do { add address=125.209.98.218 list=turris_greylist } on-error={} 
-:do { add address=125.212.192.7 list=turris_greylist } on-error={} 
-:do { add address=125.227.192.18 list=turris_greylist } on-error={} 
-:do { add address=125.228.88.160 list=turris_greylist } on-error={} 
-:do { add address=125.234.3.170 list=turris_greylist } on-error={} 
-:do { add address=125.247.163.99 list=turris_greylist } on-error={} 
-:do { add address=125.252.82.209 list=turris_greylist } on-error={} 
-:do { add address=126.126.110.142 list=turris_greylist } on-error={} 
-:do { add address=126.227.243.76 list=turris_greylist } on-error={} 
-:do { add address=128.1.38.34 list=turris_greylist } on-error={} 
-:do { add address=128.1.38.103 list=turris_greylist } on-error={} 
-:do { add address=128.1.40.181 list=turris_greylist } on-error={} 
-:do { add address=128.1.41.190 list=turris_greylist } on-error={} 
-:do { add address=128.1.41.222 list=turris_greylist } on-error={} 
-:do { add address=128.1.42.19 list=turris_greylist } on-error={} 
-:do { add address=128.1.42.94 list=turris_greylist } on-error={} 
-:do { add address=128.1.42.117 list=turris_greylist } on-error={} 
-:do { add address=128.1.42.209 list=turris_greylist } on-error={} 
-:do { add address=128.1.91.202 list=turris_greylist } on-error={} 
-:do { add address=128.1.91.203 list=turris_greylist } on-error={} 
-:do { add address=128.1.91.204 list=turris_greylist } on-error={} 
-:do { add address=128.1.91.205 list=turris_greylist } on-error={} 
-:do { add address=128.1.91.206 list=turris_greylist } on-error={} 
-:do { add address=128.1.248.26 list=turris_greylist } on-error={} 
-:do { add address=128.1.248.27 list=turris_greylist } on-error={} 
-:do { add address=128.1.248.28 list=turris_greylist } on-error={} 
-:do { add address=128.1.248.29 list=turris_greylist } on-error={} 
-:do { add address=128.1.248.30 list=turris_greylist } on-error={} 
-:do { add address=128.1.248.42 list=turris_greylist } on-error={} 
-:do { add address=128.1.248.43 list=turris_greylist } on-error={} 
-:do { add address=128.1.248.44 list=turris_greylist } on-error={} 
-:do { add address=128.1.248.45 list=turris_greylist } on-error={} 
-:do { add address=128.1.248.46 list=turris_greylist } on-error={} 
-:do { add address=128.14.133.58 list=turris_greylist } on-error={} 
-:do { add address=128.14.134.134 list=turris_greylist } on-error={} 
-:do { add address=128.14.134.170 list=turris_greylist } on-error={} 
-:do { add address=128.14.137.178 list=turris_greylist } on-error={} 
-:do { add address=128.14.137.179 list=turris_greylist } on-error={} 
-:do { add address=128.14.137.180 list=turris_greylist } on-error={} 
-:do { add address=128.14.137.181 list=turris_greylist } on-error={} 
-:do { add address=128.14.137.182 list=turris_greylist } on-error={} 
-:do { add address=128.14.141.34 list=turris_greylist } on-error={} 
-:do { add address=128.14.141.35 list=turris_greylist } on-error={} 
-:do { add address=128.14.141.36 list=turris_greylist } on-error={} 
-:do { add address=128.14.141.37 list=turris_greylist } on-error={} 
-:do { add address=128.14.141.38 list=turris_greylist } on-error={} 
-:do { add address=128.14.152.42 list=turris_greylist } on-error={} 
-:do { add address=128.14.152.43 list=turris_greylist } on-error={} 
-:do { add address=128.14.152.44 list=turris_greylist } on-error={} 
-:do { add address=128.14.152.45 list=turris_greylist } on-error={} 
-:do { add address=128.14.152.46 list=turris_greylist } on-error={} 
-:do { add address=128.14.209.162 list=turris_greylist } on-error={} 
-:do { add address=128.14.209.163 list=turris_greylist } on-error={} 
-:do { add address=128.14.209.164 list=turris_greylist } on-error={} 
-:do { add address=128.14.209.165 list=turris_greylist } on-error={} 
-:do { add address=128.14.209.166 list=turris_greylist } on-error={} 
-:do { add address=128.14.209.170 list=turris_greylist } on-error={} 
-:do { add address=128.14.209.171 list=turris_greylist } on-error={} 
-:do { add address=128.14.209.172 list=turris_greylist } on-error={} 
-:do { add address=128.14.209.173 list=turris_greylist } on-error={} 
-:do { add address=128.14.209.174 list=turris_greylist } on-error={} 
-:do { add address=128.14.233.20 list=turris_greylist } on-error={} 
-:do { add address=128.14.233.44 list=turris_greylist } on-error={} 
-:do { add address=128.14.233.47 list=turris_greylist } on-error={} 
-:do { add address=128.14.233.55 list=turris_greylist } on-error={} 
-:do { add address=128.14.233.61 list=turris_greylist } on-error={} 
-:do { add address=128.14.233.62 list=turris_greylist } on-error={} 
-:do { add address=128.14.234.151 list=turris_greylist } on-error={} 
-:do { add address=128.106.159.20 list=turris_greylist } on-error={} 
-:do { add address=128.127.218.119 list=turris_greylist } on-error={} 
-:do { add address=128.199.13.112 list=turris_greylist } on-error={} 
-:do { add address=128.199.19.121 list=turris_greylist } on-error={} 
-:do { add address=128.199.77.59 list=turris_greylist } on-error={} 
-:do { add address=128.199.135.230 list=turris_greylist } on-error={} 
-:do { add address=128.199.140.73 list=turris_greylist } on-error={} 
-:do { add address=128.199.160.152 list=turris_greylist } on-error={} 
-:do { add address=128.199.176.17 list=turris_greylist } on-error={} 
-:do { add address=128.199.187.243 list=turris_greylist } on-error={} 
-:do { add address=128.199.203.151 list=turris_greylist } on-error={} 
-:do { add address=128.199.217.98 list=turris_greylist } on-error={} 
-:do { add address=128.199.255.158 list=turris_greylist } on-error={} 
-:do { add address=128.232.21.75 list=turris_greylist } on-error={} 
-:do { add address=129.28.157.130 list=turris_greylist } on-error={} 
-:do { add address=129.205.102.242 list=turris_greylist } on-error={} 
-:do { add address=129.211.162.27 list=turris_greylist } on-error={} 
-:do { add address=129.213.24.47 list=turris_greylist } on-error={} 
-:do { add address=129.227.190.234 list=turris_greylist } on-error={} 
-:do { add address=129.232.163.58 list=turris_greylist } on-error={} 
-:do { add address=129.250.206.86 list=turris_greylist } on-error={} 
-:do { add address=130.61.242.248 list=turris_greylist } on-error={} 
-:do { add address=131.0.210.13 list=turris_greylist } on-error={} 
-:do { add address=131.100.78.22 list=turris_greylist } on-error={} 
-:do { add address=131.159.24.205 list=turris_greylist } on-error={} 
-:do { add address=131.196.236.60 list=turris_greylist } on-error={} 
-:do { add address=131.221.35.126 list=turris_greylist } on-error={} 
-:do { add address=131.255.152.2 list=turris_greylist } on-error={} 
-:do { add address=132.255.84.20 list=turris_greylist } on-error={} 
-:do { add address=134.17.16.201 list=turris_greylist } on-error={} 
-:do { add address=134.17.94.100 list=turris_greylist } on-error={} 
-:do { add address=134.119.206.55 list=turris_greylist } on-error={} 
-:do { add address=134.122.1.116 list=turris_greylist } on-error={} 
-:do { add address=134.122.39.155 list=turris_greylist } on-error={} 
-:do { add address=134.122.109.239 list=turris_greylist } on-error={} 
-:do { add address=134.122.110.131 list=turris_greylist } on-error={} 
-:do { add address=134.122.110.191 list=turris_greylist } on-error={} 
-:do { add address=134.122.134.137 list=turris_greylist } on-error={} 
-:do { add address=134.122.134.151 list=turris_greylist } on-error={} 
-:do { add address=134.122.134.152 list=turris_greylist } on-error={} 
-:do { add address=134.122.134.155 list=turris_greylist } on-error={} 
-:do { add address=134.122.134.160 list=turris_greylist } on-error={} 
-:do { add address=134.122.134.164 list=turris_greylist } on-error={} 
-:do { add address=134.122.134.170 list=turris_greylist } on-error={} 
-:do { add address=134.122.134.172 list=turris_greylist } on-error={} 
-:do { add address=134.122.134.176 list=turris_greylist } on-error={} 
-:do { add address=134.122.134.178 list=turris_greylist } on-error={} 
-:do { add address=134.209.87.5 list=turris_greylist } on-error={} 
-:do { add address=134.209.94.207 list=turris_greylist } on-error={} 
-:do { add address=134.249.144.168 list=turris_greylist } on-error={} 
-:do { add address=134.255.216.207 list=turris_greylist } on-error={} 
-:do { add address=134.255.216.222 list=turris_greylist } on-error={} 
-:do { add address=135.19.148.210 list=turris_greylist } on-error={} 
-:do { add address=135.181.137.57 list=turris_greylist } on-error={} 
-:do { add address=135.181.176.31 list=turris_greylist } on-error={} 
-:do { add address=136.0.17.202 list=turris_greylist } on-error={} 
-:do { add address=136.36.115.21 list=turris_greylist } on-error={} 
-:do { add address=136.144.41.117 list=turris_greylist } on-error={} 
-:do { add address=136.144.41.151 list=turris_greylist } on-error={} 
-:do { add address=136.144.41.253 list=turris_greylist } on-error={} 
-:do { add address=136.144.233.105 list=turris_greylist } on-error={} 
-:do { add address=136.158.33.31 list=turris_greylist } on-error={} 
-:do { add address=137.59.49.226 list=turris_greylist } on-error={} 
-:do { add address=137.117.9.45 list=turris_greylist } on-error={} 
-:do { add address=137.184.1.109 list=turris_greylist } on-error={} 
-:do { add address=137.184.6.162 list=turris_greylist } on-error={} 
-:do { add address=137.184.8.221 list=turris_greylist } on-error={} 
-:do { add address=137.184.20.63 list=turris_greylist } on-error={} 
-:do { add address=137.184.48.124 list=turris_greylist } on-error={} 
-:do { add address=137.184.117.226 list=turris_greylist } on-error={} 
-:do { add address=137.184.122.147 list=turris_greylist } on-error={} 
-:do { add address=137.184.135.130 list=turris_greylist } on-error={} 
-:do { add address=137.184.141.89 list=turris_greylist } on-error={} 
-:do { add address=137.184.143.191 list=turris_greylist } on-error={} 
-:do { add address=137.184.184.244 list=turris_greylist } on-error={} 
-:do { add address=137.184.198.10 list=turris_greylist } on-error={} 
-:do { add address=137.184.201.247 list=turris_greylist } on-error={} 
-:do { add address=137.184.202.200 list=turris_greylist } on-error={} 
-:do { add address=137.220.228.76 list=turris_greylist } on-error={} 
-:do { add address=137.226.113.10 list=turris_greylist } on-error={} 
-:do { add address=138.0.66.26 list=turris_greylist } on-error={} 
-:do { add address=138.0.196.160 list=turris_greylist } on-error={} 
-:do { add address=138.0.228.106 list=turris_greylist } on-error={} 
-:do { add address=138.36.1.24 list=turris_greylist } on-error={} 
-:do { add address=138.36.230.27 list=turris_greylist } on-error={} 
-:do { add address=138.59.136.28 list=turris_greylist } on-error={} 
-:do { add address=138.68.23.201 list=turris_greylist } on-error={} 
-:do { add address=138.68.128.9 list=turris_greylist } on-error={} 
-:do { add address=138.68.165.85 list=turris_greylist } on-error={} 
-:do { add address=138.68.165.154 list=turris_greylist } on-error={} 
-:do { add address=138.68.172.66 list=turris_greylist } on-error={} 
-:do { add address=138.68.173.83 list=turris_greylist } on-error={} 
-:do { add address=138.68.185.214 list=turris_greylist } on-error={} 
-:do { add address=138.68.249.116 list=turris_greylist } on-error={} 
-:do { add address=138.94.128.7 list=turris_greylist } on-error={} 
-:do { add address=138.99.17.43 list=turris_greylist } on-error={} 
-:do { add address=138.99.216.196 list=turris_greylist } on-error={} 
-:do { add address=138.118.56.22 list=turris_greylist } on-error={} 
-:do { add address=138.118.235.157 list=turris_greylist } on-error={} 
-:do { add address=138.118.235.195 list=turris_greylist } on-error={} 
-:do { add address=138.118.235.197 list=turris_greylist } on-error={} 
-:do { add address=138.121.44.161 list=turris_greylist } on-error={} 
-:do { add address=138.121.104.49 list=turris_greylist } on-error={} 
-:do { add address=138.197.7.145 list=turris_greylist } on-error={} 
-:do { add address=138.197.110.207 list=turris_greylist } on-error={} 
-:do { add address=138.197.136.107 list=turris_greylist } on-error={} 
-:do { add address=138.197.184.169 list=turris_greylist } on-error={} 
-:do { add address=138.197.191.161 list=turris_greylist } on-error={} 
-:do { add address=138.197.217.76 list=turris_greylist } on-error={} 
-:do { add address=138.197.219.172 list=turris_greylist } on-error={} 
-:do { add address=138.199.32.98 list=turris_greylist } on-error={} 
-:do { add address=138.199.32.99 list=turris_greylist } on-error={} 
-:do { add address=138.199.32.100 list=turris_greylist } on-error={} 
-:do { add address=138.199.32.101 list=turris_greylist } on-error={} 
-:do { add address=138.199.32.102 list=turris_greylist } on-error={} 
-:do { add address=138.199.32.104 list=turris_greylist } on-error={} 
-:do { add address=138.199.32.105 list=turris_greylist } on-error={} 
-:do { add address=138.199.32.106 list=turris_greylist } on-error={} 
-:do { add address=138.246.253.15 list=turris_greylist } on-error={} 
-:do { add address=138.246.253.24 list=turris_greylist } on-error={} 
-:do { add address=138.255.105.74 list=turris_greylist } on-error={} 
-:do { add address=139.28.218.34 list=turris_greylist } on-error={} 
-:do { add address=139.59.27.191 list=turris_greylist } on-error={} 
-:do { add address=139.59.29.4 list=turris_greylist } on-error={} 
-:do { add address=139.59.47.163 list=turris_greylist } on-error={} 
-:do { add address=139.59.75.155 list=turris_greylist } on-error={} 
-:do { add address=139.59.80.108 list=turris_greylist } on-error={} 
-:do { add address=139.59.100.7 list=turris_greylist } on-error={} 
-:do { add address=139.59.106.91 list=turris_greylist } on-error={} 
-:do { add address=139.59.114.81 list=turris_greylist } on-error={} 
-:do { add address=139.59.137.22 list=turris_greylist } on-error={} 
-:do { add address=139.59.142.93 list=turris_greylist } on-error={} 
-:do { add address=139.59.163.58 list=turris_greylist } on-error={} 
-:do { add address=139.59.239.64 list=turris_greylist } on-error={} 
-:do { add address=139.59.246.59 list=turris_greylist } on-error={} 
-:do { add address=139.138.153.194 list=turris_greylist } on-error={} 
-:do { add address=139.162.65.76 list=turris_greylist } on-error={} 
-:do { add address=139.162.69.98 list=turris_greylist } on-error={} 
-:do { add address=139.162.99.58 list=turris_greylist } on-error={} 
-:do { add address=139.162.113.212 list=turris_greylist } on-error={} 
-:do { add address=139.162.145.250 list=turris_greylist } on-error={} 
-:do { add address=139.186.122.226 list=turris_greylist } on-error={} 
-:do { add address=139.186.169.127 list=turris_greylist } on-error={} 
-:do { add address=139.194.198.70 list=turris_greylist } on-error={} 
-:do { add address=139.196.6.83 list=turris_greylist } on-error={} 
-:do { add address=139.196.44.202 list=turris_greylist } on-error={} 
-:do { add address=139.196.49.86 list=turris_greylist } on-error={} 
-:do { add address=139.196.123.158 list=turris_greylist } on-error={} 
-:do { add address=139.196.188.137 list=turris_greylist } on-error={} 
-:do { add address=139.217.236.198 list=turris_greylist } on-error={} 
-:do { add address=139.224.29.111 list=turris_greylist } on-error={} 
-:do { add address=139.224.227.120 list=turris_greylist } on-error={} 
-:do { add address=139.255.37.92 list=turris_greylist } on-error={} 
-:do { add address=139.255.119.250 list=turris_greylist } on-error={} 
-:do { add address=140.206.35.122 list=turris_greylist } on-error={} 
-:do { add address=140.249.20.167 list=turris_greylist } on-error={} 
-:do { add address=141.85.192.66 list=turris_greylist } on-error={} 
-:do { add address=141.98.10.47 list=turris_greylist } on-error={} 
-:do { add address=141.98.10.60 list=turris_greylist } on-error={} 
-:do { add address=141.98.10.63 list=turris_greylist } on-error={} 
-:do { add address=141.98.10.81 list=turris_greylist } on-error={} 
-:do { add address=141.98.10.82 list=turris_greylist } on-error={} 
-:do { add address=141.98.10.95 list=turris_greylist } on-error={} 
-:do { add address=141.98.10.105 list=turris_greylist } on-error={} 
-:do { add address=141.98.10.114 list=turris_greylist } on-error={} 
-:do { add address=141.98.10.202 list=turris_greylist } on-error={} 
-:do { add address=141.98.11.16 list=turris_greylist } on-error={} 
-:do { add address=141.98.11.22 list=turris_greylist } on-error={} 
-:do { add address=141.98.11.23 list=turris_greylist } on-error={} 
-:do { add address=141.98.11.27 list=turris_greylist } on-error={} 
-:do { add address=141.105.66.247 list=turris_greylist } on-error={} 
-:do { add address=141.138.179.190 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.185 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.186 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.187 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.188 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.189 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.190 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.191 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.192 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.193 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.194 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.205 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.206 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.207 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.208 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.209 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.210 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.211 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.212 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.213 list=turris_greylist } on-error={} 
-:do { add address=141.212.123.214 list=turris_greylist } on-error={} 
-:do { add address=142.44.142.226 list=turris_greylist } on-error={} 
-:do { add address=142.47.109.148 list=turris_greylist } on-error={} 
-:do { add address=142.93.103.134 list=turris_greylist } on-error={} 
-:do { add address=142.93.164.6 list=turris_greylist } on-error={} 
-:do { add address=142.93.180.90 list=turris_greylist } on-error={} 
-:do { add address=142.93.210.194 list=turris_greylist } on-error={} 
-:do { add address=142.93.233.84 list=turris_greylist } on-error={} 
-:do { add address=142.129.163.253 list=turris_greylist } on-error={} 
-:do { add address=142.165.181.78 list=turris_greylist } on-error={} 
-:do { add address=143.92.63.138 list=turris_greylist } on-error={} 
-:do { add address=143.92.162.209 list=turris_greylist } on-error={} 
-:do { add address=143.110.215.31 list=turris_greylist } on-error={} 
-:do { add address=143.110.215.117 list=turris_greylist } on-error={} 
-:do { add address=143.110.222.104 list=turris_greylist } on-error={} 
-:do { add address=143.110.243.141 list=turris_greylist } on-error={} 
-:do { add address=143.110.253.31 list=turris_greylist } on-error={} 
-:do { add address=143.110.253.34 list=turris_greylist } on-error={} 
-:do { add address=143.137.67.81 list=turris_greylist } on-error={} 
-:do { add address=143.198.26.161 list=turris_greylist } on-error={} 
-:do { add address=143.198.71.71 list=turris_greylist } on-error={} 
-:do { add address=143.198.72.219 list=turris_greylist } on-error={} 
-:do { add address=143.198.111.120 list=turris_greylist } on-error={} 
-:do { add address=143.198.117.18 list=turris_greylist } on-error={} 
-:do { add address=143.198.135.192 list=turris_greylist } on-error={} 
-:do { add address=143.198.136.88 list=turris_greylist } on-error={} 
-:do { add address=143.198.147.0 list=turris_greylist } on-error={} 
-:do { add address=143.198.158.173 list=turris_greylist } on-error={} 
-:do { add address=143.198.178.103 list=turris_greylist } on-error={} 
-:do { add address=143.198.181.229 list=turris_greylist } on-error={} 
-:do { add address=143.198.187.189 list=turris_greylist } on-error={} 
-:do { add address=143.244.138.190 list=turris_greylist } on-error={} 
-:do { add address=143.244.171.93 list=turris_greylist } on-error={} 
-:do { add address=143.244.183.61 list=turris_greylist } on-error={} 
-:do { add address=144.91.94.76 list=turris_greylist } on-error={} 
-:do { add address=144.91.112.164 list=turris_greylist } on-error={} 
-:do { add address=144.126.217.100 list=turris_greylist } on-error={} 
-:do { add address=144.217.24.9 list=turris_greylist } on-error={} 
-:do { add address=144.217.56.19 list=turris_greylist } on-error={} 
-:do { add address=144.255.65.144 list=turris_greylist } on-error={} 
-:do { add address=145.249.245.24 list=turris_greylist } on-error={} 
-:do { add address=146.56.46.152 list=turris_greylist } on-error={} 
-:do { add address=146.56.145.174 list=turris_greylist } on-error={} 
-:do { add address=146.59.184.5 list=turris_greylist } on-error={} 
-:do { add address=146.70.41.158 list=turris_greylist } on-error={} 
-:do { add address=146.88.240.248 list=turris_greylist } on-error={} 
-:do { add address=146.158.4.173 list=turris_greylist } on-error={} 
-:do { add address=146.255.254.114 list=turris_greylist } on-error={} 
-:do { add address=147.30.42.161 list=turris_greylist } on-error={} 
-:do { add address=147.30.106.197 list=turris_greylist } on-error={} 
-:do { add address=147.46.114.86 list=turris_greylist } on-error={} 
-:do { add address=147.50.252.71 list=turris_greylist } on-error={} 
-:do { add address=147.139.30.149 list=turris_greylist } on-error={} 
-:do { add address=147.182.142.42 list=turris_greylist } on-error={} 
-:do { add address=147.182.146.99 list=turris_greylist } on-error={} 
-:do { add address=147.182.146.131 list=turris_greylist } on-error={} 
-:do { add address=147.182.146.153 list=turris_greylist } on-error={} 
-:do { add address=147.182.158.215 list=turris_greylist } on-error={} 
-:do { add address=147.182.171.248 list=turris_greylist } on-error={} 
-:do { add address=147.182.184.30 list=turris_greylist } on-error={} 
-:do { add address=147.182.194.40 list=turris_greylist } on-error={} 
-:do { add address=147.182.196.61 list=turris_greylist } on-error={} 
-:do { add address=147.182.241.232 list=turris_greylist } on-error={} 
-:do { add address=147.182.245.15 list=turris_greylist } on-error={} 
-:do { add address=147.182.249.253 list=turris_greylist } on-error={} 
-:do { add address=147.203.255.20 list=turris_greylist } on-error={} 
-:do { add address=148.0.15.158 list=turris_greylist } on-error={} 
-:do { add address=148.66.134.158 list=turris_greylist } on-error={} 
-:do { add address=148.243.170.66 list=turris_greylist } on-error={} 
-:do { add address=148.255.235.8 list=turris_greylist } on-error={} 
-:do { add address=149.28.130.199 list=turris_greylist } on-error={} 
-:do { add address=149.202.83.197 list=turris_greylist } on-error={} 
-:do { add address=149.255.36.167 list=turris_greylist } on-error={} 
-:do { add address=150.129.49.170 list=turris_greylist } on-error={} 
-:do { add address=150.129.82.250 list=turris_greylist } on-error={} 
-:do { add address=150.139.194.112 list=turris_greylist } on-error={} 
-:do { add address=150.242.96.123 list=turris_greylist } on-error={} 
-:do { add address=150.242.254.37 list=turris_greylist } on-error={} 
-:do { add address=151.0.52.113 list=turris_greylist } on-error={} 
-:do { add address=151.22.229.18 list=turris_greylist } on-error={} 
-:do { add address=151.32.75.54 list=turris_greylist } on-error={} 
-:do { add address=151.79.128.227 list=turris_greylist } on-error={} 
-:do { add address=151.101.121.124 list=turris_greylist } on-error={} 
-:do { add address=151.106.5.106 list=turris_greylist } on-error={} 
-:do { add address=151.106.18.140 list=turris_greylist } on-error={} 
-:do { add address=151.232.29.167 list=turris_greylist } on-error={} 
-:do { add address=152.32.140.29 list=turris_greylist } on-error={} 
-:do { add address=152.32.140.142 list=turris_greylist } on-error={} 
-:do { add address=152.32.142.74 list=turris_greylist } on-error={} 
-:do { add address=152.32.143.122 list=turris_greylist } on-error={} 
-:do { add address=152.32.143.129 list=turris_greylist } on-error={} 
-:do { add address=152.32.143.177 list=turris_greylist } on-error={} 
-:do { add address=152.32.144.156 list=turris_greylist } on-error={} 
-:do { add address=152.32.144.236 list=turris_greylist } on-error={} 
-:do { add address=152.32.145.20 list=turris_greylist } on-error={} 
-:do { add address=152.32.149.247 list=turris_greylist } on-error={} 
-:do { add address=152.32.150.67 list=turris_greylist } on-error={} 
-:do { add address=152.32.150.177 list=turris_greylist } on-error={} 
-:do { add address=152.32.155.235 list=turris_greylist } on-error={} 
-:do { add address=152.32.172.163 list=turris_greylist } on-error={} 
-:do { add address=152.32.186.176 list=turris_greylist } on-error={} 
-:do { add address=152.32.190.85 list=turris_greylist } on-error={} 
-:do { add address=152.32.192.63 list=turris_greylist } on-error={} 
-:do { add address=152.32.198.195 list=turris_greylist } on-error={} 
-:do { add address=152.32.199.200 list=turris_greylist } on-error={} 
-:do { add address=152.32.199.219 list=turris_greylist } on-error={} 
-:do { add address=152.32.200.141 list=turris_greylist } on-error={} 
-:do { add address=152.32.200.151 list=turris_greylist } on-error={} 
-:do { add address=152.32.200.184 list=turris_greylist } on-error={} 
-:do { add address=152.32.200.195 list=turris_greylist } on-error={} 
-:do { add address=152.32.209.58 list=turris_greylist } on-error={} 
-:do { add address=152.32.216.16 list=turris_greylist } on-error={} 
-:do { add address=152.32.217.23 list=turris_greylist } on-error={} 
-:do { add address=152.32.218.176 list=turris_greylist } on-error={} 
-:do { add address=152.32.220.209 list=turris_greylist } on-error={} 
-:do { add address=152.32.234.44 list=turris_greylist } on-error={} 
-:do { add address=152.32.253.152 list=turris_greylist } on-error={} 
-:do { add address=152.136.151.96 list=turris_greylist } on-error={} 
-:do { add address=152.136.158.226 list=turris_greylist } on-error={} 
-:do { add address=152.136.194.103 list=turris_greylist } on-error={} 
-:do { add address=152.200.138.183 list=turris_greylist } on-error={} 
-:do { add address=153.0.150.42 list=turris_greylist } on-error={} 
-:do { add address=153.34.209.186 list=turris_greylist } on-error={} 
-:do { add address=153.37.149.157 list=turris_greylist } on-error={} 
-:do { add address=153.142.49.250 list=turris_greylist } on-error={} 
-:do { add address=154.38.102.223 list=turris_greylist } on-error={} 
-:do { add address=154.54.220.210 list=turris_greylist } on-error={} 
-:do { add address=154.68.227.20 list=turris_greylist } on-error={} 
-:do { add address=154.70.95.30 list=turris_greylist } on-error={} 
-:do { add address=154.70.198.203 list=turris_greylist } on-error={} 
-:do { add address=154.72.204.211 list=turris_greylist } on-error={} 
-:do { add address=154.85.60.84 list=turris_greylist } on-error={} 
-:do { add address=154.88.26.224 list=turris_greylist } on-error={} 
-:do { add address=154.88.26.226 list=turris_greylist } on-error={} 
-:do { add address=154.88.26.229 list=turris_greylist } on-error={} 
-:do { add address=154.88.26.230 list=turris_greylist } on-error={} 
-:do { add address=154.88.26.231 list=turris_greylist } on-error={} 
-:do { add address=154.88.26.232 list=turris_greylist } on-error={} 
-:do { add address=154.88.26.233 list=turris_greylist } on-error={} 
-:do { add address=154.88.26.234 list=turris_greylist } on-error={} 
-:do { add address=154.88.26.235 list=turris_greylist } on-error={} 
-:do { add address=154.88.30.28 list=turris_greylist } on-error={} 
-:do { add address=154.89.5.85 list=turris_greylist } on-error={} 
-:do { add address=154.113.122.218 list=turris_greylist } on-error={} 
-:do { add address=154.113.146.202 list=turris_greylist } on-error={} 
-:do { add address=154.124.69.212 list=turris_greylist } on-error={} 
-:do { add address=154.125.45.105 list=turris_greylist } on-error={} 
-:do { add address=154.209.125.35 list=turris_greylist } on-error={} 
-:do { add address=154.214.4.81 list=turris_greylist } on-error={} 
-:do { add address=155.4.66.65 list=turris_greylist } on-error={} 
-:do { add address=156.54.238.128 list=turris_greylist } on-error={} 
-:do { add address=156.96.154.202 list=turris_greylist } on-error={} 
-:do { add address=156.96.155.235 list=turris_greylist } on-error={} 
-:do { add address=156.96.155.253 list=turris_greylist } on-error={} 
-:do { add address=156.110.50.233 list=turris_greylist } on-error={} 
-:do { add address=156.200.230.175 list=turris_greylist } on-error={} 
-:do { add address=156.200.249.1 list=turris_greylist } on-error={} 
-:do { add address=156.242.10.11 list=turris_greylist } on-error={} 
-:do { add address=156.251.172.207 list=turris_greylist } on-error={} 
-:do { add address=156.251.172.208 list=turris_greylist } on-error={} 
-:do { add address=157.230.10.17 list=turris_greylist } on-error={} 
-:do { add address=157.230.24.204 list=turris_greylist } on-error={} 
-:do { add address=157.230.102.145 list=turris_greylist } on-error={} 
-:do { add address=157.230.118.95 list=turris_greylist } on-error={} 
-:do { add address=157.230.216.203 list=turris_greylist } on-error={} 
-:do { add address=157.245.15.92 list=turris_greylist } on-error={} 
-:do { add address=157.245.37.175 list=turris_greylist } on-error={} 
-:do { add address=157.245.52.153 list=turris_greylist } on-error={} 
-:do { add address=157.245.70.127 list=turris_greylist } on-error={} 
-:do { add address=157.245.116.26 list=turris_greylist } on-error={} 
-:do { add address=157.245.176.143 list=turris_greylist } on-error={} 
-:do { add address=158.140.181.58 list=turris_greylist } on-error={} 
-:do { add address=158.255.7.133 list=turris_greylist } on-error={} 
-:do { add address=159.65.17.234 list=turris_greylist } on-error={} 
-:do { add address=159.65.50.192 list=turris_greylist } on-error={} 
-:do { add address=159.65.66.202 list=turris_greylist } on-error={} 
-:do { add address=159.65.112.95 list=turris_greylist } on-error={} 
-:do { add address=159.65.140.76 list=turris_greylist } on-error={} 
-:do { add address=159.65.150.139 list=turris_greylist } on-error={} 
-:do { add address=159.65.165.125 list=turris_greylist } on-error={} 
-:do { add address=159.65.197.62 list=turris_greylist } on-error={} 
-:do { add address=159.65.230.17 list=turris_greylist } on-error={} 
-:do { add address=159.65.243.134 list=turris_greylist } on-error={} 
-:do { add address=159.75.22.229 list=turris_greylist } on-error={} 
-:do { add address=159.75.76.11 list=turris_greylist } on-error={} 
-:do { add address=159.89.17.32 list=turris_greylist } on-error={} 
-:do { add address=159.89.80.201 list=turris_greylist } on-error={} 
-:do { add address=159.89.89.102 list=turris_greylist } on-error={} 
-:do { add address=159.89.121.83 list=turris_greylist } on-error={} 
-:do { add address=159.89.143.161 list=turris_greylist } on-error={} 
-:do { add address=159.89.155.205 list=turris_greylist } on-error={} 
-:do { add address=159.89.157.205 list=turris_greylist } on-error={} 
-:do { add address=159.138.99.214 list=turris_greylist } on-error={} 
-:do { add address=159.138.230.30 list=turris_greylist } on-error={} 
-:do { add address=159.192.180.213 list=turris_greylist } on-error={} 
-:do { add address=159.203.24.40 list=turris_greylist } on-error={} 
-:do { add address=159.203.30.183 list=turris_greylist } on-error={} 
-:do { add address=159.203.34.135 list=turris_greylist } on-error={} 
-:do { add address=159.203.75.168 list=turris_greylist } on-error={} 
-:do { add address=159.203.76.126 list=turris_greylist } on-error={} 
-:do { add address=159.203.89.65 list=turris_greylist } on-error={} 
-:do { add address=159.203.91.246 list=turris_greylist } on-error={} 
-:do { add address=159.203.160.245 list=turris_greylist } on-error={} 
-:do { add address=159.223.51.185 list=turris_greylist } on-error={} 
-:do { add address=159.223.53.244 list=turris_greylist } on-error={} 
-:do { add address=159.223.55.238 list=turris_greylist } on-error={} 
-:do { add address=159.223.82.52 list=turris_greylist } on-error={} 
-:do { add address=159.223.91.57 list=turris_greylist } on-error={} 
-:do { add address=159.223.103.19 list=turris_greylist } on-error={} 
-:do { add address=159.223.107.244 list=turris_greylist } on-error={} 
-:do { add address=159.223.188.106 list=turris_greylist } on-error={} 
-:do { add address=159.255.162.245 list=turris_greylist } on-error={} 
-:do { add address=160.16.130.186 list=turris_greylist } on-error={} 
-:do { add address=160.16.223.178 list=turris_greylist } on-error={} 
-:do { add address=160.20.247.196 list=turris_greylist } on-error={} 
-:do { add address=160.120.131.254 list=turris_greylist } on-error={} 
-:do { add address=160.154.43.146 list=turris_greylist } on-error={} 
-:do { add address=160.154.94.99 list=turris_greylist } on-error={} 
-:do { add address=160.174.129.174 list=turris_greylist } on-error={} 
-:do { add address=161.10.246.142 list=turris_greylist } on-error={} 
-:do { add address=161.35.29.108 list=turris_greylist } on-error={} 
-:do { add address=161.35.69.163 list=turris_greylist } on-error={} 
-:do { add address=161.35.109.68 list=turris_greylist } on-error={} 
-:do { add address=161.35.130.195 list=turris_greylist } on-error={} 
-:do { add address=161.35.135.168 list=turris_greylist } on-error={} 
-:do { add address=161.35.176.69 list=turris_greylist } on-error={} 
-:do { add address=161.35.188.242 list=turris_greylist } on-error={} 
-:do { add address=161.35.206.66 list=turris_greylist } on-error={} 
-:do { add address=161.35.230.3 list=turris_greylist } on-error={} 
-:do { add address=161.35.230.183 list=turris_greylist } on-error={} 
-:do { add address=161.35.236.158 list=turris_greylist } on-error={} 
-:do { add address=161.35.236.235 list=turris_greylist } on-error={} 
-:do { add address=161.35.238.241 list=turris_greylist } on-error={} 
-:do { add address=161.97.99.82 list=turris_greylist } on-error={} 
-:do { add address=162.33.178.148 list=turris_greylist } on-error={} 
-:do { add address=162.62.61.98 list=turris_greylist } on-error={} 
-:do { add address=162.142.125.18 list=turris_greylist } on-error={} 
-:do { add address=162.142.125.112 list=turris_greylist } on-error={} 
-:do { add address=162.142.125.114 list=turris_greylist } on-error={} 
-:do { add address=162.209.206.90 list=turris_greylist } on-error={} 
-:do { add address=162.215.219.218 list=turris_greylist } on-error={} 
-:do { add address=162.215.219.221 list=turris_greylist } on-error={} 
-:do { add address=162.221.192.26 list=turris_greylist } on-error={} 
-:do { add address=162.221.192.27 list=turris_greylist } on-error={} 
-:do { add address=162.221.192.28 list=turris_greylist } on-error={} 
-:do { add address=162.221.192.29 list=turris_greylist } on-error={} 
-:do { add address=162.221.192.30 list=turris_greylist } on-error={} 
-:do { add address=162.221.194.128 list=turris_greylist } on-error={} 
-:do { add address=162.232.12.221 list=turris_greylist } on-error={} 
-:do { add address=162.241.120.44 list=turris_greylist } on-error={} 
-:do { add address=162.245.236.194 list=turris_greylist } on-error={} 
-:do { add address=162.255.34.169 list=turris_greylist } on-error={} 
-:do { add address=163.123.142.194 list=turris_greylist } on-error={} 
-:do { add address=163.172.102.84 list=turris_greylist } on-error={} 
-:do { add address=163.177.78.218 list=turris_greylist } on-error={} 
-:do { add address=164.52.24.162 list=turris_greylist } on-error={} 
-:do { add address=164.52.24.164 list=turris_greylist } on-error={} 
-:do { add address=164.52.24.166 list=turris_greylist } on-error={} 
-:do { add address=164.52.24.172 list=turris_greylist } on-error={} 
-:do { add address=164.52.24.179 list=turris_greylist } on-error={} 
-:do { add address=164.52.24.182 list=turris_greylist } on-error={} 
-:do { add address=164.52.24.189 list=turris_greylist } on-error={} 
-:do { add address=164.52.24.190 list=turris_greylist } on-error={} 
-:do { add address=164.88.72.107 list=turris_greylist } on-error={} 
-:do { add address=164.88.150.11 list=turris_greylist } on-error={} 
-:do { add address=164.88.150.91 list=turris_greylist } on-error={} 
-:do { add address=164.88.188.147 list=turris_greylist } on-error={} 
-:do { add address=164.88.188.236 list=turris_greylist } on-error={} 
-:do { add address=164.88.199.250 list=turris_greylist } on-error={} 
-:do { add address=164.90.130.47 list=turris_greylist } on-error={} 
-:do { add address=164.90.130.61 list=turris_greylist } on-error={} 
-:do { add address=164.90.139.238 list=turris_greylist } on-error={} 
-:do { add address=164.90.142.54 list=turris_greylist } on-error={} 
-:do { add address=164.90.156.240 list=turris_greylist } on-error={} 
-:do { add address=164.90.181.216 list=turris_greylist } on-error={} 
-:do { add address=164.90.190.156 list=turris_greylist } on-error={} 
-:do { add address=164.90.199.9 list=turris_greylist } on-error={} 
-:do { add address=164.90.208.105 list=turris_greylist } on-error={} 
-:do { add address=164.90.212.81 list=turris_greylist } on-error={} 
-:do { add address=164.92.209.61 list=turris_greylist } on-error={} 
-:do { add address=164.92.223.202 list=turris_greylist } on-error={} 
-:do { add address=164.92.231.147 list=turris_greylist } on-error={} 
-:do { add address=164.92.231.161 list=turris_greylist } on-error={} 
-:do { add address=164.92.231.170 list=turris_greylist } on-error={} 
-:do { add address=164.92.233.159 list=turris_greylist } on-error={} 
-:do { add address=164.92.235.97 list=turris_greylist } on-error={} 
-:do { add address=164.92.240.106 list=turris_greylist } on-error={} 
-:do { add address=164.92.243.0 list=turris_greylist } on-error={} 
-:do { add address=164.92.245.77 list=turris_greylist } on-error={} 
-:do { add address=164.92.249.23 list=turris_greylist } on-error={} 
-:do { add address=164.132.83.80 list=turris_greylist } on-error={} 
-:do { add address=164.160.147.65 list=turris_greylist } on-error={} 
-:do { add address=164.163.67.22 list=turris_greylist } on-error={} 
-:do { add address=165.16.113.175 list=turris_greylist } on-error={} 
-:do { add address=165.22.52.204 list=turris_greylist } on-error={} 
-:do { add address=165.22.106.81 list=turris_greylist } on-error={} 
-:do { add address=165.22.110.171 list=turris_greylist } on-error={} 
-:do { add address=165.22.205.5 list=turris_greylist } on-error={} 
-:do { add address=165.22.251.23 list=turris_greylist } on-error={} 
-:do { add address=165.227.106.52 list=turris_greylist } on-error={} 
-:do { add address=165.227.118.143 list=turris_greylist } on-error={} 
-:do { add address=165.227.131.62 list=turris_greylist } on-error={} 
-:do { add address=165.227.178.24 list=turris_greylist } on-error={} 
-:do { add address=165.232.156.189 list=turris_greylist } on-error={} 
-:do { add address=165.255.240.55 list=turris_greylist } on-error={} 
-:do { add address=167.71.64.39 list=turris_greylist } on-error={} 
-:do { add address=167.71.64.138 list=turris_greylist } on-error={} 
-:do { add address=167.71.79.19 list=turris_greylist } on-error={} 
-:do { add address=167.71.102.95 list=turris_greylist } on-error={} 
-:do { add address=167.71.102.181 list=turris_greylist } on-error={} 
-:do { add address=167.71.136.45 list=turris_greylist } on-error={} 
-:do { add address=167.71.141.177 list=turris_greylist } on-error={} 
-:do { add address=167.71.180.246 list=turris_greylist } on-error={} 
-:do { add address=167.71.226.83 list=turris_greylist } on-error={} 
-:do { add address=167.71.231.107 list=turris_greylist } on-error={} 
-:do { add address=167.71.233.248 list=turris_greylist } on-error={} 
-:do { add address=167.71.234.70 list=turris_greylist } on-error={} 
-:do { add address=167.71.241.19 list=turris_greylist } on-error={} 
-:do { add address=167.71.250.15 list=turris_greylist } on-error={} 
-:do { add address=167.71.254.22 list=turris_greylist } on-error={} 
-:do { add address=167.86.93.180 list=turris_greylist } on-error={} 
-:do { add address=167.86.175.236 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.2 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.3 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.4 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.5 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.6 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.7 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.8 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.9 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.10 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.11 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.12 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.13 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.14 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.15 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.17 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.21 list=turris_greylist } on-error={} 
-:do { add address=167.94.138.30 list=turris_greylist } on-error={} 
-:do { add address=167.99.7.87 list=turris_greylist } on-error={} 
-:do { add address=167.99.107.57 list=turris_greylist } on-error={} 
-:do { add address=167.99.133.28 list=turris_greylist } on-error={} 
-:do { add address=167.114.10.184 list=turris_greylist } on-error={} 
-:do { add address=167.172.39.56 list=turris_greylist } on-error={} 
-:do { add address=167.172.51.34 list=turris_greylist } on-error={} 
-:do { add address=167.172.58.11 list=turris_greylist } on-error={} 
-:do { add address=167.172.148.206 list=turris_greylist } on-error={} 
-:do { add address=167.172.240.54 list=turris_greylist } on-error={} 
-:do { add address=167.179.6.86 list=turris_greylist } on-error={} 
-:do { add address=167.248.133.24 list=turris_greylist } on-error={} 
-:do { add address=167.248.133.25 list=turris_greylist } on-error={} 
-:do { add address=167.248.133.28 list=turris_greylist } on-error={} 
-:do { add address=168.90.147.124 list=turris_greylist } on-error={} 
-:do { add address=168.181.56.38 list=turris_greylist } on-error={} 
-:do { add address=168.181.123.117 list=turris_greylist } on-error={} 
-:do { add address=168.194.91.10 list=turris_greylist } on-error={} 
-:do { add address=168.194.251.32 list=turris_greylist } on-error={} 
-:do { add address=168.195.252.26 list=turris_greylist } on-error={} 
-:do { add address=168.197.155.46 list=turris_greylist } on-error={} 
-:do { add address=168.205.126.69 list=turris_greylist } on-error={} 
-:do { add address=168.227.19.65 list=turris_greylist } on-error={} 
-:do { add address=168.232.85.202 list=turris_greylist } on-error={} 
-:do { add address=169.239.120.11 list=turris_greylist } on-error={} 
-:do { add address=169.255.236.28 list=turris_greylist } on-error={} 
-:do { add address=170.78.21.196 list=turris_greylist } on-error={} 
-:do { add address=170.80.49.2 list=turris_greylist } on-error={} 
-:do { add address=170.80.155.86 list=turris_greylist } on-error={} 
-:do { add address=170.81.104.35 list=turris_greylist } on-error={} 
-:do { add address=170.106.152.199 list=turris_greylist } on-error={} 
-:do { add address=170.187.155.78 list=turris_greylist } on-error={} 
-:do { add address=170.210.200.51 list=turris_greylist } on-error={} 
-:do { add address=170.239.128.1 list=turris_greylist } on-error={} 
-:do { add address=170.239.128.7 list=turris_greylist } on-error={} 
-:do { add address=170.245.244.70 list=turris_greylist } on-error={} 
-:do { add address=170.246.84.130 list=turris_greylist } on-error={} 
-:do { add address=171.15.16.116 list=turris_greylist } on-error={} 
-:do { add address=171.40.59.172 list=turris_greylist } on-error={} 
-:do { add address=171.88.48.197 list=turris_greylist } on-error={} 
-:do { add address=171.105.4.136 list=turris_greylist } on-error={} 
-:do { add address=171.126.5.249 list=turris_greylist } on-error={} 
-:do { add address=171.212.136.246 list=turris_greylist } on-error={} 
-:do { add address=172.81.61.168 list=turris_greylist } on-error={} 
-:do { add address=172.86.186.146 list=turris_greylist } on-error={} 
-:do { add address=172.88.38.19 list=turris_greylist } on-error={} 
-:do { add address=172.89.185.89 list=turris_greylist } on-error={} 
-:do { add address=172.96.124.245 list=turris_greylist } on-error={} 
-:do { add address=172.104.89.122 list=turris_greylist } on-error={} 
-:do { add address=172.104.112.244 list=turris_greylist } on-error={} 
-:do { add address=172.104.131.24 list=turris_greylist } on-error={} 
-:do { add address=172.104.217.92 list=turris_greylist } on-error={} 
-:do { add address=172.104.234.47 list=turris_greylist } on-error={} 
-:do { add address=172.104.238.162 list=turris_greylist } on-error={} 
-:do { add address=172.105.75.64 list=turris_greylist } on-error={} 
-:do { add address=172.105.91.98 list=turris_greylist } on-error={} 
-:do { add address=172.105.96.215 list=turris_greylist } on-error={} 
-:do { add address=172.105.213.140 list=turris_greylist } on-error={} 
-:do { add address=172.107.94.66 list=turris_greylist } on-error={} 
-:do { add address=172.107.95.30 list=turris_greylist } on-error={} 
-:do { add address=172.107.97.116 list=turris_greylist } on-error={} 
-:do { add address=172.107.180.21 list=turris_greylist } on-error={} 
-:do { add address=172.107.223.226 list=turris_greylist } on-error={} 
-:do { add address=172.111.150.2 list=turris_greylist } on-error={} 
-:do { add address=172.168.20.5 list=turris_greylist } on-error={} 
-:do { add address=172.172.136.11 list=turris_greylist } on-error={} 
-:do { add address=172.245.20.212 list=turris_greylist } on-error={} 
-:do { add address=172.247.32.131 list=turris_greylist } on-error={} 
-:do { add address=172.247.32.192 list=turris_greylist } on-error={} 
-:do { add address=172.247.35.210 list=turris_greylist } on-error={} 
-:do { add address=172.247.113.115 list=turris_greylist } on-error={} 
-:do { add address=172.248.191.202 list=turris_greylist } on-error={} 
-:do { add address=172.250.88.221 list=turris_greylist } on-error={} 
-:do { add address=172.251.154.169 list=turris_greylist } on-error={} 
-:do { add address=173.0.58.122 list=turris_greylist } on-error={} 
-:do { add address=173.0.58.138 list=turris_greylist } on-error={} 
-:do { add address=173.201.22.2 list=turris_greylist } on-error={} 
-:do { add address=173.230.152.228 list=turris_greylist } on-error={} 
-:do { add address=173.254.196.210 list=turris_greylist } on-error={} 
-:do { add address=174.1.68.225 list=turris_greylist } on-error={} 
-:do { add address=174.138.40.190 list=turris_greylist } on-error={} 
-:do { add address=175.6.7.37 list=turris_greylist } on-error={} 
-:do { add address=175.6.27.209 list=turris_greylist } on-error={} 
-:do { add address=175.9.217.54 list=turris_greylist } on-error={} 
-:do { add address=175.24.97.143 list=turris_greylist } on-error={} 
-:do { add address=175.24.122.138 list=turris_greylist } on-error={} 
-:do { add address=175.31.200.83 list=turris_greylist } on-error={} 
-:do { add address=175.45.16.178 list=turris_greylist } on-error={} 
-:do { add address=175.107.196.28 list=turris_greylist } on-error={} 
-:do { add address=175.107.196.29 list=turris_greylist } on-error={} 
-:do { add address=175.107.201.182 list=turris_greylist } on-error={} 
-:do { add address=175.116.215.72 list=turris_greylist } on-error={} 
-:do { add address=175.121.157.188 list=turris_greylist } on-error={} 
-:do { add address=175.121.210.135 list=turris_greylist } on-error={} 
-:do { add address=175.123.74.72 list=turris_greylist } on-error={} 
-:do { add address=175.139.165.51 list=turris_greylist } on-error={} 
-:do { add address=175.143.36.49 list=turris_greylist } on-error={} 
-:do { add address=175.151.185.90 list=turris_greylist } on-error={} 
-:do { add address=175.158.200.177 list=turris_greylist } on-error={} 
-:do { add address=175.178.5.246 list=turris_greylist } on-error={} 
-:do { add address=175.181.38.150 list=turris_greylist } on-error={} 
-:do { add address=175.181.209.199 list=turris_greylist } on-error={} 
-:do { add address=175.182.100.152 list=turris_greylist } on-error={} 
-:do { add address=175.194.70.52 list=turris_greylist } on-error={} 
-:do { add address=175.207.19.39 list=turris_greylist } on-error={} 
-:do { add address=175.210.240.51 list=turris_greylist } on-error={} 
-:do { add address=176.9.146.243 list=turris_greylist } on-error={} 
-:do { add address=176.31.15.72 list=turris_greylist } on-error={} 
-:do { add address=176.97.210.213 list=turris_greylist } on-error={} 
-:do { add address=176.116.165.164 list=turris_greylist } on-error={} 
-:do { add address=176.119.2.249 list=turris_greylist } on-error={} 
-:do { add address=176.119.229.109 list=turris_greylist } on-error={} 
-:do { add address=176.123.2.144 list=turris_greylist } on-error={} 
-:do { add address=176.192.28.206 list=turris_greylist } on-error={} 
-:do { add address=176.192.124.176 list=turris_greylist } on-error={} 
-:do { add address=176.221.48.214 list=turris_greylist } on-error={} 
-:do { add address=177.11.169.122 list=turris_greylist } on-error={} 
-:do { add address=177.19.17.140 list=turris_greylist } on-error={} 
-:do { add address=177.19.56.64 list=turris_greylist } on-error={} 
-:do { add address=177.19.129.195 list=turris_greylist } on-error={} 
-:do { add address=177.21.128.44 list=turris_greylist } on-error={} 
-:do { add address=177.21.128.142 list=turris_greylist } on-error={} 
-:do { add address=177.23.118.48 list=turris_greylist } on-error={} 
-:do { add address=177.23.140.58 list=turris_greylist } on-error={} 
-:do { add address=177.23.191.191 list=turris_greylist } on-error={} 
-:do { add address=177.43.39.39 list=turris_greylist } on-error={} 
-:do { add address=177.47.194.102 list=turris_greylist } on-error={} 
-:do { add address=177.54.51.76 list=turris_greylist } on-error={} 
-:do { add address=177.66.73.2 list=turris_greylist } on-error={} 
-:do { add address=177.66.73.84 list=turris_greylist } on-error={} 
-:do { add address=177.67.4.131 list=turris_greylist } on-error={} 
-:do { add address=177.70.65.199 list=turris_greylist } on-error={} 
-:do { add address=177.73.142.229 list=turris_greylist } on-error={} 
-:do { add address=177.84.54.206 list=turris_greylist } on-error={} 
-:do { add address=177.85.0.9 list=turris_greylist } on-error={} 
-:do { add address=177.85.0.25 list=turris_greylist } on-error={} 
-:do { add address=177.85.0.30 list=turris_greylist } on-error={} 
-:do { add address=177.92.85.186 list=turris_greylist } on-error={} 
-:do { add address=177.93.188.22 list=turris_greylist } on-error={} 
-:do { add address=177.93.253.8 list=turris_greylist } on-error={} 
-:do { add address=177.95.23.113 list=turris_greylist } on-error={} 
-:do { add address=177.99.215.65 list=turris_greylist } on-error={} 
-:do { add address=177.105.159.83 list=turris_greylist } on-error={} 
-:do { add address=177.124.40.7 list=turris_greylist } on-error={} 
-:do { add address=177.128.17.39 list=turris_greylist } on-error={} 
-:do { add address=177.129.191.145 list=turris_greylist } on-error={} 
-:do { add address=177.131.49.149 list=turris_greylist } on-error={} 
-:do { add address=177.136.39.22 list=turris_greylist } on-error={} 
-:do { add address=177.136.159.1 list=turris_greylist } on-error={} 
-:do { add address=177.184.220.123 list=turris_greylist } on-error={} 
-:do { add address=177.184.220.168 list=turris_greylist } on-error={} 
-:do { add address=177.190.72.19 list=turris_greylist } on-error={} 
-:do { add address=177.190.195.102 list=turris_greylist } on-error={} 
-:do { add address=177.200.66.167 list=turris_greylist } on-error={} 
-:do { add address=177.207.204.230 list=turris_greylist } on-error={} 
-:do { add address=177.220.188.216 list=turris_greylist } on-error={} 
-:do { add address=177.221.60.99 list=turris_greylist } on-error={} 
-:do { add address=177.223.58.84 list=turris_greylist } on-error={} 
-:do { add address=177.229.149.98 list=turris_greylist } on-error={} 
-:do { add address=177.231.139.112 list=turris_greylist } on-error={} 
-:do { add address=177.231.155.143 list=turris_greylist } on-error={} 
-:do { add address=177.238.249.14 list=turris_greylist } on-error={} 
-:do { add address=177.240.206.74 list=turris_greylist } on-error={} 
-:do { add address=177.242.128.126 list=turris_greylist } on-error={} 
-:do { add address=178.18.34.36 list=turris_greylist } on-error={} 
-:do { add address=178.18.249.24 list=turris_greylist } on-error={} 
-:do { add address=178.22.119.166 list=turris_greylist } on-error={} 
-:do { add address=178.33.207.33 list=turris_greylist } on-error={} 
-:do { add address=178.35.41.128 list=turris_greylist } on-error={} 
-:do { add address=178.44.114.251 list=turris_greylist } on-error={} 
-:do { add address=178.46.84.141 list=turris_greylist } on-error={} 
-:do { add address=178.46.209.44 list=turris_greylist } on-error={} 
-:do { add address=178.54.78.190 list=turris_greylist } on-error={} 
-:do { add address=178.57.106.157 list=turris_greylist } on-error={} 
-:do { add address=178.62.40.50 list=turris_greylist } on-error={} 
-:do { add address=178.62.106.67 list=turris_greylist } on-error={} 
-:do { add address=178.62.194.13 list=turris_greylist } on-error={} 
-:do { add address=178.62.218.246 list=turris_greylist } on-error={} 
-:do { add address=178.62.250.142 list=turris_greylist } on-error={} 
-:do { add address=178.62.253.74 list=turris_greylist } on-error={} 
-:do { add address=178.73.215.171 list=turris_greylist } on-error={} 
-:do { add address=178.79.177.104 list=turris_greylist } on-error={} 
-:do { add address=178.122.247.253 list=turris_greylist } on-error={} 
-:do { add address=178.124.202.115 list=turris_greylist } on-error={} 
-:do { add address=178.128.29.254 list=turris_greylist } on-error={} 
-:do { add address=178.128.43.89 list=turris_greylist } on-error={} 
-:do { add address=178.128.47.238 list=turris_greylist } on-error={} 
-:do { add address=178.128.66.56 list=turris_greylist } on-error={} 
-:do { add address=178.128.66.109 list=turris_greylist } on-error={} 
-:do { add address=178.128.103.242 list=turris_greylist } on-error={} 
-:do { add address=178.128.117.95 list=turris_greylist } on-error={} 
-:do { add address=178.128.173.74 list=turris_greylist } on-error={} 
-:do { add address=178.128.191.161 list=turris_greylist } on-error={} 
-:do { add address=178.128.216.175 list=turris_greylist } on-error={} 
-:do { add address=178.128.216.205 list=turris_greylist } on-error={} 
-:do { add address=178.128.229.17 list=turris_greylist } on-error={} 
-:do { add address=178.128.250.193 list=turris_greylist } on-error={} 
-:do { add address=178.151.141.115 list=turris_greylist } on-error={} 
-:do { add address=178.164.253.14 list=turris_greylist } on-error={} 
-:do { add address=178.174.136.147 list=turris_greylist } on-error={} 
-:do { add address=178.174.137.41 list=turris_greylist } on-error={} 
-:do { add address=178.175.134.125 list=turris_greylist } on-error={} 
-:do { add address=178.202.158.225 list=turris_greylist } on-error={} 
-:do { add address=178.207.9.210 list=turris_greylist } on-error={} 
-:do { add address=178.209.126.217 list=turris_greylist } on-error={} 
-:do { add address=178.210.54.253 list=turris_greylist } on-error={} 
-:do { add address=178.237.56.155 list=turris_greylist } on-error={} 
-:do { add address=178.239.21.65 list=turris_greylist } on-error={} 
-:do { add address=178.239.21.76 list=turris_greylist } on-error={} 
-:do { add address=178.239.21.77 list=turris_greylist } on-error={} 
-:do { add address=178.239.21.80 list=turris_greylist } on-error={} 
-:do { add address=178.239.21.103 list=turris_greylist } on-error={} 
-:do { add address=178.239.21.164 list=turris_greylist } on-error={} 
-:do { add address=178.239.176.32 list=turris_greylist } on-error={} 
-:do { add address=178.242.34.4 list=turris_greylist } on-error={} 
-:do { add address=179.0.123.186 list=turris_greylist } on-error={} 
-:do { add address=179.42.101.24 list=turris_greylist } on-error={} 
-:do { add address=179.43.128.10 list=turris_greylist } on-error={} 
-:do { add address=179.43.141.205 list=turris_greylist } on-error={} 
-:do { add address=179.43.187.70 list=turris_greylist } on-error={} 
-:do { add address=179.43.187.99 list=turris_greylist } on-error={} 
-:do { add address=179.50.78.112 list=turris_greylist } on-error={} 
-:do { add address=179.55.69.97 list=turris_greylist } on-error={} 
-:do { add address=179.56.202.7 list=turris_greylist } on-error={} 
-:do { add address=179.61.232.96 list=turris_greylist } on-error={} 
-:do { add address=179.84.106.237 list=turris_greylist } on-error={} 
-:do { add address=179.97.91.34 list=turris_greylist } on-error={} 
-:do { add address=179.97.120.210 list=turris_greylist } on-error={} 
-:do { add address=179.100.118.66 list=turris_greylist } on-error={} 
-:do { add address=179.108.87.38 list=turris_greylist } on-error={} 
-:do { add address=179.113.191.228 list=turris_greylist } on-error={} 
-:do { add address=179.174.36.212 list=turris_greylist } on-error={} 
-:do { add address=179.183.29.230 list=turris_greylist } on-error={} 
-:do { add address=179.190.99.242 list=turris_greylist } on-error={} 
-:do { add address=180.65.240.162 list=turris_greylist } on-error={} 
-:do { add address=180.76.139.101 list=turris_greylist } on-error={} 
-:do { add address=180.76.145.145 list=turris_greylist } on-error={} 
-:do { add address=180.76.145.234 list=turris_greylist } on-error={} 
-:do { add address=180.97.80.203 list=turris_greylist } on-error={} 
-:do { add address=180.112.110.195 list=turris_greylist } on-error={} 
-:do { add address=180.139.151.34 list=turris_greylist } on-error={} 
-:do { add address=180.140.243.81 list=turris_greylist } on-error={} 
-:do { add address=180.148.143.20 list=turris_greylist } on-error={} 
-:do { add address=180.149.126.221 list=turris_greylist } on-error={} 
-:do { add address=180.163.101.187 list=turris_greylist } on-error={} 
-:do { add address=180.167.201.243 list=turris_greylist } on-error={} 
-:do { add address=180.168.87.50 list=turris_greylist } on-error={} 
-:do { add address=180.169.126.78 list=turris_greylist } on-error={} 
-:do { add address=180.179.227.111 list=turris_greylist } on-error={} 
-:do { add address=180.179.227.113 list=turris_greylist } on-error={} 
-:do { add address=180.179.227.180 list=turris_greylist } on-error={} 
-:do { add address=180.179.227.182 list=turris_greylist } on-error={} 
-:do { add address=180.179.227.183 list=turris_greylist } on-error={} 
-:do { add address=180.180.235.188 list=turris_greylist } on-error={} 
-:do { add address=180.189.114.138 list=turris_greylist } on-error={} 
-:do { add address=180.193.216.178 list=turris_greylist } on-error={} 
-:do { add address=180.210.128.81 list=turris_greylist } on-error={} 
-:do { add address=180.211.162.198 list=turris_greylist } on-error={} 
-:do { add address=180.214.237.211 list=turris_greylist } on-error={} 
-:do { add address=180.215.130.26 list=turris_greylist } on-error={} 
-:do { add address=180.215.130.28 list=turris_greylist } on-error={} 
-:do { add address=180.215.130.29 list=turris_greylist } on-error={} 
-:do { add address=180.215.192.138 list=turris_greylist } on-error={} 
-:do { add address=180.215.192.140 list=turris_greylist } on-error={} 
-:do { add address=180.215.192.143 list=turris_greylist } on-error={} 
-:do { add address=180.215.192.146 list=turris_greylist } on-error={} 
-:do { add address=180.225.98.236 list=turris_greylist } on-error={} 
-:do { add address=180.250.75.234 list=turris_greylist } on-error={} 
-:do { add address=181.30.28.223 list=turris_greylist } on-error={} 
-:do { add address=181.30.169.222 list=turris_greylist } on-error={} 
-:do { add address=181.36.41.165 list=turris_greylist } on-error={} 
-:do { add address=181.47.197.205 list=turris_greylist } on-error={} 
-:do { add address=181.48.117.66 list=turris_greylist } on-error={} 
-:do { add address=181.49.118.29 list=turris_greylist } on-error={} 
-:do { add address=181.49.176.36 list=turris_greylist } on-error={} 
-:do { add address=181.57.167.193 list=turris_greylist } on-error={} 
-:do { add address=181.57.218.210 list=turris_greylist } on-error={} 
-:do { add address=181.59.56.102 list=turris_greylist } on-error={} 
-:do { add address=181.115.244.54 list=turris_greylist } on-error={} 
-:do { add address=181.129.250.44 list=turris_greylist } on-error={} 
-:do { add address=181.174.91.162 list=turris_greylist } on-error={} 
-:do { add address=181.188.145.53 list=turris_greylist } on-error={} 
-:do { add address=181.198.242.252 list=turris_greylist } on-error={} 
-:do { add address=181.204.99.26 list=turris_greylist } on-error={} 
-:do { add address=181.210.30.39 list=turris_greylist } on-error={} 
-:do { add address=181.212.6.146 list=turris_greylist } on-error={} 
-:do { add address=181.214.231.110 list=turris_greylist } on-error={} 
-:do { add address=181.225.44.26 list=turris_greylist } on-error={} 
-:do { add address=181.239.40.7 list=turris_greylist } on-error={} 
-:do { add address=182.16.28.134 list=turris_greylist } on-error={} 
-:do { add address=182.18.139.59 list=turris_greylist } on-error={} 
-:do { add address=182.23.81.86 list=turris_greylist } on-error={} 
-:do { add address=182.53.202.184 list=turris_greylist } on-error={} 
-:do { add address=182.61.37.34 list=turris_greylist } on-error={} 
-:do { add address=182.61.39.11 list=turris_greylist } on-error={} 
-:do { add address=182.61.147.125 list=turris_greylist } on-error={} 
-:do { add address=182.70.119.85 list=turris_greylist } on-error={} 
-:do { add address=182.70.119.119 list=turris_greylist } on-error={} 
-:do { add address=182.75.104.140 list=turris_greylist } on-error={} 
-:do { add address=182.76.142.58 list=turris_greylist } on-error={} 
-:do { add address=182.92.98.244 list=turris_greylist } on-error={} 
-:do { add address=182.93.65.243 list=turris_greylist } on-error={} 
-:do { add address=182.93.69.113 list=turris_greylist } on-error={} 
-:do { add address=182.93.95.196 list=turris_greylist } on-error={} 
-:do { add address=182.106.199.25 list=turris_greylist } on-error={} 
-:do { add address=182.140.244.185 list=turris_greylist } on-error={} 
-:do { add address=182.150.43.171 list=turris_greylist } on-error={} 
-:do { add address=182.160.122.130 list=turris_greylist } on-error={} 
-:do { add address=182.160.127.101 list=turris_greylist } on-error={} 
-:do { add address=182.176.129.204 list=turris_greylist } on-error={} 
-:do { add address=182.176.163.130 list=turris_greylist } on-error={} 
-:do { add address=182.180.153.19 list=turris_greylist } on-error={} 
-:do { add address=182.180.163.137 list=turris_greylist } on-error={} 
-:do { add address=182.214.130.106 list=turris_greylist } on-error={} 
-:do { add address=182.215.142.220 list=turris_greylist } on-error={} 
-:do { add address=182.217.50.173 list=turris_greylist } on-error={} 
-:do { add address=182.222.247.131 list=turris_greylist } on-error={} 
-:do { add address=182.225.21.207 list=turris_greylist } on-error={} 
-:do { add address=182.253.203.226 list=turris_greylist } on-error={} 
-:do { add address=182.253.205.29 list=turris_greylist } on-error={} 
-:do { add address=183.2.191.77 list=turris_greylist } on-error={} 
-:do { add address=183.6.55.120 list=turris_greylist } on-error={} 
-:do { add address=183.6.100.67 list=turris_greylist } on-error={} 
-:do { add address=183.19.200.6 list=turris_greylist } on-error={} 
-:do { add address=183.47.45.115 list=turris_greylist } on-error={} 
-:do { add address=183.47.51.237 list=turris_greylist } on-error={} 
-:do { add address=183.57.18.250 list=turris_greylist } on-error={} 
-:do { add address=183.57.27.10 list=turris_greylist } on-error={} 
-:do { add address=183.61.165.141 list=turris_greylist } on-error={} 
-:do { add address=183.82.8.163 list=turris_greylist } on-error={} 
-:do { add address=183.82.54.219 list=turris_greylist } on-error={} 
-:do { add address=183.82.123.14 list=turris_greylist } on-error={} 
-:do { add address=183.82.123.15 list=turris_greylist } on-error={} 
-:do { add address=183.83.190.186 list=turris_greylist } on-error={} 
-:do { add address=183.94.137.37 list=turris_greylist } on-error={} 
-:do { add address=183.97.33.205 list=turris_greylist } on-error={} 
-:do { add address=183.99.52.58 list=turris_greylist } on-error={} 
-:do { add address=183.111.6.106 list=turris_greylist } on-error={} 
-:do { add address=183.111.6.151 list=turris_greylist } on-error={} 
-:do { add address=183.111.6.152 list=turris_greylist } on-error={} 
-:do { add address=183.111.6.155 list=turris_greylist } on-error={} 
-:do { add address=183.111.6.161 list=turris_greylist } on-error={} 
-:do { add address=183.111.6.191 list=turris_greylist } on-error={} 
-:do { add address=183.111.8.3 list=turris_greylist } on-error={} 
-:do { add address=183.111.206.86 list=turris_greylist } on-error={} 
-:do { add address=183.136.148.202 list=turris_greylist } on-error={} 
-:do { add address=183.136.226.3 list=turris_greylist } on-error={} 
-:do { add address=183.156.20.17 list=turris_greylist } on-error={} 
-:do { add address=183.178.168.251 list=turris_greylist } on-error={} 
-:do { add address=183.194.68.18 list=turris_greylist } on-error={} 
-:do { add address=183.201.193.63 list=turris_greylist } on-error={} 
-:do { add address=183.230.113.52 list=turris_greylist } on-error={} 
-:do { add address=183.230.113.53 list=turris_greylist } on-error={} 
-:do { add address=183.233.146.199 list=turris_greylist } on-error={} 
-:do { add address=183.234.161.107 list=turris_greylist } on-error={} 
-:do { add address=183.237.81.181 list=turris_greylist } on-error={} 
-:do { add address=183.238.161.66 list=turris_greylist } on-error={} 
-:do { add address=183.242.12.90 list=turris_greylist } on-error={} 
-:do { add address=183.245.36.108 list=turris_greylist } on-error={} 
-:do { add address=183.247.160.131 list=turris_greylist } on-error={} 
-:do { add address=184.69.55.116 list=turris_greylist } on-error={} 
-:do { add address=184.71.214.234 list=turris_greylist } on-error={} 
-:do { add address=184.83.152.41 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.67 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.68 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.70 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.71 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.72 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.73 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.75 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.76 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.78 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.79 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.80 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.81 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.82 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.83 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.84 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.86 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.87 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.88 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.90 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.91 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.92 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.93 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.94 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.95 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.96 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.97 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.98 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.99 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.101 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.102 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.103 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.104 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.105 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.106 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.107 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.109 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.110 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.111 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.114 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.115 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.117 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.118 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.119 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.120 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.121 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.123 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.125 list=turris_greylist } on-error={} 
-:do { add address=184.105.139.126 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.194 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.195 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.196 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.198 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.199 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.200 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.202 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.203 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.204 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.206 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.208 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.210 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.211 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.214 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.215 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.216 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.218 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.219 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.220 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.222 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.224 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.226 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.228 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.230 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.231 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.232 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.234 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.235 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.236 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.238 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.239 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.240 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.242 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.243 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.244 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.246 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.247 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.248 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.250 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.251 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.252 list=turris_greylist } on-error={} 
-:do { add address=184.105.247.254 list=turris_greylist } on-error={} 
-:do { add address=184.152.235.26 list=turris_greylist } on-error={} 
-:do { add address=185.7.214.244 list=turris_greylist } on-error={} 
-:do { add address=185.8.173.221 list=turris_greylist } on-error={} 
-:do { add address=185.26.99.132 list=turris_greylist } on-error={} 
-:do { add address=185.40.4.128 list=turris_greylist } on-error={} 
-:do { add address=185.49.87.86 list=turris_greylist } on-error={} 
-:do { add address=185.56.80.14 list=turris_greylist } on-error={} 
-:do { add address=185.57.30.70 list=turris_greylist } on-error={} 
-:do { add address=185.65.134.179 list=turris_greylist } on-error={} 
-:do { add address=185.65.135.169 list=turris_greylist } on-error={} 
-:do { add address=185.70.189.82 list=turris_greylist } on-error={} 
-:do { add address=185.73.126.93 list=turris_greylist } on-error={} 
-:do { add address=185.78.166.115 list=turris_greylist } on-error={} 
-:do { add address=185.81.157.155 list=turris_greylist } on-error={} 
-:do { add address=185.88.175.34 list=turris_greylist } on-error={} 
-:do { add address=185.93.109.44 list=turris_greylist } on-error={} 
-:do { add address=185.94.29.214 list=turris_greylist } on-error={} 
-:do { add address=185.94.111.1 list=turris_greylist } on-error={} 
-:do { add address=185.94.188.130 list=turris_greylist } on-error={} 
-:do { add address=185.94.189.182 list=turris_greylist } on-error={} 
-:do { add address=185.98.62.137 list=turris_greylist } on-error={} 
-:do { add address=185.98.164.14 list=turris_greylist } on-error={} 
-:do { add address=185.105.121.70 list=turris_greylist } on-error={} 
-:do { add address=185.105.229.251 list=turris_greylist } on-error={} 
-:do { add address=185.107.85.208 list=turris_greylist } on-error={} 
-:do { add address=185.109.113.243 list=turris_greylist } on-error={} 
-:do { add address=185.112.150.201 list=turris_greylist } on-error={} 
-:do { add address=185.112.150.206 list=turris_greylist } on-error={} 
-:do { add address=185.121.139.221 list=turris_greylist } on-error={} 
-:do { add address=185.121.165.254 list=turris_greylist } on-error={} 
-:do { add address=185.122.201.229 list=turris_greylist } on-error={} 
-:do { add address=185.128.81.65 list=turris_greylist } on-error={} 
-:do { add address=185.134.98.153 list=turris_greylist } on-error={} 
-:do { add address=185.134.120.95 list=turris_greylist } on-error={} 
-:do { add address=185.136.158.60 list=turris_greylist } on-error={} 
-:do { add address=185.139.68.216 list=turris_greylist } on-error={} 
-:do { add address=185.139.69.171 list=turris_greylist } on-error={} 
-:do { add address=185.142.236.40 list=turris_greylist } on-error={} 
-:do { add address=185.142.236.41 list=turris_greylist } on-error={} 
-:do { add address=185.142.236.43 list=turris_greylist } on-error={} 
-:do { add address=185.145.185.116 list=turris_greylist } on-error={} 
-:do { add address=185.149.23.122 list=turris_greylist } on-error={} 
-:do { add address=185.149.23.134 list=turris_greylist } on-error={} 
-:do { add address=185.162.192.32 list=turris_greylist } on-error={} 
-:do { add address=185.162.235.167 list=turris_greylist } on-error={} 
-:do { add address=185.163.109.66 list=turris_greylist } on-error={} 
-:do { add address=185.163.110.74 list=turris_greylist } on-error={} 
-:do { add address=185.163.110.106 list=turris_greylist } on-error={} 
-:do { add address=185.164.94.220 list=turris_greylist } on-error={} 
-:do { add address=185.166.153.237 list=turris_greylist } on-error={} 
-:do { add address=185.166.240.211 list=turris_greylist } on-error={} 
-:do { add address=185.169.252.2 list=turris_greylist } on-error={} 
-:do { add address=185.180.143.6 list=turris_greylist } on-error={} 
-:do { add address=185.180.143.7 list=turris_greylist } on-error={} 
-:do { add address=185.180.143.8 list=turris_greylist } on-error={} 
-:do { add address=185.180.143.71 list=turris_greylist } on-error={} 
-:do { add address=185.180.143.72 list=turris_greylist } on-error={} 
-:do { add address=185.180.143.76 list=turris_greylist } on-error={} 
-:do { add address=185.180.143.79 list=turris_greylist } on-error={} 
-:do { add address=185.180.143.136 list=turris_greylist } on-error={} 
-:do { add address=185.180.143.137 list=turris_greylist } on-error={} 
-:do { add address=185.180.143.138 list=turris_greylist } on-error={} 
-:do { add address=185.181.63.93 list=turris_greylist } on-error={} 
-:do { add address=185.189.167.212 list=turris_greylist } on-error={} 
-:do { add address=185.189.182.234 list=turris_greylist } on-error={} 
-:do { add address=185.195.201.148 list=turris_greylist } on-error={} 
-:do { add address=185.196.220.54 list=turris_greylist } on-error={} 
-:do { add address=185.196.220.60 list=turris_greylist } on-error={} 
-:do { add address=185.196.220.61 list=turris_greylist } on-error={} 
-:do { add address=185.196.220.62 list=turris_greylist } on-error={} 
-:do { add address=185.200.36.44 list=turris_greylist } on-error={} 
-:do { add address=185.200.116.40 list=turris_greylist } on-error={} 
-:do { add address=185.200.116.43 list=turris_greylist } on-error={} 
-:do { add address=185.200.116.50 list=turris_greylist } on-error={} 
-:do { add address=185.200.116.67 list=turris_greylist } on-error={} 
-:do { add address=185.200.116.69 list=turris_greylist } on-error={} 
-:do { add address=185.200.116.74 list=turris_greylist } on-error={} 
-:do { add address=185.200.116.76 list=turris_greylist } on-error={} 
-:do { add address=185.200.116.77 list=turris_greylist } on-error={} 
-:do { add address=185.200.116.90 list=turris_greylist } on-error={} 
-:do { add address=185.200.118.41 list=turris_greylist } on-error={} 
-:do { add address=185.200.118.67 list=turris_greylist } on-error={} 
-:do { add address=185.200.118.72 list=turris_greylist } on-error={} 
-:do { add address=185.200.118.85 list=turris_greylist } on-error={} 
-:do { add address=185.200.118.90 list=turris_greylist } on-error={} 
-:do { add address=185.208.77.125 list=turris_greylist } on-error={} 
-:do { add address=185.209.162.108 list=turris_greylist } on-error={} 
-:do { add address=185.213.155.168 list=turris_greylist } on-error={} 
-:do { add address=185.215.52.181 list=turris_greylist } on-error={} 
-:do { add address=185.216.117.111 list=turris_greylist } on-error={} 
-:do { add address=185.217.1.246 list=turris_greylist } on-error={} 
-:do { add address=185.221.253.129 list=turris_greylist } on-error={} 
-:do { add address=185.222.57.239 list=turris_greylist } on-error={} 
-:do { add address=185.239.145.85 list=turris_greylist } on-error={} 
-:do { add address=185.239.242.37 list=turris_greylist } on-error={} 
-:do { add address=185.239.242.51 list=turris_greylist } on-error={} 
-:do { add address=185.242.5.46 list=turris_greylist } on-error={} 
-:do { add address=185.242.235.178 list=turris_greylist } on-error={} 
-:do { add address=185.243.241.1 list=turris_greylist } on-error={} 
-:do { add address=185.243.241.28 list=turris_greylist } on-error={} 
-:do { add address=185.245.41.221 list=turris_greylist } on-error={} 
-:do { add address=185.245.41.237 list=turris_greylist } on-error={} 
-:do { add address=185.245.41.241 list=turris_greylist } on-error={} 
-:do { add address=185.245.86.226 list=turris_greylist } on-error={} 
-:do { add address=185.246.128.26 list=turris_greylist } on-error={} 
-:do { add address=185.246.130.20 list=turris_greylist } on-error={} 
-:do { add address=185.247.173.82 list=turris_greylist } on-error={} 
-:do { add address=185.248.140.244 list=turris_greylist } on-error={} 
-:do { add address=185.254.99.82 list=turris_greylist } on-error={} 
-:do { add address=185.255.92.141 list=turris_greylist } on-error={} 
-:do { add address=185.255.94.115 list=turris_greylist } on-error={} 
-:do { add address=186.1.165.141 list=turris_greylist } on-error={} 
-:do { add address=186.1.167.92 list=turris_greylist } on-error={} 
-:do { add address=186.3.215.109 list=turris_greylist } on-error={} 
-:do { add address=186.4.131.235 list=turris_greylist } on-error={} 
-:do { add address=186.10.239.54 list=turris_greylist } on-error={} 
-:do { add address=186.13.39.154 list=turris_greylist } on-error={} 
-:do { add address=186.19.151.95 list=turris_greylist } on-error={} 
-:do { add address=186.42.129.116 list=turris_greylist } on-error={} 
-:do { add address=186.46.185.248 list=turris_greylist } on-error={} 
-:do { add address=186.67.163.106 list=turris_greylist } on-error={} 
-:do { add address=186.96.33.37 list=turris_greylist } on-error={} 
-:do { add address=186.97.200.235 list=turris_greylist } on-error={} 
-:do { add address=186.114.184.195 list=turris_greylist } on-error={} 
-:do { add address=186.121.247.170 list=turris_greylist } on-error={} 
-:do { add address=186.121.247.171 list=turris_greylist } on-error={} 
-:do { add address=186.139.221.97 list=turris_greylist } on-error={} 
-:do { add address=186.149.199.90 list=turris_greylist } on-error={} 
-:do { add address=186.150.207.204 list=turris_greylist } on-error={} 
-:do { add address=186.167.48.45 list=turris_greylist } on-error={} 
-:do { add address=186.190.224.130 list=turris_greylist } on-error={} 
-:do { add address=186.192.25.137 list=turris_greylist } on-error={} 
-:do { add address=186.194.237.149 list=turris_greylist } on-error={} 
-:do { add address=186.206.170.232 list=turris_greylist } on-error={} 
-:do { add address=186.208.217.15 list=turris_greylist } on-error={} 
-:do { add address=186.208.217.137 list=turris_greylist } on-error={} 
-:do { add address=186.211.106.217 list=turris_greylist } on-error={} 
-:do { add address=186.215.65.122 list=turris_greylist } on-error={} 
-:do { add address=186.215.72.154 list=turris_greylist } on-error={} 
-:do { add address=186.215.200.13 list=turris_greylist } on-error={} 
-:do { add address=186.225.60.102 list=turris_greylist } on-error={} 
-:do { add address=186.225.100.74 list=turris_greylist } on-error={} 
-:do { add address=186.226.61.58 list=turris_greylist } on-error={} 
-:do { add address=186.227.166.154 list=turris_greylist } on-error={} 
-:do { add address=186.232.197.29 list=turris_greylist } on-error={} 
-:do { add address=186.237.14.239 list=turris_greylist } on-error={} 
-:do { add address=186.247.54.175 list=turris_greylist } on-error={} 
-:do { add address=186.250.112.50 list=turris_greylist } on-error={} 
-:do { add address=187.1.184.14 list=turris_greylist } on-error={} 
-:do { add address=187.17.145.227 list=turris_greylist } on-error={} 
-:do { add address=187.19.166.253 list=turris_greylist } on-error={} 
-:do { add address=187.32.48.59 list=turris_greylist } on-error={} 
-:do { add address=187.32.153.90 list=turris_greylist } on-error={} 
-:do { add address=187.32.197.165 list=turris_greylist } on-error={} 
-:do { add address=187.33.208.180 list=turris_greylist } on-error={} 
-:do { add address=187.54.237.46 list=turris_greylist } on-error={} 
-:do { add address=187.58.214.106 list=turris_greylist } on-error={} 
-:do { add address=187.59.121.139 list=turris_greylist } on-error={} 
-:do { add address=187.63.232.3 list=turris_greylist } on-error={} 
-:do { add address=187.63.232.7 list=turris_greylist } on-error={} 
-:do { add address=187.75.152.79 list=turris_greylist } on-error={} 
-:do { add address=187.86.200.126 list=turris_greylist } on-error={} 
-:do { add address=187.87.138.232 list=turris_greylist } on-error={} 
-:do { add address=187.95.194.147 list=turris_greylist } on-error={} 
-:do { add address=187.102.200.189 list=turris_greylist } on-error={} 
-:do { add address=187.110.238.251 list=turris_greylist } on-error={} 
-:do { add address=187.111.194.90 list=turris_greylist } on-error={} 
-:do { add address=187.120.143.5 list=turris_greylist } on-error={} 
-:do { add address=187.120.146.24 list=turris_greylist } on-error={} 
-:do { add address=187.121.20.86 list=turris_greylist } on-error={} 
-:do { add address=187.123.27.93 list=turris_greylist } on-error={} 
-:do { add address=187.131.204.119 list=turris_greylist } on-error={} 
-:do { add address=187.137.171.168 list=turris_greylist } on-error={} 
-:do { add address=187.140.14.128 list=turris_greylist } on-error={} 
-:do { add address=187.140.216.70 list=turris_greylist } on-error={} 
-:do { add address=187.140.221.178 list=turris_greylist } on-error={} 
-:do { add address=187.141.52.101 list=turris_greylist } on-error={} 
-:do { add address=187.144.188.208 list=turris_greylist } on-error={} 
-:do { add address=187.146.150.9 list=turris_greylist } on-error={} 
-:do { add address=187.149.18.0 list=turris_greylist } on-error={} 
-:do { add address=187.149.118.133 list=turris_greylist } on-error={} 
-:do { add address=187.152.122.7 list=turris_greylist } on-error={} 
-:do { add address=187.152.146.254 list=turris_greylist } on-error={} 
-:do { add address=187.153.98.124 list=turris_greylist } on-error={} 
-:do { add address=187.170.116.76 list=turris_greylist } on-error={} 
-:do { add address=187.170.182.245 list=turris_greylist } on-error={} 
-:do { add address=187.174.164.99 list=turris_greylist } on-error={} 
-:do { add address=187.174.173.3 list=turris_greylist } on-error={} 
-:do { add address=187.178.238.192 list=turris_greylist } on-error={} 
-:do { add address=187.185.68.99 list=turris_greylist } on-error={} 
-:do { add address=187.188.75.104 list=turris_greylist } on-error={} 
-:do { add address=187.188.183.88 list=turris_greylist } on-error={} 
-:do { add address=187.189.119.45 list=turris_greylist } on-error={} 
-:do { add address=187.189.125.45 list=turris_greylist } on-error={} 
-:do { add address=187.189.131.34 list=turris_greylist } on-error={} 
-:do { add address=187.189.155.228 list=turris_greylist } on-error={} 
-:do { add address=187.190.167.124 list=turris_greylist } on-error={} 
-:do { add address=187.192.163.142 list=turris_greylist } on-error={} 
-:do { add address=187.195.25.31 list=turris_greylist } on-error={} 
-:do { add address=187.207.91.142 list=turris_greylist } on-error={} 
-:do { add address=187.213.89.129 list=turris_greylist } on-error={} 
-:do { add address=187.214.65.99 list=turris_greylist } on-error={} 
-:do { add address=187.217.98.130 list=turris_greylist } on-error={} 
-:do { add address=187.217.183.146 list=turris_greylist } on-error={} 
-:do { add address=187.220.25.194 list=turris_greylist } on-error={} 
-:do { add address=187.221.85.33 list=turris_greylist } on-error={} 
-:do { add address=187.223.203.51 list=turris_greylist } on-error={} 
-:do { add address=187.226.238.18 list=turris_greylist } on-error={} 
-:do { add address=187.226.252.213 list=turris_greylist } on-error={} 
-:do { add address=187.227.222.164 list=turris_greylist } on-error={} 
-:do { add address=188.13.64.59 list=turris_greylist } on-error={} 
-:do { add address=188.19.183.221 list=turris_greylist } on-error={} 
-:do { add address=188.52.185.134 list=turris_greylist } on-error={} 
-:do { add address=188.68.205.60 list=turris_greylist } on-error={} 
-:do { add address=188.75.16.76 list=turris_greylist } on-error={} 
-:do { add address=188.92.75.248 list=turris_greylist } on-error={} 
-:do { add address=188.92.77.235 list=turris_greylist } on-error={} 
-:do { add address=188.126.94.182 list=turris_greylist } on-error={} 
-:do { add address=188.166.44.43 list=turris_greylist } on-error={} 
-:do { add address=188.166.49.115 list=turris_greylist } on-error={} 
-:do { add address=188.166.59.63 list=turris_greylist } on-error={} 
-:do { add address=188.166.77.15 list=turris_greylist } on-error={} 
-:do { add address=188.166.83.132 list=turris_greylist } on-error={} 
-:do { add address=188.166.158.140 list=turris_greylist } on-error={} 
-:do { add address=188.166.163.130 list=turris_greylist } on-error={} 
-:do { add address=188.166.228.226 list=turris_greylist } on-error={} 
-:do { add address=188.166.238.42 list=turris_greylist } on-error={} 
-:do { add address=188.168.42.52 list=turris_greylist } on-error={} 
-:do { add address=188.214.88.152 list=turris_greylist } on-error={} 
-:do { add address=188.214.132.41 list=turris_greylist } on-error={} 
-:do { add address=188.214.132.74 list=turris_greylist } on-error={} 
-:do { add address=188.240.71.3 list=turris_greylist } on-error={} 
-:do { add address=188.254.76.69 list=turris_greylist } on-error={} 
-:do { add address=188.255.120.102 list=turris_greylist } on-error={} 
-:do { add address=189.1.162.2 list=turris_greylist } on-error={} 
-:do { add address=189.12.37.173 list=turris_greylist } on-error={} 
-:do { add address=189.39.57.105 list=turris_greylist } on-error={} 
-:do { add address=189.39.206.156 list=turris_greylist } on-error={} 
-:do { add address=189.45.37.254 list=turris_greylist } on-error={} 
-:do { add address=189.45.79.54 list=turris_greylist } on-error={} 
-:do { add address=189.48.184.173 list=turris_greylist } on-error={} 
-:do { add address=189.57.109.210 list=turris_greylist } on-error={} 
-:do { add address=189.75.203.201 list=turris_greylist } on-error={} 
-:do { add address=189.76.190.2 list=turris_greylist } on-error={} 
-:do { add address=189.80.111.58 list=turris_greylist } on-error={} 
-:do { add address=189.85.40.89 list=turris_greylist } on-error={} 
-:do { add address=189.109.245.83 list=turris_greylist } on-error={} 
-:do { add address=189.112.4.168 list=turris_greylist } on-error={} 
-:do { add address=189.142.99.175 list=turris_greylist } on-error={} 
-:do { add address=189.145.213.112 list=turris_greylist } on-error={} 
-:do { add address=189.145.226.70 list=turris_greylist } on-error={} 
-:do { add address=189.146.203.251 list=turris_greylist } on-error={} 
-:do { add address=189.148.178.27 list=turris_greylist } on-error={} 
-:do { add address=189.152.114.126 list=turris_greylist } on-error={} 
-:do { add address=189.153.217.106 list=turris_greylist } on-error={} 
-:do { add address=189.158.34.99 list=turris_greylist } on-error={} 
-:do { add address=189.160.118.44 list=turris_greylist } on-error={} 
-:do { add address=189.161.200.242 list=turris_greylist } on-error={} 
-:do { add address=189.163.146.110 list=turris_greylist } on-error={} 
-:do { add address=189.173.42.134 list=turris_greylist } on-error={} 
-:do { add address=189.178.72.67 list=turris_greylist } on-error={} 
-:do { add address=189.178.214.111 list=turris_greylist } on-error={} 
-:do { add address=189.179.24.176 list=turris_greylist } on-error={} 
-:do { add address=189.179.47.124 list=turris_greylist } on-error={} 
-:do { add address=189.179.140.53 list=turris_greylist } on-error={} 
-:do { add address=189.180.2.95 list=turris_greylist } on-error={} 
-:do { add address=189.187.76.201 list=turris_greylist } on-error={} 
-:do { add address=189.195.41.222 list=turris_greylist } on-error={} 
-:do { add address=189.203.205.31 list=turris_greylist } on-error={} 
-:do { add address=189.203.240.2 list=turris_greylist } on-error={} 
-:do { add address=189.205.111.44 list=turris_greylist } on-error={} 
-:do { add address=189.206.51.226 list=turris_greylist } on-error={} 
-:do { add address=189.224.205.63 list=turris_greylist } on-error={} 
-:do { add address=189.230.230.152 list=turris_greylist } on-error={} 
-:do { add address=189.230.231.103 list=turris_greylist } on-error={} 
-:do { add address=189.234.244.214 list=turris_greylist } on-error={} 
-:do { add address=189.236.30.212 list=turris_greylist } on-error={} 
-:do { add address=189.236.35.150 list=turris_greylist } on-error={} 
-:do { add address=189.240.42.4 list=turris_greylist } on-error={} 
-:do { add address=189.243.185.24 list=turris_greylist } on-error={} 
-:do { add address=189.250.112.229 list=turris_greylist } on-error={} 
-:do { add address=189.252.74.109 list=turris_greylist } on-error={} 
-:do { add address=189.252.165.188 list=turris_greylist } on-error={} 
-:do { add address=189.254.158.200 list=turris_greylist } on-error={} 
-:do { add address=190.0.49.178 list=turris_greylist } on-error={} 
-:do { add address=190.4.31.25 list=turris_greylist } on-error={} 
-:do { add address=190.4.54.170 list=turris_greylist } on-error={} 
-:do { add address=190.8.82.58 list=turris_greylist } on-error={} 
-:do { add address=190.11.213.83 list=turris_greylist } on-error={} 
-:do { add address=190.14.198.43 list=turris_greylist } on-error={} 
-:do { add address=190.24.119.19 list=turris_greylist } on-error={} 
-:do { add address=190.24.146.202 list=turris_greylist } on-error={} 
-:do { add address=190.34.154.84 list=turris_greylist } on-error={} 
-:do { add address=190.56.244.94 list=turris_greylist } on-error={} 
-:do { add address=190.57.138.34 list=turris_greylist } on-error={} 
-:do { add address=190.61.55.155 list=turris_greylist } on-error={} 
-:do { add address=190.64.90.154 list=turris_greylist } on-error={} 
-:do { add address=190.69.27.137 list=turris_greylist } on-error={} 
-:do { add address=190.77.22.161 list=turris_greylist } on-error={} 
-:do { add address=190.80.189.254 list=turris_greylist } on-error={} 
-:do { add address=190.85.28.35 list=turris_greylist } on-error={} 
-:do { add address=190.85.134.194 list=turris_greylist } on-error={} 
-:do { add address=190.85.139.234 list=turris_greylist } on-error={} 
-:do { add address=190.96.47.2 list=turris_greylist } on-error={} 
-:do { add address=190.97.226.117 list=turris_greylist } on-error={} 
-:do { add address=190.99.94.205 list=turris_greylist } on-error={} 
-:do { add address=190.99.116.75 list=turris_greylist } on-error={} 
-:do { add address=190.111.8.69 list=turris_greylist } on-error={} 
-:do { add address=190.111.9.81 list=turris_greylist } on-error={} 
-:do { add address=190.111.9.84 list=turris_greylist } on-error={} 
-:do { add address=190.111.16.228 list=turris_greylist } on-error={} 
-:do { add address=190.111.244.98 list=turris_greylist } on-error={} 
-:do { add address=190.111.246.85 list=turris_greylist } on-error={} 
-:do { add address=190.115.6.99 list=turris_greylist } on-error={} 
-:do { add address=190.119.170.246 list=turris_greylist } on-error={} 
-:do { add address=190.120.191.21 list=turris_greylist } on-error={} 
-:do { add address=190.122.107.34 list=turris_greylist } on-error={} 
-:do { add address=190.123.193.24 list=turris_greylist } on-error={} 
-:do { add address=190.124.160.218 list=turris_greylist } on-error={} 
-:do { add address=190.129.54.194 list=turris_greylist } on-error={} 
-:do { add address=190.144.89.11 list=turris_greylist } on-error={} 
-:do { add address=190.144.118.237 list=turris_greylist } on-error={} 
-:do { add address=190.145.61.109 list=turris_greylist } on-error={} 
-:do { add address=190.145.78.76 list=turris_greylist } on-error={} 
-:do { add address=190.145.102.78 list=turris_greylist } on-error={} 
-:do { add address=190.147.3.2 list=turris_greylist } on-error={} 
-:do { add address=190.150.135.172 list=turris_greylist } on-error={} 
-:do { add address=190.151.5.180 list=turris_greylist } on-error={} 
-:do { add address=190.151.75.22 list=turris_greylist } on-error={} 
-:do { add address=190.151.118.187 list=turris_greylist } on-error={} 
-:do { add address=190.171.137.146 list=turris_greylist } on-error={} 
-:do { add address=190.181.33.254 list=turris_greylist } on-error={} 
-:do { add address=190.184.201.138 list=turris_greylist } on-error={} 
-:do { add address=190.184.236.9 list=turris_greylist } on-error={} 
-:do { add address=190.186.79.211 list=turris_greylist } on-error={} 
-:do { add address=190.191.71.201 list=turris_greylist } on-error={} 
-:do { add address=190.202.85.115 list=turris_greylist } on-error={} 
-:do { add address=190.202.198.220 list=turris_greylist } on-error={} 
-:do { add address=190.210.151.152 list=turris_greylist } on-error={} 
-:do { add address=190.210.239.132 list=turris_greylist } on-error={} 
-:do { add address=190.211.254.156 list=turris_greylist } on-error={} 
-:do { add address=190.212.34.7 list=turris_greylist } on-error={} 
-:do { add address=190.213.4.242 list=turris_greylist } on-error={} 
-:do { add address=190.214.44.214 list=turris_greylist } on-error={} 
-:do { add address=190.226.134.46 list=turris_greylist } on-error={} 
-:do { add address=190.237.155.90 list=turris_greylist } on-error={} 
-:do { add address=190.238.35.27 list=turris_greylist } on-error={} 
-:do { add address=190.248.68.78 list=turris_greylist } on-error={} 
-:do { add address=191.19.225.38 list=turris_greylist } on-error={} 
-:do { add address=191.99.250.6 list=turris_greylist } on-error={} 
-:do { add address=191.100.27.229 list=turris_greylist } on-error={} 
-:do { add address=191.221.163.132 list=turris_greylist } on-error={} 
-:do { add address=191.223.175.60 list=turris_greylist } on-error={} 
-:do { add address=191.253.90.13 list=turris_greylist } on-error={} 
-:do { add address=192.3.15.116 list=turris_greylist } on-error={} 
-:do { add address=192.3.121.174 list=turris_greylist } on-error={} 
-:do { add address=192.3.153.6 list=turris_greylist } on-error={} 
-:do { add address=192.3.194.202 list=turris_greylist } on-error={} 
-:do { add address=192.16.0.238 list=turris_greylist } on-error={} 
-:do { add address=192.30.242.25 list=turris_greylist } on-error={} 
-:do { add address=192.53.170.243 list=turris_greylist } on-error={} 
-:do { add address=192.81.128.37 list=turris_greylist } on-error={} 
-:do { add address=192.99.41.83 list=turris_greylist } on-error={} 
-:do { add address=192.99.175.176 list=turris_greylist } on-error={} 
-:do { add address=192.99.175.178 list=turris_greylist } on-error={} 
-:do { add address=192.99.175.180 list=turris_greylist } on-error={} 
-:do { add address=192.99.175.183 list=turris_greylist } on-error={} 
-:do { add address=192.99.175.185 list=turris_greylist } on-error={} 
-:do { add address=192.99.175.186 list=turris_greylist } on-error={} 
-:do { add address=192.99.175.187 list=turris_greylist } on-error={} 
-:do { add address=192.99.175.188 list=turris_greylist } on-error={} 
-:do { add address=192.99.175.189 list=turris_greylist } on-error={} 
-:do { add address=192.99.175.191 list=turris_greylist } on-error={} 
-:do { add address=192.140.64.36 list=turris_greylist } on-error={} 
-:do { add address=192.140.101.20 list=turris_greylist } on-error={} 
-:do { add address=192.140.101.21 list=turris_greylist } on-error={} 
-:do { add address=192.145.127.42 list=turris_greylist } on-error={} 
-:do { add address=192.197.97.144 list=turris_greylist } on-error={} 
-:do { add address=192.210.243.232 list=turris_greylist } on-error={} 
-:do { add address=192.223.24.63 list=turris_greylist } on-error={} 
-:do { add address=192.241.130.170 list=turris_greylist } on-error={} 
-:do { add address=192.241.193.187 list=turris_greylist } on-error={} 
-:do { add address=192.241.193.195 list=turris_greylist } on-error={} 
-:do { add address=192.241.194.31 list=turris_greylist } on-error={} 
-:do { add address=192.241.195.124 list=turris_greylist } on-error={} 
-:do { add address=192.241.196.27 list=turris_greylist } on-error={} 
-:do { add address=192.241.201.46 list=turris_greylist } on-error={} 
-:do { add address=192.241.201.94 list=turris_greylist } on-error={} 
-:do { add address=192.241.201.126 list=turris_greylist } on-error={} 
-:do { add address=192.241.201.187 list=turris_greylist } on-error={} 
-:do { add address=192.241.201.192 list=turris_greylist } on-error={} 
-:do { add address=192.241.201.233 list=turris_greylist } on-error={} 
-:do { add address=192.241.202.82 list=turris_greylist } on-error={} 
-:do { add address=192.241.203.18 list=turris_greylist } on-error={} 
-:do { add address=192.241.203.140 list=turris_greylist } on-error={} 
-:do { add address=192.241.203.180 list=turris_greylist } on-error={} 
-:do { add address=192.241.203.184 list=turris_greylist } on-error={} 
-:do { add address=192.241.203.194 list=turris_greylist } on-error={} 
-:do { add address=192.241.203.228 list=turris_greylist } on-error={} 
-:do { add address=192.241.204.115 list=turris_greylist } on-error={} 
-:do { add address=192.241.204.137 list=turris_greylist } on-error={} 
-:do { add address=192.241.204.152 list=turris_greylist } on-error={} 
-:do { add address=192.241.205.25 list=turris_greylist } on-error={} 
-:do { add address=192.241.205.30 list=turris_greylist } on-error={} 
-:do { add address=192.241.205.59 list=turris_greylist } on-error={} 
-:do { add address=192.241.205.74 list=turris_greylist } on-error={} 
-:do { add address=192.241.205.99 list=turris_greylist } on-error={} 
-:do { add address=192.241.205.179 list=turris_greylist } on-error={} 
-:do { add address=192.241.205.216 list=turris_greylist } on-error={} 
-:do { add address=192.241.205.233 list=turris_greylist } on-error={} 
-:do { add address=192.241.205.238 list=turris_greylist } on-error={} 
-:do { add address=192.241.206.15 list=turris_greylist } on-error={} 
-:do { add address=192.241.206.21 list=turris_greylist } on-error={} 
-:do { add address=192.241.206.26 list=turris_greylist } on-error={} 
-:do { add address=192.241.206.78 list=turris_greylist } on-error={} 
-:do { add address=192.241.206.81 list=turris_greylist } on-error={} 
-:do { add address=192.241.206.96 list=turris_greylist } on-error={} 
-:do { add address=192.241.206.121 list=turris_greylist } on-error={} 
-:do { add address=192.241.206.129 list=turris_greylist } on-error={} 
-:do { add address=192.241.206.146 list=turris_greylist } on-error={} 
-:do { add address=192.241.206.159 list=turris_greylist } on-error={} 
-:do { add address=192.241.206.181 list=turris_greylist } on-error={} 
-:do { add address=192.241.206.210 list=turris_greylist } on-error={} 
-:do { add address=192.241.206.213 list=turris_greylist } on-error={} 
-:do { add address=192.241.207.16 list=turris_greylist } on-error={} 
-:do { add address=192.241.207.22 list=turris_greylist } on-error={} 
-:do { add address=192.241.207.134 list=turris_greylist } on-error={} 
-:do { add address=192.241.207.136 list=turris_greylist } on-error={} 
-:do { add address=192.241.207.152 list=turris_greylist } on-error={} 
-:do { add address=192.241.207.168 list=turris_greylist } on-error={} 
-:do { add address=192.241.207.247 list=turris_greylist } on-error={} 
-:do { add address=192.241.208.7 list=turris_greylist } on-error={} 
-:do { add address=192.241.208.16 list=turris_greylist } on-error={} 
-:do { add address=192.241.208.36 list=turris_greylist } on-error={} 
-:do { add address=192.241.208.81 list=turris_greylist } on-error={} 
-:do { add address=192.241.208.103 list=turris_greylist } on-error={} 
-:do { add address=192.241.208.135 list=turris_greylist } on-error={} 
-:do { add address=192.241.208.172 list=turris_greylist } on-error={} 
-:do { add address=192.241.208.210 list=turris_greylist } on-error={} 
-:do { add address=192.241.208.240 list=turris_greylist } on-error={} 
-:do { add address=192.241.208.247 list=turris_greylist } on-error={} 
-:do { add address=192.241.209.22 list=turris_greylist } on-error={} 
-:do { add address=192.241.209.42 list=turris_greylist } on-error={} 
-:do { add address=192.241.209.45 list=turris_greylist } on-error={} 
-:do { add address=192.241.209.73 list=turris_greylist } on-error={} 
-:do { add address=192.241.209.134 list=turris_greylist } on-error={} 
-:do { add address=192.241.209.178 list=turris_greylist } on-error={} 
-:do { add address=192.241.209.218 list=turris_greylist } on-error={} 
-:do { add address=192.241.210.104 list=turris_greylist } on-error={} 
-:do { add address=192.241.210.106 list=turris_greylist } on-error={} 
-:do { add address=192.241.210.108 list=turris_greylist } on-error={} 
-:do { add address=192.241.210.128 list=turris_greylist } on-error={} 
-:do { add address=192.241.210.129 list=turris_greylist } on-error={} 
-:do { add address=192.241.210.163 list=turris_greylist } on-error={} 
-:do { add address=192.241.210.213 list=turris_greylist } on-error={} 
-:do { add address=192.241.210.245 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.9 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.11 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.22 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.57 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.60 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.84 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.87 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.91 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.94 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.109 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.116 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.123 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.129 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.135 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.144 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.150 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.155 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.157 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.160 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.162 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.166 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.186 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.204 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.213 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.225 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.230 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.234 list=turris_greylist } on-error={} 
-:do { add address=192.241.211.245 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.9 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.39 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.44 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.49 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.52 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.58 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.65 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.78 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.81 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.83 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.86 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.93 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.100 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.103 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.107 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.111 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.119 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.149 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.162 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.170 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.184 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.190 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.192 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.230 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.241 list=turris_greylist } on-error={} 
-:do { add address=192.241.212.248 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.5 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.6 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.23 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.25 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.42 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.50 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.56 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.58 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.59 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.77 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.98 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.99 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.108 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.113 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.116 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.118 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.127 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.128 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.164 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.168 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.194 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.209 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.215 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.226 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.230 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.234 list=turris_greylist } on-error={} 
-:do { add address=192.241.213.246 list=turris_greylist } on-error={} 
-:do { add address=192.241.214.10 list=turris_greylist } on-error={} 
-:do { add address=192.241.214.15 list=turris_greylist } on-error={} 
-:do { add address=192.241.214.19 list=turris_greylist } on-error={} 
-:do { add address=192.241.214.20 list=turris_greylist } on-error={} 
-:do { add address=192.241.214.52 list=turris_greylist } on-error={} 
-:do { add address=192.241.214.236 list=turris_greylist } on-error={} 
-:do { add address=192.241.214.237 list=turris_greylist } on-error={} 
-:do { add address=192.241.215.14 list=turris_greylist } on-error={} 
-:do { add address=192.241.215.186 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.90 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.131 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.139 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.147 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.148 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.156 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.161 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.162 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.166 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.174 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.185 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.194 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.202 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.206 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.216 list=turris_greylist } on-error={} 
-:do { add address=192.241.216.218 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.6 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.13 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.17 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.44 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.81 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.88 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.89 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.91 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.109 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.125 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.129 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.136 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.148 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.150 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.162 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.193 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.209 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.222 list=turris_greylist } on-error={} 
-:do { add address=192.241.217.241 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.12 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.41 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.49 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.52 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.53 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.54 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.92 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.96 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.135 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.136 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.146 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.159 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.175 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.197 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.209 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.212 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.219 list=turris_greylist } on-error={} 
-:do { add address=192.241.218.226 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.20 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.26 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.31 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.37 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.56 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.66 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.71 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.74 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.82 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.87 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.95 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.98 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.110 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.118 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.124 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.130 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.139 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.141 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.143 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.144 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.145 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.166 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.174 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.194 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.195 list=turris_greylist } on-error={} 
-:do { add address=192.241.219.215 list=turris_greylist } on-error={} 
-:do { add address=192.241.220.11 list=turris_greylist } on-error={} 
-:do { add address=192.241.220.24 list=turris_greylist } on-error={} 
-:do { add address=192.241.220.26 list=turris_greylist } on-error={} 
-:do { add address=192.250.197.234 list=turris_greylist } on-error={} 
-:do { add address=192.253.228.133 list=turris_greylist } on-error={} 
-:do { add address=193.3.19.72 list=turris_greylist } on-error={} 
-:do { add address=193.3.19.84 list=turris_greylist } on-error={} 
-:do { add address=193.3.19.178 list=turris_greylist } on-error={} 
-:do { add address=193.3.53.3 list=turris_greylist } on-error={} 
-:do { add address=193.3.53.4 list=turris_greylist } on-error={} 
-:do { add address=193.3.53.5 list=turris_greylist } on-error={} 
-:do { add address=193.3.53.6 list=turris_greylist } on-error={} 
-:do { add address=193.3.53.7 list=turris_greylist } on-error={} 
-:do { add address=193.3.53.8 list=turris_greylist } on-error={} 
-:do { add address=193.3.53.9 list=turris_greylist } on-error={} 
-:do { add address=193.3.53.10 list=turris_greylist } on-error={} 
-:do { add address=193.3.53.11 list=turris_greylist } on-error={} 
-:do { add address=193.5.150.136 list=turris_greylist } on-error={} 
-:do { add address=193.23.164.10 list=turris_greylist } on-error={} 
-:do { add address=193.27.229.183 list=turris_greylist } on-error={} 
-:do { add address=193.27.229.184 list=turris_greylist } on-error={} 
-:do { add address=193.35.32.201 list=turris_greylist } on-error={} 
-:do { add address=193.42.12.46 list=turris_greylist } on-error={} 
-:do { add address=193.42.12.181 list=turris_greylist } on-error={} 
-:do { add address=193.46.255.35 list=turris_greylist } on-error={} 
-:do { add address=193.46.255.36 list=turris_greylist } on-error={} 
-:do { add address=193.46.255.57 list=turris_greylist } on-error={} 
-:do { add address=193.46.255.60 list=turris_greylist } on-error={} 
-:do { add address=193.56.29.102 list=turris_greylist } on-error={} 
-:do { add address=193.56.29.120 list=turris_greylist } on-error={} 
-:do { add address=193.56.29.218 list=turris_greylist } on-error={} 
-:do { add address=193.70.69.21 list=turris_greylist } on-error={} 
-:do { add address=193.75.76.118 list=turris_greylist } on-error={} 
-:do { add address=193.105.124.62 list=turris_greylist } on-error={} 
-:do { add address=193.105.134.45 list=turris_greylist } on-error={} 
-:do { add address=193.107.216.228 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.194 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.195 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.196 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.197 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.198 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.202 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.203 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.204 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.205 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.206 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.210 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.211 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.212 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.213 list=turris_greylist } on-error={} 
-:do { add address=193.118.53.214 list=turris_greylist } on-error={} 
-:do { add address=193.142.146.42 list=turris_greylist } on-error={} 
-:do { add address=193.142.146.229 list=turris_greylist } on-error={} 
-:do { add address=193.150.6.150 list=turris_greylist } on-error={} 
-:do { add address=193.151.133.127 list=turris_greylist } on-error={} 
-:do { add address=193.168.153.135 list=turris_greylist } on-error={} 
-:do { add address=193.169.255.111 list=turris_greylist } on-error={} 
-:do { add address=193.169.255.124 list=turris_greylist } on-error={} 
-:do { add address=193.169.255.216 list=turris_greylist } on-error={} 
-:do { add address=193.177.182.7 list=turris_greylist } on-error={} 
-:do { add address=193.188.22.236 list=turris_greylist } on-error={} 
-:do { add address=193.213.29.252 list=turris_greylist } on-error={} 
-:do { add address=193.227.207.190 list=turris_greylist } on-error={} 
-:do { add address=194.0.127.102 list=turris_greylist } on-error={} 
-:do { add address=194.28.31.119 list=turris_greylist } on-error={} 
-:do { add address=194.42.98.8 list=turris_greylist } on-error={} 
-:do { add address=194.45.197.74 list=turris_greylist } on-error={} 
-:do { add address=194.49.68.118 list=turris_greylist } on-error={} 
-:do { add address=194.58.36.20 list=turris_greylist } on-error={} 
-:do { add address=194.68.38.71 list=turris_greylist } on-error={} 
-:do { add address=194.68.38.133 list=turris_greylist } on-error={} 
-:do { add address=194.78.242.245 list=turris_greylist } on-error={} 
-:do { add address=194.99.45.5 list=turris_greylist } on-error={} 
-:do { add address=194.99.45.8 list=turris_greylist } on-error={} 
-:do { add address=194.99.45.10 list=turris_greylist } on-error={} 
-:do { add address=194.99.45.14 list=turris_greylist } on-error={} 
-:do { add address=194.99.45.18 list=turris_greylist } on-error={} 
-:do { add address=194.127.179.44 list=turris_greylist } on-error={} 
-:do { add address=194.135.123.68 list=turris_greylist } on-error={} 
-:do { add address=194.135.236.210 list=turris_greylist } on-error={} 
-:do { add address=194.149.145.120 list=turris_greylist } on-error={} 
-:do { add address=194.165.16.139 list=turris_greylist } on-error={} 
-:do { add address=194.165.17.8 list=turris_greylist } on-error={} 
-:do { add address=194.170.189.196 list=turris_greylist } on-error={} 
-:do { add address=194.170.189.226 list=turris_greylist } on-error={} 
-:do { add address=195.3.147.47 list=turris_greylist } on-error={} 
-:do { add address=195.19.98.97 list=turris_greylist } on-error={} 
-:do { add address=195.19.217.4 list=turris_greylist } on-error={} 
-:do { add address=195.39.147.73 list=turris_greylist } on-error={} 
-:do { add address=195.60.174.112 list=turris_greylist } on-error={} 
-:do { add address=195.87.51.90 list=turris_greylist } on-error={} 
-:do { add address=195.88.126.86 list=turris_greylist } on-error={} 
-:do { add address=195.99.208.138 list=turris_greylist } on-error={} 
-:do { add address=195.130.74.6 list=turris_greylist } on-error={} 
-:do { add address=195.133.18.24 list=turris_greylist } on-error={} 
-:do { add address=195.133.40.113 list=turris_greylist } on-error={} 
-:do { add address=195.133.40.162 list=turris_greylist } on-error={} 
-:do { add address=195.137.227.175 list=turris_greylist } on-error={} 
-:do { add address=195.140.202.142 list=turris_greylist } on-error={} 
-:do { add address=195.140.214.5 list=turris_greylist } on-error={} 
-:do { add address=195.140.214.8 list=turris_greylist } on-error={} 
-:do { add address=195.142.112.244 list=turris_greylist } on-error={} 
-:do { add address=195.144.250.122 list=turris_greylist } on-error={} 
-:do { add address=195.162.82.131 list=turris_greylist } on-error={} 
-:do { add address=195.171.217.74 list=turris_greylist } on-error={} 
-:do { add address=195.178.201.105 list=turris_greylist } on-error={} 
-:do { add address=195.228.76.248 list=turris_greylist } on-error={} 
-:do { add address=195.229.11.214 list=turris_greylist } on-error={} 
-:do { add address=195.230.23.91 list=turris_greylist } on-error={} 
-:do { add address=195.230.103.242 list=turris_greylist } on-error={} 
-:do { add address=195.230.103.243 list=turris_greylist } on-error={} 
-:do { add address=195.230.103.244 list=turris_greylist } on-error={} 
-:do { add address=195.230.103.245 list=turris_greylist } on-error={} 
-:do { add address=195.230.103.246 list=turris_greylist } on-error={} 
-:do { add address=195.230.103.247 list=turris_greylist } on-error={} 
-:do { add address=195.230.103.248 list=turris_greylist } on-error={} 
-:do { add address=195.230.103.249 list=turris_greylist } on-error={} 
-:do { add address=195.230.103.250 list=turris_greylist } on-error={} 
-:do { add address=196.11.90.118 list=turris_greylist } on-error={} 
-:do { add address=196.11.102.74 list=turris_greylist } on-error={} 
-:do { add address=196.15.154.171 list=turris_greylist } on-error={} 
-:do { add address=196.20.111.10 list=turris_greylist } on-error={} 
-:do { add address=196.25.175.154 list=turris_greylist } on-error={} 
-:do { add address=196.30.65.186 list=turris_greylist } on-error={} 
-:do { add address=196.35.193.107 list=turris_greylist } on-error={} 
-:do { add address=196.188.0.172 list=turris_greylist } on-error={} 
-:do { add address=196.188.110.243 list=turris_greylist } on-error={} 
-:do { add address=196.188.192.107 list=turris_greylist } on-error={} 
-:do { add address=196.189.57.240 list=turris_greylist } on-error={} 
-:do { add address=196.189.185.246 list=turris_greylist } on-error={} 
-:do { add address=196.201.78.140 list=turris_greylist } on-error={} 
-:do { add address=196.203.108.34 list=turris_greylist } on-error={} 
-:do { add address=196.203.254.5 list=turris_greylist } on-error={} 
-:do { add address=196.206.228.246 list=turris_greylist } on-error={} 
-:do { add address=196.218.89.46 list=turris_greylist } on-error={} 
-:do { add address=196.218.207.64 list=turris_greylist } on-error={} 
-:do { add address=196.218.240.186 list=turris_greylist } on-error={} 
-:do { add address=196.219.122.143 list=turris_greylist } on-error={} 
-:do { add address=196.219.163.197 list=turris_greylist } on-error={} 
-:do { add address=196.219.191.38 list=turris_greylist } on-error={} 
-:do { add address=196.221.164.156 list=turris_greylist } on-error={} 
-:do { add address=196.221.196.244 list=turris_greylist } on-error={} 
-:do { add address=197.3.4.189 list=turris_greylist } on-error={} 
-:do { add address=197.45.138.53 list=turris_greylist } on-error={} 
-:do { add address=197.45.219.27 list=turris_greylist } on-error={} 
-:do { add address=197.50.154.145 list=turris_greylist } on-error={} 
-:do { add address=197.92.141.51 list=turris_greylist } on-error={} 
-:do { add address=197.133.197.103 list=turris_greylist } on-error={} 
-:do { add address=197.134.248.55 list=turris_greylist } on-error={} 
-:do { add address=197.137.71.253 list=turris_greylist } on-error={} 
-:do { add address=197.140.14.140 list=turris_greylist } on-error={} 
-:do { add address=197.159.9.29 list=turris_greylist } on-error={} 
-:do { add address=197.159.142.172 list=turris_greylist } on-error={} 
-:do { add address=197.159.204.149 list=turris_greylist } on-error={} 
-:do { add address=197.159.210.174 list=turris_greylist } on-error={} 
-:do { add address=197.164.238.50 list=turris_greylist } on-error={} 
-:do { add address=197.164.238.54 list=turris_greylist } on-error={} 
-:do { add address=197.210.194.147 list=turris_greylist } on-error={} 
-:do { add address=197.211.35.163 list=turris_greylist } on-error={} 
-:do { add address=197.216.104.42 list=turris_greylist } on-error={} 
-:do { add address=197.220.163.230 list=turris_greylist } on-error={} 
-:do { add address=197.221.244.118 list=turris_greylist } on-error={} 
-:do { add address=197.230.46.202 list=turris_greylist } on-error={} 
-:do { add address=197.232.90.106 list=turris_greylist } on-error={} 
-:do { add address=197.248.230.67 list=turris_greylist } on-error={} 
-:do { add address=197.249.4.79 list=turris_greylist } on-error={} 
-:do { add address=197.254.7.30 list=turris_greylist } on-error={} 
-:do { add address=197.254.63.98 list=turris_greylist } on-error={} 
-:do { add address=197.254.123.158 list=turris_greylist } on-error={} 
-:do { add address=198.20.69.98 list=turris_greylist } on-error={} 
-:do { add address=198.23.196.179 list=turris_greylist } on-error={} 
-:do { add address=198.23.242.210 list=turris_greylist } on-error={} 
-:do { add address=198.38.93.167 list=turris_greylist } on-error={} 
-:do { add address=198.46.132.196 list=turris_greylist } on-error={} 
-:do { add address=198.46.136.249 list=turris_greylist } on-error={} 
-:do { add address=198.98.49.124 list=turris_greylist } on-error={} 
-:do { add address=198.98.50.22 list=turris_greylist } on-error={} 
-:do { add address=198.98.50.201 list=turris_greylist } on-error={} 
-:do { add address=198.98.51.230 list=turris_greylist } on-error={} 
-:do { add address=198.98.55.83 list=turris_greylist } on-error={} 
-:do { add address=198.98.55.101 list=turris_greylist } on-error={} 
-:do { add address=198.98.58.66 list=turris_greylist } on-error={} 
-:do { add address=198.98.62.97 list=turris_greylist } on-error={} 
-:do { add address=198.175.126.119 list=turris_greylist } on-error={} 
-:do { add address=198.176.57.26 list=turris_greylist } on-error={} 
-:do { add address=198.199.107.58 list=turris_greylist } on-error={} 
-:do { add address=198.199.113.192 list=turris_greylist } on-error={} 
-:do { add address=198.199.114.240 list=turris_greylist } on-error={} 
-:do { add address=198.211.96.78 list=turris_greylist } on-error={} 
-:do { add address=199.74.248.13 list=turris_greylist } on-error={} 
-:do { add address=199.127.61.114 list=turris_greylist } on-error={} 
-:do { add address=199.187.126.42 list=turris_greylist } on-error={} 
-:do { add address=199.187.126.46 list=turris_greylist } on-error={} 
-:do { add address=199.195.248.170 list=turris_greylist } on-error={} 
-:do { add address=199.195.250.125 list=turris_greylist } on-error={} 
-:do { add address=199.195.251.58 list=turris_greylist } on-error={} 
-:do { add address=199.195.254.197 list=turris_greylist } on-error={} 
-:do { add address=200.2.143.2 list=turris_greylist } on-error={} 
-:do { add address=200.2.154.71 list=turris_greylist } on-error={} 
-:do { add address=200.6.115.125 list=turris_greylist } on-error={} 
-:do { add address=200.11.241.44 list=turris_greylist } on-error={} 
-:do { add address=200.25.48.149 list=turris_greylist } on-error={} 
-:do { add address=200.25.225.70 list=turris_greylist } on-error={} 
-:do { add address=200.29.173.20 list=turris_greylist } on-error={} 
-:do { add address=200.32.255.66 list=turris_greylist } on-error={} 
-:do { add address=200.34.218.156 list=turris_greylist } on-error={} 
-:do { add address=200.38.232.132 list=turris_greylist } on-error={} 
-:do { add address=200.40.135.75 list=turris_greylist } on-error={} 
-:do { add address=200.40.135.93 list=turris_greylist } on-error={} 
-:do { add address=200.41.189.140 list=turris_greylist } on-error={} 
-:do { add address=200.46.45.114 list=turris_greylist } on-error={} 
-:do { add address=200.48.212.75 list=turris_greylist } on-error={} 
-:do { add address=200.49.61.30 list=turris_greylist } on-error={} 
-:do { add address=200.54.154.179 list=turris_greylist } on-error={} 
-:do { add address=200.54.185.180 list=turris_greylist } on-error={} 
-:do { add address=200.57.11.85 list=turris_greylist } on-error={} 
-:do { add address=200.58.218.10 list=turris_greylist } on-error={} 
-:do { add address=200.60.4.196 list=turris_greylist } on-error={} 
-:do { add address=200.62.99.4 list=turris_greylist } on-error={} 
-:do { add address=200.66.126.143 list=turris_greylist } on-error={} 
-:do { add address=200.68.111.51 list=turris_greylist } on-error={} 
-:do { add address=200.72.158.120 list=turris_greylist } on-error={} 
-:do { add address=200.75.4.248 list=turris_greylist } on-error={} 
-:do { add address=200.80.35.43 list=turris_greylist } on-error={} 
-:do { add address=200.86.191.153 list=turris_greylist } on-error={} 
-:do { add address=200.89.174.243 list=turris_greylist } on-error={} 
-:do { add address=200.94.131.82 list=turris_greylist } on-error={} 
-:do { add address=200.94.131.86 list=turris_greylist } on-error={} 
-:do { add address=200.98.138.102 list=turris_greylist } on-error={} 
-:do { add address=200.105.169.181 list=turris_greylist } on-error={} 
-:do { add address=200.111.103.70 list=turris_greylist } on-error={} 
-:do { add address=200.113.62.243 list=turris_greylist } on-error={} 
-:do { add address=200.115.138.131 list=turris_greylist } on-error={} 
-:do { add address=200.117.185.116 list=turris_greylist } on-error={} 
-:do { add address=200.122.224.200 list=turris_greylist } on-error={} 
-:do { add address=200.123.208.29 list=turris_greylist } on-error={} 
-:do { add address=200.126.160.225 list=turris_greylist } on-error={} 
-:do { add address=200.140.74.30 list=turris_greylist } on-error={} 
-:do { add address=200.141.73.218 list=turris_greylist } on-error={} 
-:do { add address=200.146.104.244 list=turris_greylist } on-error={} 
-:do { add address=200.152.119.91 list=turris_greylist } on-error={} 
-:do { add address=200.198.62.90 list=turris_greylist } on-error={} 
-:do { add address=200.201.187.170 list=turris_greylist } on-error={} 
-:do { add address=200.229.216.122 list=turris_greylist } on-error={} 
-:do { add address=200.233.195.51 list=turris_greylist } on-error={} 
-:do { add address=201.16.239.100 list=turris_greylist } on-error={} 
-:do { add address=201.16.240.155 list=turris_greylist } on-error={} 
-:do { add address=201.20.87.156 list=turris_greylist } on-error={} 
-:do { add address=201.71.163.111 list=turris_greylist } on-error={} 
-:do { add address=201.86.95.243 list=turris_greylist } on-error={} 
-:do { add address=201.91.207.114 list=turris_greylist } on-error={} 
-:do { add address=201.92.49.29 list=turris_greylist } on-error={} 
-:do { add address=201.97.250.194 list=turris_greylist } on-error={} 
-:do { add address=201.105.240.159 list=turris_greylist } on-error={} 
-:do { add address=201.110.43.142 list=turris_greylist } on-error={} 
-:do { add address=201.110.197.33 list=turris_greylist } on-error={} 
-:do { add address=201.111.98.27 list=turris_greylist } on-error={} 
-:do { add address=201.121.168.119 list=turris_greylist } on-error={} 
-:do { add address=201.122.180.91 list=turris_greylist } on-error={} 
-:do { add address=201.130.192.37 list=turris_greylist } on-error={} 
-:do { add address=201.130.192.76 list=turris_greylist } on-error={} 
-:do { add address=201.137.3.63 list=turris_greylist } on-error={} 
-:do { add address=201.137.117.6 list=turris_greylist } on-error={} 
-:do { add address=201.140.101.205 list=turris_greylist } on-error={} 
-:do { add address=201.140.108.165 list=turris_greylist } on-error={} 
-:do { add address=201.140.110.34 list=turris_greylist } on-error={} 
-:do { add address=201.144.20.130 list=turris_greylist } on-error={} 
-:do { add address=201.144.151.195 list=turris_greylist } on-error={} 
-:do { add address=201.163.176.188 list=turris_greylist } on-error={} 
-:do { add address=201.165.213.51 list=turris_greylist } on-error={} 
-:do { add address=201.170.246.227 list=turris_greylist } on-error={} 
-:do { add address=201.171.82.123 list=turris_greylist } on-error={} 
-:do { add address=201.173.97.143 list=turris_greylist } on-error={} 
-:do { add address=201.182.249.20 list=turris_greylist } on-error={} 
-:do { add address=201.184.117.230 list=turris_greylist } on-error={} 
-:do { add address=201.192.153.107 list=turris_greylist } on-error={} 
-:do { add address=201.211.227.222 list=turris_greylist } on-error={} 
-:do { add address=201.212.10.177 list=turris_greylist } on-error={} 
-:do { add address=201.243.65.148 list=turris_greylist } on-error={} 
-:do { add address=202.21.123.6 list=turris_greylist } on-error={} 
-:do { add address=202.29.32.159 list=turris_greylist } on-error={} 
-:do { add address=202.51.111.130 list=turris_greylist } on-error={} 
-:do { add address=202.53.171.123 list=turris_greylist } on-error={} 
-:do { add address=202.58.205.138 list=turris_greylist } on-error={} 
-:do { add address=202.61.87.57 list=turris_greylist } on-error={} 
-:do { add address=202.61.197.131 list=turris_greylist } on-error={} 
-:do { add address=202.61.201.196 list=turris_greylist } on-error={} 
-:do { add address=202.63.218.19 list=turris_greylist } on-error={} 
-:do { add address=202.75.221.119 list=turris_greylist } on-error={} 
-:do { add address=202.77.101.82 list=turris_greylist } on-error={} 
-:do { add address=202.79.166.76 list=turris_greylist } on-error={} 
-:do { add address=202.84.32.140 list=turris_greylist } on-error={} 
-:do { add address=202.84.37.33 list=turris_greylist } on-error={} 
-:do { add address=202.88.241.118 list=turris_greylist } on-error={} 
-:do { add address=202.96.185.210 list=turris_greylist } on-error={} 
-:do { add address=202.103.176.67 list=turris_greylist } on-error={} 
-:do { add address=202.103.222.10 list=turris_greylist } on-error={} 
-:do { add address=202.109.249.234 list=turris_greylist } on-error={} 
-:do { add address=202.110.83.126 list=turris_greylist } on-error={} 
-:do { add address=202.111.13.98 list=turris_greylist } on-error={} 
-:do { add address=202.124.204.254 list=turris_greylist } on-error={} 
-:do { add address=202.137.5.98 list=turris_greylist } on-error={} 
-:do { add address=202.137.7.58 list=turris_greylist } on-error={} 
-:do { add address=202.137.134.57 list=turris_greylist } on-error={} 
-:do { add address=202.141.240.142 list=turris_greylist } on-error={} 
-:do { add address=202.143.114.201 list=turris_greylist } on-error={} 
-:do { add address=202.143.120.57 list=turris_greylist } on-error={} 
-:do { add address=202.143.127.178 list=turris_greylist } on-error={} 
-:do { add address=202.146.217.192 list=turris_greylist } on-error={} 
-:do { add address=202.152.39.13 list=turris_greylist } on-error={} 
-:do { add address=202.165.14.18 list=turris_greylist } on-error={} 
-:do { add address=202.175.123.218 list=turris_greylist } on-error={} 
-:do { add address=202.181.234.199 list=turris_greylist } on-error={} 
-:do { add address=202.191.97.13 list=turris_greylist } on-error={} 
-:do { add address=202.191.124.113 list=turris_greylist } on-error={} 
-:do { add address=202.191.132.211 list=turris_greylist } on-error={} 
-:do { add address=203.55.117.211 list=turris_greylist } on-error={} 
-:do { add address=203.56.228.178 list=turris_greylist } on-error={} 
-:do { add address=203.69.64.199 list=turris_greylist } on-error={} 
-:do { add address=203.113.5.14 list=turris_greylist } on-error={} 
-:do { add address=203.114.125.69 list=turris_greylist } on-error={} 
-:do { add address=203.116.184.243 list=turris_greylist } on-error={} 
-:do { add address=203.119.8.140 list=turris_greylist } on-error={} 
-:do { add address=203.121.145.111 list=turris_greylist } on-error={} 
-:do { add address=203.124.11.155 list=turris_greylist } on-error={} 
-:do { add address=203.124.15.197 list=turris_greylist } on-error={} 
-:do { add address=203.124.41.150 list=turris_greylist } on-error={} 
-:do { add address=203.125.236.222 list=turris_greylist } on-error={} 
-:do { add address=203.128.28.59 list=turris_greylist } on-error={} 
-:do { add address=203.128.28.60 list=turris_greylist } on-error={} 
-:do { add address=203.130.201.34 list=turris_greylist } on-error={} 
-:do { add address=203.135.96.173 list=turris_greylist } on-error={} 
-:do { add address=203.146.129.235 list=turris_greylist } on-error={} 
-:do { add address=203.151.92.253 list=turris_greylist } on-error={} 
-:do { add address=203.151.152.148 list=turris_greylist } on-error={} 
-:do { add address=203.154.89.157 list=turris_greylist } on-error={} 
-:do { add address=203.155.215.218 list=turris_greylist } on-error={} 
-:do { add address=203.162.76.32 list=turris_greylist } on-error={} 
-:do { add address=203.177.163.90 list=turris_greylist } on-error={} 
-:do { add address=203.188.250.142 list=turris_greylist } on-error={} 
-:do { add address=203.189.150.125 list=turris_greylist } on-error={} 
-:do { add address=203.190.8.116 list=turris_greylist } on-error={} 
-:do { add address=203.191.150.32 list=turris_greylist } on-error={} 
-:do { add address=203.195.66.229 list=turris_greylist } on-error={} 
-:do { add address=203.198.94.241 list=turris_greylist } on-error={} 
-:do { add address=203.201.172.218 list=turris_greylist } on-error={} 
-:do { add address=203.217.1.13 list=turris_greylist } on-error={} 
-:do { add address=203.228.22.223 list=turris_greylist } on-error={} 
-:do { add address=203.228.100.41 list=turris_greylist } on-error={} 
-:do { add address=203.232.63.121 list=turris_greylist } on-error={} 
-:do { add address=203.240.224.26 list=turris_greylist } on-error={} 
-:do { add address=203.240.224.213 list=turris_greylist } on-error={} 
-:do { add address=203.240.228.114 list=turris_greylist } on-error={} 
-:do { add address=204.16.58.30 list=turris_greylist } on-error={} 
-:do { add address=204.42.253.132 list=turris_greylist } on-error={} 
-:do { add address=204.186.24.223 list=turris_greylist } on-error={} 
-:do { add address=205.134.170.164 list=turris_greylist } on-error={} 
-:do { add address=205.185.113.12 list=turris_greylist } on-error={} 
-:do { add address=205.185.113.139 list=turris_greylist } on-error={} 
-:do { add address=205.185.115.78 list=turris_greylist } on-error={} 
-:do { add address=205.185.116.143 list=turris_greylist } on-error={} 
-:do { add address=205.185.116.147 list=turris_greylist } on-error={} 
-:do { add address=205.185.118.119 list=turris_greylist } on-error={} 
-:do { add address=205.185.119.20 list=turris_greylist } on-error={} 
-:do { add address=205.185.119.129 list=turris_greylist } on-error={} 
-:do { add address=205.185.120.140 list=turris_greylist } on-error={} 
-:do { add address=205.185.120.164 list=turris_greylist } on-error={} 
-:do { add address=205.185.124.167 list=turris_greylist } on-error={} 
-:do { add address=205.185.126.92 list=turris_greylist } on-error={} 
-:do { add address=205.185.126.111 list=turris_greylist } on-error={} 
-:do { add address=205.185.126.251 list=turris_greylist } on-error={} 
-:do { add address=205.185.127.117 list=turris_greylist } on-error={} 
-:do { add address=205.220.231.16 list=turris_greylist } on-error={} 
-:do { add address=206.189.8.145 list=turris_greylist } on-error={} 
-:do { add address=206.189.8.190 list=turris_greylist } on-error={} 
-:do { add address=206.189.32.125 list=turris_greylist } on-error={} 
-:do { add address=206.189.90.247 list=turris_greylist } on-error={} 
-:do { add address=206.189.103.89 list=turris_greylist } on-error={} 
-:do { add address=206.189.118.64 list=turris_greylist } on-error={} 
-:do { add address=206.189.151.4 list=turris_greylist } on-error={} 
-:do { add address=206.189.233.139 list=turris_greylist } on-error={} 
-:do { add address=206.189.237.77 list=turris_greylist } on-error={} 
-:do { add address=207.154.212.102 list=turris_greylist } on-error={} 
-:do { add address=207.154.223.16 list=turris_greylist } on-error={} 
-:do { add address=207.154.225.25 list=turris_greylist } on-error={} 
-:do { add address=207.154.237.90 list=turris_greylist } on-error={} 
-:do { add address=207.178.209.209 list=turris_greylist } on-error={} 
-:do { add address=207.225.137.8 list=turris_greylist } on-error={} 
-:do { add address=207.237.131.45 list=turris_greylist } on-error={} 
-:do { add address=207.244.249.31 list=turris_greylist } on-error={} 
-:do { add address=208.65.92.36 list=turris_greylist } on-error={} 
-:do { add address=208.93.152.31 list=turris_greylist } on-error={} 
-:do { add address=208.93.152.32 list=turris_greylist } on-error={} 
-:do { add address=208.93.152.33 list=turris_greylist } on-error={} 
-:do { add address=208.93.152.35 list=turris_greylist } on-error={} 
-:do { add address=208.93.152.36 list=turris_greylist } on-error={} 
-:do { add address=208.131.171.202 list=turris_greylist } on-error={} 
-:do { add address=209.14.131.167 list=turris_greylist } on-error={} 
-:do { add address=209.16.81.55 list=turris_greylist } on-error={} 
-:do { add address=209.97.132.66 list=turris_greylist } on-error={} 
-:do { add address=209.97.157.251 list=turris_greylist } on-error={} 
-:do { add address=209.97.180.61 list=turris_greylist } on-error={} 
-:do { add address=209.97.180.77 list=turris_greylist } on-error={} 
-:do { add address=209.97.181.87 list=turris_greylist } on-error={} 
-:do { add address=209.126.82.131 list=turris_greylist } on-error={} 
-:do { add address=209.141.33.162 list=turris_greylist } on-error={} 
-:do { add address=209.141.34.91 list=turris_greylist } on-error={} 
-:do { add address=209.141.35.132 list=turris_greylist } on-error={} 
-:do { add address=209.141.36.37 list=turris_greylist } on-error={} 
-:do { add address=209.141.36.139 list=turris_greylist } on-error={} 
-:do { add address=209.141.37.10 list=turris_greylist } on-error={} 
-:do { add address=209.141.37.225 list=turris_greylist } on-error={} 
-:do { add address=209.141.40.64 list=turris_greylist } on-error={} 
-:do { add address=209.141.40.109 list=turris_greylist } on-error={} 
-:do { add address=209.141.40.121 list=turris_greylist } on-error={} 
-:do { add address=209.141.41.47 list=turris_greylist } on-error={} 
-:do { add address=209.141.42.48 list=turris_greylist } on-error={} 
-:do { add address=209.141.44.172 list=turris_greylist } on-error={} 
-:do { add address=209.141.46.56 list=turris_greylist } on-error={} 
-:do { add address=209.141.46.78 list=turris_greylist } on-error={} 
-:do { add address=209.141.46.134 list=turris_greylist } on-error={} 
-:do { add address=209.141.47.28 list=turris_greylist } on-error={} 
-:do { add address=209.141.47.54 list=turris_greylist } on-error={} 
-:do { add address=209.141.50.211 list=turris_greylist } on-error={} 
-:do { add address=209.141.51.83 list=turris_greylist } on-error={} 
-:do { add address=209.141.54.15 list=turris_greylist } on-error={} 
-:do { add address=209.141.54.110 list=turris_greylist } on-error={} 
-:do { add address=209.141.55.208 list=turris_greylist } on-error={} 
-:do { add address=209.141.57.192 list=turris_greylist } on-error={} 
-:do { add address=209.141.58.15 list=turris_greylist } on-error={} 
-:do { add address=209.141.58.149 list=turris_greylist } on-error={} 
-:do { add address=209.141.58.152 list=turris_greylist } on-error={} 
-:do { add address=209.141.58.185 list=turris_greylist } on-error={} 
-:do { add address=209.141.59.190 list=turris_greylist } on-error={} 
-:do { add address=209.141.60.41 list=turris_greylist } on-error={} 
-:do { add address=209.141.60.65 list=turris_greylist } on-error={} 
-:do { add address=209.141.61.182 list=turris_greylist } on-error={} 
-:do { add address=209.145.52.40 list=turris_greylist } on-error={} 
-:do { add address=209.145.55.127 list=turris_greylist } on-error={} 
-:do { add address=209.145.62.51 list=turris_greylist } on-error={} 
-:do { add address=209.160.40.13 list=turris_greylist } on-error={} 
-:do { add address=209.200.15.177 list=turris_greylist } on-error={} 
-:do { add address=209.200.15.178 list=turris_greylist } on-error={} 
-:do { add address=209.203.58.64 list=turris_greylist } on-error={} 
-:do { add address=209.249.227.17 list=turris_greylist } on-error={} 
-:do { add address=210.1.31.10 list=turris_greylist } on-error={} 
-:do { add address=210.1.225.5 list=turris_greylist } on-error={} 
-:do { add address=210.2.130.106 list=turris_greylist } on-error={} 
-:do { add address=210.2.172.202 list=turris_greylist } on-error={} 
-:do { add address=210.3.217.150 list=turris_greylist } on-error={} 
-:do { add address=210.5.110.122 list=turris_greylist } on-error={} 
-:do { add address=210.13.46.138 list=turris_greylist } on-error={} 
-:do { add address=210.13.93.59 list=turris_greylist } on-error={} 
-:do { add address=210.16.187.29 list=turris_greylist } on-error={} 
-:do { add address=210.16.188.189 list=turris_greylist } on-error={} 
-:do { add address=210.21.31.68 list=turris_greylist } on-error={} 
-:do { add address=210.41.219.242 list=turris_greylist } on-error={} 
-:do { add address=210.56.29.131 list=turris_greylist } on-error={} 
-:do { add address=210.61.216.104 list=turris_greylist } on-error={} 
-:do { add address=210.65.138.196 list=turris_greylist } on-error={} 
-:do { add address=210.72.13.29 list=turris_greylist } on-error={} 
-:do { add address=210.72.13.51 list=turris_greylist } on-error={} 
-:do { add address=210.90.74.147 list=turris_greylist } on-error={} 
-:do { add address=210.126.180.235 list=turris_greylist } on-error={} 
-:do { add address=210.126.180.243 list=turris_greylist } on-error={} 
-:do { add address=210.177.54.82 list=turris_greylist } on-error={} 
-:do { add address=210.178.36.3 list=turris_greylist } on-error={} 
-:do { add address=210.181.121.113 list=turris_greylist } on-error={} 
-:do { add address=210.183.133.198 list=turris_greylist } on-error={} 
-:do { add address=210.211.97.5 list=turris_greylist } on-error={} 
-:do { add address=210.212.235.51 list=turris_greylist } on-error={} 
-:do { add address=210.243.188.127 list=turris_greylist } on-error={} 
-:do { add address=211.22.25.210 list=turris_greylist } on-error={} 
-:do { add address=211.22.28.135 list=turris_greylist } on-error={} 
-:do { add address=211.22.65.18 list=turris_greylist } on-error={} 
-:do { add address=211.23.127.172 list=turris_greylist } on-error={} 
-:do { add address=211.46.168.167 list=turris_greylist } on-error={} 
-:do { add address=211.51.160.66 list=turris_greylist } on-error={} 
-:do { add address=211.54.110.248 list=turris_greylist } on-error={} 
-:do { add address=211.75.207.115 list=turris_greylist } on-error={} 
-:do { add address=211.109.56.18 list=turris_greylist } on-error={} 
-:do { add address=211.117.60.27 list=turris_greylist } on-error={} 
-:do { add address=211.118.201.7 list=turris_greylist } on-error={} 
-:do { add address=211.149.174.175 list=turris_greylist } on-error={} 
-:do { add address=211.151.248.26 list=turris_greylist } on-error={} 
-:do { add address=211.155.128.203 list=turris_greylist } on-error={} 
-:do { add address=211.157.159.144 list=turris_greylist } on-error={} 
-:do { add address=211.157.183.66 list=turris_greylist } on-error={} 
-:do { add address=211.168.184.185 list=turris_greylist } on-error={} 
-:do { add address=211.170.209.205 list=turris_greylist } on-error={} 
-:do { add address=211.204.98.47 list=turris_greylist } on-error={} 
-:do { add address=211.207.212.87 list=turris_greylist } on-error={} 
-:do { add address=211.211.96.7 list=turris_greylist } on-error={} 
-:do { add address=211.212.204.8 list=turris_greylist } on-error={} 
-:do { add address=211.233.11.164 list=turris_greylist } on-error={} 
-:do { add address=211.233.66.53 list=turris_greylist } on-error={} 
-:do { add address=211.236.225.211 list=turris_greylist } on-error={} 
-:do { add address=211.238.11.7 list=turris_greylist } on-error={} 
-:do { add address=211.239.150.57 list=turris_greylist } on-error={} 
-:do { add address=211.245.223.218 list=turris_greylist } on-error={} 
-:do { add address=212.3.156.228 list=turris_greylist } on-error={} 
-:do { add address=212.23.138.75 list=turris_greylist } on-error={} 
-:do { add address=212.33.201.154 list=turris_greylist } on-error={} 
-:do { add address=212.42.104.101 list=turris_greylist } on-error={} 
-:do { add address=212.42.207.147 list=turris_greylist } on-error={} 
-:do { add address=212.64.218.36 list=turris_greylist } on-error={} 
-:do { add address=212.75.194.234 list=turris_greylist } on-error={} 
-:do { add address=212.80.169.26 list=turris_greylist } on-error={} 
-:do { add address=212.83.8.76 list=turris_greylist } on-error={} 
-:do { add address=212.83.8.77 list=turris_greylist } on-error={} 
-:do { add address=212.83.8.79 list=turris_greylist } on-error={} 
-:do { add address=212.90.170.166 list=turris_greylist } on-error={} 
-:do { add address=212.95.149.6 list=turris_greylist } on-error={} 
-:do { add address=212.95.175.226 list=turris_greylist } on-error={} 
-:do { add address=212.99.208.40 list=turris_greylist } on-error={} 
-:do { add address=212.101.249.139 list=turris_greylist } on-error={} 
-:do { add address=212.112.2.196 list=turris_greylist } on-error={} 
-:do { add address=212.118.31.34 list=turris_greylist } on-error={} 
-:do { add address=212.129.7.41 list=turris_greylist } on-error={} 
-:do { add address=212.129.26.205 list=turris_greylist } on-error={} 
-:do { add address=212.152.181.201 list=turris_greylist } on-error={} 
-:do { add address=212.154.85.117 list=turris_greylist } on-error={} 
-:do { add address=212.156.91.238 list=turris_greylist } on-error={} 
-:do { add address=212.174.57.202 list=turris_greylist } on-error={} 
-:do { add address=212.192.219.138 list=turris_greylist } on-error={} 
-:do { add address=212.192.241.28 list=turris_greylist } on-error={} 
-:do { add address=212.192.241.124 list=turris_greylist } on-error={} 
-:do { add address=212.192.241.211 list=turris_greylist } on-error={} 
-:do { add address=212.192.241.218 list=turris_greylist } on-error={} 
-:do { add address=212.192.246.37 list=turris_greylist } on-error={} 
-:do { add address=212.192.246.79 list=turris_greylist } on-error={} 
-:do { add address=212.192.246.170 list=turris_greylist } on-error={} 
-:do { add address=212.192.246.182 list=turris_greylist } on-error={} 
-:do { add address=212.192.246.224 list=turris_greylist } on-error={} 
-:do { add address=212.192.246.243 list=turris_greylist } on-error={} 
-:do { add address=212.192.246.245 list=turris_greylist } on-error={} 
-:do { add address=212.193.29.35 list=turris_greylist } on-error={} 
-:do { add address=212.193.29.46 list=turris_greylist } on-error={} 
-:do { add address=212.193.30.56 list=turris_greylist } on-error={} 
-:do { add address=212.193.30.59 list=turris_greylist } on-error={} 
-:do { add address=212.193.30.102 list=turris_greylist } on-error={} 
-:do { add address=212.193.30.132 list=turris_greylist } on-error={} 
-:do { add address=212.193.30.149 list=turris_greylist } on-error={} 
-:do { add address=212.193.30.188 list=turris_greylist } on-error={} 
-:do { add address=212.193.131.227 list=turris_greylist } on-error={} 
-:do { add address=212.199.162.239 list=turris_greylist } on-error={} 
-:do { add address=213.5.71.175 list=turris_greylist } on-error={} 
-:do { add address=213.13.229.216 list=turris_greylist } on-error={} 
-:do { add address=213.14.175.155 list=turris_greylist } on-error={} 
-:do { add address=213.14.185.109 list=turris_greylist } on-error={} 
-:do { add address=213.30.13.166 list=turris_greylist } on-error={} 
-:do { add address=213.30.51.82 list=turris_greylist } on-error={} 
-:do { add address=213.59.249.19 list=turris_greylist } on-error={} 
-:do { add address=213.60.255.181 list=turris_greylist } on-error={} 
-:do { add address=213.74.72.34 list=turris_greylist } on-error={} 
-:do { add address=213.87.101.147 list=turris_greylist } on-error={} 
-:do { add address=213.87.198.48 list=turris_greylist } on-error={} 
-:do { add address=213.91.181.117 list=turris_greylist } on-error={} 
-:do { add address=213.123.164.238 list=turris_greylist } on-error={} 
-:do { add address=213.131.45.75 list=turris_greylist } on-error={} 
-:do { add address=213.135.86.10 list=turris_greylist } on-error={} 
-:do { add address=213.136.72.226 list=turris_greylist } on-error={} 
-:do { add address=213.147.97.225 list=turris_greylist } on-error={} 
-:do { add address=213.153.166.178 list=turris_greylist } on-error={} 
-:do { add address=213.155.110.66 list=turris_greylist } on-error={} 
-:do { add address=213.155.129.46 list=turris_greylist } on-error={} 
-:do { add address=213.163.119.203 list=turris_greylist } on-error={} 
-:do { add address=213.171.58.162 list=turris_greylist } on-error={} 
-:do { add address=213.184.200.120 list=turris_greylist } on-error={} 
-:do { add address=213.184.245.180 list=turris_greylist } on-error={} 
-:do { add address=213.202.120.38 list=turris_greylist } on-error={} 
-:do { add address=213.202.233.89 list=turris_greylist } on-error={} 
-:do { add address=213.212.211.165 list=turris_greylist } on-error={} 
-:do { add address=213.226.119.196 list=turris_greylist } on-error={} 
-:do { add address=213.230.69.243 list=turris_greylist } on-error={} 
-:do { add address=213.232.211.253 list=turris_greylist } on-error={} 
-:do { add address=213.232.235.50 list=turris_greylist } on-error={} 
-:do { add address=213.238.171.46 list=turris_greylist } on-error={} 
-:do { add address=216.83.40.67 list=turris_greylist } on-error={} 
-:do { add address=216.126.238.138 list=turris_greylist } on-error={} 
-:do { add address=216.143.135.92 list=turris_greylist } on-error={} 
-:do { add address=216.147.102.0 list=turris_greylist } on-error={} 
-:do { add address=216.164.3.245 list=turris_greylist } on-error={} 
-:do { add address=216.189.116.247 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.66 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.67 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.69 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.70 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.71 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.74 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.75 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.77 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.78 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.79 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.81 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.82 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.83 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.86 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.87 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.89 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.90 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.91 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.93 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.94 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.95 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.98 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.99 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.102 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.103 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.104 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.106 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.107 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.108 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.109 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.110 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.111 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.112 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.113 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.114 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.115 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.118 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.119 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.120 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.121 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.122 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.123 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.124 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.125 list=turris_greylist } on-error={} 
-:do { add address=216.218.206.126 list=turris_greylist } on-error={} 
-:do { add address=217.11.185.184 list=turris_greylist } on-error={} 
-:do { add address=217.21.147.112 list=turris_greylist } on-error={} 
-:do { add address=217.29.48.250 list=turris_greylist } on-error={} 
-:do { add address=217.31.183.42 list=turris_greylist } on-error={} 
-:do { add address=217.42.67.111 list=turris_greylist } on-error={} 
-:do { add address=217.64.98.169 list=turris_greylist } on-error={} 
-:do { add address=217.64.167.65 list=turris_greylist } on-error={} 
-:do { add address=217.66.65.246 list=turris_greylist } on-error={} 
-:do { add address=217.66.203.60 list=turris_greylist } on-error={} 
-:do { add address=217.66.207.70 list=turris_greylist } on-error={} 
-:do { add address=217.70.23.114 list=turris_greylist } on-error={} 
-:do { add address=217.112.93.41 list=turris_greylist } on-error={} 
-:do { add address=217.117.14.196 list=turris_greylist } on-error={} 
-:do { add address=217.133.205.199 list=turris_greylist } on-error={} 
-:do { add address=217.146.82.22 list=turris_greylist } on-error={} 
-:do { add address=217.146.255.247 list=turris_greylist } on-error={} 
-:do { add address=217.147.162.201 list=turris_greylist } on-error={} 
-:do { add address=217.149.188.102 list=turris_greylist } on-error={} 
-:do { add address=217.153.191.171 list=turris_greylist } on-error={} 
-:do { add address=217.164.52.108 list=turris_greylist } on-error={} 
-:do { add address=217.195.204.26 list=turris_greylist } on-error={} 
-:do { add address=217.218.219.146 list=turris_greylist } on-error={} 
-:do { add address=217.219.27.122 list=turris_greylist } on-error={} 
-:do { add address=217.219.61.27 list=turris_greylist } on-error={} 
-:do { add address=217.219.67.90 list=turris_greylist } on-error={} 
-:do { add address=217.219.92.89 list=turris_greylist } on-error={} 
-:do { add address=217.219.116.116 list=turris_greylist } on-error={} 
-:do { add address=218.0.0.42 list=turris_greylist } on-error={} 
-:do { add address=218.4.61.86 list=turris_greylist } on-error={} 
-:do { add address=218.6.224.50 list=turris_greylist } on-error={} 
-:do { add address=218.8.241.210 list=turris_greylist } on-error={} 
-:do { add address=218.10.28.58 list=turris_greylist } on-error={} 
-:do { add address=218.24.173.120 list=turris_greylist } on-error={} 
-:do { add address=218.26.204.42 list=turris_greylist } on-error={} 
-:do { add address=218.29.61.84 list=turris_greylist } on-error={} 
-:do { add address=218.35.203.201 list=turris_greylist } on-error={} 
-:do { add address=218.50.4.54 list=turris_greylist } on-error={} 
-:do { add address=218.57.8.92 list=turris_greylist } on-error={} 
-:do { add address=218.60.2.173 list=turris_greylist } on-error={} 
-:do { add address=218.73.110.182 list=turris_greylist } on-error={} 
-:do { add address=218.75.47.242 list=turris_greylist } on-error={} 
-:do { add address=218.75.56.141 list=turris_greylist } on-error={} 
-:do { add address=218.76.2.55 list=turris_greylist } on-error={} 
-:do { add address=218.77.129.81 list=turris_greylist } on-error={} 
-:do { add address=218.78.0.211 list=turris_greylist } on-error={} 
-:do { add address=218.88.248.163 list=turris_greylist } on-error={} 
-:do { add address=218.88.250.6 list=turris_greylist } on-error={} 
-:do { add address=218.89.222.16 list=turris_greylist } on-error={} 
-:do { add address=218.92.204.214 list=turris_greylist } on-error={} 
-:do { add address=218.93.8.14 list=turris_greylist } on-error={} 
-:do { add address=218.93.207.3 list=turris_greylist } on-error={} 
-:do { add address=218.93.208.150 list=turris_greylist } on-error={} 
-:do { add address=218.94.132.118 list=turris_greylist } on-error={} 
-:do { add address=218.107.38.70 list=turris_greylist } on-error={} 
-:do { add address=218.146.170.120 list=turris_greylist } on-error={} 
-:do { add address=218.236.59.211 list=turris_greylist } on-error={} 
-:do { add address=218.237.64.45 list=turris_greylist } on-error={} 
-:do { add address=218.237.64.70 list=turris_greylist } on-error={} 
-:do { add address=218.244.136.138 list=turris_greylist } on-error={} 
-:do { add address=218.244.143.180 list=turris_greylist } on-error={} 
-:do { add address=218.245.2.148 list=turris_greylist } on-error={} 
-:do { add address=218.249.69.210 list=turris_greylist } on-error={} 
-:do { add address=218.249.104.50 list=turris_greylist } on-error={} 
-:do { add address=219.74.139.61 list=turris_greylist } on-error={} 
-:do { add address=219.87.132.151 list=turris_greylist } on-error={} 
-:do { add address=219.89.196.131 list=turris_greylist } on-error={} 
-:do { add address=219.131.198.82 list=turris_greylist } on-error={} 
-:do { add address=219.133.37.8 list=turris_greylist } on-error={} 
-:do { add address=219.133.168.209 list=turris_greylist } on-error={} 
-:do { add address=219.135.178.66 list=turris_greylist } on-error={} 
-:do { add address=219.139.128.60 list=turris_greylist } on-error={} 
-:do { add address=219.141.167.120 list=turris_greylist } on-error={} 
-:do { add address=219.143.144.130 list=turris_greylist } on-error={} 
-:do { add address=219.145.198.62 list=turris_greylist } on-error={} 
-:do { add address=219.146.152.154 list=turris_greylist } on-error={} 
-:do { add address=219.147.14.230 list=turris_greylist } on-error={} 
-:do { add address=219.147.76.9 list=turris_greylist } on-error={} 
-:do { add address=219.148.180.62 list=turris_greylist } on-error={} 
-:do { add address=219.150.218.243 list=turris_greylist } on-error={} 
-:do { add address=219.151.22.209 list=turris_greylist } on-error={} 
-:do { add address=219.159.164.75 list=turris_greylist } on-error={} 
-:do { add address=219.219.33.39 list=turris_greylist } on-error={} 
-:do { add address=219.233.217.18 list=turris_greylist } on-error={} 
-:do { add address=220.74.0.120 list=turris_greylist } on-error={} 
-:do { add address=220.112.207.212 list=turris_greylist } on-error={} 
-:do { add address=220.113.1.226 list=turris_greylist } on-error={} 
-:do { add address=220.130.38.37 list=turris_greylist } on-error={} 
-:do { add address=220.130.130.241 list=turris_greylist } on-error={} 
-:do { add address=220.130.147.77 list=turris_greylist } on-error={} 
-:do { add address=220.132.84.182 list=turris_greylist } on-error={} 
-:do { add address=220.132.105.67 list=turris_greylist } on-error={} 
-:do { add address=220.133.24.78 list=turris_greylist } on-error={} 
-:do { add address=220.133.35.179 list=turris_greylist } on-error={} 
-:do { add address=220.133.110.35 list=turris_greylist } on-error={} 
-:do { add address=220.133.167.203 list=turris_greylist } on-error={} 
-:do { add address=220.133.180.200 list=turris_greylist } on-error={} 
-:do { add address=220.135.160.52 list=turris_greylist } on-error={} 
-:do { add address=220.135.247.170 list=turris_greylist } on-error={} 
-:do { add address=220.161.77.42 list=turris_greylist } on-error={} 
-:do { add address=220.161.81.162 list=turris_greylist } on-error={} 
-:do { add address=220.165.8.9 list=turris_greylist } on-error={} 
-:do { add address=220.165.15.250 list=turris_greylist } on-error={} 
-:do { add address=220.180.222.67 list=turris_greylist } on-error={} 
-:do { add address=220.180.229.94 list=turris_greylist } on-error={} 
-:do { add address=220.189.253.93 list=turris_greylist } on-error={} 
-:do { add address=220.191.253.70 list=turris_greylist } on-error={} 
-:do { add address=220.200.122.146 list=turris_greylist } on-error={} 
-:do { add address=220.247.247.150 list=turris_greylist } on-error={} 
-:do { add address=220.248.113.26 list=turris_greylist } on-error={} 
-:do { add address=220.249.16.114 list=turris_greylist } on-error={} 
-:do { add address=220.255.157.123 list=turris_greylist } on-error={} 
-:do { add address=221.0.183.82 list=turris_greylist } on-error={} 
-:do { add address=221.1.116.147 list=turris_greylist } on-error={} 
-:do { add address=221.1.223.50 list=turris_greylist } on-error={} 
-:do { add address=221.2.155.199 list=turris_greylist } on-error={} 
-:do { add address=221.2.163.231 list=turris_greylist } on-error={} 
-:do { add address=221.6.120.26 list=turris_greylist } on-error={} 
-:do { add address=221.120.183.49 list=turris_greylist } on-error={} 
-:do { add address=221.120.196.99 list=turris_greylist } on-error={} 
-:do { add address=221.122.120.249 list=turris_greylist } on-error={} 
-:do { add address=221.126.242.254 list=turris_greylist } on-error={} 
-:do { add address=221.130.126.164 list=turris_greylist } on-error={} 
-:do { add address=221.131.165.62 list=turris_greylist } on-error={} 
-:do { add address=221.133.153.45 list=turris_greylist } on-error={} 
-:do { add address=221.139.50.54 list=turris_greylist } on-error={} 
-:do { add address=221.141.3.49 list=turris_greylist } on-error={} 
-:do { add address=221.141.3.123 list=turris_greylist } on-error={} 
-:do { add address=221.143.43.220 list=turris_greylist } on-error={} 
-:do { add address=221.143.202.88 list=turris_greylist } on-error={} 
-:do { add address=221.163.131.30 list=turris_greylist } on-error={} 
-:do { add address=221.176.208.254 list=turris_greylist } on-error={} 
-:do { add address=221.179.173.90 list=turris_greylist } on-error={} 
-:do { add address=221.182.149.42 list=turris_greylist } on-error={} 
-:do { add address=221.193.195.51 list=turris_greylist } on-error={} 
-:do { add address=221.202.25.58 list=turris_greylist } on-error={} 
-:do { add address=221.217.59.42 list=turris_greylist } on-error={} 
-:do { add address=221.227.122.224 list=turris_greylist } on-error={} 
-:do { add address=221.229.127.21 list=turris_greylist } on-error={} 
-:do { add address=221.229.218.24 list=turris_greylist } on-error={} 
-:do { add address=221.233.164.34 list=turris_greylist } on-error={} 
-:do { add address=222.74.94.190 list=turris_greylist } on-error={} 
-:do { add address=222.80.99.179 list=turris_greylist } on-error={} 
-:do { add address=222.81.119.245 list=turris_greylist } on-error={} 
-:do { add address=222.85.52.8 list=turris_greylist } on-error={} 
-:do { add address=222.92.40.26 list=turris_greylist } on-error={} 
-:do { add address=222.96.94.72 list=turris_greylist } on-error={} 
-:do { add address=222.108.126.22 list=turris_greylist } on-error={} 
-:do { add address=222.110.147.61 list=turris_greylist } on-error={} 
-:do { add address=222.110.210.66 list=turris_greylist } on-error={} 
-:do { add address=222.111.154.144 list=turris_greylist } on-error={} 
-:do { add address=222.114.248.79 list=turris_greylist } on-error={} 
-:do { add address=222.165.151.114 list=turris_greylist } on-error={} 
-:do { add address=222.165.238.114 list=turris_greylist } on-error={} 
-:do { add address=222.175.139.188 list=turris_greylist } on-error={} 
-:do { add address=222.184.56.10 list=turris_greylist } on-error={} 
-:do { add address=222.185.140.14 list=turris_greylist } on-error={} 
-:do { add address=222.186.30.76 list=turris_greylist } on-error={} 
-:do { add address=222.186.31.166 list=turris_greylist } on-error={} 
-:do { add address=222.186.42.7 list=turris_greylist } on-error={} 
-:do { add address=222.186.61.161 list=turris_greylist } on-error={} 
-:do { add address=222.186.133.30 list=turris_greylist } on-error={} 
-:do { add address=222.186.141.197 list=turris_greylist } on-error={} 
-:do { add address=222.186.153.230 list=turris_greylist } on-error={} 
-:do { add address=222.186.180.130 list=turris_greylist } on-error={} 
-:do { add address=222.187.232.10 list=turris_greylist } on-error={} 
-:do { add address=222.187.239.39 list=turris_greylist } on-error={} 
-:do { add address=222.191.251.79 list=turris_greylist } on-error={} 
-:do { add address=222.203.17.150 list=turris_greylist } on-error={} 
-:do { add address=222.209.216.163 list=turris_greylist } on-error={} 
-:do { add address=222.211.163.59 list=turris_greylist } on-error={} 
-:do { add address=222.216.19.110 list=turris_greylist } on-error={} 
-:do { add address=222.219.183.190 list=turris_greylist } on-error={} 
-:do { add address=222.234.2.60 list=turris_greylist } on-error={} 
-:do { add address=222.235.245.49 list=turris_greylist } on-error={} 
-:do { add address=222.239.83.186 list=turris_greylist } on-error={} 
-:do { add address=222.239.252.210 list=turris_greylist } on-error={} 
-:do { add address=222.249.232.90 list=turris_greylist } on-error={} 
-:do { add address=223.28.172.124 list=turris_greylist } on-error={} 
-:do { add address=223.28.188.197 list=turris_greylist } on-error={} 
-:do { add address=223.68.195.4 list=turris_greylist } on-error={} 
-:do { add address=223.70.188.29 list=turris_greylist } on-error={} 
-:do { add address=223.95.201.88 list=turris_greylist } on-error={} 
-:do { add address=223.100.111.77 list=turris_greylist } on-error={} 
-:do { add address=223.113.103.159 list=turris_greylist } on-error={} 
-:do { add address=223.222.199.155 list=turris_greylist } on-error={} 
-:do { add address=223.239.129.27 list=turris_greylist } on-error={} 
-:do { add address=223.247.179.82 list=turris_greylist } on-error={} 
-:do { add address=223.255.169.254 list=turris_greylist } on-error={} 
+:do { add address=1.15.179.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.20.159.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.20.159.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.34.196.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.58.159.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.64.60.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.71.137.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.71.191.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.85.216.231 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.85.217.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.117.175.64 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.161.161.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.170.54.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.179.128.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.179.153.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.180.89.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.189.88.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.189.88.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.194.233.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.215.116.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.224.154.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.228.210.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.234.62.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.234.62.237 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.255.14.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=1.255.14.200 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.47.54.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.47.136.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.50.9.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.50.161.191 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.56.56.200 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.56.57.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.56.57.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.56.59.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.56.59.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.56.59.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.56.59.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.57.121.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.57.121.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.57.121.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.57.121.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.57.121.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.57.121.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.57.121.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.57.121.252 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.57.121.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.57.122.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.58.113.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.58.149.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.58.149.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.58.149.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.58.149.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.84.7.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.132.130.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.132.249.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.179.64.63 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.180.8.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.181.179.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=2.228.39.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=3.238.156.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.27.22.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.34.204.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.34.204.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.59.141.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.61.11.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.82.21.64 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.88.130.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.88.154.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.133.168.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.152.207.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.160.136.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.160.170.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.161.41.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.181.80.145 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.181.151.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.182.4.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.188.3.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.188.62.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.188.89.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.188.210.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.188.210.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.188.210.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.189.167.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.249.161.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.254.56.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=5.255.101.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=8.43.53.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=8.130.51.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=8.140.183.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=8.209.68.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=8.209.104.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=8.210.85.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=11.12.13.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=12.159.66.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=12.168.253.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=13.76.132.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=13.90.81.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=13.90.245.157 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=13.91.110.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.1.112.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.4.62.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.18.101.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.23.154.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.36.104.225 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.97.14.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.98.156.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.98.168.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.116.148.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.116.207.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.127.249.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.136.94.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.141.67.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.141.174.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.143.49.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.162.145.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.204.211.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.225.9.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=14.241.104.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=15.235.128.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=18.133.182.48 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=18.183.82.231 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=18.194.17.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.1.2.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.52.25.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.52.238.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.68.110.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.69.126.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.94.64.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.106.75.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.106.92.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.109.187.168 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.113.66.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.114.79.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.114.118.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.114.171.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.117.83.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.119.59.213 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.120.26.48 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.121.204.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.127.62.215 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.127.143.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.188.111.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=20.213.97.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.0.161.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.0.161.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.0.161.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.28.242.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.90.160.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.90.160.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.90.160.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.90.160.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.90.160.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.90.160.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.90.160.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.90.160.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.90.160.148 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.94.92.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.94.99.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.94.174.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.94.182.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.94.207.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.95.4.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.95.84.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.95.100.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.95.113.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.95.113.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.95.246.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.148.145.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.224.37.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.224.86.225 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.224.122.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.224.144.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.224.144.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.224.144.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.224.186.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.224.197.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.224.230.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.229.52.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.231.209.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.236.147.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.236.154.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.240.91.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.250.19.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.251.102.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.251.102.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.251.102.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.251.102.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.251.102.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.251.102.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.251.102.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.251.102.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.251.102.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.251.102.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=23.254.215.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=24.37.254.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=24.132.190.219 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=24.135.24.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=24.188.0.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=24.220.20.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=24.226.148.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=24.252.102.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.22.105.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.35.78.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.72.107.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.79.216.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.100.228.223 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.102.112.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.105.152.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.115.52.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.117.87.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.124.5.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.124.85.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.128.201.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.131.59.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.211.5.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=27.254.67.161 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.7.57.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.30.126.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.41.63.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.41.91.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.41.95.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.44.185.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.47.32.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.47.188.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.131.195.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.154.165.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.166.41.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.167.111.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.169.70.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.173.75.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.184.196.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.184.198.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.186.53.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.186.84.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.192.111.224 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.198.9.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.210.20.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.210.20.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.215.70.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=31.216.170.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.66.230.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.67.222.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.69.9.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.69.105.223 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.70.214.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.72.11.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.72.126.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.72.134.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.73.2.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.73.221.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.74.16.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.74.28.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.75.41.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.76.40.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.76.233.225 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.76.245.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.101.191 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.0 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.77.162.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.78.139.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.78.173.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.78.190.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.79.167.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.80.21.219 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.80.123.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.80.158.191 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.80.204.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.81.48.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.81.200.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.82.48.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.82.149.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.82.191.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.82.198.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.83.36.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.83.69.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.83.94.225 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.83.106.161 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.83.113.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.83.141.153 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.83.159.204 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.84.40.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.84.71.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.84.143.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.84.157.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.84.197.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.85.28.53 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.85.41.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.85.244.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.0 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.35.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.46.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.140.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.86.154.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.87.3.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.87.96.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.87.103.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.87.133.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.87.166.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.87.213.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.87.240.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.87.246.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.88.129.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.89.90.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.89.120.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.89.138.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.89.196.159 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.89.210.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.89.211.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.90.205.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.90.220.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.91.28.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.91.30.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.91.126.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.91.159.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.91.185.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.91.217.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.91.251.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.93.17.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.93.37.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.93.51.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.93.68.48 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.93.110.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.93.127.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.93.139.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.93.182.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.93.197.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.93.244.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.93.255.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.95.26.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.95.36.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.95.53.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.95.57.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.95.147.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.95.209.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.95.210.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.95.223.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.0 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.130.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.96.215.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.105.4.176 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.105.145.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.105.175.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.105.184.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.105.201.159 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.105.222.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.105.224.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.105.229.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.107.32.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.107.57.97 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.107.62.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.107.71.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.116.109.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.116.111.48 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.116.115.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.116.125.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.122.172.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.124.154.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.124.156.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.124.171.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.124.173.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.124.198.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.124.198.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.124.223.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.124.227.0 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.126.97.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.126.159.237 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.126.166.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.126.169.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.127.111.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.132.32.223 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.132.115.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.133.8.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.133.14.73 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.134.37.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.136.119.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.138.132.63 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.138.157.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.139.97.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.139.150.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.139.164.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.139.214.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.139.214.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.140.42.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.140.83.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.140.144.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.140.183.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.141.25.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.141.67.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.141.129.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.141.133.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.141.195.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.142.71.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.142.105.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.145.106.95 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.145.135.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.145.144.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.145.167.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.145.182.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.145.198.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.145.214.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.146.30.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.146.54.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.146.119.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.146.133.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.146.191.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.146.236.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.146.248.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.147.26.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.147.63.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.147.73.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.147.116.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.150.116.176 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.150.128.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.150.134.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.150.139.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.150.139.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.150.143.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.150.144.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.150.181.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.150.187.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.150.219.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.69.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.70.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.72.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.80.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.89.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.90.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.101.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.113.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.117.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.126.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.203.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.208.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.221.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.239.145 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.151.241.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.152.5.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.152.5.159 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.152.9.53 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.152.11.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.152.16.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.159.20.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.159.70.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.159.164.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=34.220.236.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.186.168.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.186.179.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.187.194.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.187.198.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.187.225.0 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.188.51.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.188.226.93 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.189.13.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.189.38.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.190.227.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.190.239.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.192.98.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.192.113.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.194.63.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.194.121.148 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.194.176.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.194.182.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.196.5.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.197.123.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.197.141.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.197.180.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.197.187.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.197.224.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.198.7.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.198.8.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.198.12.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.198.51.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.198.62.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.198.77.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.198.119.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.198.120.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.198.160.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.198.253.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.199.37.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.199.74.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.199.87.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.199.102.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.199.122.148 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.200.5.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.200.140.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.200.160.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.200.198.252 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.201.164.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.201.220.176 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.201.236.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.202.53.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.202.81.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.203.0.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.203.10.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.203.58.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.203.58.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.203.64.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.203.71.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.203.79.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.203.80.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.203.81.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.203.89.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.204.131.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.204.215.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.205.15.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.205.29.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.221.114.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.221.228.95 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.222.108.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.223.92.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.223.173.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.225.221.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.228.9.145 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.228.41.215 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.228.49.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.228.130.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.228.142.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.228.156.0 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.228.158.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.228.234.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.229.113.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.229.141.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.229.169.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.230.6.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.230.23.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.230.70.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.230.130.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.231.166.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.231.179.63 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.234.41.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.234.44.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.234.79.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.234.139.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.236.166.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.237.40.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.237.49.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.237.127.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.238.57.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.239.186.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.240.109.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.240.156.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.240.220.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.242.185.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.242.217.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.242.223.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.242.230.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.242.231.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.244.9.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.244.27.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.244.62.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.244.69.53 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.244.85.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.244.88.151 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.245.73.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.245.204.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.246.13.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.246.34.208 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.246.60.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.246.181.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.246.182.224 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.246.245.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.247.19.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.247.102.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.247.156.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.247.188.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.247.211.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.247.229.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=35.247.250.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.7.159.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.37.82.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.37.136.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.38.218.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.66.115.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.67.23.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.67.206.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.67.214.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.69.125.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.90.229.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.91.51.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.94.90.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.103.241.148 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.110.3.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.110.29.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.110.228.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.110.228.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.111.85.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.111.195.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.129.167.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.137.72.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.142.143.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.152.99.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.234.46.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=36.238.26.168 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.0.8.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.0.8.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.0.8.139 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.0.8.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.0.8.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.0.11.157 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.19.220.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.29.40.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.34.241.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.37.96.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.44.238.139 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.44.238.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.44.238.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.49.225.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.49.225.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.57.137.208 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.71.234.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.78.207.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.120.148.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.120.222.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.151.114.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.152.163.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.156.146.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.157.40.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.157.219.127 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.157.219.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.210.234.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.224.25.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.224.112.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.228.138.150 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.233.12.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.233.55.0 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=37.254.148.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=38.68.41.151 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=38.91.100.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=38.123.94.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=38.132.109.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=38.132.109.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=38.132.109.168 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=38.132.109.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=38.229.1.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=39.49.59.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=39.100.241.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=39.101.140.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=39.105.51.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=39.105.139.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=39.105.147.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=39.107.97.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=39.108.185.176 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=39.124.65.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=39.129.27.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=39.129.209.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=39.152.233.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=39.153.143.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=39.155.213.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=40.76.16.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=40.83.38.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=40.83.242.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=40.84.215.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=40.88.41.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=40.114.32.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=40.114.48.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.21.233.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.32.140.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.33.40.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.33.113.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.33.146.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.33.172.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.33.179.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.33.240.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.38.50.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.38.171.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.41.213.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.42.57.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.59.86.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.63.10.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.63.167.40 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.63.181.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.63.182.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.65.68.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.65.68.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.72.61.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.73.6.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.76.169.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.78.118.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.82.213.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.83.96.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.93.40.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.110.141.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.140.164.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.160.25.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.160.52.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.189.211.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.189.214.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.204.93.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.205.77.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.205.83.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.208.70.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.208.71.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.210.186.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.220.162.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.220.193.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.222.172.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.223.232.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.224.247.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.230.60.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.236.178.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.242.49.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=41.242.56.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=42.62.23.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=42.82.154.239 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=42.112.27.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=42.112.36.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=42.123.110.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=42.124.199.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=42.190.137.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=42.193.122.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=42.232.249.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=42.248.144.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.131.22.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.131.22.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.131.23.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.131.24.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.131.25.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.131.64.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.132.109.207 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.132.163.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.132.241.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.133.160.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.154.17.145 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.154.139.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.154.183.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.224.29.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.228.37.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.228.126.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.231.63.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.231.78.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.239.156.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.242.73.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.247.184.225 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.248.97.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.248.139.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.248.139.48 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.248.139.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.248.139.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.248.189.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.250.41.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.251.81.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.254.45.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=43.254.240.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.9.191.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.10.175.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.10.175.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.10.175.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.10.175.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.10.175.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.33.7.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.33.55.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.33.80.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.35.35.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.41.241.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.49.235.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.56.91.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.61.172.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.61.185.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.61.185.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.61.186.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.61.186.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.61.186.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.61.187.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.61.187.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.61.187.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.61.187.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.61.187.215 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.65.232.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.67.14.0 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.72.44.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.79.106.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.79.110.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.79.112.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.79.114.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.79.125.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.79.178.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.82.120.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.83.29.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.87.61.176 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.87.63.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.88.137.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.88.137.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.92.9.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.95.147.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.95.147.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.95.235.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.112.126.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.118.32.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.118.144.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.119.82.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.119.83.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.121.37.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.124.84.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.124.84.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.124.84.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.127.98.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.127.98.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.127.99.157 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.127.186.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.128.53.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.129.56.151 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.129.136.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.131.108.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.133.192.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.134.23.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.134.23.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.134.23.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.134.23.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.134.140.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.134.144.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.134.144.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.134.144.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.134.144.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.134.144.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.134.144.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.134.225.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.137.21.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.137.22.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.137.23.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.137.23.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.138.50.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.141.84.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.141.84.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.142.114.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.143.144.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.143.223.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.146.165.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.146.165.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.146.255.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.148.10.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.148.10.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.148.10.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.148.123.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.148.123.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.155.204.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.157.235.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.160.176.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.162.37.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.164.141.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.166.107.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.166.222.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.168.15.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.201.195.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.201.204.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.231.132.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.234.33.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.238.39.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.241.58.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=45.252.63.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.8.182.192 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.8.183.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.17.96.40 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.19.139.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.19.225.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.21.97.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.22.254.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.23.155.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.26.235.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.28.163.145 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.38.48.224 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.42.0.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.43.87.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.45.2.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.59.77.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.63.22.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.99.158.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.99.251.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.2.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.2.225 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.3.207 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.21.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.25.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.35.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.38.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.99.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.127.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.129.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.165.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.205.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.230.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.233.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.242.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.101.246.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.105.132.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.105.132.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.105.132.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.105.132.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.151.209.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.161.54.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.165.54.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.172.65.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.174.191.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.174.191.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.174.191.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.174.191.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.174.191.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.184.130.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.229.211.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.249.32.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.249.33.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=46.253.8.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.6.124.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.19.54.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.19.86.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.39.96.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.53.58.157 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.74.228.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.89.47.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.92.155.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.95.35.97 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.97.254.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.98.232.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.99.46.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.99.118.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.99.168.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.103.68.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.103.197.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.104.245.93 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.108.165.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.111.15.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.111.23.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.114.146.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.116.67.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.206.172.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.241.186.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.242.44.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.243.7.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.243.62.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.243.167.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.243.174.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.251.35.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=47.254.130.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.48.9.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.48.17.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.51.74.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.51.97.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.88.112.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.119.97.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.142.212.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.158.143.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.159.141.231 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.207.184.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.228.225.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.229.58.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.231.146.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.231.210.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.232.197.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.233.127.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.234.114.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.236.192.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.246.4.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=49.246.11.153 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=50.116.3.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=50.116.7.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=50.126.78.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=50.205.206.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=50.206.63.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=50.232.240.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.13.88.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.15.2.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.38.12.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.38.12.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.38.12.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.38.12.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.38.12.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.38.12.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.38.12.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.38.12.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.77.118.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.79.69.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.79.147.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.89.124.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.89.203.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.158.31.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.158.47.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.158.98.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.158.161.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.159.12.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.159.12.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.159.12.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.159.12.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.159.67.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.161.50.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.161.50.176 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.161.50.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.161.50.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.161.50.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.161.50.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.161.50.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.161.50.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.211.171.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.211.176.63 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.222.41.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.222.186.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.255.109.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.255.109.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.255.109.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.255.109.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.255.109.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=51.255.109.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=52.73.169.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=52.140.16.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=52.149.163.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=52.149.179.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=52.159.75.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=52.161.88.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=52.174.144.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=52.183.131.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=52.187.121.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=52.229.28.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=52.237.162.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=54.83.190.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.16.209.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.18.102.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.22.99.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.29.26.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.33.98.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.34.27.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.34.159.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.34.246.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.37.88.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.37.145.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.59.176.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.61.28.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.63.245.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.64.27.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.64.158.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.65.157.255 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.65.170.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.72.115.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.119.172.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.120.224.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.122.119.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.137.0.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.185.65.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.186.213.127 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.208.134.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.209.234.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.210.89.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.211.154.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.212.68.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.213.134.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.215.160.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.215.201.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.216.205.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.216.216.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.221.11.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.221.62.191 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.221.62.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.221.72.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.221.171.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.225.56.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.225.56.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.225.56.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.229.184.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.229.204.215 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.230.56.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.230.162.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.231.22.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.232.29.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.232.76.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.234.138.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.235.100.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.239.58.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.241.123.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=58.252.68.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.35.20.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.35.20.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.36.168.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.44.37.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.46.13.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.46.13.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.46.96.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.46.96.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.46.96.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.52.78.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.56.226.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.94.38.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.110.163.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.110.212.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.111.100.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.120.55.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.125.218.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.127.18.237 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.127.35.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.127.131.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.148.18.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.148.19.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.148.20.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.152.251.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.153.157.239 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.188.183.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=59.188.183.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.2.245.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.8.87.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.8.216.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.16.16.223 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.18.128.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.23.54.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.28.24.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.29.18.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.30.254.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.167.71.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.168.175.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.170.247.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.173.239.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.190.36.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.190.249.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.191.72.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.205.106.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.217.64.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.217.64.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.217.75.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.218.191.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.222.227.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.223.35.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.223.254.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.244.121.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.246.236.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.249.140.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=60.251.203.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.1.113.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.7.214.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.33.245.252 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.38.176.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.39.111.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.40.159.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.41.4.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.49.49.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.50.115.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.50.118.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.51.122.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.54.231.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.61.72.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.75.51.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.75.184.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.101.108.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.111.14.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.111.18.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.139.104.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.142.75.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.142.103.97 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.146.211.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.148.28.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.149.142.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.150.76.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.155.63.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.160.196.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.162.84.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.163.89.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.165.38.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.165.143.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.167.119.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.168.14.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.177.172.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.178.84.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.181.241.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.183.9.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.184.75.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.184.80.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.185.208.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.186.159.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.216.51.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.216.79.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.219.11.151 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.220.65.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.221.225.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.241.218.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=61.255.150.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.1.34.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.4.32.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.23.142.219 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.23.142.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.38.176.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.67.203.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.114.120.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.115.125.161 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.115.139.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.122.103.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.140.250.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.162.146.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.169.203.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.171.132.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.171.146.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.173.147.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.182.85.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.192.153.127 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.197.136.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.197.136.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.197.136.63 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.197.136.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.204.145.204 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.210.13.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.210.47.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.210.141.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.212.230.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.213.82.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=62.228.87.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=63.143.99.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=63.251.210.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=63.252.132.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.40 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.48 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.53 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.63 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.64 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.73 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.93 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.95 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.97 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.127 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.139 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.145 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.148 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.150 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.151 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.153 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.157 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.159 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.161 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.168 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.176 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.191 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.192 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.200 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.204 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.207 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.208 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.239 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.62.197.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.88.187.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.222.163.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.225.11.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.225.25.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.225.25.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.225.58.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.225.74.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.225.75.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.227.97.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.227.97.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.227.99.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.227.163.63 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.227.169.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.227.179.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=64.246.161.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.18.117.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.93 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.95 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.97 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.49.20.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.108.124.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.108.127.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.153.139.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.182.92.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.204.25.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=65.255.219.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.16.143.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.23.200.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.29.211.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.36.234.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.57.151.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.85.15.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.150.130.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.151.51.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.175.220.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.181.165.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.187.6.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.231.41.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.240.192.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.240.236.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=66.240.236.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=67.80.59.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=67.160.81.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=67.205.162.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=67.205.179.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=67.205.180.64 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=67.207.95.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=67.212.92.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=67.231.21.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=67.254.238.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=68.81.70.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=68.94.186.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=68.107.171.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=68.132.41.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=68.132.69.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=68.183.15.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=68.183.37.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=68.183.42.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=68.183.47.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=68.183.48.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=68.183.76.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=68.183.150.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=68.183.207.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=68.183.238.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=69.27.14.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=69.42.66.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=69.42.81.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=69.57.239.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=69.85.239.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=69.160.2.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=69.163.82.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=69.172.87.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=69.172.87.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=69.176.89.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=70.18.15.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=70.37.92.200 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=70.44.158.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=70.124.125.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=70.164.101.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=70.183.194.148 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=71.6.231.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=71.6.231.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=71.6.231.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=71.6.231.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=71.6.231.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=71.6.231.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=71.6.231.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=71.6.232.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=71.6.232.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=71.6.232.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=71.59.206.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=71.249.100.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=72.34.42.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=72.69.126.161 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=72.90.84.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=72.95.129.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=72.255.1.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=73.70.252.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=73.186.0.64 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=73.189.32.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.62.127.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.81.32.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.53 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.82.47.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.91.115.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.101.21.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.114.202.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.174.204.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.198.228.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.208.219.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.217.183.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=74.255.67.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=75.108.22.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=75.114.100.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=75.119.133.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=75.127.11.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=76.81.197.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=76.82.64.145 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=76.180.108.208 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=76.193.127.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.30.97.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.43.18.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.72.131.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.79.18.168 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.81.21.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.83.36.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.83.242.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.91.194.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.94.175.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.239.65.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.240.92.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.240.153.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.242.20.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.243.181.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.247.110.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.247.110.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.247.110.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=77.247.237.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.36.196.213 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.39.200.219 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.39.200.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.47.112.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.94.190.191 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.101.163.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.108.177.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.108.177.53 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.108.177.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.109.53.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.141.245.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.152.168.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.172.69.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.186.11.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.186.144.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.186.171.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.187.175.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.188.110.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.188.180.139 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.189.177.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=78.189.201.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.3.129.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.9.173.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.11.192.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.19.211.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.30.152.208 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.61.46.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.98.158.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.111.12.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.124.62.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.124.62.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.129.28.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.131.116.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.135.66.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.142.89.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.143.88.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.143.88.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=79.172.40.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.21.126.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.73.91.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.82.70.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.82.77.192 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.82.77.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.82.77.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.87.76.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.89.151.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.90.92.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.93.210.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.210.36.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.210.58.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.237.49.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.249.178.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=80.251.144.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.4.109.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.10.19.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.10.59.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.17.25.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.17.92.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.22.98.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.22.103.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.23.151.223 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.28.167.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.33.19.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.39.100.157 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.63.150.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.68.114.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.68.171.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.71.4.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.71.164.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.91.158.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.151.31.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.200.211.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.214.248.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=81.218.45.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.80.41.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.80.253.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.98.145.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.98.148.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.98.164.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.129.226.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.137.245.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.138.49.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.156.205.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.157.162.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.159.200.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.186.233.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.193.158.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.194.57.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.199.96.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.199.96.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=82.222.155.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=83.69.194.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=83.136.114.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=83.143.246.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=83.144.189.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=83.228.82.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=83.228.105.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=83.229.85.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=84.21.170.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=84.38.189.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=84.38.189.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=84.42.96.48 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=84.54.13.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=84.211.30.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=84.238.81.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=84.246.209.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.24.163.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.29.136.63 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.52.20.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.62.209.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.105.73.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.105.92.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.105.123.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.112.78.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.132.79.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.133.146.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.154.89.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.194.102.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.195.97.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.202.169.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.202.169.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.202.169.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.202.169.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.202.184.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.209.0.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.215.239.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=85.236.20.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=86.42.160.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=86.42.233.73 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=86.107.99.53 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=86.108.14.204 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=86.120.40.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=86.132.18.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=86.191.170.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=86.241.175.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=87.10.36.127 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=87.14.255.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=87.26.135.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=87.101.178.215 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=87.103.174.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=87.103.192.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=87.103.208.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=87.106.216.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=87.189.183.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=87.236.232.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=87.236.233.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=87.245.138.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=87.246.236.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=88.3.124.0 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=88.80.186.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=88.218.200.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=88.247.126.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=88.247.152.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=88.247.176.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=88.248.188.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=88.248.249.215 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=88.249.93.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=88.250.253.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=88.255.237.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.39.117.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.109.234.157 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.115.252.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.129.31.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.165.48.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.190.180.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.218.32.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.218.118.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.218.218.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.232.35.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.163.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.163.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.165.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.165.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.165.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.165.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.165.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.167.139 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.167.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.167.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.167.150 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.167.151 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.167.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.167.192 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.167.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.168.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.168.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.169.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.173.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.248.174.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=89.252.168.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=90.63.212.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=90.77.37.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=90.84.173.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=90.84.227.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=90.138.68.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=90.150.21.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=90.151.133.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=90.188.48.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.75.177.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.92.130.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.92.214.64 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.93.41.95 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.123.203.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.132.3.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.135.193.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.143.45.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.143.61.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.151.90.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.151.93.95 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.161.36.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.164.93.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.185.206.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.185.216.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.188.186.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.194.246.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.196.100.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.207.175.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.207.244.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.210.107.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.215.168.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.221.53.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.226.123.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.227.136.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.236.116.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.237.94.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.239.97.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.240.60.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.240.60.237 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=91.240.118.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.43.187.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.44.191.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.45.61.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.46.121.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.51.94.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.63.197.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.63.197.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.63.197.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.97.175.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.114.16.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.114.18.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.118.61.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.118.160.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.118.160.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.118.160.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.118.160.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.118.160.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.118.160.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.118.160.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.118.160.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.119.19.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.204.167.204 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.204.174.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.222.50.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.242.70.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.242.207.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=92.253.22.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=93.34.4.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=93.37.177.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=93.47.170.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=93.48.193.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=93.51.74.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=93.63.115.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=93.82.87.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=93.92.131.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=93.119.59.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=93.125.121.73 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=93.152.157.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=93.174.93.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=93.178.7.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.20.77.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.20.200.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.21.129.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.25.83.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.29.126.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.69.161.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.74.69.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.74.126.255 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.102.225.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.103.9.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.113.132.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.127.145.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.142.59.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.159.64.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.181.191.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.183.231.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.214.231.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.230.127.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.232.46.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.232.172.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=94.243.234.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.9.57.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.9.191.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.46.157.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.57.218.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.78.252.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.94.224.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.107.169.192 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.110.185.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.111.226.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.135.201.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.141.135.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.141.142.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.141.231.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.165.5.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.167.212.219 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.171.21.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.181.161.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.181.161.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.188.95.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.213.161.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.215.65.176 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.215.153.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.217.87.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=95.246.163.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=96.4.238.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=96.9.154.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=96.89.25.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=96.241.201.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=96.255.110.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=97.74.81.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=97.74.85.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=97.74.229.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=98.0.168.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=98.128.180.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=98.159.98.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=98.187.17.40 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=99.199.164.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=100.2.171.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=100.33.94.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=100.37.235.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=100.38.108.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.35.166.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.35.186.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.36.119.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.37.33.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.43.73.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.43.153.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.50.75.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.53.101.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.53.145.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.58.50.63 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.66.172.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.71.249.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.78.3.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.87.255.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.93.150.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.109.41.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.132.101.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.132.236.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.181.108.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.200.135.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.200.166.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.200.209.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.201.35.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.201.67.95 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.203.172.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.226.241.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.234.76.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=101.234.76.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=102.23.80.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=102.36.168.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=102.36.227.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=102.50.248.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=102.67.9.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=102.68.129.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=102.190.64.64 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=102.223.209.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.5.193.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.10.87.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.18.117.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.22.172.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.22.173.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.24.176.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.27.76.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.27.77.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.29.91.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.29.91.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.31.83.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.35.65.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.36.132.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.39.221.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.40.247.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.42.57.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.44.144.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.45.184.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.46.12.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.51.195.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.55.25.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.56.153.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.57.201.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.62.232.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.62.238.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.63.212.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.65.237.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.66.78.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.66.219.161 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.71.171.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.74.108.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.75.182.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.76.84.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.76.84.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.77.9.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.77.10.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.77.41.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.79.142.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.79.142.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.82.140.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.86.41.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.87.172.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.89.91.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.89.91.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.91.45.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.91.91.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.91.120.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.92.25.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.93.9.168 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.93.76.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.93.76.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.93.76.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.93.76.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.93.112.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.96.129.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.96.129.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.96.131.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.97.125.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.97.228.97 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.98.130.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.102.193.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.104.231.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.105.172.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.107.60.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.107.245.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.107.245.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.108.6.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.110.236.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.114.217.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.115.120.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.115.176.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.119.3.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.119.3.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.123.8.139 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.123.72.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.124.95.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.125.189.139 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.130.196.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.133.175.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.135.160.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.139.43.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.139.45.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.140.126.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.140.127.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.140.127.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.140.127.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.140.127.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.140.127.252 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.140.251.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.141.138.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.145.13.224 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.145.27.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.146.174.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.150.109.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.153.141.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.155.80.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.155.123.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.156.20.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.156.68.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.156.91.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.156.92.148 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.156.93.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.156.210.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.157.210.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.159.128.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.160.5.93 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.161.16.127 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.161.17.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.162.30.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.162.31.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.164.85.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.164.98.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.164.194.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.164.241.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.167.246.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.168.29.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.170.92.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.171.44.159 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.193.189.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.195.6.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.196.127.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.198.100.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.56.0 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.57.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.57.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.57.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.57.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.57.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.57.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.57.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.57.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.57.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.58.0 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.59.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.59.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.59.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.59.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.203.59.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.204.223.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.206.128.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.212.34.53 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.212.35.159 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.214.170.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.214.229.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.219.152.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.219.230.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.225.26.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.226.124.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.226.124.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.228.53.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.229.127.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.232.53.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.232.54.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.236.252.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.236.252.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.236.253.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.236.253.97 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.239.252.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.242.239.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.246.113.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=103.253.112.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.129.8.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.140.188.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.149.129.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.149.129.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.149.130.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.149.139.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.149.139.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.155.77.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.155.210.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.162.147.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.168.32.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.171.245.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.196.29.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.197.223.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.198.9.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.199.111.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.199.154.73 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.199.228.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.208.69.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.208.70.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.211.141.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.211.155.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.217.248.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.217.249.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.217.255.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.217.255.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.223.190.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.227.245.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.232.32.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.233.173.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.233.244.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.236.81.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.244.74.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.244.76.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.244.78.148 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.244.79.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.248.1.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.248.7.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.248.7.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.248.18.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.248.18.237 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.248.24.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.248.40.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.248.45.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.248.46.40 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.248.162.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.248.168.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=104.248.246.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=105.174.43.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.0.6.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.2.45.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.12.30.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.12.192.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.12.252.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.14.159.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.15.92.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.37.178.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.38.78.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.51.2.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.52.32.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.58.216.225 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.75.8.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.75.34.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.75.74.225 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.75.123.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.75.143.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.75.167.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.117.239.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.201.238.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.225.229.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=106.250.199.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.150.123.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.170.122.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.172.97.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.172.100.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.172.100.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.173.35.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.173.122.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.173.191.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.173.219.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.174.138.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.175.21.231 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.175.128.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.182.128.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.185.86.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.185.235.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.1.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.6.161 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.12.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.12.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.12.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.12.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.12.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.13.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.14.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.14.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.28.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.29.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.29.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.30.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.30.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.189.31.191 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=107.190.136.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=108.29.55.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=108.58.239.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=108.166.183.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=108.174.151.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=108.184.231.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.68.148.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.68.189.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.88.21.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.98.250.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.161.174.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.169.55.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.170.24.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.174.13.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.228.159.191 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.236.87.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.236.218.231 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.237.96.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.237.103.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.237.103.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.237.103.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=109.237.103.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=110.35.186.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=110.39.173.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=110.45.156.48 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=110.49.74.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=110.74.146.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=110.78.28.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=110.83.179.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=110.93.13.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=110.157.232.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=110.157.232.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=110.164.73.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.2.18.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.30.98.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.33.112.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.38.136.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.42.71.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.47.189.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.53.207.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.59.83.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.61.77.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.63.21.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.63.22.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.68.99.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.75.167.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.93.145.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.93.244.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.164.173.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.173.89.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.173.89.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.173.114.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.192.1.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.198.29.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.200.216.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.201.135.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.202.151.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.203.200.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.223.69.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.224.114.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.225.216.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.227.71.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.229.11.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.229.13.95 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=111.242.234.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.14.26.176 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.17.170.97 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.30.38.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.53.105.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.53.236.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.64.126.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.64.136.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.73.82.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.74.23.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.74.202.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.78.145.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.87.212.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.102.225.157 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.112.8.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.113.92.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.121.31.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.121.122.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.124.14.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.124.16.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.124.115.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.140.204.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.213.105.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.213.105.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.213.105.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.216.190.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.218.125.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.221.51.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.238.225.176 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.241.147.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=112.252.162.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.10.183.252 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.12.81.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.12.164.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.16.167.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.31.103.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.53.29.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.53.53.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.59.224.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.106.62.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.116.197.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.123.249.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.128.14.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.140.10.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.141.67.127 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.141.67.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.141.70.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.141.70.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.142.72.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.160.161.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.176.3.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.190.254.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=113.252.18.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.7.213.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.33.22.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.35.52.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.35.78.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.35.119.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.35.200.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.64.253.153 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.80.222.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.86.146.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.92.223.231 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.92.226.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.96.82.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.96.83.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.104.188.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.105.103.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.108.3.63 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.108.137.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.112.103.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.117.162.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.119.36.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.132.251.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.163.9.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.200.199.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.204.171.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.215.176.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.215.177.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.215.180.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.215.191.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.215.208.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.217.90.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.238.223.252 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.246.35.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.248.76.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=114.255.216.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.61.96.207 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.78.229.148 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.79.31.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.85.192.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.111.184.231 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.124.118.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.171.37.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.178.119.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.179.111.231 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.182.75.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.182.90.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.193.173.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.193.177.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.201.88.157 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.230.134.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.236.61.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.236.65.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.238.62.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=115.239.238.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.50.242.237 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.55.227.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.55.229.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.55.243.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.55.248.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.62.216.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.62.231.151 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.71.133.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.90.122.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.90.122.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.116.164.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.193.159.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.206.197.95 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.228.71.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.228.84.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.236.17.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.240.201.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.252.80.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=116.254.101.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.2.97.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.4.236.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.20.28.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.27.111.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.34.25.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.34.25.192 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.34.72.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.34.104.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.34.114.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.40.83.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.50.84.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.50.104.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.60.36.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.65.35.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.74.118.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.80.87.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.107.144.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.107.159.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.107.163.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.119.79.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.121.0.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.121.100.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.122.214.231 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.122.240.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.131.182.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.132.11.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.139.162.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.141.105.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.158.66.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.161.11.93 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.175.160.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.191.56.219 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.205.4.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.217.108.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.218.174.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.236.173.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.239.66.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.247.114.53 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=117.252.251.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.24.156.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.70.3.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.70.33.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.91.234.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.97.221.252 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.114.31.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.114.243.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.119.254.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.119.254.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.122.4.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.123.16.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.123.105.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.123.240.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.131.47.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.145.11.97 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.163.45.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.163.191.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.163.191.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.163.247.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.174.79.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.178.186.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.178.239.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.179.157.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.182.119.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.186.36.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.186.201.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.190.71.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.193.21.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.193.28.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.193.31.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.193.31.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.193.96.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.195.153.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.216.57.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.217.180.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.217.181.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.217.181.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.218.219.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=118.244.128.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.6.232.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.23.61.145 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.29.57.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.37.199.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.37.199.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.40.88.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.40.93.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.45.161.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.56.228.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.57.116.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.70.253.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.84.126.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.91.29.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.98.142.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.118.42.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.145.29.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.145.101.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.147.212.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.159.229.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.159.229.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.161.98.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.161.98.139 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.161.98.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.161.98.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.167.111.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.167.151.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.167.167.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.187.144.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.187.149.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.188.250.168 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.197.37.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.207.78.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.207.224.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.224.91.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.235.53.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=119.254.65.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.24.53.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.24.159.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.24.219.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.24.234.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.24.241.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.25.154.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.25.216.192 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.27.229.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.41.145.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.55.59.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.76.209.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.76.229.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.79.140.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.79.140.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.89.46.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.132.84.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.138.10.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.193.184.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.195.161.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.198.64.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.198.146.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.199.34.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.221.103.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.221.130.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.224.50.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.224.69.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.224.99.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.224.142.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.232.214.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=120.233.10.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.5.11.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.14.2.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.14.17.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.18.166.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.22.32.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.28.56.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.28.199.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.35.168.219 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.40.119.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.40.148.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.40.150.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.41.24.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.41.136.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.41.180.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.42.147.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.42.224.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.46.25.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.52.148.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.52.157.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.52.220.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.52.241.207 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.58.242.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.62.16.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.62.16.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.62.16.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.62.17.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.62.60.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.62.61.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.67.177.97 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.69.135.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.78.147.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.78.147.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.78.147.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.122.6.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.127.13.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.128.153.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.136.234.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.136.234.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.136.234.139 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.141.19.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.149.137.219 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.156.66.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.158.24.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.161.181.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.166.215.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.169.33.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.189.15.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.189.15.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.189.62.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.199.1.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.199.14.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.199.16.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.199.23.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.199.32.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.201.78.200 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.201.94.145 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.201.119.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.205.96.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.206.24.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.234.114.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=121.254.237.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.54.143.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.55.108.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.96.121.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.114.37.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.116.234.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.117.249.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.129.74.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.141.177.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.141.182.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.141.234.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.143.114.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.154.149.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.154.178.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.160.112.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.163.121.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.163.178.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.165.124.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.169.108.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.170.6.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.170.110.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.176.73.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.176.122.127 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.179.128.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.179.138.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.187.35.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.201.19.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.225.91.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.226.69.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.227.183.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.227.186.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.227.198.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.227.214.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=122.254.92.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.18.206.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.22.212.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.25.30.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.30.188.213 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.30.246.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.31.33.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.49.47.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.52.43.213 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.56.75.176 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.56.193.231 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.57.1.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.57.68.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.57.103.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.57.251.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.58.2.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.59.195.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.97.104.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.117.235.231 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.120.110.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.126.105.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.136.30.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.136.195.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.138.87.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.162.182.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.176.38.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.180.177.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.185.32.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.185.223.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.193.231.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.206.206.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.207.188.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.212.113.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.231.75.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=123.231.160.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.6.152.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.7.139.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.29.228.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.29.228.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.40.250.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.57.42.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.65.132.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.65.168.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.67.66.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.78.246.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.79.217.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.79.245.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.80.212.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.80.251.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.80.251.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.95.129.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.107.111.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.111.229.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.113.224.207 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.115.214.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.115.214.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.115.214.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.115.214.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.115.214.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.119.27.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.123.122.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.128.23.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.133.28.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.152.185.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.193.236.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.193.236.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.195.190.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.199.254.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.199.254.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.204.45.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.217.248.153 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.223.37.48 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.224.87.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.224.87.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.227.119.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.232.150.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.232.163.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.238.248.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=124.248.64.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.16.207.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.20.3.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.21.82.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.22.115.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.36.92.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.46.32.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.46.32.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.46.97.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.64.94.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.64.94.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.68.57.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.71.239.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.72.100.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.72.209.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.76.246.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.77.23.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.88.34.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.89.208.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.129.23.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.131.121.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.132.102.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.137.217.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.139.69.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.209.98.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.212.192.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.231.135.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.247.163.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=125.252.82.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.91.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.91.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.91.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.91.204 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.91.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.91.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.248.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.248.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.248.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.248.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.248.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.248.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.248.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.248.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.248.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.248.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.248.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.1.248.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.133.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.133.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.134.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.134.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.136.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.137.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.137.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.137.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.137.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.137.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.141.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.141.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.141.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.141.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.141.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.141.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.141.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.152.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.152.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.152.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.152.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.152.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.14.209.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.106.159.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.127.218.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.199.16.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.199.28.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.199.28.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.199.115.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.199.117.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.199.135.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.199.160.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.199.186.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=128.199.197.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=129.28.157.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=129.146.28.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=129.205.102.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=129.213.24.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=129.227.190.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=129.250.206.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=131.0.210.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=131.100.78.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=131.159.24.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=131.196.236.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=132.255.84.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.17.16.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.17.94.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.119.206.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.122.1.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.122.39.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.122.126.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.122.134.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.122.134.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.122.134.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.209.21.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.209.24.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.209.87.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.209.148.204 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.209.170.208 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.215.36.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=134.249.144.168 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=135.19.148.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=136.0.17.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=136.144.41.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=136.144.41.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=136.144.41.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=136.144.41.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=136.144.41.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=136.243.41.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=136.243.48.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=137.59.49.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=137.117.9.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=137.184.40.53 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=137.184.48.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=137.184.60.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=137.184.125.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=137.184.132.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=137.184.195.148 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=137.184.200.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=137.184.202.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=137.226.113.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.0.66.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.0.124.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.0.196.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.0.228.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.36.1.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.36.230.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.59.136.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.68.128.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.68.134.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.68.150.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.68.185.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.68.249.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.94.128.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.99.17.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.99.216.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.118.56.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.118.235.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.118.235.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.118.235.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.118.235.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.118.235.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.118.235.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.118.235.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.121.44.161 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.121.104.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.185.135.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.197.77.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.197.184.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.197.217.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.199.32.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.199.32.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.199.32.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.199.32.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.199.32.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.199.32.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.199.32.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.199.32.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.246.253.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.246.253.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=138.255.105.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.28.59.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.28.218.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.59.83.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.138.153.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.155.76.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.162.13.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.162.65.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.162.69.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.162.99.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.162.113.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.162.145.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.162.170.159 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.177.198.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.186.122.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.186.169.127 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.194.198.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.196.6.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.196.44.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.196.47.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.196.49.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.196.236.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.198.36.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.217.236.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.224.29.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.224.53.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.224.227.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.255.37.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=139.255.119.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=140.143.209.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=140.206.35.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=140.249.20.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.8.193.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.85.192.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.94.97.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.94.99.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.98.10.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.98.10.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.98.10.63 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.98.10.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.98.10.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.98.10.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.98.10.200 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.98.10.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.98.10.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.98.11.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.98.11.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.98.11.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.98.11.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.105.66.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.138.179.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.193.68.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.191 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.192 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.207 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.208 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.213 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=141.212.123.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=142.93.69.219 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=142.93.97.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=142.93.146.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=142.93.178.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=142.93.199.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=142.93.234.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=142.93.240.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=142.112.6.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=142.129.163.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=142.165.181.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=142.252.252.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.92.63.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.137.67.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.198.4.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.198.42.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.198.42.237 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.198.96.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.198.102.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.198.109.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.198.113.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.198.125.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.198.136.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.198.140.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.198.175.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.198.186.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.198.190.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.244.138.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.244.161.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=143.244.171.93 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=144.24.168.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=144.48.178.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=144.91.93.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=144.91.112.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=144.91.115.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=144.126.129.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=144.126.210.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=144.217.24.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=144.217.56.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=144.255.65.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=145.239.254.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=146.19.168.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=146.19.191.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=146.56.46.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=146.59.184.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=146.59.184.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=146.59.184.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=146.88.240.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=146.120.199.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=146.158.4.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=146.255.254.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=147.30.42.161 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=147.50.252.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=147.135.68.213 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=147.182.155.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=147.182.157.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=147.182.184.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=147.182.187.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=147.203.255.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=148.0.6.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=148.163.220.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=148.243.170.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=148.251.184.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=148.255.235.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=149.56.31.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=149.129.50.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=149.202.83.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=150.129.49.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=150.129.82.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=150.138.73.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=150.138.92.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=150.138.181.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=150.139.194.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=150.242.96.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=151.0.52.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=151.22.229.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=151.27.246.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=151.32.75.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=151.42.131.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=151.53.26.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=151.70.84.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=151.79.128.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=151.106.0.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=151.106.5.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=151.106.11.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=151.106.18.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=151.232.29.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=152.32.234.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=152.136.107.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=152.200.138.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=153.0.150.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.54.220.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.68.227.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.70.95.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.70.198.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.72.50.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.72.204.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.89.4.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.89.5.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.113.86.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.113.122.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.113.146.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.124.35.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.124.69.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.125.45.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.197.49.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.205.4.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.209.125.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.222.226.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.222.236.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=154.222.239.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=155.4.66.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=156.54.238.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=156.96.155.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=156.96.155.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=156.96.155.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=156.110.50.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=156.200.189.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=156.241.130.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=157.230.10.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=157.230.101.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=157.230.216.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=157.230.217.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=157.245.15.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=157.245.70.127 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=157.245.71.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=157.245.72.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=157.245.176.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=157.245.250.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=157.245.252.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=158.69.251.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=158.140.181.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=158.177.239.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=158.255.7.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.65.128.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.65.140.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.65.169.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.65.197.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.65.202.40 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.65.228.224 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.65.243.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.75.76.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.89.80.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.89.115.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.89.163.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.89.199.153 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.138.230.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.192.96.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.192.253.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.203.17.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.203.30.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.203.76.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.203.87.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.203.91.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.223.3.208 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.223.16.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.223.33.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.223.46.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.223.91.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.223.97.0 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.223.113.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.223.123.224 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.223.127.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.223.143.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.223.143.208 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.223.150.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=159.255.162.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=160.20.145.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=160.20.247.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=160.20.247.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=160.116.22.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=160.116.22.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=160.116.22.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=160.120.131.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=160.154.94.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=160.174.129.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=160.202.40.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=161.10.246.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=161.35.135.168 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=161.35.176.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=161.35.188.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=161.35.213.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=161.35.230.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=161.35.230.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=161.35.236.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=161.35.238.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=161.97.96.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.55.177.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.62.61.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.142.125.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.142.125.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.142.125.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.142.125.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.142.125.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.142.125.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.142.125.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.142.125.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.142.125.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.142.125.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.142.125.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.142.125.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.142.125.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.142.125.139 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.209.206.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.215.219.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.215.219.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.221.192.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.221.192.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.221.192.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.221.192.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.221.192.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.221.194.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.221.197.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=162.241.120.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=163.177.78.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.52.12.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.52.24.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.52.24.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.52.24.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.52.24.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.52.24.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.52.24.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.68.105.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.88.150.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.88.188.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.88.188.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.88.199.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.90.143.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.90.183.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.90.199.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.90.208.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.90.213.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.90.220.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.90.227.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.90.235.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.92.209.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.92.222.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.92.225.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.92.231.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.92.235.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.92.238.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.155.49.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=164.163.67.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.22.83.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.22.85.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.22.91.224 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.22.110.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.22.120.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.22.211.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.227.45.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.227.106.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.227.106.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.227.113.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.227.131.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.227.135.252 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.227.137.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.227.160.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.232.64.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.232.153.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=165.232.156.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.71.39.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.71.49.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.71.64.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.71.67.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.71.79.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.71.80.225 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.71.98.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.71.102.95 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.71.102.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.71.139.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.71.193.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.71.230.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.86.175.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.138.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.145.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.145.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.145.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.145.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.145.93 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.145.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.146.64 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.146.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.146.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.146.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.146.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.146.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.94.146.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.99.1.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.99.63.213 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.99.63.223 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.99.112.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.99.119.168 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.99.133.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.114.10.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.172.63.213 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.172.131.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.172.133.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.172.136.145 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.172.175.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.172.240.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.248.133.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.248.133.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.248.133.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.248.133.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.248.133.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.248.133.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.248.133.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.248.133.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=167.248.133.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=168.0.85.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=168.1.53.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=168.90.147.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=168.181.56.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=168.181.123.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=168.181.147.161 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=168.194.251.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=168.197.155.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=168.205.126.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=168.227.43.191 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=168.232.85.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=168.243.224.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=169.148.9.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=169.239.120.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=169.255.236.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=170.78.21.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=170.78.21.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=170.80.49.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=170.80.155.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=170.106.153.213 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=170.210.200.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=170.239.128.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=170.239.128.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=170.245.244.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=170.246.84.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=171.15.16.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=171.22.147.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=171.88.48.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.86.127.224 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.86.186.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.88.38.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.104.19.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.104.77.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.104.89.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.104.112.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.104.131.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.104.178.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.104.217.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.104.234.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.105.89.161 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.105.96.215 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.105.213.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.106.0.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.107.94.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.107.95.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.107.97.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.107.223.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.111.150.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.172.136.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.245.45.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.245.156.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.247.32.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.247.32.192 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.247.35.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.248.191.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=172.250.88.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=173.82.69.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=173.201.20.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=173.201.22.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=173.201.22.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=173.225.110.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=173.249.10.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=174.1.68.225 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=174.138.25.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.6.7.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.6.27.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.24.97.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.27.161.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.45.16.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.107.196.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.107.196.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.107.201.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.116.215.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.123.74.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.143.36.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.151.186.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.158.200.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.178.57.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.181.38.150 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.182.103.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.207.19.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=175.207.19.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=176.31.15.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=176.32.195.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=176.45.185.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=176.97.210.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=176.97.210.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=176.97.210.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=176.97.210.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=176.116.165.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=176.119.229.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=176.192.28.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=176.213.126.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=176.221.48.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.5.211.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.11.169.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.21.79.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.21.128.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.21.128.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.23.118.48 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.23.140.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.23.191.191 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.36.196.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.38.13.127 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.43.1.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.43.39.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.47.194.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.54.51.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.66.73.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.66.73.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.66.75.219 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.67.4.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.69.203.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.70.65.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.73.142.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.85.0.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.85.0.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.85.0.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.92.85.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.93.188.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.93.253.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.105.159.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.124.40.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.124.97.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.128.17.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.129.191.145 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.131.49.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.133.6.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.136.159.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.149.143.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.184.220.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.185.27.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.185.93.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.190.72.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.190.195.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.202.253.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.207.204.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.220.188.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.221.60.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.223.58.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.231.139.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.231.155.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.238.249.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=177.240.206.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.18.34.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.22.119.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.33.207.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.44.114.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.46.215.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.54.78.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.57.106.157 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.62.3.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.62.69.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.62.106.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.62.239.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.73.215.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.79.177.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.124.166.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.124.202.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.128.17.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.128.29.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.128.66.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.128.66.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.128.168.64 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.128.216.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.128.216.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.128.229.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.151.141.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.207.9.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.208.92.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.209.126.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.212.193.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.237.56.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.237.56.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.239.21.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.239.21.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.239.21.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.239.21.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.239.21.151 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.239.21.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.239.21.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=178.242.34.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.35.12.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.42.101.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.43.128.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.43.141.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.43.175.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.43.187.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.43.187.95 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.43.187.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.50.78.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.56.200.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.66.51.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.84.106.237 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.95.11.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.97.91.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.97.120.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.100.119.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.108.87.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.183.29.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.186.133.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=179.186.175.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.65.240.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.67.48.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.76.139.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.76.140.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.76.145.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.97.80.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.97.83.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.108.103.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.140.161.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.140.243.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.163.101.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.167.201.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.168.87.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.169.126.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.179.227.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.179.227.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.179.227.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.179.227.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.179.227.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.180.235.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.189.114.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.210.128.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.211.162.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.214.238.252 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.215.130.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.215.197.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.215.229.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.225.98.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.247.219.215 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=180.250.75.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.30.28.223 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.30.169.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.36.41.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.46.44.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.47.197.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.48.117.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.48.170.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.49.118.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.49.176.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.57.167.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.57.218.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.59.56.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.65.56.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.115.244.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.129.105.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.129.250.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.169.162.157 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.169.216.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.174.91.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.188.145.53 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.198.91.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.198.242.252 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.210.30.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.212.6.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.225.44.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=181.239.40.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.16.28.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.18.139.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.23.81.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.35.17.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.53.202.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.61.37.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.61.147.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.64.199.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.70.119.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.70.119.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.75.8.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.75.104.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.93.65.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.93.69.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.93.95.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.140.244.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.150.43.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.160.122.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.160.127.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.176.163.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.180.153.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.180.163.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.191.66.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.212.207.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.214.130.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.215.142.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.217.50.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.222.247.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.225.21.207 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.253.203.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=182.253.205.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.1.103.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.2.191.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.6.55.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.6.100.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.47.45.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.47.51.237 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.56.221.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.57.18.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.57.27.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.61.165.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.81.154.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.82.8.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.82.54.219 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.82.54.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.82.123.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.82.123.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.83.190.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.83.219.53 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.93.154.207 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.94.137.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.97.33.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.111.6.151 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.111.6.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.111.6.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.111.6.191 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.111.127.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.136.148.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.136.226.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.178.168.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.201.193.63 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.214.186.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.233.146.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.237.81.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=183.245.36.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.69.55.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.71.214.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.83.152.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.73 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.93 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.95 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.97 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.105 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.139.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.200 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.207 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.215 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.219 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.223 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.239 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.105.247.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.152.235.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=184.170.255.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.7.214.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.8.173.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.32.181.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.40.4.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.49.87.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.55.65.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.56.80.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.57.30.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.65.67.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.70.189.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.73.126.93 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.86.76.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.88.175.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.93.109.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.94.29.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.94.29.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.94.111.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.94.188.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.94.189.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.98.62.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.98.164.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.105.121.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.106.96.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.112.83.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.112.150.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.121.139.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.121.165.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.128.81.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.131.135.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.134.98.153 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.136.158.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.142.236.40 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.142.236.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.142.236.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.145.185.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.146.75.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.152.124.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.156.72.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.156.72.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.156.72.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.156.72.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.156.72.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.156.72.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.162.192.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.162.235.153 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.163.109.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.163.110.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.166.153.237 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.166.240.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.167.96.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.167.97.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.174.102.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.174.102.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.176.216.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.143.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.143.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.143.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.143.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.143.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.143.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.143.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.143.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.143.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.143.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.143.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.143.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.143.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.143.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.180.197.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.181.63.93 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.189.182.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.190.151.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.195.201.148 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.196.220.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.196.220.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.196.220.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.36.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.116.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.116.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.116.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.116.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.116.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.116.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.116.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.116.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.116.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.118.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.118.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.118.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.118.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.118.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.200.118.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.203.6.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.209.162.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.213.155.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.215.52.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.216.117.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.216.214.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.217.1.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.218.124.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.220.100.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.221.253.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.222.57.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.226.116.73 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.230.147.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.239.242.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.242.5.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.242.235.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.243.241.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.243.241.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.244.165.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.245.41.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.245.41.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.245.86.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.246.128.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.247.173.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=185.255.92.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.1.165.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.1.167.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.3.215.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.4.131.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.10.239.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.13.39.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.42.129.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.67.163.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.71.144.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.96.33.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.97.200.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.114.184.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.121.247.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.149.199.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.150.207.204 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.167.48.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.192.25.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.206.170.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.208.217.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.208.217.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.211.106.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.214.214.148 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.215.65.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.215.72.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.215.200.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.225.100.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.227.166.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.232.197.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.237.14.239 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=186.247.54.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.1.184.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.17.145.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.19.166.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.32.48.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.32.153.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.32.197.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.33.208.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.54.237.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.63.232.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.63.232.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.75.152.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.86.132.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.86.200.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.87.138.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.102.200.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.110.238.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.111.194.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.114.58.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.120.143.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.120.149.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.131.30.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.131.204.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.137.156.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.140.216.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.152.146.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.153.98.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.170.182.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.174.173.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.178.238.192 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.182.55.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.185.68.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.188.75.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.188.183.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.189.119.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.189.125.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.189.155.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.189.177.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.190.87.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.190.115.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.192.163.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.195.75.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.195.222.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.207.91.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.213.89.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.214.65.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.217.96.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.217.98.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.217.183.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.223.95.1 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.226.252.213 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=187.227.113.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.48.217.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.49.65.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.54.167.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.65.199.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.68.205.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.75.16.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.92.75.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.92.77.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.127.224.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.132.135.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.166.9.176 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.166.40.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.166.42.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.166.122.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.166.149.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.166.153.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.166.158.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.166.213.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.166.236.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.170.219.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.214.88.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.240.71.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.242.79.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.255.120.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=188.255.123.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.1.162.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.39.206.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.45.37.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.45.79.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.47.55.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.48.184.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.75.203.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.76.190.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.85.40.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.109.245.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.110.144.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.112.4.168 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.112.36.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.113.183.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.130.221.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.145.213.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.145.226.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.146.203.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.148.145.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.148.193.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.151.186.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.152.114.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.153.217.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.160.135.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.163.46.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.163.126.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.173.90.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.178.72.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.179.88.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.180.46.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.186.227.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.187.0.168 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.190.158.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.195.41.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.203.205.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.203.231.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.203.240.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.205.111.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.206.51.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.224.205.63 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.225.83.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.225.192.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.225.241.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.230.230.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.230.241.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.236.30.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.240.42.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.243.221.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.244.10.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.250.112.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.252.74.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=189.254.158.200 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.0.49.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.2.133.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.4.31.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.4.54.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.8.82.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.11.213.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.14.198.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.24.119.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.24.146.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.34.154.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.57.138.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.64.71.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.69.27.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.77.24.237 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.81.50.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.85.134.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.85.139.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.89.178.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.96.47.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.97.226.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.99.94.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.99.116.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.111.8.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.111.9.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.111.9.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.111.16.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.111.244.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.111.246.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.115.6.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.119.170.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.120.191.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.120.255.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.122.107.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.123.193.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.129.54.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.145.61.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.145.102.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.150.135.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.151.5.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.151.118.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.171.137.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.181.33.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.184.201.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.186.79.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.189.16.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.191.71.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.192.223.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.202.85.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.210.65.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.210.151.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.210.239.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.211.254.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.212.34.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.213.4.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.215.49.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.238.35.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.248.68.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=190.253.55.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=191.13.74.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=191.96.224.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=191.99.250.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=191.100.27.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=191.181.78.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=191.205.141.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=191.223.175.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=191.253.90.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.3.12.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.3.67.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.3.121.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.3.138.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.16.0.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.74.254.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.99.41.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.99.175.176 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.99.175.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.99.175.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.99.175.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.99.175.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.99.175.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.99.175.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.99.175.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.99.175.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.99.175.191 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.140.40.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.140.64.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.140.101.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.140.101.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.145.127.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.197.97.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.198.88.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.227.152.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.227.217.200 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.196.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.196.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.196.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.196.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.197.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.198.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.198.215 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.198.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.199.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.199.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.199.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.200.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.200.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.200.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.201.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.201.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.201.192 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.201.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.202.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.202.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.202.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.202.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.202.127 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.203.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.204.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.204.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.204.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.204.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.204.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.204.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.204.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.204.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.204.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.204.193 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.204.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.204.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.204.208 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.204.239 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.39 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.93 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.205.252 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.64 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.159 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.192 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.204 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.206.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.168 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.207.237 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.40 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.64 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.148 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.150 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.208.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.145 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.153 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.157 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.176 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.209.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.213 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.223 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.231 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.239 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.210.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.97 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.129 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.139 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.145 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.150 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.153 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.160 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.200 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.204 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.221 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.211.252 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.95 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.151 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.153 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.213 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.215 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.212.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.40 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.64 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.80 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.108 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.151 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.168 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.213 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.213.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.214.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.214.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.214.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.214.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.214.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.214.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.214.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.214.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.214.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.214.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.214.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.214.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.241.214.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=192.250.197.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.3.19.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.3.19.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.5.150.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.27.229.183 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.27.229.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.35.32.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.42.12.187 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.46.255.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.46.255.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.46.255.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.46.255.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.56.29.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.70.69.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.75.76.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.92.182.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.105.134.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.107.216.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.107.216.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.204 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.212 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.213 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.53.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.55.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.55.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.118.55.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.142.146.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.142.146.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.168.153.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.169.253.207 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.169.254.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.189.100.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.213.29.252 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.227.207.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=193.239.84.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.0.127.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.28.31.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.38.20.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.48.217.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.49.68.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.58.36.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.68.38.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.68.38.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.78.242.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.99.45.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.99.45.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.99.45.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.135.33.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.149.145.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.170.189.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.170.189.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=194.190.61.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.3.147.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.3.147.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.18.27.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.19.217.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.39.147.73 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.60.174.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.85.201.232 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.88.87.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.88.126.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.133.18.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.133.40.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.137.227.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.140.214.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.140.214.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.142.112.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.154.50.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.162.82.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.171.217.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.181.171.237 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.228.76.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.229.11.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.230.23.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.230.103.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.230.103.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.230.103.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.230.103.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.230.103.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.230.103.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.230.103.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.230.103.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=195.230.103.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.11.90.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.11.102.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.15.154.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.20.111.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.25.175.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.30.65.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.35.193.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.70.254.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.188.0.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.188.51.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.188.110.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.188.192.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.189.57.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.189.111.128 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.189.185.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.201.78.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.206.228.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.207.174.225 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.218.89.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.218.207.64 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.218.207.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.218.240.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.219.122.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.219.163.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.219.191.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.221.164.239 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.221.196.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=196.221.231.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.3.4.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.45.219.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.50.154.145 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.92.134.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.134.248.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.137.71.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.140.14.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.153.56.207 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.159.9.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.159.142.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.159.204.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.159.210.174 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.164.238.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.164.238.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.210.194.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.211.35.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.216.104.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.220.163.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.230.46.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.232.90.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.232.246.184 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.249.4.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.251.199.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.254.63.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=197.254.123.158 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.20.69.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.23.242.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.46.132.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.52.100.17 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.98.48.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.98.48.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.98.49.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.98.49.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.98.50.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.98.50.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.98.54.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.98.61.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.175.126.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.176.57.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.199.75.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.199.88.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.199.105.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.199.113.192 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.199.114.240 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.199.115.69 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.199.117.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=198.211.55.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=199.48.170.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=199.74.248.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=199.188.207.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=199.195.248.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=199.195.251.73 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=199.195.253.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.2.143.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.2.154.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.6.115.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.11.241.44 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.25.225.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.26.232.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.29.173.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.32.255.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.34.218.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.38.232.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.40.135.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.40.135.93 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.41.189.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.48.212.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.49.61.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.54.154.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.54.185.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.54.186.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.58.74.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.58.218.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.60.4.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.62.99.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.66.124.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.73.130.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.73.138.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.75.4.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.80.35.43 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.89.174.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.94.67.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.94.131.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.94.131.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.105.169.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.111.103.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.113.62.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.115.138.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.122.224.200 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.123.208.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.140.74.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.141.73.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.146.104.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.150.137.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.170.224.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.198.62.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.201.187.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.233.195.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=200.252.62.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.7.63.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.16.240.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.20.87.156 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.66.184.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.91.207.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.97.250.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.105.240.159 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.110.45.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.111.58.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.121.168.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.122.180.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.124.251.217 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.130.192.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.130.192.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.137.3.63 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.137.117.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.138.191.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.140.101.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.140.108.165 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.144.20.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.144.151.195 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.145.52.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.150.33.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.163.176.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.165.213.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.170.246.227 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.171.82.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.184.117.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.192.153.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.210.224.38 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.211.227.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.212.10.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.242.178.194 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.243.65.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=201.244.121.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.21.123.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.29.32.159 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.53.171.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.55.135.93 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.58.205.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.61.87.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.62.107.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.63.218.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.66.107.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.75.221.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.79.166.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.82.218.169 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.86.174.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.88.241.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.96.185.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.98.203.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.100.186.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.103.222.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.107.225.207 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.110.83.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.110.111.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.111.13.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.124.204.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.137.5.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.137.7.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.137.134.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.141.240.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.143.120.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.143.127.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.146.217.192 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.152.39.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.175.123.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.181.234.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.191.97.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.191.124.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=202.191.132.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.10.99.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.55.117.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.56.228.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.69.64.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.99.177.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.107.63.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.113.5.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.116.184.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.119.8.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.121.145.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.124.11.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.124.13.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.124.41.150 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.125.236.222 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.128.28.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.130.201.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.135.96.173 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.146.129.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.146.249.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.151.92.253 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.151.171.244 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.154.37.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.154.89.157 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.155.215.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.162.76.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.177.76.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.188.250.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.189.150.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.190.8.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.191.150.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.195.66.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.198.94.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.201.161.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.201.172.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.217.1.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.223.172.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.228.22.223 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.240.224.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=203.240.228.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=204.42.253.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=204.186.24.223 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=205.185.113.12 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=205.185.114.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=205.185.119.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=205.185.120.140 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=205.185.120.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=205.185.126.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=205.185.126.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=205.185.127.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=206.81.20.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=206.189.5.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=206.189.32.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=206.189.100.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=206.189.102.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=206.189.141.144 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=206.189.237.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=207.154.193.142 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=207.154.197.170 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=207.154.200.155 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=207.154.211.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=207.154.212.0 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=207.154.223.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=207.154.224.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=207.154.241.125 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=207.178.209.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=207.180.238.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=207.225.137.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=207.237.131.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=207.244.233.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=207.244.249.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=208.65.92.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=208.91.111.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=208.93.152.31 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=208.93.152.32 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=208.93.152.33 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=208.93.152.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=208.93.152.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=208.131.171.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=208.180.181.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.14.131.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.14.137.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.16.81.55 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.97.128.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.97.132.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.120.245.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.141.32.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.141.35.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.141.36.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.141.40.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.141.41.233 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.141.46.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.141.47.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.141.54.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.141.57.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.141.58.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.141.58.152 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.141.60.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.145.52.40 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.145.55.127 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.150.147.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.160.40.13 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.200.15.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.200.15.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.203.58.64 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=209.249.227.2 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.1.31.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.1.225.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.2.130.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.2.172.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.16.187.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.16.188.189 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.21.31.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.41.219.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.56.29.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.61.216.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.65.138.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.72.13.29 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.72.13.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.72.89.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.90.74.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.95.53.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.126.180.235 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.126.180.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.141.99.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.176.252.56 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.177.54.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.178.36.3 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.211.97.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.212.235.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=210.220.188.25 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.22.25.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.22.28.135 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.23.127.172 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.24.51.5 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.46.168.167 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.51.160.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.54.110.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.109.56.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.118.201.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.144.15.177 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.149.174.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.151.248.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.155.128.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.168.184.185 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.170.209.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.172.140.229 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.207.212.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.212.204.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.233.11.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.233.66.53 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.239.150.57 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=211.245.223.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.3.156.228 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.23.138.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.33.201.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.42.104.101 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.42.207.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.47.229.134 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.64.218.36 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.75.194.234 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.83.148.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.83.165.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.83.170.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.95.175.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.99.208.40 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.101.249.139 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.109.199.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.112.2.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.112.6.133 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.118.31.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.129.7.41 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.129.26.205 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.152.181.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.156.67.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.156.91.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.156.149.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.174.57.202 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.192.219.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.192.219.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.192.241.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.192.241.28 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.192.241.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.192.241.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.192.241.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.192.241.218 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.192.246.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.192.246.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.192.246.182 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.192.246.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.193.29.35 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.193.29.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.193.29.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.193.30.23 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.193.30.59 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.193.30.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.193.30.121 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.193.30.132 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.193.30.149 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.193.30.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.193.30.225 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.193.30.231 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.199.162.239 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=212.237.241.206 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.5.71.175 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.13.229.216 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.14.185.109 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.30.13.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.30.51.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.59.123.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.59.143.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.59.249.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.60.255.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.79.68.131 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.85.28.242 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.87.101.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.87.198.48 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.91.181.117 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.100.181.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.123.164.238 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.131.45.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.135.86.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.142.148.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.147.97.225 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.153.166.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.155.110.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.155.129.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.163.119.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.171.58.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.212.211.162 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.226.119.196 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.230.69.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=213.232.125.46 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.143.135.92 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.147.102.0 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.158.227.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.164.3.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.189.116.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.68 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.71 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.73 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.79 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.83 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.84 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.85 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.91 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.95 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.96 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.98 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.99 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.100 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.103 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.104 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.107 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.110 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.111 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.119 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.218.206.126 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=216.220.168.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.21.147.112 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.23.183.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.29.48.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.31.183.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.64.167.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.66.65.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.66.207.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.70.23.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.131.28.178 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.133.205.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.146.82.20 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.146.82.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.146.255.247 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.147.162.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.149.188.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.153.191.171 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.168.75.75 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.182.16.15 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.195.204.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.218.219.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.219.27.122 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.219.61.27 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.219.67.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.219.92.89 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=217.219.116.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.4.61.86 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.6.224.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.10.28.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.22.100.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.26.30.58 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.26.204.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.35.203.201 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.54.223.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.56.11.236 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.56.12.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.56.156.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.75.56.141 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.77.129.81 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.78.0.211 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.88.248.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.88.248.163 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.88.250.6 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.89.222.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.91.83.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.92.204.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.93.8.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.93.208.150 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.93.235.106 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.94.132.118 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.107.38.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.108.110.214 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.146.170.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.237.64.45 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.237.64.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.238.2.137 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.244.136.138 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.244.143.180 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.244.149.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.245.2.148 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.249.69.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=218.249.104.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.74.139.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.87.132.151 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.131.198.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.133.37.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.135.178.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.138.158.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.139.115.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.139.128.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.139.158.116 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.141.167.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.143.144.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.145.198.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.146.152.154 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.147.76.9 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.148.180.62 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.150.218.243 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.151.22.209 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=219.233.217.18 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.74.0.120 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.113.1.226 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.130.38.37 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.130.130.241 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.132.105.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.133.24.78 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.133.35.179 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.133.167.203 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.133.235.181 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.135.160.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.164.35.47 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.165.9.87 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.165.15.250 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.180.222.67 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.180.229.94 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.191.253.70 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.200.122.146 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.247.247.150 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.248.113.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=220.249.16.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.0.183.82 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.1.116.147 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.2.155.199 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.6.120.26 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.120.98.11 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.120.183.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.122.120.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.130.126.164 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.131.165.65 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.139.50.54 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.141.3.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.141.3.123 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.143.43.220 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.163.131.30 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.176.208.254 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.179.173.90 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.182.149.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.193.195.51 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.217.59.42 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.229.127.21 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.229.218.24 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=221.233.164.34 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.69.153.52 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.73.52.102 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.74.94.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.77.96.143 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.81.119.245 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.85.52.8 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.86.192.246 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.92.218.251 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.96.94.72 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.108.126.22 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.110.147.61 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.110.210.66 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.122.128.50 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.122.195.19 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.165.151.114 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.165.238.113 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.175.139.188 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.184.56.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.185.140.14 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.186.30.76 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.186.31.166 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.186.42.7 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.186.48.249 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.186.153.230 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.186.180.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.187.232.10 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.190.61.198 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.211.162.248 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.219.183.190 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.222.3.16 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.234.2.60 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.235.245.49 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.239.83.186 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=222.239.252.210 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=223.26.31.74 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=223.28.172.124 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=223.28.188.197 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=223.68.195.4 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=223.71.63.130 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=223.75.121.161 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=223.95.201.88 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=223.100.111.77 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=223.113.103.159 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=223.177.176.204 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=223.236.51.115 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=223.240.218.136 list=turris_greylist timeout=60d } on-error={} 
+:do { add address=223.255.169.254 list=turris_greylist timeout=60d } on-error={} 
