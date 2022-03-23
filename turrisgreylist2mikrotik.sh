@@ -22,7 +22,7 @@ NEXT_TRY_SECS=60
 while [ $CURL_EXITCODE -ne 200 ]
 do
   CURL_EXITCODE=$(curl -s -o /dev/null -w "%{http_code}" "$DOWNLOAD_URL")
-  curl -s https://project.turris.cz/greylist-data/greylist-latest.csv | tail -n+2 > "$TURRIS_LIST"
+  curl -s "$DOWNLOAD_URL" | tail -n+2 > "$TURRIS_LIST"
 # Give a chance to server for at least minute
   sleep "$NEXT_TRY_SECS"
 done  
