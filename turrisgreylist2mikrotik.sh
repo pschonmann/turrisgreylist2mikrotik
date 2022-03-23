@@ -12,16 +12,26 @@
 #/import file-name=turrisgreylist2mikrotik.rsc
 
 TURRIS_LIST=$(mktemp)
-PROJECT_DIR=$(dirname $0)
-MIKROTIK_LIST=${PROJECT_DIR}/turrisgreylist2mikrotik.rsc
-CURR_DATE=`date "+%F"`
-curl -s https://project.turris.cz/greylist-data/greylist-latest.csv | tail -n+2 > $TURRIS_LIST
+PROJECT_DIR=$(dirname "$0")
+MIKROTIK_LIST="${PROJECT_DIR}/turrisgreylist2mikrotik.rsc"
+CURR_DATE=$(date "+%F")
+DOWNLOAD_URL="https://project.turris.cz/greylist-data/greylist-latest.csv"
+CURL_EXITCODE=0
+NEXT_TRY_SECS=60
+
+while [ $CURL_EXITCODE -ne 200 ]
+do
+  CURL_EXITCODE=$(curl -s -o /dev/null -w "%{http_code}" "$DOWNLOAD_URL")
+  curl -s https://project.turris.cz/greylist-data/greylist-latest.csv | tail -n+2 > "$TURRIS_LIST"
+# Give a chance to server for at least minute
+  sleep "$NEXT_TRY_SECS"
+done  
 
 awk -v curr_date="$CURR_DATE" -F "," 'BEGIN { print "#List downloaded at "curr_date
              print "/log info \"Loading turris_greylist address list\""
              print "/ip firewall address-list remove [/ip firewall address-list find list=turris_greylist]"
              print "/ip firewall address-list"}
-           { print ":do { add address=" $1 " list=turris_greylist timeout=60d } on-error={} "}' $TURRIS_LIST > $MIKROTIK_LIST
+           { print ":do { add address=" $1 " list=turris_greylist timeout=60d } on-error={} "}' "$TURRIS_LIST" > "$MIKROTIK_LIST"
 
 #CLEANUP
-rm $TURRIS_LIST
+rm "$TURRIS_LIST"
