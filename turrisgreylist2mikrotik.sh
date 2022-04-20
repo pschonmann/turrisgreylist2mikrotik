@@ -15,17 +15,27 @@ TURRIS_LIST=$(mktemp)
 PROJECT_DIR=$(dirname "$0")
 MIKROTIK_LIST="${PROJECT_DIR}/turrisgreylist2mikrotik.rsc"
 CURR_DATE=$(date "+%F")
-DOWNLOAD_URL="https://project.turris.cz/greylist-data/greylist-latest.csv"
+DOWNLOAD_URL="https://view.sentinel.turris.cz/greylist-data/greylist-latest.csv"
 CURL_EXITCODE=0
-NEXT_TRY_SECS=60
+NEXT_TRY_SECS=1
+TRIES=3
+COUNTER=0
 
-while [ $CURL_EXITCODE -ne 200 ]
+while [ "$CURL_EXITCODE" -ne 200 ] && [ $COUNTER -lt $TRIES ]
 do
   CURL_EXITCODE=$(curl -s -o /dev/null -w "%{http_code}" "$DOWNLOAD_URL")
-  curl -s "$DOWNLOAD_URL" | tail -n+2 > "$TURRIS_LIST"
-# Give a chance to server for at least minute
-  sleep "$NEXT_TRY_SECS"
-done  
+  curl -L -s "$DOWNLOAD_URL" | tail -n+2 > "$TURRIS_LIST"
+# Give a chance to server for at least minute if exitcode is not 200
+  if [ "$CURL_EXITCODE" -ne 200 ];then
+    sleep "$NEXT_TRY_SECS"
+  fi
+  COUNTER=$((COUNTER+1))
+done
+
+if [ $COUNTER -eq $TRIES ] && [ "$CURL_EXITCODE" -ne 200 ];then
+  echo "DOWNLOAD FAILED AFTER $TRIES TRIES"
+  exit 1
+fi
 
 awk -v curr_date="$CURR_DATE" -F "," 'BEGIN { print "#List downloaded at "curr_date
              print "/log info \"Loading turris_greylist address list\""
