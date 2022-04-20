@@ -12,6 +12,8 @@
 #/import file-name=turrisgreylist2mikrotik.rsc
 
 TURRIS_LIST=$(mktemp)
+TURRIS_LIST_DOWNLOAD=$(mktemp)
+TURRIS_LIST_ASC=$(mktemp)
 PROJECT_DIR=$(dirname "$0")
 MIKROTIK_LIST="${PROJECT_DIR}/turrisgreylist2mikrotik.rsc"
 CURR_DATE=$(date "+%F")
@@ -24,7 +26,9 @@ COUNTER=0
 while [ "$CURL_EXITCODE" -ne 200 ] && [ $COUNTER -lt $TRIES ]
 do
   CURL_EXITCODE=$(curl -s -o /dev/null -w "%{http_code}" "$DOWNLOAD_URL")
-  curl -L -s "$DOWNLOAD_URL" | tail -n+2 > "$TURRIS_LIST"
+  curl -L -s "$DOWNLOAD_URL" -o "$TURRIS_LIST_DOWNLOAD"
+  tail -n+2 "$TURRIS_LIST_DOWNLOAD" > "$TURRIS_LIST"
+  curl -L -s "${DOWNLOAD_URL}.asc" -o "$TURRIS_LIST_ASC"
 # Give a chance to server for at least minute if exitcode is not 200
   if [ "$CURL_EXITCODE" -ne 200 ];then
     sleep "$NEXT_TRY_SECS"
@@ -37,6 +41,14 @@ if [ $COUNTER -eq $TRIES ] && [ "$CURL_EXITCODE" -ne 200 ];then
   exit 1
 fi
 
+#PUBKEY
+#http://pgp.mit.edu/pks/lookup?op=get&search=0xC042B53710876666
+
+if ! gpg --verify "$TURRIS_LIST_ASC" "$TURRIS_LIST_DOWNLOAD" &>/dev/null ;then
+  echo "DOWNLOADED FILE VERIFIED WITH ASC BUT CHECKSUM MISMATCH"
+  exit 1
+fi
+
 awk -v curr_date="$CURR_DATE" -F "," 'BEGIN { print "#List downloaded at "curr_date
              print "/log info \"Loading turris_greylist address list\""
              print "/ip firewall address-list remove [/ip firewall address-list find list=turris_greylist]"
@@ -44,4 +56,4 @@ awk -v curr_date="$CURR_DATE" -F "," 'BEGIN { print "#List downloaded at "curr_d
            { print ":do { add address=" $1 " list=turris_greylist timeout=60d } on-error={} "}' "$TURRIS_LIST" > "$MIKROTIK_LIST"
 
 #CLEANUP
-rm "$TURRIS_LIST"
+rm "$TURRIS_LIST" "$TURRIS_LIST_ASC" "$TURRIS_LIST_DOWNLOAD"
