@@ -17,8 +17,8 @@ MIKROTIK_LIST="${PROJECT_DIR}/turrisgreylist2mikrotik.rsc"
 CURR_DATE=$(date "+%F")
 DOWNLOAD_URL="https://view.sentinel.turris.cz/greylist-data/greylist-latest.csv"
 CURL_EXITCODE=0
-NEXT_TRY_SECS=1
-TRIES=3
+NEXT_TRY_SECS=60
+TRIES=120
 COUNTER=0
 
 while [ "$CURL_EXITCODE" -ne 200 ] && [ $COUNTER -lt $TRIES ]
