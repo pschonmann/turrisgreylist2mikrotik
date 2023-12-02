@@ -42,7 +42,7 @@ if [ $COUNTER -eq $TRIES ] && [ "$CURL_EXITCODE" -ne 200 ];then
 fi
 
 #PUBKEY
-#http://pgp.mit.edu/pks/lookup?op=get&search=0xC042B53710876666
+#gpg --fetch http://pgp.mit.edu/pks/lookup?op=get&search=0xC042B53710876666
 
 if ! gpg --verify "$TURRIS_LIST_ASC" "$TURRIS_LIST_DOWNLOAD" &>/dev/null ;then
   echo "DOWNLOADED FILE VERIFIED WITH ASC BUT CHECKSUM MISMATCH"
